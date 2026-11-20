@@ -1,0 +1,1280 @@
+{
+  "schemaVersion": 1,
+  "software": {
+    "id": "inventory",
+    "vendor": "Matris Negar Data Co.",
+    "name": {
+      "fa": "سیستم انبار و تدارکات",
+      "en": "Inventory and Procurement"
+    }
+  },
+  "languages": [
+    "en",
+    "de",
+    "fr",
+    "it",
+    "es",
+    "ru",
+    "pt",
+    "tr",
+    "ar",
+    "fa"
+  ],
+  "menus": [
+    {
+      "id": "inventory-01",
+      "icon": "clipboard-list",
+      "title": {
+        "fa": "فرم های ورود اطلاعات",
+        "en": "Data Entry Forms"
+      },
+      "items": [
+        {
+          "id": "inventory-01-01",
+          "title": {
+            "fa": "درخواست کالا",
+            "en": "Item Request"
+          },
+          "description": {
+            "fa": "درخواست کالا از طریق ثبت اقلام، مقدار موردنیاز و مرکز هزینه ایجاد می‌شود. درخواست‌ها می‌توانند در برنامه یا در پورتال تحت وب ثبت شوند و پس از تأیید مسئول مربوطه به انبار ارسال گردند. وضعیت تأیید و جزئیات هر درخواست قابل پیگیری است.",
+            "en": "Create item requests by specifying the required goods, quantities and cost center. Requests can originate in the application or the web portal, and are sent to the warehouse after the responsible officer approves them. Their status and details can be tracked.",
+            "de": "Dieses Formular dient der Erfassung, Prüfung und Verwaltung von Artikelanforderungen. Zugehörige Datensätze können im jeweiligen Arbeitsablauf eingesehen werden.",
+            "fr": "Ce formulaire permet de saisir, consulter et gérer les demandes d’articles. Les enregistrements peuvent être vérifiés dans le processus correspondant.",
+            "it": "Questo modulo consente di inserire, consultare e gestire i richieste di articoli. I dati registrati possono essere verificati nel relativo flusso di lavoro.",
+            "es": "Este formulario permite registrar, consultar y gestionar los solicitudes de artículos. Los registros se pueden revisar durante el proceso correspondiente.",
+            "ru": "Форма предназначена для ввода, просмотра и ведения заявок на товары. Записи можно проверить в соответствующем рабочем процессе.",
+            "pt": "Este formulário permite registar, consultar e gerir os pedidos de artigos. Os registos podem ser verificados no processo correspondente.",
+            "tr": "Bu form, malzeme talepleri bilgilerini kaydetmek, incelemek ve yönetmek için kullanılır. İlgili kayıtlar iş akışı içinde kontrol edilebilir.",
+            "ar": "يُستخدم هذا النموذج لإدخال بيانات طلبات الأصناف ومراجعتها وإدارتها. ويمكن التحقق من السجلات في سير العمل المرتبط بها."
+          }
+        },
+        {
+          "id": "inventory-01-02",
+          "title": {
+            "fa": "سفارش کالا از انبار",
+            "en": "Warehouse Item Order"
+          },
+          "description": {
+            "fa": "هنگامی که موجودی انبار برای تأمین درخواست کافی نباشد، سفارش کالا ثبت می‌شود؛ انباردار نیز می‌تواند مستقل از درخواست کاربران سفارش ایجاد کند. سفارش‌ها بر اساس وضعیت تأیید دسته‌بندی می‌شوند و اطلاعاتی مانند نوع سفارش، تعداد و قیمت برآوردی ثبت می‌گردد.",
+            "en": "Create replenishment orders when stock is insufficient to fulfil requests, or directly by the warehouse keeper. Orders are grouped by approval status and may record order type, quantities and estimated prices.",
+            "de": "Dieses Formular dient der Erfassung, Prüfung und Verwaltung von Bestellungen. Zugehörige Datensätze können im jeweiligen Arbeitsablauf eingesehen werden.",
+            "fr": "Ce formulaire permet de saisir, consulter et gérer les commandes d’achat. Les enregistrements peuvent être vérifiés dans le processus correspondant.",
+            "it": "Questo modulo consente di inserire, consultare e gestire i ordini di acquisto. I dati registrati possono essere verificati nel relativo flusso di lavoro.",
+            "es": "Este formulario permite registrar, consultar y gestionar los pedidos de compra. Los registros se pueden revisar durante el proceso correspondiente.",
+            "ru": "Форма предназначена для ввода, просмотра и ведения заказов на закупку. Записи можно проверить в соответствующем рабочем процессе.",
+            "pt": "Este formulário permite registar, consultar e gerir os encomendas de compra. Os registos podem ser verificados no processo correspondente.",
+            "tr": "Bu form, satın alma siparişleri bilgilerini kaydetmek, incelemek ve yönetmek için kullanılır. İlgili kayıtlar iş akışı içinde kontrol edilebilir.",
+            "ar": "يُستخدم هذا النموذج لإدخال بيانات طلبات الشراء ومراجعتها وإدارتها. ويمكن التحقق من السجلات في سير العمل المرتبط بها."
+          }
+        },
+        {
+          "id": "inventory-01-03",
+          "title": {
+            "fa": "رسید کالا به انبار",
+            "en": "Warehouse Goods Receipt"
+          },
+          "description": {
+            "fa": "رسید کالا برای ثبت اقلام تحویل‌گرفته‌شده و ورود آن‌ها به انبار استفاده می‌شود. رسیدهای در انتظار بررسی و رسیدهای نهایی قابل تفکیک‌اند و هنگام نهایی‌کردن رسید، مشخصات کالا در موجودی انبار ثبت می‌شود؛ ثبت موجودی اولیه نیز پیش‌بینی شده است.",
+            "en": "Register deliveries and receipt of goods into the warehouse. Pending and final receipts are tracked separately; finalizing a receipt records the delivered items in inventory. The manual also documents entry of opening stock.",
+            "de": "Dieses Formular dient der Erfassung, Prüfung und Verwaltung von Wareneingänge. Zugehörige Datensätze können im jeweiligen Arbeitsablauf eingesehen werden.",
+            "fr": "Ce formulaire permet de saisir, consulter et gérer les réceptions de stock. Les enregistrements peuvent être vérifiés dans le processus correspondant.",
+            "it": "Questo modulo consente di inserire, consultare e gestire i ricevimenti di magazzino. I dati registrati possono essere verificati nel relativo flusso di lavoro.",
+            "es": "Este formulario permite registrar, consultar y gestionar los recepciones de almacén. Los registros se pueden revisar durante el proceso correspondiente.",
+            "ru": "Форма предназначена для ввода, просмотра и ведения поступлений на склад. Записи можно проверить в соответствующем рабочем процессе.",
+            "pt": "Este formulário permite registar, consultar e gerir os entradas de armazém. Os registos podem ser verificados no processo correspondente.",
+            "tr": "Bu form, depo giriş fişleri bilgilerini kaydetmek, incelemek ve yönetmek için kullanılır. İlgili kayıtlar iş akışı içinde kontrol edilebilir.",
+            "ar": "يُستخدم هذا النموذج لإدخال بيانات إيصالات المستودع ومراجعتها وإدارتها. ويمكن التحقق من السجلات في سير العمل المرتبط بها."
+          }
+        },
+        {
+          "id": "inventory-01-04",
+          "title": {
+            "fa": "حواله خروج از انبار",
+            "en": "Warehouse Issue Voucher"
+          },
+          "description": {
+            "fa": "حواله خروج برای تحویل کالا بر پایه درخواست، سفارش یا اقدام مستقیم انباردار صادر می‌شود. پیش از نهایی‌شدن حواله، مقدار درخواستی با موجودی کنترل می‌شود و اقلام فاقد موجودی کافی امکان خروج ندارند؛ با نهایی‌شدن، موجودی انبار کاهش می‌یابد.",
+            "en": "Issue goods from inventory based on a request, an order, or a direct warehouse action. The system compares the quantity with available stock before finalization; insufficient items cannot be issued, and finalized issues reduce stock.",
+            "de": "Dieser Bereich unterstützt die dokumentierten Abläufe rund um Warenausgaben. Die Ergebnisse können im zugehörigen Arbeitsablauf geprüft werden.",
+            "fr": "Cette section permet d’exécuter les opérations documentées relatives aux sorties de stock. Les résultats peuvent être vérifiés dans le processus correspondant.",
+            "it": "Questa sezione permette di eseguire le operazioni documentate relative ai uscite di magazzino. I risultati possono essere verificati nel processo pertinente.",
+            "es": "Esta sección permite realizar las operaciones documentadas relacionadas con los salidas de almacén. Los resultados se pueden revisar en el proceso correspondiente.",
+            "ru": "Раздел предназначен для выполнения документированных операций в области выдач товаров со склада. Результаты можно проверить в соответствующем процессе.",
+            "pt": "Esta secção permite executar as operações documentadas relacionadas com os saídas de armazém. Os resultados podem ser verificados no processo correspondente.",
+            "tr": "Bu bölüm, depo çıkış fişleri ile ilgili belgelenmiş işlemleri yürütür. Sonuçlar ilgili iş akışında kontrol edilebilir.",
+            "ar": "يتيح هذا القسم تنفيذ العمليات الموثقة المتعلقة بـأذونات صرف البضائع. ويمكن مراجعة النتائج ضمن سير العمل المرتبط بها."
+          }
+        },
+        {
+          "id": "inventory-01-05",
+          "title": {
+            "fa": "مشاهده کالاهای ورودی",
+            "en": "View Incoming Goods"
+          },
+          "description": {
+            "fa": "این فرم در فهرست منوهای نرم‌افزار وجود دارد، اما راهنمای PDF ارائه‌شده درباره عملکرد دقیق آن توضیح کافی ندارد. برای درج معرفی تخصصی، تکمیل مستندات این بخش لازم است.",
+            "en": "This form appears in the application menu, but the supplied PDF does not describe its exact functions in sufficient detail. Further documentation is needed for a precise feature description.",
+            "de": "Dieses Formular ist im Anwendungsmenü enthalten. Das vorliegende PDF-Handbuch beschreibt seine genauen Funktionen jedoch nicht ausreichend. Für eine verlässliche Funktionsbeschreibung ist zusätzliche Dokumentation erforderlich.",
+            "fr": "Ce formulaire figure dans le menu de l’application, mais le manuel PDF fourni ne décrit pas suffisamment ses fonctions précises. Une documentation complémentaire est nécessaire pour une présentation fiable.",
+            "it": "Questo modulo è presente nel menu dell’applicazione, ma il manuale PDF fornito non ne descrive sufficientemente le funzioni specifiche. È necessaria ulteriore documentazione per una descrizione accurata.",
+            "es": "Este formulario aparece en el menú de la aplicación, pero el manual PDF proporcionado no describe sus funciones con suficiente detalle. Se necesita documentación adicional para una descripción precisa.",
+            "ru": "Эта форма присутствует в меню приложения, однако предоставленное руководство PDF недостаточно подробно описывает её функции. Для точного описания необходима дополнительная документация.",
+            "pt": "Este formulário consta do menu da aplicação, mas o manual PDF fornecido não descreve as suas funções com detalhe suficiente. É necessária documentação adicional para uma descrição rigorosa.",
+            "tr": "Bu form uygulama menüsünde bulunmaktadır; ancak sağlanan PDF kılavuzu işlevlerini yeterli ayrıntıyla açıklamamaktadır. Doğru bir özellik açıklaması için ek belge gereklidir.",
+            "ar": "يظهر هذا النموذج في قائمة البرنامج، لكن دليل PDF المقدم لا يشرح وظائفه الدقيقة بالتفصيل الكافي. وتلزم وثائق إضافية لإعداد وصف موثوق لخصائصه."
+          }
+        },
+        {
+          "id": "inventory-01-06",
+          "title": {
+            "fa": "عملیات انبارگردانی",
+            "en": "Inventory Stocktaking Operations"
+          },
+          "description": {
+            "fa": "این فرم در فهرست منوهای نرم‌افزار وجود دارد، اما راهنمای PDF ارائه‌شده درباره عملکرد دقیق آن توضیح کافی ندارد. برای درج معرفی تخصصی، تکمیل مستندات این بخش لازم است.",
+            "en": "This form appears in the application menu, but the supplied PDF does not describe its exact functions in sufficient detail. Further documentation is needed for a precise feature description.",
+            "de": "Dieses Formular ist im Anwendungsmenü enthalten. Das vorliegende PDF-Handbuch beschreibt seine genauen Funktionen jedoch nicht ausreichend. Für eine verlässliche Funktionsbeschreibung ist zusätzliche Dokumentation erforderlich.",
+            "fr": "Ce formulaire figure dans le menu de l’application, mais le manuel PDF fourni ne décrit pas suffisamment ses fonctions précises. Une documentation complémentaire est nécessaire pour une présentation fiable.",
+            "it": "Questo modulo è presente nel menu dell’applicazione, ma il manuale PDF fornito non ne descrive sufficientemente le funzioni specifiche. È necessaria ulteriore documentazione per una descrizione accurata.",
+            "es": "Este formulario aparece en el menú de la aplicación, pero el manual PDF proporcionado no describe sus funciones con suficiente detalle. Se necesita documentación adicional para una descripción precisa.",
+            "ru": "Эта форма присутствует в меню приложения, однако предоставленное руководство PDF недостаточно подробно описывает её функции. Для точного описания необходима дополнительная документация.",
+            "pt": "Este formulário consta do menu da aplicação, mas o manual PDF fornecido não descreve as suas funções com detalhe suficiente. É necessária documentação adicional para uma descrição rigorosa.",
+            "tr": "Bu form uygulama menüsünde bulunmaktadır; ancak sağlanan PDF kılavuzu işlevlerini yeterli ayrıntıyla açıklamamaktadır. Doğru bir özellik açıklaması için ek belge gereklidir.",
+            "ar": "يظهر هذا النموذج في قائمة البرنامج، لكن دليل PDF المقدم لا يشرح وظائفه الدقيقة بالتفصيل الكافي. وتلزم وثائق إضافية لإعداد وصف موثوق لخصائصه."
+          }
+        }
+      ]
+    },
+    {
+      "id": "inventory-02",
+      "icon": "truck",
+      "title": {
+        "fa": "راهبردهای دریافت و ارسال",
+        "en": "Receiving and Sending Procedures"
+      },
+      "items": [
+        {
+          "id": "inventory-02-01",
+          "title": {
+            "fa": "ارسال رسید ها از مورد مالی",
+            "en": "Send Receipts to Finance"
+          },
+          "description": {
+            "fa": "این فرم در فهرست منوهای نرم‌افزار وجود دارد، اما راهنمای PDF ارائه‌شده درباره عملکرد دقیق آن توضیح کافی ندارد. برای درج معرفی تخصصی، تکمیل مستندات این بخش لازم است.",
+            "en": "This form appears in the application menu, but the supplied PDF does not describe its exact functions in sufficient detail. Further documentation is needed for a precise feature description.",
+            "de": "Dieses Formular ist im Anwendungsmenü enthalten. Das vorliegende PDF-Handbuch beschreibt seine genauen Funktionen jedoch nicht ausreichend. Für eine verlässliche Funktionsbeschreibung ist zusätzliche Dokumentation erforderlich.",
+            "fr": "Ce formulaire figure dans le menu de l’application, mais le manuel PDF fourni ne décrit pas suffisamment ses fonctions précises. Une documentation complémentaire est nécessaire pour une présentation fiable.",
+            "it": "Questo modulo è presente nel menu dell’applicazione, ma il manuale PDF fornito non ne descrive sufficientemente le funzioni specifiche. È necessaria ulteriore documentazione per una descrizione accurata.",
+            "es": "Este formulario aparece en el menú de la aplicación, pero el manual PDF proporcionado no describe sus funciones con suficiente detalle. Se necesita documentación adicional para una descripción precisa.",
+            "ru": "Эта форма присутствует в меню приложения, однако предоставленное руководство PDF недостаточно подробно описывает её функции. Для точного описания необходима дополнительная документация.",
+            "pt": "Este formulário consta do menu da aplicação, mas o manual PDF fornecido não descreve as suas funções com detalhe suficiente. É necessária documentação adicional para uma descrição rigorosa.",
+            "tr": "Bu form uygulama menüsünde bulunmaktadır; ancak sağlanan PDF kılavuzu işlevlerini yeterli ayrıntıyla açıklamamaktadır. Doğru bir özellik açıklaması için ek belge gereklidir.",
+            "ar": "يظهر هذا النموذج في قائمة البرنامج، لكن دليل PDF المقدم لا يشرح وظائفه الدقيقة بالتفصيل الكافي. وتلزم وثائق إضافية لإعداد وصف موثوق لخصائصه."
+          }
+        },
+        {
+          "id": "inventory-02-02",
+          "title": {
+            "fa": "ارسال حواله ها از مورد مالی",
+            "en": "Send Issue Vouchers to Finance"
+          },
+          "description": {
+            "fa": "این فرم در فهرست منوهای نرم‌افزار وجود دارد، اما راهنمای PDF ارائه‌شده درباره عملکرد دقیق آن توضیح کافی ندارد. برای درج معرفی تخصصی، تکمیل مستندات این بخش لازم است.",
+            "en": "This form appears in the application menu, but the supplied PDF does not describe its exact functions in sufficient detail. Further documentation is needed for a precise feature description.",
+            "de": "Dieses Formular ist im Anwendungsmenü enthalten. Das vorliegende PDF-Handbuch beschreibt seine genauen Funktionen jedoch nicht ausreichend. Für eine verlässliche Funktionsbeschreibung ist zusätzliche Dokumentation erforderlich.",
+            "fr": "Ce formulaire figure dans le menu de l’application, mais le manuel PDF fourni ne décrit pas suffisamment ses fonctions précises. Une documentation complémentaire est nécessaire pour une présentation fiable.",
+            "it": "Questo modulo è presente nel menu dell’applicazione, ma il manuale PDF fornito non ne descrive sufficientemente le funzioni specifiche. È necessaria ulteriore documentazione per una descrizione accurata.",
+            "es": "Este formulario aparece en el menú de la aplicación, pero el manual PDF proporcionado no describe sus funciones con suficiente detalle. Se necesita documentación adicional para una descripción precisa.",
+            "ru": "Эта форма присутствует в меню приложения, однако предоставленное руководство PDF недостаточно подробно описывает её функции. Для точного описания необходима дополнительная документация.",
+            "pt": "Este formulário consta do menu da aplicação, mas o manual PDF fornecido não descreve as suas funções com detalhe suficiente. É necessária documentação adicional para uma descrição rigorosa.",
+            "tr": "Bu form uygulama menüsünde bulunmaktadır; ancak sağlanan PDF kılavuzu işlevlerini yeterli ayrıntıyla açıklamamaktadır. Doğru bir özellik açıklaması için ek belge gereklidir.",
+            "ar": "يظهر هذا النموذج في قائمة البرنامج، لكن دليل PDF المقدم لا يشرح وظائفه الدقيقة بالتفصيل الكافي. وتلزم وثائق إضافية لإعداد وصف موثوق لخصائصه."
+          }
+        },
+        {
+          "id": "inventory-02-03",
+          "title": {
+            "fa": "دریافت موجودی از اموال",
+            "en": "Receive Inventory from Assets"
+          },
+          "description": {
+            "fa": "این فرم در فهرست منوهای نرم‌افزار وجود دارد، اما راهنمای PDF ارائه‌شده درباره عملکرد دقیق آن توضیح کافی ندارد. برای درج معرفی تخصصی، تکمیل مستندات این بخش لازم است.",
+            "en": "This form appears in the application menu, but the supplied PDF does not describe its exact functions in sufficient detail. Further documentation is needed for a precise feature description.",
+            "de": "Dieses Formular ist im Anwendungsmenü enthalten. Das vorliegende PDF-Handbuch beschreibt seine genauen Funktionen jedoch nicht ausreichend. Für eine verlässliche Funktionsbeschreibung ist zusätzliche Dokumentation erforderlich.",
+            "fr": "Ce formulaire figure dans le menu de l’application, mais le manuel PDF fourni ne décrit pas suffisamment ses fonctions précises. Une documentation complémentaire est nécessaire pour une présentation fiable.",
+            "it": "Questo modulo è presente nel menu dell’applicazione, ma il manuale PDF fornito non ne descrive sufficientemente le funzioni specifiche. È necessaria ulteriore documentazione per una descrizione accurata.",
+            "es": "Este formulario aparece en el menú de la aplicación, pero el manual PDF proporcionado no describe sus funciones con suficiente detalle. Se necesita documentación adicional para una descripción precisa.",
+            "ru": "Эта форма присутствует в меню приложения, однако предоставленное руководство PDF недостаточно подробно описывает её функции. Для точного описания необходима дополнительная документация.",
+            "pt": "Este formulário consta do menu da aplicação, mas o manual PDF fornecido não descreve as suas funções com detalhe suficiente. É necessária documentação adicional para uma descrição rigorosa.",
+            "tr": "Bu form uygulama menüsünde bulunmaktadır; ancak sağlanan PDF kılavuzu işlevlerini yeterli ayrıntıyla açıklamamaktadır. Doğru bir özellik açıklaması için ek belge gereklidir.",
+            "ar": "يظهر هذا النموذج في قائمة البرنامج، لكن دليل PDF المقدم لا يشرح وظائفه الدقيقة بالتفصيل الكافي. وتلزم وثائق إضافية لإعداد وصف موثوق لخصائصه."
+          }
+        }
+      ]
+    },
+    {
+      "id": "inventory-03",
+      "icon": "file-text",
+      "title": {
+        "fa": "گزارشات عمومی",
+        "en": "General Reports"
+      },
+      "items": [
+        {
+          "id": "inventory-03-01",
+          "title": {
+            "fa": "کاردکس کالا",
+            "en": "Item Kardex"
+          },
+          "description": {
+            "fa": "کاردکس کالا گردش ورود و خروج هر قلم انبار را به‌صورت تعدادی و مبلغی گزارش می‌کند. کاربر می‌تواند با معیارهایی مانند نام کالا، مرکز هزینه، قیمت و نقطه سفارش، گردش موردنظر را بررسی کند.",
+            "en": "Review a stock card showing inbound and outbound movements of each item in quantities and amounts. Filter the stock movements using criteria such as item name, cost center, price and reorder point.",
+            "de": "Dieser Bericht stellt Informationen zu Lagerbewegungen zur Prüfung und periodischen Auswertung bereit. Er unterstützt die Kontrolle erfasster Daten.",
+            "fr": "Ce rapport présente les mouvements de stock pour consultation et analyse par période. Il facilite le contrôle des données enregistrées.",
+            "it": "Questo rapporto presenta i movimenti di magazzino per la consultazione e l’analisi periodica. Agevola il controllo dei dati registrati.",
+            "es": "Este informe presenta información sobre los movimientos de inventario para su revisión y análisis por período. Facilita el control de los datos registrados.",
+            "ru": "Отчёт отображает сведения о движения товаров для проверки и анализа по периодам. Он помогает контролировать зарегистрированные данные.",
+            "pt": "Este relatório apresenta informações sobre os movimentos de stock para consulta e análise por período. Facilita a verificação dos dados registados.",
+            "tr": "Bu rapor, stok hareketleri hakkında dönem bazında inceleme ve raporlama imkânı sunar. Kaydedilen bilgilerin kontrolünü destekler.",
+            "ar": "يعرض هذا التقرير معلومات حركات المخزون للمراجعة والتحليل حسب الفترة. ويساعد على التحقق من البيانات المسجلة."
+          }
+        },
+        {
+          "id": "inventory-03-02",
+          "title": {
+            "fa": "موجودی در انبار",
+            "en": "Warehouse Stock Balance"
+          },
+          "description": {
+            "fa": "گزارش موجودی کالا اطلاعات اقلام موجود در انبار را نمایش می‌دهد. با انتخاب کالا و شاخص‌هایی مانند مرکز هزینه، قیمت یا نقطه سفارش، امکان بررسی مانده موجودی فراهم می‌شود.",
+            "en": "Inspect available goods and quantities in the warehouse. The report supports filtering by item, cost center, price and reorder point to review stock on hand.",
+            "de": "Dieser Bericht stellt Informationen zu Lagerbestände zur Prüfung und periodischen Auswertung bereit. Er unterstützt die Kontrolle erfasster Daten.",
+            "fr": "Ce rapport présente les stocks disponibles pour consultation et analyse par période. Il facilite le contrôle des données enregistrées.",
+            "it": "Questo rapporto presenta i giacenze di magazzino per la consultazione e l’analisi periodica. Agevola il controllo dei dati registrati.",
+            "es": "Este informe presenta información sobre los existencias de almacén para su revisión y análisis por período. Facilita el control de los datos registrados.",
+            "ru": "Отчёт отображает сведения о остатков на складе для проверки и анализа по периодам. Он помогает контролировать зарегистрированные данные.",
+            "pt": "Este relatório apresenta informações sobre os existências em armazém para consulta e análise por período. Facilita a verificação dos dados registados.",
+            "tr": "Bu rapor, depo stokları hakkında dönem bazında inceleme ve raporlama imkânı sunar. Kaydedilen bilgilerin kontrolünü destekler.",
+            "ar": "يعرض هذا التقرير معلومات الأرصدة المخزنية للمراجعة والتحليل حسب الفترة. ويساعد على التحقق من البيانات المسجلة."
+          }
+        },
+        {
+          "id": "inventory-03-03",
+          "title": {
+            "fa": "گزارش ویژه",
+            "en": "Special Reports"
+          },
+          "description": {
+            "fa": "این فرم در فهرست منوهای نرم‌افزار وجود دارد، اما راهنمای PDF ارائه‌شده درباره عملکرد دقیق آن توضیح کافی ندارد. برای درج معرفی تخصصی، تکمیل مستندات این بخش لازم است.",
+            "en": "This form appears in the application menu, but the supplied PDF does not describe its exact functions in sufficient detail. Further documentation is needed for a precise feature description.",
+            "de": "Dieses Formular ist im Anwendungsmenü enthalten. Das vorliegende PDF-Handbuch beschreibt seine genauen Funktionen jedoch nicht ausreichend. Für eine verlässliche Funktionsbeschreibung ist zusätzliche Dokumentation erforderlich.",
+            "fr": "Ce formulaire figure dans le menu de l’application, mais le manuel PDF fourni ne décrit pas suffisamment ses fonctions précises. Une documentation complémentaire est nécessaire pour une présentation fiable.",
+            "it": "Questo modulo è presente nel menu dell’applicazione, ma il manuale PDF fornito non ne descrive sufficientemente le funzioni specifiche. È necessaria ulteriore documentazione per una descrizione accurata.",
+            "es": "Este formulario aparece en el menú de la aplicación, pero el manual PDF proporcionado no describe sus funciones con suficiente detalle. Se necesita documentación adicional para una descripción precisa.",
+            "ru": "Эта форма присутствует в меню приложения, однако предоставленное руководство PDF недостаточно подробно описывает её функции. Для точного описания необходима дополнительная документация.",
+            "pt": "Este formulário consta do menu da aplicação, mas o manual PDF fornecido não descreve as suas funções com detalhe suficiente. É necessária documentação adicional para uma descrição rigorosa.",
+            "tr": "Bu form uygulama menüsünde bulunmaktadır; ancak sağlanan PDF kılavuzu işlevlerini yeterli ayrıntıyla açıklamamaktadır. Doğru bir özellik açıklaması için ek belge gereklidir.",
+            "ar": "يظهر هذا النموذج في قائمة البرنامج، لكن دليل PDF المقدم لا يشرح وظائفه الدقيقة بالتفصيل الكافي. وتلزم وثائق إضافية لإعداد وصف موثوق لخصائصه."
+          }
+        },
+        {
+          "id": "inventory-03-04",
+          "title": {
+            "fa": "لیست رسید ها",
+            "en": "Goods Receipt List"
+          },
+          "description": {
+            "fa": "فهرست رسیدها برای بررسی رسیدهای ثبت‌شده و اقلام ورود کالا به انبار استفاده می‌شود. گزارش امکان انتخاب معیارهایی نظیر نام کالا، شماره سفارش و نوع رسید را فراهم می‌کند.",
+            "en": "Review registered warehouse receipts and incoming goods. Search or filter receipts by goods, order number and receipt type.",
+            "de": "Dieser Bericht stellt Informationen zu Wareneingänge zur Prüfung und periodischen Auswertung bereit. Er unterstützt die Kontrolle erfasster Daten.",
+            "fr": "Ce rapport présente les réceptions de stock pour consultation et analyse par période. Il facilite le contrôle des données enregistrées.",
+            "it": "Questo rapporto presenta i ricevimenti di magazzino per la consultazione e l’analisi periodica. Agevola il controllo dei dati registrati.",
+            "es": "Este informe presenta información sobre los recepciones de almacén para su revisión y análisis por período. Facilita el control de los datos registrados.",
+            "ru": "Отчёт отображает сведения о поступлений на склад для проверки и анализа по периодам. Он помогает контролировать зарегистрированные данные.",
+            "pt": "Este relatório apresenta informações sobre os entradas de armazém para consulta e análise por período. Facilita a verificação dos dados registados.",
+            "tr": "Bu rapor, depo giriş fişleri hakkında dönem bazında inceleme ve raporlama imkânı sunar. Kaydedilen bilgilerin kontrolünü destekler.",
+            "ar": "يعرض هذا التقرير معلومات إيصالات المستودع للمراجعة والتحليل حسب الفترة. ويساعد على التحقق من البيانات المسجلة."
+          }
+        },
+        {
+          "id": "inventory-03-05",
+          "title": {
+            "fa": "لیست حواله ها",
+            "en": "Issue Voucher List"
+          },
+          "description": {
+            "fa": "فهرست حواله‌ها اطلاعات حواله‌های خروج ثبت‌شده را ارائه می‌کند و بررسی تحویل کالا را ممکن می‌سازد. می‌توان گزارش را بر اساس نام کالا، گیرنده، شماره سند و وضعیت حواله محدود کرد.",
+            "en": "Review registered goods-issue slips and deliveries. Filter by item, recipient, document number or issue status.",
+            "de": "Dieser Bericht stellt Informationen zu Warenausgaben zur Prüfung und periodischen Auswertung bereit. Er unterstützt die Kontrolle erfasster Daten.",
+            "fr": "Ce rapport présente les sorties de stock pour consultation et analyse par période. Il facilite le contrôle des données enregistrées.",
+            "it": "Questo rapporto presenta i uscite di magazzino per la consultazione e l’analisi periodica. Agevola il controllo dei dati registrati.",
+            "es": "Este informe presenta información sobre los salidas de almacén para su revisión y análisis por período. Facilita el control de los datos registrados.",
+            "ru": "Отчёт отображает сведения о выдач товаров со склада для проверки и анализа по периодам. Он помогает контролировать зарегистрированные данные.",
+            "pt": "Este relatório apresenta informações sobre os saídas de armazém para consulta e análise por período. Facilita a verificação dos dados registados.",
+            "tr": "Bu rapor, depo çıkış fişleri hakkında dönem bazında inceleme ve raporlama imkânı sunar. Kaydedilen bilgilerin kontrolünü destekler.",
+            "ar": "يعرض هذا التقرير معلومات أذونات صرف البضائع للمراجعة والتحليل حسب الفترة. ويساعد على التحقق من البيانات المسجلة."
+          }
+        },
+        {
+          "id": "inventory-03-06",
+          "title": {
+            "fa": "پیگیری اسناد خرید",
+            "en": "Purchase Document Tracking"
+          },
+          "description": {
+            "fa": "بخش پیگیری اسناد خرید ارتباط مراحل درخواست، سفارش، تدارکات، رسید و حواله را نمایش می‌دهد. با انتخاب شماره سند در هر مرحله، می‌توان اقدامات بعدی و وضعیت جاری عملیات خرید و انبار را بررسی کرد.",
+            "en": "Trace a purchasing transaction across item request, order, procurement, receipt and issue stages. Selecting a document number reveals subsequent actions and current processing status.",
+            "de": "Dieser Bereich unterstützt die dokumentierten Abläufe rund um Nachverfolgung von Einkaufsbelegen. Die Ergebnisse können im zugehörigen Arbeitsablauf geprüft werden.",
+            "fr": "Cette section permet d’exécuter les opérations documentées relatives aux suivi des documents d’achat. Les résultats peuvent être vérifiés dans le processus correspondant.",
+            "it": "Questa sezione permette di eseguire le operazioni documentate relative ai tracciamento dei documenti di acquisto. I risultati possono essere verificati nel processo pertinente.",
+            "es": "Esta sección permite realizar las operaciones documentadas relacionadas con los seguimiento de documentos de compra. Los resultados se pueden revisar en el proceso correspondiente.",
+            "ru": "Раздел предназначен для выполнения документированных операций в области отслеживания документов закупки. Результаты можно проверить в соответствующем процессе.",
+            "pt": "Esta secção permite executar as operações documentadas relacionadas com os acompanhamento de documentos de compra. Os resultados podem ser verificados no processo correspondente.",
+            "tr": "Bu bölüm, satın alma belgelerinin takibi ile ilgili belgelenmiş işlemleri yürütür. Sonuçlar ilgili iş akışında kontrol edilebilir.",
+            "ar": "يتيح هذا القسم تنفيذ العمليات الموثقة المتعلقة بـتتبع مستندات الشراء. ويمكن مراجعة النتائج ضمن سير العمل المرتبط بها."
+          }
+        },
+        {
+          "id": "inventory-03-07",
+          "title": {
+            "fa": "لیست درخواست ها",
+            "en": "Request List"
+          },
+          "description": {
+            "fa": "فهرست درخواست‌ها درخواست‌های ثبت‌شده کالا را با جزئیات و وضعیت تأیید نمایش می‌دهد. درخواست‌های تأییدشده یا در انتظار تأیید برای بررسی و پیگیری فرآیند قابل تفکیک هستند.",
+            "en": "List registered item requests and their approval status. Separate approved and pending requests to review the goods-request workflow.",
+            "de": "Dieser Bericht stellt Informationen zu Artikelanforderungen zur Prüfung und periodischen Auswertung bereit. Er unterstützt die Kontrolle erfasster Daten.",
+            "fr": "Ce rapport présente les demandes d’articles pour consultation et analyse par période. Il facilite le contrôle des données enregistrées.",
+            "it": "Questo rapporto presenta i richieste di articoli per la consultazione e l’analisi periodica. Agevola il controllo dei dati registrati.",
+            "es": "Este informe presenta información sobre los solicitudes de artículos para su revisión y análisis por período. Facilita el control de los datos registrados.",
+            "ru": "Отчёт отображает сведения о заявок на товары для проверки и анализа по периодам. Он помогает контролировать зарегистрированные данные.",
+            "pt": "Este relatório apresenta informações sobre os pedidos de artigos para consulta e análise por período. Facilita a verificação dos dados registados.",
+            "tr": "Bu rapor, malzeme talepleri hakkında dönem bazında inceleme ve raporlama imkânı sunar. Kaydedilen bilgilerin kontrolünü destekler.",
+            "ar": "يعرض هذا التقرير معلومات طلبات الأصناف للمراجعة والتحليل حسب الفترة. ويساعد على التحقق من البيانات المسجلة."
+          }
+        },
+        {
+          "id": "inventory-03-08",
+          "title": {
+            "fa": "لیست سفارشات",
+            "en": "Order List"
+          },
+          "description": {
+            "fa": "این گزارش سفارش‌های ثبت‌شده کالا را با امکان جست‌وجو بر اساس کالا، شماره درخواست، تأییدکننده و نوع سفارش ارائه می‌کند. برای بررسی سفارش‌های انبار و سوابق تأمین کالا کاربرد دارد.",
+            "en": "List purchasing orders with filters for item, request number, approving officer and order type. Use it to review procurement orders and their recorded status.",
+            "de": "Dieser Bericht stellt Informationen zu Bestellungen zur Prüfung und periodischen Auswertung bereit. Er unterstützt die Kontrolle erfasster Daten.",
+            "fr": "Ce rapport présente les commandes d’achat pour consultation et analyse par période. Il facilite le contrôle des données enregistrées.",
+            "it": "Questo rapporto presenta i ordini di acquisto per la consultazione e l’analisi periodica. Agevola il controllo dei dati registrati.",
+            "es": "Este informe presenta información sobre los pedidos de compra para su revisión y análisis por período. Facilita el control de los datos registrados.",
+            "ru": "Отчёт отображает сведения о заказов на закупку для проверки и анализа по периодам. Он помогает контролировать зарегистрированные данные.",
+            "pt": "Este relatório apresenta informações sobre os encomendas de compra para consulta e análise por período. Facilita a verificação dos dados registados.",
+            "tr": "Bu rapor, satın alma siparişleri hakkında dönem bazında inceleme ve raporlama imkânı sunar. Kaydedilen bilgilerin kontrolünü destekler.",
+            "ar": "يعرض هذا التقرير معلومات طلبات الشراء للمراجعة والتحليل حسب الفترة. ويساعد على التحقق من البيانات المسجلة."
+          }
+        },
+        {
+          "id": "inventory-03-09",
+          "title": {
+            "fa": "لیست کلی سفارشات",
+            "en": "Complete Order List"
+          },
+          "description": {
+            "fa": "فهرست کلی سفارشات، اقلام ثبت‌شده در سفارش‌های مختلف را یکجا نمایش می‌دهد و امکان گزارش‌گیری بر اساس نام کالا، شماره درخواست، مسئول تأیید و نوع سفارش را فراهم می‌سازد.",
+            "en": "Show goods across recorded orders in a consolidated list. Filter order items by item name, request number, approving officer and order type.",
+            "de": "Dieser Bericht stellt Informationen zu Bestellungen zur Prüfung und periodischen Auswertung bereit. Er unterstützt die Kontrolle erfasster Daten.",
+            "fr": "Ce rapport présente les commandes d’achat pour consultation et analyse par période. Il facilite le contrôle des données enregistrées.",
+            "it": "Questo rapporto presenta i ordini di acquisto per la consultazione e l’analisi periodica. Agevola il controllo dei dati registrati.",
+            "es": "Este informe presenta información sobre los pedidos de compra para su revisión y análisis por período. Facilita el control de los datos registrados.",
+            "ru": "Отчёт отображает сведения о заказов на закупку для проверки и анализа по периодам. Он помогает контролировать зарегистрированные данные.",
+            "pt": "Este relatório apresenta informações sobre os encomendas de compra para consulta e análise por período. Facilita a verificação dos dados registados.",
+            "tr": "Bu rapor, satın alma siparişleri hakkında dönem bazında inceleme ve raporlama imkânı sunar. Kaydedilen bilgilerin kontrolünü destekler.",
+            "ar": "يعرض هذا التقرير معلومات طلبات الشراء للمراجعة والتحليل حسب الفترة. ويساعد على التحقق من البيانات المسجلة."
+          }
+        },
+        {
+          "id": "inventory-03-10",
+          "title": {
+            "fa": "لیست جزئی سفارشات",
+            "en": "Detailed Order List"
+          },
+          "description": {
+            "fa": "جزئیات اقلام سفارش‌ها به تفکیک ردیف‌های کالا قابل مشاهده است. در گزارش‌های مربوط به سفارش، ویژگی‌هایی مانند کالا، تعداد، مقدار و مشخصات درخواست برای بررسی اقلام سفارش‌شده استفاده می‌شوند.",
+            "en": "Inspect individual line items belonging to procurement orders, including item identity and ordered quantities. This is based on the order-list views shown in the manual.",
+            "de": "Dieser Bericht stellt Informationen zu Bestellungen zur Prüfung und periodischen Auswertung bereit. Er unterstützt die Kontrolle erfasster Daten.",
+            "fr": "Ce rapport présente les commandes d’achat pour consultation et analyse par période. Il facilite le contrôle des données enregistrées.",
+            "it": "Questo rapporto presenta i ordini di acquisto per la consultazione e l’analisi periodica. Agevola il controllo dei dati registrati.",
+            "es": "Este informe presenta información sobre los pedidos de compra para su revisión y análisis por período. Facilita el control de los datos registrados.",
+            "ru": "Отчёт отображает сведения о заказов на закупку для проверки и анализа по периодам. Он помогает контролировать зарегистрированные данные.",
+            "pt": "Este relatório apresenta informações sobre os encomendas de compra para consulta e análise por período. Facilita a verificação dos dados registados.",
+            "tr": "Bu rapor, satın alma siparişleri hakkında dönem bazında inceleme ve raporlama imkânı sunar. Kaydedilen bilgilerin kontrolünü destekler.",
+            "ar": "يعرض هذا التقرير معلومات طلبات الشراء للمراجعة والتحليل حسب الفترة. ويساعد على التحقق من البيانات المسجلة."
+          }
+        }
+      ]
+    },
+    {
+      "id": "inventory-04",
+      "icon": "truck",
+      "title": {
+        "fa": "راهبرد تدارکات",
+        "en": "Procurement Procedures"
+      },
+      "items": [
+        {
+          "id": "inventory-04-01",
+          "title": {
+            "fa": "استعلام/مناقصه (تدارکات)",
+            "en": "Procurement Inquiry / Tender"
+          },
+          "description": {
+            "fa": "در بخش استعلام و مناقصه، مناقصه‌های ثبت‌شده و وضعیت تأیید آن‌ها بررسی می‌شود. برای هر مناقصه می‌توان سفارش مربوط، طرف تجاری، مبلغ پیشنهادی، رتبه و تخفیف را ثبت و پس از بررسی تأیید کرد؛ گزارش مقایسه‌ای نیز پیش‌بینی شده است.",
+            "en": "Manage enquiries and tenders, including approval status and selected purchase orders. Record supplier offers, quoted prices, ranking and discounts before confirming a tender, and review comparison reports.",
+            "de": "Dieses Formular dient der Erfassung, Prüfung und Verwaltung von Ausschreibungen. Zugehörige Datensätze können im jeweiligen Arbeitsablauf eingesehen werden.",
+            "fr": "Ce formulaire permet de saisir, consulter et gérer les appels d’offres. Les enregistrements peuvent être vérifiés dans le processus correspondant.",
+            "it": "Questo modulo consente di inserire, consultare e gestire i gare d’appalto. I dati registrati possono essere verificati nel relativo flusso di lavoro.",
+            "es": "Este formulario permite registrar, consultar y gestionar los licitaciones. Los registros se pueden revisar durante el proceso correspondiente.",
+            "ru": "Форма предназначена для ввода, просмотра и ведения тендеров. Записи можно проверить в соответствующем рабочем процессе.",
+            "pt": "Este formulário permite registar, consultar e gerir os concursos de aquisição. Os registos podem ser verificados no processo correspondente.",
+            "tr": "Bu form, ihale süreçleri bilgilerini kaydetmek, incelemek ve yönetmek için kullanılır. İlgili kayıtlar iş akışı içinde kontrol edilebilir.",
+            "ar": "يُستخدم هذا النموذج لإدخال بيانات المناقصات ومراجعتها وإدارتها. ويمكن التحقق من السجلات في سير العمل المرتبط بها."
+          }
+        },
+        {
+          "id": "inventory-04-02",
+          "title": {
+            "fa": "پیگیری سوابق خرید از فروشندگان",
+            "en": "Track Vendor Purchase History"
+          },
+          "description": {
+            "fa": "سوابق خرید از فروشندگان را می‌توان بر حسب کالا، تعداد، مبلغ و فروشنده بررسی کرد. گزارش امکان پیگیری مقدار و بهای خرید هر کالا از طرف‌های تجاری مختلف را فراهم می‌کند.",
+            "en": "Review purchase history by supplier, item, quantity and value. Compare recorded purchases of a given item across different vendors.",
+            "de": "Dieser Bericht stellt Informationen zu Lieferanten und Geschäftspartner zur Prüfung und periodischen Auswertung bereit. Er unterstützt die Kontrolle erfasster Daten.",
+            "fr": "Ce rapport présente les fournisseurs et partenaires commerciaux pour consultation et analyse par période. Il facilite le contrôle des données enregistrées.",
+            "it": "Questo rapporto presenta i fornitori e partner commerciali per la consultazione e l’analisi periodica. Agevola il controllo dei dati registrati.",
+            "es": "Este informe presenta información sobre los proveedores y socios comerciales para su revisión y análisis por período. Facilita el control de los datos registrados.",
+            "ru": "Отчёт отображает сведения о поставщиков и контрагентов для проверки и анализа по периодам. Он помогает контролировать зарегистрированные данные.",
+            "pt": "Este relatório apresenta informações sobre os fornecedores e parceiros comerciais para consulta e análise por período. Facilita a verificação dos dados registados.",
+            "tr": "Bu rapor, tedarikçiler ve ticari taraflar hakkında dönem bazında inceleme ve raporlama imkânı sunar. Kaydedilen bilgilerin kontrolünü destekler.",
+            "ar": "يعرض هذا التقرير معلومات الموردين والأطراف التجارية للمراجعة والتحليل حسب الفترة. ويساعد على التحقق من البيانات المسجلة."
+          }
+        },
+        {
+          "id": "inventory-04-03",
+          "title": {
+            "fa": "لیست طرفهای تجاری",
+            "en": "Business Partners List"
+          },
+          "description": {
+            "fa": "فهرست طرف‌های تجاری، طرف‌های تجاری ثبت‌شده در سامانه را نمایش می‌دهد و امکان مشاهده اطلاعات طرف مقابل در عملیات خرید و تدارکات را فراهم می‌کند.",
+            "en": "View the commercial parties registered in the system for reference during purchasing and procurement operations.",
+            "de": "Dieser Bericht stellt Informationen zu Lieferanten und Geschäftspartner zur Prüfung und periodischen Auswertung bereit. Er unterstützt die Kontrolle erfasster Daten.",
+            "fr": "Ce rapport présente les fournisseurs et partenaires commerciaux pour consultation et analyse par période. Il facilite le contrôle des données enregistrées.",
+            "it": "Questo rapporto presenta i fornitori e partner commerciali per la consultazione e l’analisi periodica. Agevola il controllo dei dati registrati.",
+            "es": "Este informe presenta información sobre los proveedores y socios comerciales para su revisión y análisis por período. Facilita el control de los datos registrados.",
+            "ru": "Отчёт отображает сведения о поставщиков и контрагентов для проверки и анализа по периодам. Он помогает контролировать зарегистрированные данные.",
+            "pt": "Este relatório apresenta informações sobre os fornecedores e parceiros comerciais para consulta e análise por período. Facilita a verificação dos dados registados.",
+            "tr": "Bu rapor, tedarikçiler ve ticari taraflar hakkında dönem bazında inceleme ve raporlama imkânı sunar. Kaydedilen bilgilerin kontrolünü destekler.",
+            "ar": "يعرض هذا التقرير معلومات الموردين والأطراف التجارية للمراجعة والتحليل حسب الفترة. ويساعد على التحقق من البيانات المسجلة."
+          }
+        },
+        {
+          "id": "inventory-04-04",
+          "title": {
+            "fa": "لیست فروشندگان",
+            "en": "Vendors List"
+          },
+          "description": {
+            "fa": "این فرم در فهرست منوهای نرم‌افزار وجود دارد، اما راهنمای PDF ارائه‌شده درباره عملکرد دقیق آن توضیح کافی ندارد. برای درج معرفی تخصصی، تکمیل مستندات این بخش لازم است.",
+            "en": "This form appears in the application menu, but the supplied PDF does not describe its exact functions in sufficient detail. Further documentation is needed for a precise feature description.",
+            "de": "Dieses Formular ist im Anwendungsmenü enthalten. Das vorliegende PDF-Handbuch beschreibt seine genauen Funktionen jedoch nicht ausreichend. Für eine verlässliche Funktionsbeschreibung ist zusätzliche Dokumentation erforderlich.",
+            "fr": "Ce formulaire figure dans le menu de l’application, mais le manuel PDF fourni ne décrit pas suffisamment ses fonctions précises. Une documentation complémentaire est nécessaire pour une présentation fiable.",
+            "it": "Questo modulo è presente nel menu dell’applicazione, ma il manuale PDF fornito non ne descrive sufficientemente le funzioni specifiche. È necessaria ulteriore documentazione per una descrizione accurata.",
+            "es": "Este formulario aparece en el menú de la aplicación, pero el manual PDF proporcionado no describe sus funciones con suficiente detalle. Se necesita documentación adicional para una descripción precisa.",
+            "ru": "Эта форма присутствует в меню приложения, однако предоставленное руководство PDF недостаточно подробно описывает её функции. Для точного описания необходима дополнительная документация.",
+            "pt": "Este formulário consta do menu da aplicação, mas o manual PDF fornecido não descreve as suas funções com detalhe suficiente. É necessária documentação adicional para uma descrição rigorosa.",
+            "tr": "Bu form uygulama menüsünde bulunmaktadır; ancak sağlanan PDF kılavuzu işlevlerini yeterli ayrıntıyla açıklamamaktadır. Doğru bir özellik açıklaması için ek belge gereklidir.",
+            "ar": "يظهر هذا النموذج في قائمة البرنامج، لكن دليل PDF المقدم لا يشرح وظائفه الدقيقة بالتفصيل الكافي. وتلزم وثائق إضافية لإعداد وصف موثوق لخصائصه."
+          }
+        },
+        {
+          "id": "inventory-04-05",
+          "title": {
+            "fa": "لیست اقلام تدارکات",
+            "en": "Procurement Items List"
+          },
+          "description": {
+            "fa": "اقلام تدارکات در گزارش‌های تعدادی و ریالی به تفکیک فروشنده و مرکز هزینه ارائه می‌شوند. این گزارش‌ها برای بررسی توزیع و حجم خریدهای ثبت‌شده کاربرد دارند.",
+            "en": "Review procurement line items in value-based and quantity-based reports by supplier or cost center, as shown in the manual’s procurement-report examples.",
+            "de": "Dieser Bericht stellt Informationen zu Beschaffungspositionen zur Prüfung und periodischen Auswertung bereit. Er unterstützt die Kontrolle erfasster Daten.",
+            "fr": "Ce rapport présente les articles d’approvisionnement pour consultation et analyse par période. Il facilite le contrôle des données enregistrées.",
+            "it": "Questo rapporto presenta i articoli di approvvigionamento per la consultazione e l’analisi periodica. Agevola il controllo dei dati registrati.",
+            "es": "Este informe presenta información sobre los artículos de adquisición para su revisión y análisis por período. Facilita el control de los datos registrados.",
+            "ru": "Отчёт отображает сведения о позиции закупок для проверки и анализа по периодам. Он помогает контролировать зарегистрированные данные.",
+            "pt": "Este relatório apresenta informações sobre os itens de aprovisionamento para consulta e análise por período. Facilita a verificação dos dados registados.",
+            "tr": "Bu rapor, tedarik kalemleri hakkında dönem bazında inceleme ve raporlama imkânı sunar. Kaydedilen bilgilerin kontrolünü destekler.",
+            "ar": "يعرض هذا التقرير معلومات بنود المشتريات للمراجعة والتحليل حسب الفترة. ويساعد على التحقق من البيانات المسجلة."
+          }
+        }
+      ]
+    },
+    {
+      "id": "inventory-05",
+      "icon": "file-text",
+      "title": {
+        "fa": "پیگیری اسناد تدارکات",
+        "en": "Procurement Document Tracking"
+      },
+      "items": [
+        {
+          "id": "inventory-05-01",
+          "title": {
+            "fa": "رسید کالا به تفکیک فروشندگان",
+            "en": "Goods Receipts by Vendor"
+          },
+          "description": {
+            "fa": "گزارش رسید کالا به تفکیک فروشندگان، دریافت‌های ثبت‌شده از هر طرف تجاری را به‌صورت جداگانه نمایش می‌دهد. این فهرست برای بررسی سوابق ورود کالا از فروشندگان مختلف استفاده می‌شود.",
+            "en": "List incoming-goods receipts grouped by supplier, allowing comparison of recorded deliveries from individual vendors.",
+            "de": "Dieser Bericht stellt Informationen zu Wareneingänge zur Prüfung und periodischen Auswertung bereit. Er unterstützt die Kontrolle erfasster Daten.",
+            "fr": "Ce rapport présente les réceptions de stock pour consultation et analyse par période. Il facilite le contrôle des données enregistrées.",
+            "it": "Questo rapporto presenta i ricevimenti di magazzino per la consultazione e l’analisi periodica. Agevola il controllo dei dati registrati.",
+            "es": "Este informe presenta información sobre los recepciones de almacén para su revisión y análisis por período. Facilita el control de los datos registrados.",
+            "ru": "Отчёт отображает сведения о поступлений на склад для проверки и анализа по периодам. Он помогает контролировать зарегистрированные данные.",
+            "pt": "Este relatório apresenta informações sobre os entradas de armazém para consulta e análise por período. Facilita a verificação dos dados registados.",
+            "tr": "Bu rapor, depo giriş fişleri hakkında dönem bazında inceleme ve raporlama imkânı sunar. Kaydedilen bilgilerin kontrolünü destekler.",
+            "ar": "يعرض هذا التقرير معلومات إيصالات المستودع للمراجعة والتحليل حسب الفترة. ويساعد على التحقق من البيانات المسجلة."
+          }
+        },
+        {
+          "id": "inventory-05-02",
+          "title": {
+            "fa": "خرید ثبت کالا به تفکیک فروشندگان",
+            "en": "Goods Purchases by Vendor"
+          },
+          "description": {
+            "fa": "این گزارش سوابق خرید و مقدار و مبلغ اقلام خریداری‌شده از فروشندگان را بررسی می‌کند. اطلاعات ثبت‌شده می‌تواند برای پیگیری کالاهای خریداری‌شده و طرف تجاری مربوط استفاده شود.",
+            "en": "Review recorded purchased goods together with quantities, amounts and associated vendors, using the supplier-purchase reports documented in the manual.",
+            "de": "Dieser Bericht stellt Informationen zu Lieferanten und Geschäftspartner zur Prüfung und periodischen Auswertung bereit. Er unterstützt die Kontrolle erfasster Daten.",
+            "fr": "Ce rapport présente les fournisseurs et partenaires commerciaux pour consultation et analyse par période. Il facilite le contrôle des données enregistrées.",
+            "it": "Questo rapporto presenta i fornitori e partner commerciali per la consultazione e l’analisi periodica. Agevola il controllo dei dati registrati.",
+            "es": "Este informe presenta información sobre los proveedores y socios comerciales para su revisión y análisis por período. Facilita el control de los datos registrados.",
+            "ru": "Отчёт отображает сведения о поставщиков и контрагентов для проверки и анализа по периодам. Он помогает контролировать зарегистрированные данные.",
+            "pt": "Este relatório apresenta informações sobre os fornecedores e parceiros comerciais para consulta e análise por período. Facilita a verificação dos dados registados.",
+            "tr": "Bu rapor, tedarikçiler ve ticari taraflar hakkında dönem bazında inceleme ve raporlama imkânı sunar. Kaydedilen bilgilerin kontrolünü destekler.",
+            "ar": "يعرض هذا التقرير معلومات الموردين والأطراف التجارية للمراجعة والتحليل حسب الفترة. ويساعد على التحقق من البيانات المسجلة."
+          }
+        },
+        {
+          "id": "inventory-05-03",
+          "title": {
+            "fa": "تعداد خرید تدارکات به تفکیک ماه",
+            "en": "Monthly Procurement Purchase Quantities"
+          },
+          "description": {
+            "fa": "تعداد خریدهای ثبت‌شده تدارکات به تفکیک ماه گزارش می‌شود تا حجم سفارش یا خرید اقلام در ماه‌های مختلف قابل مقایسه باشد.",
+            "en": "Show monthly counts of registered procurement purchases to compare the volume of purchased items over time.",
+            "de": "Dieser Bericht stellt Informationen zu monatliche Einkäufe zur Prüfung und periodischen Auswertung bereit. Er unterstützt die Kontrolle erfasster Daten.",
+            "fr": "Ce rapport présente les achats mensuels pour consultation et analyse par période. Il facilite le contrôle des données enregistrées.",
+            "it": "Questo rapporto presenta i acquisti mensili per la consultazione e l’analisi periodica. Agevola il controllo dei dati registrati.",
+            "es": "Este informe presenta información sobre los compras mensuales para su revisión y análisis por período. Facilita el control de los datos registrados.",
+            "ru": "Отчёт отображает сведения о ежемесячных закупок для проверки и анализа по периодам. Он помогает контролировать зарегистрированные данные.",
+            "pt": "Este relatório apresenta informações sobre os compras mensais para consulta e análise por período. Facilita a verificação dos dados registados.",
+            "tr": "Bu rapor, aylık satın almalar hakkında dönem bazında inceleme ve raporlama imkânı sunar. Kaydedilen bilgilerin kontrolünü destekler.",
+            "ar": "يعرض هذا التقرير معلومات المشتريات الشهرية للمراجعة والتحليل حسب الفترة. ويساعد على التحقق من البيانات المسجلة."
+          }
+        },
+        {
+          "id": "inventory-05-04",
+          "title": {
+            "fa": "مبلغ خرید تدارکات به تفکیک ماه",
+            "en": "Monthly Procurement Purchase Amounts"
+          },
+          "description": {
+            "fa": "مبالغ خرید تدارکات به تفکیک ماه نمایش داده می‌شوند. گزارش برای مقایسه ارزش خریدهای ثبت‌شده در دوره‌های ماهانه کاربرد دارد.",
+            "en": "Report monthly procurement spending to compare the value of recorded purchases across months.",
+            "de": "Dieser Bericht stellt Informationen zu monatliche Einkäufe zur Prüfung und periodischen Auswertung bereit. Er unterstützt die Kontrolle erfasster Daten.",
+            "fr": "Ce rapport présente les achats mensuels pour consultation et analyse par période. Il facilite le contrôle des données enregistrées.",
+            "it": "Questo rapporto presenta i acquisti mensili per la consultazione e l’analisi periodica. Agevola il controllo dei dati registrati.",
+            "es": "Este informe presenta información sobre los compras mensuales para su revisión y análisis por período. Facilita el control de los datos registrados.",
+            "ru": "Отчёт отображает сведения о ежемесячных закупок для проверки и анализа по периодам. Он помогает контролировать зарегистрированные данные.",
+            "pt": "Este relatório apresenta informações sobre os compras mensais para consulta e análise por período. Facilita a verificação dos dados registados.",
+            "tr": "Bu rapor, aylık satın almalar hakkında dönem bazında inceleme ve raporlama imkânı sunar. Kaydedilen bilgilerin kontrolünü destekler.",
+            "ar": "يعرض هذا التقرير معلومات المشتريات الشهرية للمراجعة والتحليل حسب الفترة. ويساعد على التحقق من البيانات المسجلة."
+          }
+        },
+        {
+          "id": "inventory-05-05",
+          "title": {
+            "fa": "تدارکات به تفکیک فروشنده (ریالی)",
+            "en": "Procurement by Vendor (Amount)"
+          },
+          "description": {
+            "fa": "گزارش تدارکات به تفکیک فروشنده از نوع ریالی، ارزش خریدها را برای هر فروشنده به‌صورت جداگانه نشان می‌دهد و بررسی سهم مبلغی طرف‌های تجاری را ممکن می‌سازد.",
+            "en": "Show procurement by vendor in monetary amounts so that the purchase value associated with each supplier can be reviewed.",
+            "de": "Dieser Bericht stellt Informationen zu Lieferanten und Geschäftspartner zur Prüfung und periodischen Auswertung bereit. Er unterstützt die Kontrolle erfasster Daten.",
+            "fr": "Ce rapport présente les fournisseurs et partenaires commerciaux pour consultation et analyse par période. Il facilite le contrôle des données enregistrées.",
+            "it": "Questo rapporto presenta i fornitori e partner commerciali per la consultazione e l’analisi periodica. Agevola il controllo dei dati registrati.",
+            "es": "Este informe presenta información sobre los proveedores y socios comerciales para su revisión y análisis por período. Facilita el control de los datos registrados.",
+            "ru": "Отчёт отображает сведения о поставщиков и контрагентов для проверки и анализа по периодам. Он помогает контролировать зарегистрированные данные.",
+            "pt": "Este relatório apresenta informações sobre os fornecedores e parceiros comerciais para consulta e análise por período. Facilita a verificação dos dados registados.",
+            "tr": "Bu rapor, tedarikçiler ve ticari taraflar hakkında dönem bazında inceleme ve raporlama imkânı sunar. Kaydedilen bilgilerin kontrolünü destekler.",
+            "ar": "يعرض هذا التقرير معلومات الموردين والأطراف التجارية للمراجعة والتحليل حسب الفترة. ويساعد على التحقق من البيانات المسجلة."
+          }
+        },
+        {
+          "id": "inventory-05-06",
+          "title": {
+            "fa": "تدارکات به تفکیک فروشنده (تعدادی)",
+            "en": "Procurement by Vendor (Quantity)"
+          },
+          "description": {
+            "fa": "گزارش تدارکات به تفکیک فروشنده از نوع تعدادی، مقدار اقلام خریداری‌شده از هر فروشنده را نشان می‌دهد و امکان مقایسه حجم خرید بر حسب طرف تجاری را فراهم می‌کند.",
+            "en": "Show procured item quantities grouped by vendor to compare purchase volumes for different suppliers.",
+            "de": "Dieser Bericht stellt Informationen zu Lieferanten und Geschäftspartner zur Prüfung und periodischen Auswertung bereit. Er unterstützt die Kontrolle erfasster Daten.",
+            "fr": "Ce rapport présente les fournisseurs et partenaires commerciaux pour consultation et analyse par période. Il facilite le contrôle des données enregistrées.",
+            "it": "Questo rapporto presenta i fornitori e partner commerciali per la consultazione e l’analisi periodica. Agevola il controllo dei dati registrati.",
+            "es": "Este informe presenta información sobre los proveedores y socios comerciales para su revisión y análisis por período. Facilita el control de los datos registrados.",
+            "ru": "Отчёт отображает сведения о поставщиков и контрагентов для проверки и анализа по периодам. Он помогает контролировать зарегистрированные данные.",
+            "pt": "Este relatório apresenta informações sobre os fornecedores e parceiros comerciais para consulta e análise por período. Facilita a verificação dos dados registados.",
+            "tr": "Bu rapor, tedarikçiler ve ticari taraflar hakkında dönem bazında inceleme ve raporlama imkânı sunar. Kaydedilen bilgilerin kontrolünü destekler.",
+            "ar": "يعرض هذا التقرير معلومات الموردين والأطراف التجارية للمراجعة والتحليل حسب الفترة. ويساعد على التحقق من البيانات المسجلة."
+          }
+        }
+      ]
+    },
+    {
+      "id": "inventory-06",
+      "icon": "chart",
+      "title": {
+        "fa": "گزارشات تعدادی و مبلغی",
+        "en": "Quantity and Value Reports"
+      },
+      "items": [
+        {
+          "id": "inventory-06-01",
+          "title": {
+            "fa": "پیگیری سوابق خرید کالا",
+            "en": "Item Purchase History"
+          },
+          "description": {
+            "fa": "در بخش پیگیری سوابق خرید کالا، تاریخچه خرید هر قلم شامل مقدار، قیمت و فروشنده قابل گزارش است. این اطلاعات می‌تواند با معیارهایی مانند نام کالا، سفارش، گیرنده و نوع رسید محدود شود.",
+            "en": "Trace the purchase history of an item, including quantities, prices and vendors. Filter purchase records by item, order, recipient or receipt type.",
+            "de": "Dieser Bericht stellt Informationen zu Nachverfolgung von Einkaufsbelegen zur Prüfung und periodischen Auswertung bereit. Er unterstützt die Kontrolle erfasster Daten.",
+            "fr": "Ce rapport présente les suivi des documents d’achat pour consultation et analyse par période. Il facilite le contrôle des données enregistrées.",
+            "it": "Questo rapporto presenta i tracciamento dei documenti di acquisto per la consultazione e l’analisi periodica. Agevola il controllo dei dati registrati.",
+            "es": "Este informe presenta información sobre los seguimiento de documentos de compra para su revisión y análisis por período. Facilita el control de los datos registrados.",
+            "ru": "Отчёт отображает сведения о отслеживания документов закупки для проверки и анализа по периодам. Он помогает контролировать зарегистрированные данные.",
+            "pt": "Este relatório apresenta informações sobre os acompanhamento de documentos de compra para consulta e análise por período. Facilita a verificação dos dados registados.",
+            "tr": "Bu rapor, satın alma belgelerinin takibi hakkında dönem bazında inceleme ve raporlama imkânı sunar. Kaydedilen bilgilerin kontrolünü destekler.",
+            "ar": "يعرض هذا التقرير معلومات تتبع مستندات الشراء للمراجعة والتحليل حسب الفترة. ويساعد على التحقق من البيانات المسجلة."
+          }
+        },
+        {
+          "id": "inventory-06-02",
+          "title": {
+            "fa": "درخواست کالا به تفکیک مراکز هزینه",
+            "en": "Item Requests by Cost Center"
+          },
+          "description": {
+            "fa": "گزارش درخواست کالا به تفکیک مراکز هزینه، اقلام درخواست‌شده را بر اساس واحد یا مرکز هزینه دسته‌بندی می‌کند. معیارهایی از جمله نام کالا، تعداد و درخواست‌کننده برای بررسی درخواست‌ها قابل استفاده است.",
+            "en": "Group requested goods by cost center, showing item and request details for each organizational unit.",
+            "de": "Dieser Bericht stellt Informationen zu Waren nach Kostenstelle zur Prüfung und periodischen Auswertung bereit. Er unterstützt die Kontrolle erfasster Daten.",
+            "fr": "Ce rapport présente les articles par centre de coûts pour consultation et analyse par période. Il facilite le contrôle des données enregistrées.",
+            "it": "Questo rapporto presenta i articoli per centro di costo per la consultazione e l’analisi periodica. Agevola il controllo dei dati registrati.",
+            "es": "Este informe presenta información sobre los artículos por centro de coste para su revisión y análisis por período. Facilita el control de los datos registrados.",
+            "ru": "Отчёт отображает сведения о товаров по центрам затрат для проверки и анализа по периодам. Он помогает контролировать зарегистрированные данные.",
+            "pt": "Este relatório apresenta informações sobre os artigos por centro de custo para consulta e análise por período. Facilita a verificação dos dados registados.",
+            "tr": "Bu rapor, maliyet merkezine göre malzemeler hakkında dönem bazında inceleme ve raporlama imkânı sunar. Kaydedilen bilgilerin kontrolünü destekler.",
+            "ar": "يعرض هذا التقرير معلومات الأصناف حسب مركز التكلفة للمراجعة والتحليل حسب الفترة. ويساعد على التحقق من البيانات المسجلة."
+          }
+        },
+        {
+          "id": "inventory-06-03",
+          "title": {
+            "fa": "حواله به تفکیک مراکز هزینه (تعداد)",
+            "en": "Issue Vouchers by Cost Center (Quantity)"
+          },
+          "description": {
+            "fa": "گزارش تعدادی حواله‌ها به تفکیک مرکز هزینه، مقدار اقلام تحویل‌شده به هر مرکز را نشان می‌دهد و برای مقایسه مصرف یا خروج کالا در واحدها کاربرد دارد.",
+            "en": "Display goods-issue quantities grouped by cost center, supporting comparison of items distributed to different units.",
+            "de": "Dieser Bericht stellt Informationen zu Waren nach Kostenstelle zur Prüfung und periodischen Auswertung bereit. Er unterstützt die Kontrolle erfasster Daten.",
+            "fr": "Ce rapport présente les articles par centre de coûts pour consultation et analyse par période. Il facilite le contrôle des données enregistrées.",
+            "it": "Questo rapporto presenta i articoli per centro di costo per la consultazione e l’analisi periodica. Agevola il controllo dei dati registrati.",
+            "es": "Este informe presenta información sobre los artículos por centro de coste para su revisión y análisis por período. Facilita el control de los datos registrados.",
+            "ru": "Отчёт отображает сведения о товаров по центрам затрат для проверки и анализа по периодам. Он помогает контролировать зарегистрированные данные.",
+            "pt": "Este relatório apresenta informações sobre os artigos por centro de custo para consulta e análise por período. Facilita a verificação dos dados registados.",
+            "tr": "Bu rapor, maliyet merkezine göre malzemeler hakkında dönem bazında inceleme ve raporlama imkânı sunar. Kaydedilen bilgilerin kontrolünü destekler.",
+            "ar": "يعرض هذا التقرير معلومات الأصناف حسب مركز التكلفة للمراجعة والتحليل حسب الفترة. ويساعد على التحقق من البيانات المسجلة."
+          }
+        },
+        {
+          "id": "inventory-06-04",
+          "title": {
+            "fa": "رسید کالا به تفکیک مراکز هزینه",
+            "en": "Goods Receipts by Cost Center"
+          },
+          "description": {
+            "fa": "گزارش رسید کالا به تفکیک مرکز هزینه، ورود اقلام انبار را برای هر مرکز یا واحد سازمانی گزارش می‌کند و امکان بررسی دریافت‌ها بر اساس مشخصات کالا را فراهم می‌سازد.",
+            "en": "Group warehouse receipts by cost center and review the goods received by each organizational unit.",
+            "de": "Dieser Bericht stellt Informationen zu Waren nach Kostenstelle zur Prüfung und periodischen Auswertung bereit. Er unterstützt die Kontrolle erfasster Daten.",
+            "fr": "Ce rapport présente les articles par centre de coûts pour consultation et analyse par période. Il facilite le contrôle des données enregistrées.",
+            "it": "Questo rapporto presenta i articoli per centro di costo per la consultazione e l’analisi periodica. Agevola il controllo dei dati registrati.",
+            "es": "Este informe presenta información sobre los artículos por centro de coste para su revisión y análisis por período. Facilita el control de los datos registrados.",
+            "ru": "Отчёт отображает сведения о товаров по центрам затрат для проверки и анализа по периодам. Он помогает контролировать зарегистрированные данные.",
+            "pt": "Este relatório apresenta informações sobre os artigos por centro de custo para consulta e análise por período. Facilita a verificação dos dados registados.",
+            "tr": "Bu rapor, maliyet merkezine göre malzemeler hakkında dönem bazında inceleme ve raporlama imkânı sunar. Kaydedilen bilgilerin kontrolünü destekler.",
+            "ar": "يعرض هذا التقرير معلومات الأصناف حسب مركز التكلفة للمراجعة والتحليل حسب الفترة. ويساعد على التحقق من البيانات المسجلة."
+          }
+        },
+        {
+          "id": "inventory-06-05",
+          "title": {
+            "fa": "تعداد رسید به تفکیک مراکز هزینه",
+            "en": "Goods Receipt Counts by Cost Center"
+          },
+          "description": {
+            "fa": "تعداد اقلام ثبت‌شده در رسیدهای انبار به تفکیک مرکز هزینه نمایش داده می‌شود تا حجم دریافت کالا در واحدهای مختلف قابل بررسی باشد.",
+            "en": "Summarize received-goods quantities by cost center, using registered warehouse receipts.",
+            "de": "Dieser Bericht stellt Informationen zu Waren nach Kostenstelle zur Prüfung und periodischen Auswertung bereit. Er unterstützt die Kontrolle erfasster Daten.",
+            "fr": "Ce rapport présente les articles par centre de coûts pour consultation et analyse par période. Il facilite le contrôle des données enregistrées.",
+            "it": "Questo rapporto presenta i articoli per centro di costo per la consultazione e l’analisi periodica. Agevola il controllo dei dati registrati.",
+            "es": "Este informe presenta información sobre los artículos por centro de coste para su revisión y análisis por período. Facilita el control de los datos registrados.",
+            "ru": "Отчёт отображает сведения о товаров по центрам затрат для проверки и анализа по периодам. Он помогает контролировать зарегистрированные данные.",
+            "pt": "Este relatório apresenta informações sobre os artigos por centro de custo para consulta e análise por período. Facilita a verificação dos dados registados.",
+            "tr": "Bu rapor, maliyet merkezine göre malzemeler hakkında dönem bazında inceleme ve raporlama imkânı sunar. Kaydedilen bilgilerin kontrolünü destekler.",
+            "ar": "يعرض هذا التقرير معلومات الأصناف حسب مركز التكلفة للمراجعة والتحليل حسب الفترة. ويساعد على التحقق من البيانات المسجلة."
+          }
+        },
+        {
+          "id": "inventory-06-06",
+          "title": {
+            "fa": "مبلغ رسید به تفکیک مراکز هزینه",
+            "en": "Goods Receipt Amounts by Cost Center"
+          },
+          "description": {
+            "fa": "ارزش ریالی رسیدهای کالا به تفکیک مرکز هزینه گزارش می‌شود و امکان مقایسه مبالغ دریافتی ثبت‌شده برای مراکز مختلف را فراهم می‌کند.",
+            "en": "Summarize the monetary value of goods receipts by cost center to compare recorded incoming stock values across units.",
+            "de": "Dieser Bericht stellt Informationen zu Waren nach Kostenstelle zur Prüfung und periodischen Auswertung bereit. Er unterstützt die Kontrolle erfasster Daten.",
+            "fr": "Ce rapport présente les articles par centre de coûts pour consultation et analyse par période. Il facilite le contrôle des données enregistrées.",
+            "it": "Questo rapporto presenta i articoli per centro di costo per la consultazione e l’analisi periodica. Agevola il controllo dei dati registrati.",
+            "es": "Este informe presenta información sobre los artículos por centro de coste para su revisión y análisis por período. Facilita el control de los datos registrados.",
+            "ru": "Отчёт отображает сведения о товаров по центрам затрат для проверки и анализа по периодам. Он помогает контролировать зарегистрированные данные.",
+            "pt": "Este relatório apresenta informações sobre os artigos por centro de custo para consulta e análise por período. Facilita a verificação dos dados registados.",
+            "tr": "Bu rapor, maliyet merkezine göre malzemeler hakkında dönem bazında inceleme ve raporlama imkânı sunar. Kaydedilen bilgilerin kontrolünü destekler.",
+            "ar": "يعرض هذا التقرير معلومات الأصناف حسب مركز التكلفة للمراجعة والتحليل حسب الفترة. ويساعد على التحقق من البيانات المسجلة."
+          }
+        },
+        {
+          "id": "inventory-06-07",
+          "title": {
+            "fa": "درخواست کالا به تفکیک مراکز هزینه (تعداد)",
+            "en": "Item Requests by Cost Center (Quantity)"
+          },
+          "description": {
+            "fa": "تعداد اقلام درخواست‌شده برای مراکز هزینه مختلف در قالب گزارش تعدادی ارائه می‌شود. این گزارش برای بررسی تقاضای کالا در واحدهای سازمانی کاربرد دارد.",
+            "en": "Summarize item-request quantities by cost center, allowing comparison of requested goods across units.",
+            "de": "Dieser Bericht stellt Informationen zu Waren nach Kostenstelle zur Prüfung und periodischen Auswertung bereit. Er unterstützt die Kontrolle erfasster Daten.",
+            "fr": "Ce rapport présente les articles par centre de coûts pour consultation et analyse par période. Il facilite le contrôle des données enregistrées.",
+            "it": "Questo rapporto presenta i articoli per centro di costo per la consultazione e l’analisi periodica. Agevola il controllo dei dati registrati.",
+            "es": "Este informe presenta información sobre los artículos por centro de coste para su revisión y análisis por período. Facilita el control de los datos registrados.",
+            "ru": "Отчёт отображает сведения о товаров по центрам затрат для проверки и анализа по периодам. Он помогает контролировать зарегистрированные данные.",
+            "pt": "Este relatório apresenta informações sobre os artigos por centro de custo para consulta e análise por período. Facilita a verificação dos dados registados.",
+            "tr": "Bu rapor, maliyet merkezine göre malzemeler hakkında dönem bazında inceleme ve raporlama imkânı sunar. Kaydedilen bilgilerin kontrolünü destekler.",
+            "ar": "يعرض هذا التقرير معلومات الأصناف حسب مركز التكلفة للمراجعة والتحليل حسب الفترة. ويساعد على التحقق من البيانات المسجلة."
+          }
+        }
+      ]
+    },
+    {
+      "id": "inventory-07",
+      "icon": "settings",
+      "title": {
+        "fa": "تعاریف پایه و تنظیمات ساختاری",
+        "en": "Basic Definitions and Structural Settings"
+      },
+      "items": [
+        {
+          "id": "inventory-07-01",
+          "title": {
+            "fa": "تعریف کالا",
+            "en": "Define Items"
+          },
+          "description": {
+            "fa": "این فرم در فهرست منوهای نرم‌افزار وجود دارد، اما راهنمای PDF ارائه‌شده درباره عملکرد دقیق آن توضیح کافی ندارد. برای درج معرفی تخصصی، تکمیل مستندات این بخش لازم است.",
+            "en": "This form appears in the application menu, but the supplied PDF does not describe its exact functions in sufficient detail. Further documentation is needed for a precise feature description.",
+            "de": "Dieses Formular ist im Anwendungsmenü enthalten. Das vorliegende PDF-Handbuch beschreibt seine genauen Funktionen jedoch nicht ausreichend. Für eine verlässliche Funktionsbeschreibung ist zusätzliche Dokumentation erforderlich.",
+            "fr": "Ce formulaire figure dans le menu de l’application, mais le manuel PDF fourni ne décrit pas suffisamment ses fonctions précises. Une documentation complémentaire est nécessaire pour une présentation fiable.",
+            "it": "Questo modulo è presente nel menu dell’applicazione, ma il manuale PDF fornito non ne descrive sufficientemente le funzioni specifiche. È necessaria ulteriore documentazione per una descrizione accurata.",
+            "es": "Este formulario aparece en el menú de la aplicación, pero el manual PDF proporcionado no describe sus funciones con suficiente detalle. Se necesita documentación adicional para una descripción precisa.",
+            "ru": "Эта форма присутствует в меню приложения, однако предоставленное руководство PDF недостаточно подробно описывает её функции. Для точного описания необходима дополнительная документация.",
+            "pt": "Este formulário consta do menu da aplicação, mas o manual PDF fornecido não descreve as suas funções com detalhe suficiente. É necessária documentação adicional para uma descrição rigorosa.",
+            "tr": "Bu form uygulama menüsünde bulunmaktadır; ancak sağlanan PDF kılavuzu işlevlerini yeterli ayrıntıyla açıklamamaktadır. Doğru bir özellik açıklaması için ek belge gereklidir.",
+            "ar": "يظهر هذا النموذج في قائمة البرنامج، لكن دليل PDF المقدم لا يشرح وظائفه الدقيقة بالتفصيل الكافي. وتلزم وثائق إضافية لإعداد وصف موثوق لخصائصه."
+          }
+        },
+        {
+          "id": "inventory-07-02",
+          "title": {
+            "fa": "گروه بندی کالا",
+            "en": "Item Grouping"
+          },
+          "description": {
+            "fa": "این فرم در فهرست منوهای نرم‌افزار وجود دارد، اما راهنمای PDF ارائه‌شده درباره عملکرد دقیق آن توضیح کافی ندارد. برای درج معرفی تخصصی، تکمیل مستندات این بخش لازم است.",
+            "en": "This form appears in the application menu, but the supplied PDF does not describe its exact functions in sufficient detail. Further documentation is needed for a precise feature description.",
+            "de": "Dieses Formular ist im Anwendungsmenü enthalten. Das vorliegende PDF-Handbuch beschreibt seine genauen Funktionen jedoch nicht ausreichend. Für eine verlässliche Funktionsbeschreibung ist zusätzliche Dokumentation erforderlich.",
+            "fr": "Ce formulaire figure dans le menu de l’application, mais le manuel PDF fourni ne décrit pas suffisamment ses fonctions précises. Une documentation complémentaire est nécessaire pour une présentation fiable.",
+            "it": "Questo modulo è presente nel menu dell’applicazione, ma il manuale PDF fornito non ne descrive sufficientemente le funzioni specifiche. È necessaria ulteriore documentazione per una descrizione accurata.",
+            "es": "Este formulario aparece en el menú de la aplicación, pero el manual PDF proporcionado no describe sus funciones con suficiente detalle. Se necesita documentación adicional para una descripción precisa.",
+            "ru": "Эта форма присутствует в меню приложения, однако предоставленное руководство PDF недостаточно подробно описывает её функции. Для точного описания необходима дополнительная документация.",
+            "pt": "Este formulário consta do menu da aplicação, mas o manual PDF fornecido não descreve as suas funções com detalhe suficiente. É necessária documentação adicional para uma descrição rigorosa.",
+            "tr": "Bu form uygulama menüsünde bulunmaktadır; ancak sağlanan PDF kılavuzu işlevlerini yeterli ayrıntıyla açıklamamaktadır. Doğru bir özellik açıklaması için ek belge gereklidir.",
+            "ar": "يظهر هذا النموذج في قائمة البرنامج، لكن دليل PDF المقدم لا يشرح وظائفه الدقيقة بالتفصيل الكافي. وتلزم وثائق إضافية لإعداد وصف موثوق لخصائصه."
+          }
+        },
+        {
+          "id": "inventory-07-03",
+          "title": {
+            "fa": "تعریف مراکز هزینه",
+            "en": "Define Cost Centers"
+          },
+          "description": {
+            "fa": "این فرم در فهرست منوهای نرم‌افزار وجود دارد، اما راهنمای PDF ارائه‌شده درباره عملکرد دقیق آن توضیح کافی ندارد. برای درج معرفی تخصصی، تکمیل مستندات این بخش لازم است.",
+            "en": "This form appears in the application menu, but the supplied PDF does not describe its exact functions in sufficient detail. Further documentation is needed for a precise feature description.",
+            "de": "Dieses Formular ist im Anwendungsmenü enthalten. Das vorliegende PDF-Handbuch beschreibt seine genauen Funktionen jedoch nicht ausreichend. Für eine verlässliche Funktionsbeschreibung ist zusätzliche Dokumentation erforderlich.",
+            "fr": "Ce formulaire figure dans le menu de l’application, mais le manuel PDF fourni ne décrit pas suffisamment ses fonctions précises. Une documentation complémentaire est nécessaire pour une présentation fiable.",
+            "it": "Questo modulo è presente nel menu dell’applicazione, ma il manuale PDF fornito non ne descrive sufficientemente le funzioni specifiche. È necessaria ulteriore documentazione per una descrizione accurata.",
+            "es": "Este formulario aparece en el menú de la aplicación, pero el manual PDF proporcionado no describe sus funciones con suficiente detalle. Se necesita documentación adicional para una descripción precisa.",
+            "ru": "Эта форма присутствует в меню приложения, однако предоставленное руководство PDF недостаточно подробно описывает её функции. Для точного описания необходима дополнительная документация.",
+            "pt": "Este formulário consta do menu da aplicação, mas o manual PDF fornecido não descreve as suas funções com detalhe suficiente. É necessária documentação adicional para uma descrição rigorosa.",
+            "tr": "Bu form uygulama menüsünde bulunmaktadır; ancak sağlanan PDF kılavuzu işlevlerini yeterli ayrıntıyla açıklamamaktadır. Doğru bir özellik açıklaması için ek belge gereklidir.",
+            "ar": "يظهر هذا النموذج في قائمة البرنامج، لكن دليل PDF المقدم لا يشرح وظائفه الدقيقة بالتفصيل الكافي. وتلزم وثائق إضافية لإعداد وصف موثوق لخصائصه."
+          }
+        },
+        {
+          "id": "inventory-07-04",
+          "title": {
+            "fa": "تعریف طرف های تجاری",
+            "en": "Define Business Partners"
+          },
+          "description": {
+            "fa": "این فرم در فهرست منوهای نرم‌افزار وجود دارد، اما راهنمای PDF ارائه‌شده درباره عملکرد دقیق آن توضیح کافی ندارد. برای درج معرفی تخصصی، تکمیل مستندات این بخش لازم است.",
+            "en": "This form appears in the application menu, but the supplied PDF does not describe its exact functions in sufficient detail. Further documentation is needed for a precise feature description.",
+            "de": "Dieses Formular ist im Anwendungsmenü enthalten. Das vorliegende PDF-Handbuch beschreibt seine genauen Funktionen jedoch nicht ausreichend. Für eine verlässliche Funktionsbeschreibung ist zusätzliche Dokumentation erforderlich.",
+            "fr": "Ce formulaire figure dans le menu de l’application, mais le manuel PDF fourni ne décrit pas suffisamment ses fonctions précises. Une documentation complémentaire est nécessaire pour une présentation fiable.",
+            "it": "Questo modulo è presente nel menu dell’applicazione, ma il manuale PDF fornito non ne descrive sufficientemente le funzioni specifiche. È necessaria ulteriore documentazione per una descrizione accurata.",
+            "es": "Este formulario aparece en el menú de la aplicación, pero el manual PDF proporcionado no describe sus funciones con suficiente detalle. Se necesita documentación adicional para una descripción precisa.",
+            "ru": "Эта форма присутствует в меню приложения, однако предоставленное руководство PDF недостаточно подробно описывает её функции. Для точного описания необходима дополнительная документация.",
+            "pt": "Este formulário consta do menu da aplicação, mas o manual PDF fornecido não descreve as suas funções com detalhe suficiente. É necessária documentação adicional para uma descrição rigorosa.",
+            "tr": "Bu form uygulama menüsünde bulunmaktadır; ancak sağlanan PDF kılavuzu işlevlerini yeterli ayrıntıyla açıklamamaktadır. Doğru bir özellik açıklaması için ek belge gereklidir.",
+            "ar": "يظهر هذا النموذج في قائمة البرنامج، لكن دليل PDF المقدم لا يشرح وظائفه الدقيقة بالتفصيل الكافي. وتلزم وثائق إضافية لإعداد وصف موثوق لخصائصه."
+          }
+        },
+        {
+          "id": "inventory-07-05",
+          "title": {
+            "fa": "تعریف پرسنل",
+            "en": "Define Personnel"
+          },
+          "description": {
+            "fa": "این فرم در فهرست منوهای نرم‌افزار وجود دارد، اما راهنمای PDF ارائه‌شده درباره عملکرد دقیق آن توضیح کافی ندارد. برای درج معرفی تخصصی، تکمیل مستندات این بخش لازم است.",
+            "en": "This form appears in the application menu, but the supplied PDF does not describe its exact functions in sufficient detail. Further documentation is needed for a precise feature description.",
+            "de": "Dieses Formular ist im Anwendungsmenü enthalten. Das vorliegende PDF-Handbuch beschreibt seine genauen Funktionen jedoch nicht ausreichend. Für eine verlässliche Funktionsbeschreibung ist zusätzliche Dokumentation erforderlich.",
+            "fr": "Ce formulaire figure dans le menu de l’application, mais le manuel PDF fourni ne décrit pas suffisamment ses fonctions précises. Une documentation complémentaire est nécessaire pour une présentation fiable.",
+            "it": "Questo modulo è presente nel menu dell’applicazione, ma il manuale PDF fornito non ne descrive sufficientemente le funzioni specifiche. È necessaria ulteriore documentazione per una descrizione accurata.",
+            "es": "Este formulario aparece en el menú de la aplicación, pero el manual PDF proporcionado no describe sus funciones con suficiente detalle. Se necesita documentación adicional para una descripción precisa.",
+            "ru": "Эта форма присутствует в меню приложения, однако предоставленное руководство PDF недостаточно подробно описывает её функции. Для точного описания необходима дополнительная документация.",
+            "pt": "Este formulário consta do menu da aplicação, mas o manual PDF fornecido não descreve as suas funções com detalhe suficiente. É necessária documentação adicional para uma descrição rigorosa.",
+            "tr": "Bu form uygulama menüsünde bulunmaktadır; ancak sağlanan PDF kılavuzu işlevlerini yeterli ayrıntıyla açıklamamaktadır. Doğru bir özellik açıklaması için ek belge gereklidir.",
+            "ar": "يظهر هذا النموذج في قائمة البرنامج، لكن دليل PDF المقدم لا يشرح وظائفه الدقيقة بالتفصيل الكافي. وتلزم وثائق إضافية لإعداد وصف موثوق لخصائصه."
+          }
+        },
+        {
+          "id": "inventory-07-06",
+          "title": {
+            "fa": "تعریف انبار",
+            "en": "Define Warehouses"
+          },
+          "description": {
+            "fa": "این فرم در فهرست منوهای نرم‌افزار وجود دارد، اما راهنمای PDF ارائه‌شده درباره عملکرد دقیق آن توضیح کافی ندارد. برای درج معرفی تخصصی، تکمیل مستندات این بخش لازم است.",
+            "en": "This form appears in the application menu, but the supplied PDF does not describe its exact functions in sufficient detail. Further documentation is needed for a precise feature description.",
+            "de": "Dieses Formular ist im Anwendungsmenü enthalten. Das vorliegende PDF-Handbuch beschreibt seine genauen Funktionen jedoch nicht ausreichend. Für eine verlässliche Funktionsbeschreibung ist zusätzliche Dokumentation erforderlich.",
+            "fr": "Ce formulaire figure dans le menu de l’application, mais le manuel PDF fourni ne décrit pas suffisamment ses fonctions précises. Une documentation complémentaire est nécessaire pour une présentation fiable.",
+            "it": "Questo modulo è presente nel menu dell’applicazione, ma il manuale PDF fornito non ne descrive sufficientemente le funzioni specifiche. È necessaria ulteriore documentazione per una descrizione accurata.",
+            "es": "Este formulario aparece en el menú de la aplicación, pero el manual PDF proporcionado no describe sus funciones con suficiente detalle. Se necesita documentación adicional para una descripción precisa.",
+            "ru": "Эта форма присутствует в меню приложения, однако предоставленное руководство PDF недостаточно подробно описывает её функции. Для точного описания необходима дополнительная документация.",
+            "pt": "Este formulário consta do menu da aplicação, mas o manual PDF fornecido não descreve as suas funções com detalhe suficiente. É necessária documentação adicional para uma descrição rigorosa.",
+            "tr": "Bu form uygulama menüsünde bulunmaktadır; ancak sağlanan PDF kılavuzu işlevlerini yeterli ayrıntıyla açıklamamaktadır. Doğru bir özellik açıklaması için ek belge gereklidir.",
+            "ar": "يظهر هذا النموذج في قائمة البرنامج، لكن دليل PDF المقدم لا يشرح وظائفه الدقيقة بالتفصيل الكافي. وتلزم وثائق إضافية لإعداد وصف موثوق لخصائصه."
+          }
+        },
+        {
+          "id": "inventory-07-07",
+          "title": {
+            "fa": "تعریف واحد های اقلام",
+            "en": "Define Item Units"
+          },
+          "description": {
+            "fa": "این فرم در فهرست منوهای نرم‌افزار وجود دارد، اما راهنمای PDF ارائه‌شده درباره عملکرد دقیق آن توضیح کافی ندارد. برای درج معرفی تخصصی، تکمیل مستندات این بخش لازم است.",
+            "en": "This form appears in the application menu, but the supplied PDF does not describe its exact functions in sufficient detail. Further documentation is needed for a precise feature description.",
+            "de": "Dieses Formular ist im Anwendungsmenü enthalten. Das vorliegende PDF-Handbuch beschreibt seine genauen Funktionen jedoch nicht ausreichend. Für eine verlässliche Funktionsbeschreibung ist zusätzliche Dokumentation erforderlich.",
+            "fr": "Ce formulaire figure dans le menu de l’application, mais le manuel PDF fourni ne décrit pas suffisamment ses fonctions précises. Une documentation complémentaire est nécessaire pour une présentation fiable.",
+            "it": "Questo modulo è presente nel menu dell’applicazione, ma il manuale PDF fornito non ne descrive sufficientemente le funzioni specifiche. È necessaria ulteriore documentazione per una descrizione accurata.",
+            "es": "Este formulario aparece en el menú de la aplicación, pero el manual PDF proporcionado no describe sus funciones con suficiente detalle. Se necesita documentación adicional para una descripción precisa.",
+            "ru": "Эта форма присутствует в меню приложения, однако предоставленное руководство PDF недостаточно подробно описывает её функции. Для точного описания необходима дополнительная документация.",
+            "pt": "Este formulário consta do menu da aplicação, mas o manual PDF fornecido não descreve as suas funções com detalhe suficiente. É necessária documentação adicional para uma descrição rigorosa.",
+            "tr": "Bu form uygulama menüsünde bulunmaktadır; ancak sağlanan PDF kılavuzu işlevlerini yeterli ayrıntıyla açıklamamaktadır. Doğru bir özellik açıklaması için ek belge gereklidir.",
+            "ar": "يظهر هذا النموذج في قائمة البرنامج، لكن دليل PDF المقدم لا يشرح وظائفه الدقيقة بالتفصيل الكافي. وتلزم وثائق إضافية لإعداد وصف موثوق لخصائصه."
+          }
+        },
+        {
+          "id": "inventory-07-08",
+          "title": {
+            "fa": "تعریف کشور سازنده",
+            "en": "Define Country of Manufacture"
+          },
+          "description": {
+            "fa": "این فرم در فهرست منوهای نرم‌افزار وجود دارد، اما راهنمای PDF ارائه‌شده درباره عملکرد دقیق آن توضیح کافی ندارد. برای درج معرفی تخصصی، تکمیل مستندات این بخش لازم است.",
+            "en": "This form appears in the application menu, but the supplied PDF does not describe its exact functions in sufficient detail. Further documentation is needed for a precise feature description.",
+            "de": "Dieses Formular ist im Anwendungsmenü enthalten. Das vorliegende PDF-Handbuch beschreibt seine genauen Funktionen jedoch nicht ausreichend. Für eine verlässliche Funktionsbeschreibung ist zusätzliche Dokumentation erforderlich.",
+            "fr": "Ce formulaire figure dans le menu de l’application, mais le manuel PDF fourni ne décrit pas suffisamment ses fonctions précises. Une documentation complémentaire est nécessaire pour une présentation fiable.",
+            "it": "Questo modulo è presente nel menu dell’applicazione, ma il manuale PDF fornito non ne descrive sufficientemente le funzioni specifiche. È necessaria ulteriore documentazione per una descrizione accurata.",
+            "es": "Este formulario aparece en el menú de la aplicación, pero el manual PDF proporcionado no describe sus funciones con suficiente detalle. Se necesita documentación adicional para una descripción precisa.",
+            "ru": "Эта форма присутствует в меню приложения, однако предоставленное руководство PDF недостаточно подробно описывает её функции. Для точного описания необходима дополнительная документация.",
+            "pt": "Este formulário consta do menu da aplicação, mas o manual PDF fornecido não descreve as suas funções com detalhe suficiente. É necessária documentação adicional para uma descrição rigorosa.",
+            "tr": "Bu form uygulama menüsünde bulunmaktadır; ancak sağlanan PDF kılavuzu işlevlerini yeterli ayrıntıyla açıklamamaktadır. Doğru bir özellik açıklaması için ek belge gereklidir.",
+            "ar": "يظهر هذا النموذج في قائمة البرنامج، لكن دليل PDF المقدم لا يشرح وظائفه الدقيقة بالتفصيل الكافي. وتلزم وثائق إضافية لإعداد وصف موثوق لخصائصه."
+          }
+        },
+        {
+          "id": "inventory-07-09",
+          "title": {
+            "fa": "تعریف شرکت سازنده",
+            "en": "Define Manufacturer"
+          },
+          "description": {
+            "fa": "این فرم در فهرست منوهای نرم‌افزار وجود دارد، اما راهنمای PDF ارائه‌شده درباره عملکرد دقیق آن توضیح کافی ندارد. برای درج معرفی تخصصی، تکمیل مستندات این بخش لازم است.",
+            "en": "This form appears in the application menu, but the supplied PDF does not describe its exact functions in sufficient detail. Further documentation is needed for a precise feature description.",
+            "de": "Dieses Formular ist im Anwendungsmenü enthalten. Das vorliegende PDF-Handbuch beschreibt seine genauen Funktionen jedoch nicht ausreichend. Für eine verlässliche Funktionsbeschreibung ist zusätzliche Dokumentation erforderlich.",
+            "fr": "Ce formulaire figure dans le menu de l’application, mais le manuel PDF fourni ne décrit pas suffisamment ses fonctions précises. Une documentation complémentaire est nécessaire pour une présentation fiable.",
+            "it": "Questo modulo è presente nel menu dell’applicazione, ma il manuale PDF fornito non ne descrive sufficientemente le funzioni specifiche. È necessaria ulteriore documentazione per una descrizione accurata.",
+            "es": "Este formulario aparece en el menú de la aplicación, pero el manual PDF proporcionado no describe sus funciones con suficiente detalle. Se necesita documentación adicional para una descripción precisa.",
+            "ru": "Эта форма присутствует в меню приложения, однако предоставленное руководство PDF недостаточно подробно описывает её функции. Для точного описания необходима дополнительная документация.",
+            "pt": "Este formulário consta do menu da aplicação, mas o manual PDF fornecido não descreve as suas funções com detalhe suficiente. É necessária documentação adicional para uma descrição rigorosa.",
+            "tr": "Bu form uygulama menüsünde bulunmaktadır; ancak sağlanan PDF kılavuzu işlevlerini yeterli ayrıntıyla açıklamamaktadır. Doğru bir özellik açıklaması için ek belge gereklidir.",
+            "ar": "يظهر هذا النموذج في قائمة البرنامج، لكن دليل PDF المقدم لا يشرح وظائفه الدقيقة بالتفصيل الكافي. وتلزم وثائق إضافية لإعداد وصف موثوق لخصائصه."
+          }
+        },
+        {
+          "id": "inventory-07-10",
+          "title": {
+            "fa": "تنظیمات ساختاری",
+            "en": "Structural Settings"
+          },
+          "description": {
+            "fa": "این فرم در فهرست منوهای نرم‌افزار وجود دارد، اما راهنمای PDF ارائه‌شده درباره عملکرد دقیق آن توضیح کافی ندارد. برای درج معرفی تخصصی، تکمیل مستندات این بخش لازم است.",
+            "en": "This form appears in the application menu, but the supplied PDF does not describe its exact functions in sufficient detail. Further documentation is needed for a precise feature description.",
+            "de": "Dieses Formular ist im Anwendungsmenü enthalten. Das vorliegende PDF-Handbuch beschreibt seine genauen Funktionen jedoch nicht ausreichend. Für eine verlässliche Funktionsbeschreibung ist zusätzliche Dokumentation erforderlich.",
+            "fr": "Ce formulaire figure dans le menu de l’application, mais le manuel PDF fourni ne décrit pas suffisamment ses fonctions précises. Une documentation complémentaire est nécessaire pour une présentation fiable.",
+            "it": "Questo modulo è presente nel menu dell’applicazione, ma il manuale PDF fornito non ne descrive sufficientemente le funzioni specifiche. È necessaria ulteriore documentazione per una descrizione accurata.",
+            "es": "Este formulario aparece en el menú de la aplicación, pero el manual PDF proporcionado no describe sus funciones con suficiente detalle. Se necesita documentación adicional para una descripción precisa.",
+            "ru": "Эта форма присутствует в меню приложения, однако предоставленное руководство PDF недостаточно подробно описывает её функции. Для точного описания необходима дополнительная документация.",
+            "pt": "Este formulário consta do menu da aplicação, mas o manual PDF fornecido não descreve as suas funções com detalhe suficiente. É necessária documentação adicional para uma descrição rigorosa.",
+            "tr": "Bu form uygulama menüsünde bulunmaktadır; ancak sağlanan PDF kılavuzu işlevlerini yeterli ayrıntıyla açıklamamaktadır. Doğru bir özellik açıklaması için ek belge gereklidir.",
+            "ar": "يظهر هذا النموذج في قائمة البرنامج، لكن دليل PDF المقدم لا يشرح وظائفه الدقيقة بالتفصيل الكافي. وتلزم وثائق إضافية لإعداد وصف موثوق لخصائصه."
+          }
+        },
+        {
+          "id": "inventory-07-11",
+          "title": {
+            "fa": "سایر فرم های پایه",
+            "en": "Other Basic Forms"
+          },
+          "description": {
+            "fa": "این فرم در فهرست منوهای نرم‌افزار وجود دارد، اما راهنمای PDF ارائه‌شده درباره عملکرد دقیق آن توضیح کافی ندارد. برای درج معرفی تخصصی، تکمیل مستندات این بخش لازم است.",
+            "en": "This form appears in the application menu, but the supplied PDF does not describe its exact functions in sufficient detail. Further documentation is needed for a precise feature description.",
+            "de": "Dieses Formular ist im Anwendungsmenü enthalten. Das vorliegende PDF-Handbuch beschreibt seine genauen Funktionen jedoch nicht ausreichend. Für eine verlässliche Funktionsbeschreibung ist zusätzliche Dokumentation erforderlich.",
+            "fr": "Ce formulaire figure dans le menu de l’application, mais le manuel PDF fourni ne décrit pas suffisamment ses fonctions précises. Une documentation complémentaire est nécessaire pour une présentation fiable.",
+            "it": "Questo modulo è presente nel menu dell’applicazione, ma il manuale PDF fornito non ne descrive sufficientemente le funzioni specifiche. È necessaria ulteriore documentazione per una descrizione accurata.",
+            "es": "Este formulario aparece en el menú de la aplicación, pero el manual PDF proporcionado no describe sus funciones con suficiente detalle. Se necesita documentación adicional para una descripción precisa.",
+            "ru": "Эта форма присутствует в меню приложения, однако предоставленное руководство PDF недостаточно подробно описывает её функции. Для точного описания необходима дополнительная документация.",
+            "pt": "Este formulário consta do menu da aplicação, mas o manual PDF fornecido não descreve as suas funções com detalhe suficiente. É necessária documentação adicional para uma descrição rigorosa.",
+            "tr": "Bu form uygulama menüsünde bulunmaktadır; ancak sağlanan PDF kılavuzu işlevlerini yeterli ayrıntıyla açıklamamaktadır. Doğru bir özellik açıklaması için ek belge gereklidir.",
+            "ar": "يظهر هذا النموذج في قائمة البرنامج، لكن دليل PDF المقدم لا يشرح وظائفه الدقيقة بالتفصيل الكافي. وتلزم وثائق إضافية لإعداد وصف موثوق لخصائصه."
+          }
+        }
+      ]
+    },
+    {
+      "id": "inventory-08",
+      "icon": "wrench",
+      "title": {
+        "fa": "ابزار ها و امکانات",
+        "en": "Tools and Utilities"
+      },
+      "items": [
+        {
+          "id": "inventory-08-01",
+          "title": {
+            "fa": "لیست کاربران",
+            "en": "User List"
+          },
+          "description": {
+            "fa": "این فرم در فهرست منوهای نرم‌افزار وجود دارد، اما راهنمای PDF ارائه‌شده درباره عملکرد دقیق آن توضیح کافی ندارد. برای درج معرفی تخصصی، تکمیل مستندات این بخش لازم است.",
+            "en": "This form appears in the application menu, but the supplied PDF does not describe its exact functions in sufficient detail. Further documentation is needed for a precise feature description.",
+            "de": "Dieses Formular ist im Anwendungsmenü enthalten. Das vorliegende PDF-Handbuch beschreibt seine genauen Funktionen jedoch nicht ausreichend. Für eine verlässliche Funktionsbeschreibung ist zusätzliche Dokumentation erforderlich.",
+            "fr": "Ce formulaire figure dans le menu de l’application, mais le manuel PDF fourni ne décrit pas suffisamment ses fonctions précises. Une documentation complémentaire est nécessaire pour une présentation fiable.",
+            "it": "Questo modulo è presente nel menu dell’applicazione, ma il manuale PDF fornito non ne descrive sufficientemente le funzioni specifiche. È necessaria ulteriore documentazione per una descrizione accurata.",
+            "es": "Este formulario aparece en el menú de la aplicación, pero el manual PDF proporcionado no describe sus funciones con suficiente detalle. Se necesita documentación adicional para una descripción precisa.",
+            "ru": "Эта форма присутствует в меню приложения, однако предоставленное руководство PDF недостаточно подробно описывает её функции. Для точного описания необходима дополнительная документация.",
+            "pt": "Este formulário consta do menu da aplicação, mas o manual PDF fornecido não descreve as suas funções com detalhe suficiente. É necessária documentação adicional para uma descrição rigorosa.",
+            "tr": "Bu form uygulama menüsünde bulunmaktadır; ancak sağlanan PDF kılavuzu işlevlerini yeterli ayrıntıyla açıklamamaktadır. Doğru bir özellik açıklaması için ek belge gereklidir.",
+            "ar": "يظهر هذا النموذج في قائمة البرنامج، لكن دليل PDF المقدم لا يشرح وظائفه الدقيقة بالتفصيل الكافي. وتلزم وثائق إضافية لإعداد وصف موثوق لخصائصه."
+          }
+        },
+        {
+          "id": "inventory-08-02",
+          "title": {
+            "fa": "به روزرسانی برنامه",
+            "en": "Update Program"
+          },
+          "description": {
+            "fa": "این فرم در فهرست منوهای نرم‌افزار وجود دارد، اما راهنمای PDF ارائه‌شده درباره عملکرد دقیق آن توضیح کافی ندارد. برای درج معرفی تخصصی، تکمیل مستندات این بخش لازم است.",
+            "en": "This form appears in the application menu, but the supplied PDF does not describe its exact functions in sufficient detail. Further documentation is needed for a precise feature description.",
+            "de": "Dieses Formular ist im Anwendungsmenü enthalten. Das vorliegende PDF-Handbuch beschreibt seine genauen Funktionen jedoch nicht ausreichend. Für eine verlässliche Funktionsbeschreibung ist zusätzliche Dokumentation erforderlich.",
+            "fr": "Ce formulaire figure dans le menu de l’application, mais le manuel PDF fourni ne décrit pas suffisamment ses fonctions précises. Une documentation complémentaire est nécessaire pour une présentation fiable.",
+            "it": "Questo modulo è presente nel menu dell’applicazione, ma il manuale PDF fornito non ne descrive sufficientemente le funzioni specifiche. È necessaria ulteriore documentazione per una descrizione accurata.",
+            "es": "Este formulario aparece en el menú de la aplicación, pero el manual PDF proporcionado no describe sus funciones con suficiente detalle. Se necesita documentación adicional para una descripción precisa.",
+            "ru": "Эта форма присутствует в меню приложения, однако предоставленное руководство PDF недостаточно подробно описывает её функции. Для точного описания необходима дополнительная документация.",
+            "pt": "Este formulário consta do menu da aplicação, mas o manual PDF fornecido não descreve as suas funções com detalhe suficiente. É necessária documentação adicional para uma descrição rigorosa.",
+            "tr": "Bu form uygulama menüsünde bulunmaktadır; ancak sağlanan PDF kılavuzu işlevlerini yeterli ayrıntıyla açıklamamaktadır. Doğru bir özellik açıklaması için ek belge gereklidir.",
+            "ar": "يظهر هذا النموذج في قائمة البرنامج، لكن دليل PDF المقدم لا يشرح وظائفه الدقيقة بالتفصيل الكافي. وتلزم وثائق إضافية لإعداد وصف موثوق لخصائصه."
+          }
+        },
+        {
+          "id": "inventory-08-03",
+          "title": {
+            "fa": "فایل پشتیبانی",
+            "en": "Support File"
+          },
+          "description": {
+            "fa": "این فرم در فهرست منوهای نرم‌افزار وجود دارد، اما راهنمای PDF ارائه‌شده درباره عملکرد دقیق آن توضیح کافی ندارد. برای درج معرفی تخصصی، تکمیل مستندات این بخش لازم است.",
+            "en": "This form appears in the application menu, but the supplied PDF does not describe its exact functions in sufficient detail. Further documentation is needed for a precise feature description.",
+            "de": "Dieses Formular ist im Anwendungsmenü enthalten. Das vorliegende PDF-Handbuch beschreibt seine genauen Funktionen jedoch nicht ausreichend. Für eine verlässliche Funktionsbeschreibung ist zusätzliche Dokumentation erforderlich.",
+            "fr": "Ce formulaire figure dans le menu de l’application, mais le manuel PDF fourni ne décrit pas suffisamment ses fonctions précises. Une documentation complémentaire est nécessaire pour une présentation fiable.",
+            "it": "Questo modulo è presente nel menu dell’applicazione, ma il manuale PDF fornito non ne descrive sufficientemente le funzioni specifiche. È necessaria ulteriore documentazione per una descrizione accurata.",
+            "es": "Este formulario aparece en el menú de la aplicación, pero el manual PDF proporcionado no describe sus funciones con suficiente detalle. Se necesita documentación adicional para una descripción precisa.",
+            "ru": "Эта форма присутствует в меню приложения, однако предоставленное руководство PDF недостаточно подробно описывает её функции. Для точного описания необходима дополнительная документация.",
+            "pt": "Este formulário consta do menu da aplicação, mas o manual PDF fornecido não descreve as suas funções com detalhe suficiente. É necessária documentação adicional para uma descrição rigorosa.",
+            "tr": "Bu form uygulama menüsünde bulunmaktadır; ancak sağlanan PDF kılavuzu işlevlerini yeterli ayrıntıyla açıklamamaktadır. Doğru bir özellik açıklaması için ek belge gereklidir.",
+            "ar": "يظهر هذا النموذج في قائمة البرنامج، لكن دليل PDF المقدم لا يشرح وظائفه الدقيقة بالتفصيل الكافي. وتلزم وثائق إضافية لإعداد وصف موثوق لخصائصه."
+          }
+        },
+        {
+          "id": "inventory-08-04",
+          "title": {
+            "fa": "ارسال و پیگیری خطاها و پیشنهادات",
+            "en": "Submit and Track Errors and Suggestions"
+          },
+          "description": {
+            "fa": "این فرم در فهرست منوهای نرم‌افزار وجود دارد، اما راهنمای PDF ارائه‌شده درباره عملکرد دقیق آن توضیح کافی ندارد. برای درج معرفی تخصصی، تکمیل مستندات این بخش لازم است.",
+            "en": "This form appears in the application menu, but the supplied PDF does not describe its exact functions in sufficient detail. Further documentation is needed for a precise feature description.",
+            "de": "Dieses Formular ist im Anwendungsmenü enthalten. Das vorliegende PDF-Handbuch beschreibt seine genauen Funktionen jedoch nicht ausreichend. Für eine verlässliche Funktionsbeschreibung ist zusätzliche Dokumentation erforderlich.",
+            "fr": "Ce formulaire figure dans le menu de l’application, mais le manuel PDF fourni ne décrit pas suffisamment ses fonctions précises. Une documentation complémentaire est nécessaire pour une présentation fiable.",
+            "it": "Questo modulo è presente nel menu dell’applicazione, ma il manuale PDF fornito non ne descrive sufficientemente le funzioni specifiche. È necessaria ulteriore documentazione per una descrizione accurata.",
+            "es": "Este formulario aparece en el menú de la aplicación, pero el manual PDF proporcionado no describe sus funciones con suficiente detalle. Se necesita documentación adicional para una descripción precisa.",
+            "ru": "Эта форма присутствует в меню приложения, однако предоставленное руководство PDF недостаточно подробно описывает её функции. Для точного описания необходима дополнительная документация.",
+            "pt": "Este formulário consta do menu da aplicação, mas o manual PDF fornecido não descreve as suas funções com detalhe suficiente. É necessária documentação adicional para uma descrição rigorosa.",
+            "tr": "Bu form uygulama menüsünde bulunmaktadır; ancak sağlanan PDF kılavuzu işlevlerini yeterli ayrıntıyla açıklamamaktadır. Doğru bir özellik açıklaması için ek belge gereklidir.",
+            "ar": "يظهر هذا النموذج في قائمة البرنامج، لكن دليل PDF المقدم لا يشرح وظائفه الدقيقة بالتفصيل الكافي. وتلزم وثائق إضافية لإعداد وصف موثوق لخصائصه."
+          }
+        },
+        {
+          "id": "inventory-08-05",
+          "title": {
+            "fa": "سوالات متداول",
+            "en": "Frequently Asked Questions"
+          },
+          "description": {
+            "fa": "این فرم در فهرست منوهای نرم‌افزار وجود دارد، اما راهنمای PDF ارائه‌شده درباره عملکرد دقیق آن توضیح کافی ندارد. برای درج معرفی تخصصی، تکمیل مستندات این بخش لازم است.",
+            "en": "This form appears in the application menu, but the supplied PDF does not describe its exact functions in sufficient detail. Further documentation is needed for a precise feature description.",
+            "de": "Dieses Formular ist im Anwendungsmenü enthalten. Das vorliegende PDF-Handbuch beschreibt seine genauen Funktionen jedoch nicht ausreichend. Für eine verlässliche Funktionsbeschreibung ist zusätzliche Dokumentation erforderlich.",
+            "fr": "Ce formulaire figure dans le menu de l’application, mais le manuel PDF fourni ne décrit pas suffisamment ses fonctions précises. Une documentation complémentaire est nécessaire pour une présentation fiable.",
+            "it": "Questo modulo è presente nel menu dell’applicazione, ma il manuale PDF fornito non ne descrive sufficientemente le funzioni specifiche. È necessaria ulteriore documentazione per una descrizione accurata.",
+            "es": "Este formulario aparece en el menú de la aplicación, pero el manual PDF proporcionado no describe sus funciones con suficiente detalle. Se necesita documentación adicional para una descripción precisa.",
+            "ru": "Эта форма присутствует в меню приложения, однако предоставленное руководство PDF недостаточно подробно описывает её функции. Для точного описания необходима дополнительная документация.",
+            "pt": "Este formulário consta do menu da aplicação, mas o manual PDF fornecido não descreve as suas funções com detalhe suficiente. É necessária documentação adicional para uma descrição rigorosa.",
+            "tr": "Bu form uygulama menüsünde bulunmaktadır; ancak sağlanan PDF kılavuzu işlevlerini yeterli ayrıntıyla açıklamamaktadır. Doğru bir özellik açıklaması için ek belge gereklidir.",
+            "ar": "يظهر هذا النموذج في قائمة البرنامج، لكن دليل PDF المقدم لا يشرح وظائفه الدقيقة بالتفصيل الكافي. وتلزم وثائق إضافية لإعداد وصف موثوق لخصائصه."
+          }
+        },
+        {
+          "id": "inventory-08-06",
+          "title": {
+            "fa": "مستندات آموزشی",
+            "en": "Training Documents"
+          },
+          "description": {
+            "fa": "این فرم در فهرست منوهای نرم‌افزار وجود دارد، اما راهنمای PDF ارائه‌شده درباره عملکرد دقیق آن توضیح کافی ندارد. برای درج معرفی تخصصی، تکمیل مستندات این بخش لازم است.",
+            "en": "This form appears in the application menu, but the supplied PDF does not describe its exact functions in sufficient detail. Further documentation is needed for a precise feature description.",
+            "de": "Dieses Formular ist im Anwendungsmenü enthalten. Das vorliegende PDF-Handbuch beschreibt seine genauen Funktionen jedoch nicht ausreichend. Für eine verlässliche Funktionsbeschreibung ist zusätzliche Dokumentation erforderlich.",
+            "fr": "Ce formulaire figure dans le menu de l’application, mais le manuel PDF fourni ne décrit pas suffisamment ses fonctions précises. Une documentation complémentaire est nécessaire pour une présentation fiable.",
+            "it": "Questo modulo è presente nel menu dell’applicazione, ma il manuale PDF fornito non ne descrive sufficientemente le funzioni specifiche. È necessaria ulteriore documentazione per una descrizione accurata.",
+            "es": "Este formulario aparece en el menú de la aplicación, pero el manual PDF proporcionado no describe sus funciones con suficiente detalle. Se necesita documentación adicional para una descripción precisa.",
+            "ru": "Эта форма присутствует в меню приложения, однако предоставленное руководство PDF недостаточно подробно описывает её функции. Для точного описания необходима дополнительная документация.",
+            "pt": "Este formulário consta do menu da aplicação, mas o manual PDF fornecido não descreve as suas funções com detalhe suficiente. É necessária documentação adicional para uma descrição rigorosa.",
+            "tr": "Bu form uygulama menüsünde bulunmaktadır; ancak sağlanan PDF kılavuzu işlevlerini yeterli ayrıntıyla açıklamamaktadır. Doğru bir özellik açıklaması için ek belge gereklidir.",
+            "ar": "يظهر هذا النموذج في قائمة البرنامج، لكن دليل PDF المقدم لا يشرح وظائفه الدقيقة بالتفصيل الكافي. وتلزم وثائق إضافية لإعداد وصف موثوق لخصائصه."
+          }
+        },
+        {
+          "id": "inventory-08-07",
+          "title": {
+            "fa": "انتخاب پوسته",
+            "en": "Select Theme"
+          },
+          "description": {
+            "fa": "این فرم در فهرست منوهای نرم‌افزار وجود دارد، اما راهنمای PDF ارائه‌شده درباره عملکرد دقیق آن توضیح کافی ندارد. برای درج معرفی تخصصی، تکمیل مستندات این بخش لازم است.",
+            "en": "This form appears in the application menu, but the supplied PDF does not describe its exact functions in sufficient detail. Further documentation is needed for a precise feature description.",
+            "de": "Dieses Formular ist im Anwendungsmenü enthalten. Das vorliegende PDF-Handbuch beschreibt seine genauen Funktionen jedoch nicht ausreichend. Für eine verlässliche Funktionsbeschreibung ist zusätzliche Dokumentation erforderlich.",
+            "fr": "Ce formulaire figure dans le menu de l’application, mais le manuel PDF fourni ne décrit pas suffisamment ses fonctions précises. Une documentation complémentaire est nécessaire pour une présentation fiable.",
+            "it": "Questo modulo è presente nel menu dell’applicazione, ma il manuale PDF fornito non ne descrive sufficientemente le funzioni specifiche. È necessaria ulteriore documentazione per una descrizione accurata.",
+            "es": "Este formulario aparece en el menú de la aplicación, pero el manual PDF proporcionado no describe sus funciones con suficiente detalle. Se necesita documentación adicional para una descripción precisa.",
+            "ru": "Эта форма присутствует в меню приложения, однако предоставленное руководство PDF недостаточно подробно описывает её функции. Для точного описания необходима дополнительная документация.",
+            "pt": "Este formulário consta do menu da aplicação, mas o manual PDF fornecido não descreve as suas funções com detalhe suficiente. É necessária documentação adicional para uma descrição rigorosa.",
+            "tr": "Bu form uygulama menüsünde bulunmaktadır; ancak sağlanan PDF kılavuzu işlevlerini yeterli ayrıntıyla açıklamamaktadır. Doğru bir özellik açıklaması için ek belge gereklidir.",
+            "ar": "يظهر هذا النموذج في قائمة البرنامج، لكن دليل PDF المقدم لا يشرح وظائفه الدقيقة بالتفصيل الكافي. وتلزم وثائق إضافية لإعداد وصف موثوق لخصائصه."
+          }
+        }
+      ]
+    }
+  ],
+  "ui": {
+    "overview": {
+      "fa": "کاتالوگ امکانات سیستم انبار و تدارکات",
+      "en": "Inventory and Procurement — Feature Catalog"
+    },
+    "intro": {
+      "en": "Browse main menus, discover available functions and read a short explanation of each.",
+      "de": "Wählen Sie ein Hauptmenü und lesen Sie die Beschreibungen.",
+      "fr": "Choisissez un menu pour découvrir ses fonctionnalités.",
+      "it": "Seleziona un menu per esplorare le funzioni.",
+      "es": "Seleccione un menú para conocer sus funciones.",
+      "ru": "Выберите раздел для просмотра функций.",
+      "pt": "Selecione um menu para conhecer os recursos.",
+      "tr": "İşlevleri görmek için bir menü seçin.",
+      "ar": "اختر قائمة لاستعراض الوظائف وشرحها.",
+      "fa": "برای مشاهده زیرمنوها و توضیحات، یک منو انتخاب کنید."
+    },
+    "search": {
+      "en": "Search menus and features...",
+      "de": "Menüs und Funktionen suchen...",
+      "fr": "Rechercher des menus et fonctions...",
+      "it": "Cerca menu e funzioni...",
+      "es": "Buscar menús y funciones...",
+      "ru": "Поиск меню и функций...",
+      "pt": "Buscar menus e recursos...",
+      "tr": "Menü ve özellik ara...",
+      "ar": "ابحث في القوائم والوظائف...",
+      "fa": "جست‌وجوی منوها و امکانات..."
+    },
+    "menu": {
+      "en": "Main menus",
+      "de": "Hauptmenüs",
+      "fr": "Menus principaux",
+      "it": "Menu principali",
+      "es": "Menús principales",
+      "ru": "Главные меню",
+      "pt": "Menus principais",
+      "tr": "Ana menüler",
+      "ar": "القوائم الرئيسية",
+      "fa": "منوهای اصلی"
+    },
+    "functions": {
+      "en": "Available functions",
+      "de": "Verfügbare Funktionen",
+      "fr": "Fonctions disponibles",
+      "it": "Funzioni disponibili",
+      "es": "Funciones disponibles",
+      "ru": "Доступные функции",
+      "pt": "Funções disponíveis",
+      "tr": "Mevcut işlevler",
+      "ar": "الوظائف المتاحة",
+      "fa": "زیرمنوهای موجود"
+    },
+    "preview": {
+      "en": "Feature overview",
+      "de": "Funktionsübersicht",
+      "fr": "Aperçu de la fonction",
+      "it": "Panoramica della funzione",
+      "es": "Descripción de la función",
+      "ru": "Обзор функции",
+      "pt": "Visão geral da função",
+      "tr": "Özellik açıklaması",
+      "ar": "نبذة عن الوظيفة",
+      "fa": "توضیح کاربرد"
+    },
+    "noitems": {
+      "en": "Submenus for this section are not visible in the supplied screenshots.",
+      "de": "Untermenüs dieses Bereichs sind in den Bildern nicht erkennbar.",
+      "fr": "Les sous-menus de cette section ne sont pas visibles sur les captures.",
+      "it": "I sottomenu di questa sezione non sono visibili nelle immagini.",
+      "es": "Los submenús de esta sección no aparecen en las capturas.",
+      "ru": "Подменю этого раздела не видны на скриншотах.",
+      "pt": "Os submenus desta seção não aparecem nas capturas.",
+      "tr": "Bu bölümün alt menüleri sağlanan görsellerde görünmüyor.",
+      "ar": "القوائم الفرعية لهذا القسم غير ظاهرة في الصور المرفقة.",
+      "fa": "زیرمنوهای این بخش در تصاویر ارسالی قابل مشاهده نیستند."
+    },
+    "noresults": {
+      "en": "No matching features found.",
+      "de": "Keine passenden Funktionen gefunden.",
+      "fr": "Aucune fonction correspondante.",
+      "it": "Nessuna funzione trovata.",
+      "es": "No se encontraron funciones.",
+      "ru": "Совпадений не найдено.",
+      "pt": "Nenhuma função encontrada.",
+      "tr": "Eşleşen özellik bulunamadı.",
+      "ar": "لا توجد نتائج مطابقة.",
+      "fa": "موردی پیدا نشد."
+    },
+    "items": {
+      "en": "features",
+      "de": "Funktionen",
+      "fr": "fonctions",
+      "it": "funzioni",
+      "es": "funciones",
+      "ru": "функций",
+      "pt": "funções",
+      "tr": "özellik",
+      "ar": "وظيفة",
+      "fa": "گزینه"
+    },
+    "language": {
+      "en": "Language",
+      "de": "Sprache",
+      "fr": "Langue",
+      "it": "Lingua",
+      "es": "Idioma",
+      "ru": "Язык",
+      "pt": "Idioma",
+      "tr": "Dil",
+      "ar": "اللغة",
+      "fa": "زبان"
+    },
+    "note": {
+      "fa": "منوها از تصاویر ارسالی استخراج شده‌اند؛ عبارات ریز و توضیحات نیازمند بازبینی قبل از انتشار رسمی هستند.",
+      "en": "Menu names were extracted from supplied screenshots. Small labels and feature descriptions require review before publication."
+    },
+    "count": {
+      "en": "Menu catalog",
+      "de": "Menükatalog",
+      "fr": "Catalogue des menus",
+      "it": "Catalogo dei menu",
+      "es": "Catálogo de menús",
+      "ru": "Каталог меню",
+      "pt": "Catálogo de menus",
+      "tr": "Menü kataloğu",
+      "ar": "دليل القوائم",
+      "fa": "کاتالوگ منوها"
+    }
+  }
+}

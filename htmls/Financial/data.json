@@ -1,0 +1,1380 @@
+{
+  "schemaVersion": 1,
+  "software": {
+    "id": "financial management",
+    "name": {
+      "fa": "مدیریت مالی",
+      "en": "Financial Management",
+      "de": "Finanzverwaltung",
+      "fr": "Gestion financière",
+      "it": "Gestione finanziaria",
+      "es": "Gestión financiera",
+      "ru": "Финансовое управление",
+      "pt": "Gestão financeira",
+      "tr": "Mali yönetim",
+      "ar": "الإدارة المالية"
+    },
+    "vendor": "Matris Negar Data Co."
+  },
+  "languages": [
+    "en",
+    "de",
+    "fr",
+    "it",
+    "es",
+    "ru",
+    "pt",
+    "tr",
+    "ar",
+    "fa"
+  ],
+  "menus": [
+    {
+      "id": "budget",
+      "icon": "clipboard-list",
+      "title": {
+        "fa": "راهبرد بودجه و اعتبارات",
+        "en": "Budget and Appropriations",
+        "de": "Budget und Mittelbewilligungen",
+        "fr": "Budget et crédits",
+        "it": "Bilancio e stanziamenti",
+        "es": "Presupuesto y créditos",
+        "ru": "Бюджет и ассигнования",
+        "pt": "Orçamento e dotações",
+        "tr": "Bütçe ve ödenekler",
+        "ar": "الميزانية والاعتمادات"
+      },
+      "items": [
+        {
+          "id": "budget-01",
+          "title": {
+            "fa": "فرم حواله پرداخت",
+            "en": "Payment Order Form"
+          },
+          "description": {
+            "fa": "این فرم برای ثبت و پیگیری حواله پرداخت در فرایند دریافت و پرداخت به کار می‌رود. بر اساس راهنما، اطلاعات حواله یا اعلامیه پس از انتخاب وضعیت مرتبط و تکمیل شماره، تاریخ و مشخصات لازم به سند مالی ارتباط داده می‌شود تا مراحل ثبت و گردش آن در واحدهای مربوط ادامه یابد.",
+            "en": "Payment remittance vouchers can be registered and tracked through the receipt and payment workflow. After selecting the transaction status, the voucher or payment notice is linked to the accounting document using its number, date and other required details.",
+            "de": "Zahlungsanweisungen lassen sich im Ein- und Auszahlungsprozess erfassen und verfolgen. Nach Auswahl des Vorgangsstatus werden Nummer, Datum und weitere Angaben mit dem Buchungsbeleg verknüpft.",
+            "fr": "Ce formulaire permet d’enregistrer et de suivre les ordres de paiement dans le circuit des encaissements et décaissements. Le numéro, la date et les références de l’ordre ou de l’avis sont associés à la pièce comptable.",
+            "it": "Il modulo registra e segue i mandati di pagamento nel processo di incasso e pagamento. Dopo aver scelto lo stato dell’operazione, numero, data e dettagli del mandato sono collegati al documento contabile.",
+            "es": "Permite registrar y seguir órdenes de pago en el proceso de cobros y pagos. Tras seleccionar el estado, el número, la fecha y los datos del mandato o aviso se vinculan al asiento contable.",
+            "ru": "Форма позволяет регистрировать и отслеживать платежные поручения в процессе поступлений и выплат. После выбора статуса номер, дата и реквизиты поручения связываются с бухгалтерским документом.",
+            "pt": "O formulário permite registar e acompanhar ordens de pagamento nos processos de recebimento e pagamento. Após selecionar o estado, número, data e detalhes são associados ao documento contabilístico.",
+            "tr": "Ödeme havaleleri tahsilat ve ödeme sürecinde kaydedilip izlenebilir. İşlem durumu seçildikten sonra numara, tarih ve ilgili bilgiler muhasebe belgesine bağlanır.",
+            "ar": "يتيح النموذج تسجيل حوالات الدفع ومتابعتها ضمن إجراءات المقبوضات والمدفوعات. وبعد تحديد حالة العملية، يُربط رقم الحوالة أو الإشعار وتاريخه وبياناته بالمستند المحاسبي."
+          }
+        },
+        {
+          "id": "budget-02",
+          "title": {
+            "fa": "فرم پرداخت",
+            "en": "Payment Form"
+          },
+          "description": {
+            "fa": "فرم پرداخت، عملیات ثبت و تکمیل اطلاعات پرداخت را در ارتباط با اسناد مالی و اعتبارات پشتیبانی می‌کند. در راهنما توضیح داده شده که سند می‌تواند در مراحل مختلف از جمله اعتبارات، دریافت و پرداخت، رسیدگی، مدیریت مالی و صدور چک بررسی و تکمیل شود و در صورت نیاز، اطلاعات چک یا اعلامیه نیز به آن افزوده شود.",
+            "en": "The payment form records and completes payment information linked to financial documents and appropriations. Documents may be reviewed through appropriation, payment, audit, financial management and cheque issuance stages, with cheque or payment-notice information added when needed.",
+            "de": "Das Zahlungsformular erfasst Zahlungen in Verbindung mit Finanzbelegen und Haushaltsmitteln. Die Belege durchlaufen Bewilligung, Zahlung, Prüfung, Finanzleitung und Scheckausstellung; Scheck- oder Avisdaten können ergänzt werden.",
+            "fr": "Le formulaire enregistre les paiements liés aux pièces financières et aux crédits budgétaires. Les pièces passent par les étapes de crédits, paiement, contrôle, direction financière et émission des chèques, avec ajout éventuel des références.",
+            "it": "Il modulo gestisce i pagamenti collegati ai documenti finanziari e agli stanziamenti. I documenti attraversano le fasi di autorizzazione, pagamento, verifica, direzione finanziaria ed emissione degli assegni, con eventuali riferimenti aggiuntivi.",
+            "es": "Este formulario registra pagos vinculados a documentos financieros y créditos presupuestarios. Los documentos pasan por asignación, pago, revisión, dirección financiera y emisión de cheques, incorporando sus datos cuando sea necesario.",
+            "ru": "Форма регистрирует платежи, связанные с финансовыми документами и бюджетными ассигнованиями. Документы проходят этапы утверждения, оплаты, проверки, финансового управления и выдачи чеков; при необходимости добавляются реквизиты.",
+            "pt": "O formulário regista pagamentos ligados a documentos financeiros e dotações orçamentais. Os documentos passam pelas etapas de dotação, pagamento, conferência, gestão financeira e emissão de cheques, com os dados necessários.",
+            "tr": "Ödeme formu, mali belgeler ve bütçe ödenekleriyle bağlantılı ödemeleri kaydeder. Belgeler ödenek, ödeme, inceleme, mali yönetim ve çek düzenleme aşamalarından geçer; gerekli bilgiler eklenebilir.",
+            "ar": "يسجل نموذج الدفع بيانات المدفوعات المرتبطة بالمستندات المالية والاعتمادات. وتمر المستندات بمراحل الاعتمادات والدفع والتدقيق والإدارة المالية وإصدار الشيكات، مع إضافة بيانات الشيك أو الإشعار عند الحاجة."
+          }
+        },
+        {
+          "id": "budget-03",
+          "title": {
+            "fa": "اعتبار مصوب",
+            "en": "Approved Appropriation"
+          },
+          "description": {
+            "fa": "در فرم اعتبار مصوب، مبلغ اعتبارات سازمان در سطوح منبع، برنامه، فصل و در صورت لزوم ماده و ریزماده ثبت و مدیریت می‌شود. افزایش یا کاهش اعتبار از طریق ثبت مبالغ بدهکار و بستانکار انجام می‌گیرد و برای آن امکان صدور سند و مشاهده سند صادرشده وجود دارد. این اطلاعات مبنایی برای کنترل و پیگیری اعتبارات در مراحل بعدی فراهم می‌کند.",
+            "en": "The approved appropriation form records budget amounts by funding source, programme, chapter and, where applicable, expenditure item and sub-item. Increases and decreases are entered as debit and credit amounts; users can issue and view the corresponding documents for subsequent budget control.",
+            "de": "Genehmigte Haushaltsmittel werden nach Finanzierungsquelle, Programm, Kapitel sowie gegebenenfalls Position und Unterposition erfasst. Erhöhungen und Kürzungen erfolgen über Soll- und Habenbeträge; die zugehörigen Belege lassen sich ausstellen und prüfen.",
+            "fr": "Les crédits approuvés sont enregistrés par source de financement, programme, chapitre et, si nécessaire, rubrique et sous-rubrique. Les augmentations et réductions figurent au débit ou au crédit, avec émission et consultation des pièces correspondantes.",
+            "it": "Gli stanziamenti approvati sono registrati per fonte, programma, capitolo e, quando necessario, voce e sottovoce. Gli aumenti e le riduzioni sono contabilizzati in dare e avere; è possibile emettere e consultare i relativi documenti.",
+            "es": "Los créditos aprobados se registran por fuente, programa, capítulo y, cuando procede, partida y subpartida. Los aumentos y reducciones se anotan en debe y haber, con emisión y consulta de los documentos correspondientes.",
+            "ru": "Утвержденные бюджетные ассигнования учитываются по источнику, программе, разделу, статье и подстатье. Увеличения и уменьшения отражаются по дебету и кредиту; связанные документы можно оформлять и просматривать.",
+            "pt": "As dotações aprovadas são registadas por fonte, programa, capítulo e, quando aplicável, rubrica e sub-rubrica. Aumentos e reduções são lançados a débito e crédito, permitindo emitir e consultar os documentos associados.",
+            "tr": "Onaylanmış bütçe ödenekleri kaynak, program, bölüm ve gerektiğinde kalem ile alt kalem düzeyinde kaydedilir. Artış ve azalışlar borç/alacak tutarlarıyla işlenir; ilgili belgeler düzenlenip görüntülenebilir.",
+            "ar": "يسجل نموذج الاعتماد المعتمد المبالغ حسب مصدر التمويل والبرنامج والفصل، وعند الحاجة البند والبند الفرعي. وتُثبت الزيادات والتخفيضات في جانبي المدين والدائن، مع إمكانية إصدار المستندات المرتبطة وعرضها."
+          }
+        },
+        {
+          "id": "budget-04",
+          "title": {
+            "fa": "تخصیص اعتبار",
+            "en": "Appropriation Allocation"
+          },
+          "description": {
+            "fa": "این فرم برای ثبت تخصیص اعتبار از محل اعتبارات مصوب و پیگیری تغییرات آن استفاده می‌شود. کاربر می‌تواند تخصیص را در سطوح منبع، برنامه، فصل و جزئیات مرتبط ثبت کند، برای آن سند صادر نماید و از طریق شماره سند به اطلاعات ثبت‌شده دسترسی پیدا کند. راهنما ثبت افزایش و کاهش تخصیص را نیز در ستون‌های بدهکار و بستانکار شرح می‌دهد.",
+            "en": "This form allocates funds from approved appropriations and tracks subsequent changes. Allocations can be recorded by source, programme, chapter and related details; the user may issue a document, open it by number, and record increases or decreases in debit and credit columns.",
+            "de": "Dieses Formular verteilt Mittel aus genehmigten Budgets und verfolgt Änderungen. Zuweisungen werden nach Quelle, Programm und Kapitel erfasst; Belege können ausgestellt und über ihre Nummer geöffnet werden, einschließlich Soll- und Habenänderungen.",
+            "fr": "Ce formulaire répartit les crédits approuvés et suit leurs modifications. La ventilation s’effectue par source, programme et chapitre; les pièces peuvent être émises et retrouvées par numéro, avec ajustements au débit et au crédit.",
+            "it": "Il modulo assegna risorse dagli stanziamenti approvati e ne segue le variazioni. Le assegnazioni sono registrate per fonte, programma e capitolo; i documenti possono essere emessi e richiamati per numero, con variazioni in dare e avere.",
+            "es": "El formulario distribuye fondos de los créditos aprobados y controla sus cambios. Las asignaciones se registran por fuente, programa y capítulo; permite emitir y abrir documentos por número y reflejar ajustes en debe y haber.",
+            "ru": "Форма распределяет средства из утвержденных ассигнований и отслеживает изменения. Распределение ведется по источнику, программе и разделу; документы оформляются и открываются по номеру, корректировки отражаются по дебету и кредиту.",
+            "pt": "O formulário distribui fundos das dotações aprovadas e acompanha alterações. Os valores são atribuídos por fonte, programa e capítulo; é possível emitir e localizar documentos pelo número e registar ajustes a débito e crédito.",
+            "tr": "Bu form, onaylanmış ödenekleri tahsis eder ve değişiklikleri izler. Tahsisler kaynak, program ve bölüm bazında kaydedilir; belgeler oluşturulup numarasıyla açılabilir, artış ve azalışlar borç/alacak olarak işlenir.",
+            "ar": "يخصص النموذج مبالغ من الاعتمادات المعتمدة ويتابع تعديلاتها. ويمكن تسجيل التخصيص حسب المصدر والبرنامج والفصل، وإصدار المستند واسترجاعه برقمه، وإثبات الزيادة أو النقصان في المدين والدائن."
+          }
+        },
+        {
+          "id": "budget-05",
+          "title": {
+            "fa": "تایید واریزی خزانه",
+            "en": "Treasury Deposit Confirmation"
+          },
+          "description": {
+            "fa": "این بخش در فرایند درخواست وجه و دریافت مبالغ از خزانه کاربرد دارد. بر اساس توضیحات راهنما، درخواست وجه پس از کنترل و تأیید در سازمان برای دریافت مبلغ به خزانه ارسال می‌شود و اطلاعات مبلغ دریافتی، تاریخ و شماره چک در ادامه ثبت و با اسناد مربوط مرتبط می‌گردد. عنوان دقیق این فرم در راهنما مستقلاً تشریح نشده است.",
+            "en": "This section relates to requests for funds and the receipt of treasury transfers. The manual describes approval of funding requests and registration of the received amount, date and cheque number in linked documents; it does not separately document all functions of this exact menu.",
+            "de": "Dieser Bereich betrifft Mittelanforderungen und Eingänge aus der Staatskasse. Das Handbuch beschreibt die Genehmigung der Anforderung sowie Betrag, Datum und Schecknummer in verknüpften Belegen, jedoch nicht alle Funktionen dieses Menüs.",
+            "fr": "Cette rubrique concerne les demandes de fonds et les versements du Trésor. Le manuel décrit leur validation et l’enregistrement du montant, de la date et du numéro de chèque, sans détailler toutes les fonctions de ce menu.",
+            "it": "La sezione riguarda le richieste di fondi e i versamenti della tesoreria. Il manuale illustra l’approvazione e la registrazione di importo, data e numero dell’assegno, ma non tutte le funzioni specifiche del menu.",
+            "es": "La sección trata de solicitudes de fondos y transferencias de tesorería. El manual explica su aprobación y el registro de importe, fecha y número de cheque, pero no documenta todas las funciones concretas de este menú.",
+            "ru": "Раздел связан с заявками на финансирование и поступлениями из казначейства. Руководство описывает согласование заявок и регистрацию суммы, даты и номера чека, но не все функции данного пункта меню.",
+            "pt": "A secção refere-se a pedidos de fundos e transferências da tesouraria. O manual descreve a aprovação e o registo de valor, data e número do cheque, mas não detalha todas as funções deste menu.",
+            "tr": "Bu bölüm ödenek talebi ve hazineden gelen transferlerle ilgilidir. Kılavuz onay sürecini ve tutar, tarih ile çek numarasının kaydını açıklar; ancak bu menünün tüm işlevlerini ayrıca belgelemez.",
+            "ar": "يتعلق هذا القسم بطلب الأموال واستلام تحويلات الخزينة. يوضح الدليل الموافقة على الطلب وتسجيل المبلغ المستلم والتاريخ ورقم الشيك في المستندات المرتبطة، لكنه لا يشرح جميع وظائف هذه القائمة بصورة مستقلة."
+          }
+        },
+        {
+          "id": "budget-06",
+          "title": {
+            "fa": "فرم کنترل بودجه ای پرداخت ها",
+            "en": "Payment Budget Control Form"
+          },
+          "description": {
+            "fa": "کنترل بودجه‌ای پرداخت‌ها با مقایسه اعتبار و منابع تعیین‌شده با پرداخت‌ها و مصرف واقعی انجام می‌شود. در راهنما امکان مشاهده مانده مبالغ، بررسی انحراف مصرف در دوره‌های زمانی مختلف و به‌روزرسانی مقادیر با توجه به اسناد صادرشده شرح داده شده است؛ همچنین می‌توان هنگام صدور سند، کنترل مبلغی را در سطح حساب‌های تفصیلی اعمال کرد.",
+            "en": "Budgetary payment control compares approved funds and available resources with actual expenditure. The manual describes reviewing balances, monitoring deviations over reporting periods, refreshing results from issued documents and enforcing amount limits for detailed accounts when posting documents.",
+            "de": "Die Haushaltskontrolle vergleicht verfügbare Mittel mit tatsächlichen Ausgaben. Das Handbuch beschreibt Salden, Abweichungen nach Zeitraum, Aktualisierung anhand gebuchter Belege und Betragsgrenzen für Detailkonten bei der Buchung.",
+            "fr": "Le contrôle budgétaire compare les crédits disponibles aux dépenses réelles. Le manuel prévoit le suivi des soldes et écarts par période, l’actualisation à partir des pièces émises et les plafonds appliqués aux comptes analytiques.",
+            "it": "Il controllo del budget confronta fondi disponibili e spese effettive. Il manuale descrive saldi, scostamenti per periodo, aggiornamento dai documenti emessi e limiti di importo sui conti analitici in fase di registrazione.",
+            "es": "El control presupuestario compara los fondos disponibles con el gasto real. El manual permite revisar saldos y desviaciones por período, actualizar datos desde documentos emitidos y aplicar límites a cuentas analíticas.",
+            "ru": "Бюджетный контроль сопоставляет доступные средства с фактическими расходами. Руководство описывает остатки и отклонения по периодам, обновление по проведенным документам и лимиты для аналитических счетов.",
+            "pt": "O controlo orçamental compara fundos disponíveis com despesas reais. O manual prevê análise de saldos e desvios por período, atualização com documentos emitidos e limites nos valores das contas analíticas.",
+            "tr": "Bütçe ödeme kontrolü, kullanılabilir ödenekleri gerçekleşen harcamalarla karşılaştırır. Kılavuz dönemsel bakiye ve sapmaları, belgelerden güncellemeyi ve ayrıntılı hesaplara tutar sınırı uygulanmasını açıklar.",
+            "ar": "تقارن الرقابة الموازنية على المدفوعات الاعتمادات والموارد المتاحة بالإنفاق الفعلي. ويوضح الدليل متابعة الأرصدة والانحرافات حسب الفترة، وتحديث النتائج من المستندات الصادرة، وتطبيق حدود للمبالغ على الحسابات التفصيلية."
+          }
+        },
+        {
+          "id": "budget-07",
+          "title": {
+            "fa": "فرم کنترل بودجه ای به تفکیک مرکز هزینه",
+            "en": "Budget Control by Cost Center"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: بررسی اطلاعات مرتبط با «فرم کنترل بودجه ای به تفکیک مرکز هزینه».",
+            "en": "The supplied Financial manual does not document the functions of this specific form sufficiently. Its actual capabilities should be confirmed before publication.",
+            "de": "Das vorliegende Finanzhandbuch beschreibt die Funktionen dieses Formulars nicht ausreichend. Die tatsächlichen Möglichkeiten sollten vor der Veröffentlichung bestätigt werden.",
+            "fr": "Le manuel financier fourni ne décrit pas suffisamment les fonctions de ce formulaire. Ses capacités réelles doivent être confirmées avant publication.",
+            "it": "Il manuale finanziario fornito non documenta adeguatamente le funzioni di questo modulo. Le sue effettive capacità devono essere confermate prima della pubblicazione.",
+            "es": "El manual financiero proporcionado no documenta suficientemente las funciones de este formulario. Sus capacidades reales deben confirmarse antes de publicarlas.",
+            "ru": "В предоставленном финансовом руководстве недостаточно описаны функции этой формы. Ее реальные возможности необходимо подтвердить до публикации.",
+            "pt": "O manual financeiro fornecido não documenta suficientemente as funções deste formulário. As funcionalidades reais devem ser confirmadas antes da publicação.",
+            "tr": "Sağlanan mali kılavuz bu formun işlevlerini yeterince açıklamamaktadır. Gerçek özellikleri yayımlanmadan önce doğrulanmalıdır.",
+            "ar": "لا يوثق دليل النظام المالي المرفق وظائف هذا النموذج بما يكفي. ينبغي تأكيد إمكاناته الفعلية قبل النشر."
+          }
+        },
+        {
+          "id": "budget-08",
+          "title": {
+            "fa": "کنترل اعتباری اسناد مالی",
+            "en": "Financial Document Appropriation Control"
+          },
+          "description": {
+            "fa": "این قابلیت به بررسی اسناد مالی در ارتباط با اعتبار مصوب، تخصیص و مراحل گردش سند کمک می‌کند. راهنما نشان می‌دهد اسناد در واحدهای اعتبارات، دریافت و پرداخت و سایر واحدها قابل مشاهده و کنترل هستند و پیش از ادامه گردش یا صدور، اطلاعات سطوح حساب و مجوزهای مربوط بررسی می‌شود. جزئیات مستقل فرم «کنترل اعتباری اسناد مالی» در راهنما ارائه نشده است.",
+            "en": "This feature supports checking financial documents against approved appropriations, allocations and document-workflow stages. The manual describes reviewing account levels and user permissions before forwarding documents, but does not provide a separate complete description of this specific form.",
+            "de": "Diese Funktion unterstützt die Prüfung von Belegen anhand genehmigter Mittel und des Belegworkflows. Das Handbuch erläutert Kontenstufen und Zugriffsrechte vor der Weiterleitung, bietet jedoch keine vollständige eigene Beschreibung dieses Formulars.",
+            "fr": "Cette fonction aide à contrôler les pièces selon les crédits approuvés, leur répartition et les étapes de traitement. Le manuel décrit les comptes et autorisations avant transmission, sans détailler entièrement ce formulaire.",
+            "it": "La funzione verifica i documenti rispetto agli stanziamenti, alle assegnazioni e al flusso autorizzativo. Il manuale descrive il controllo di conti e permessi prima dell’invio, senza documentare integralmente il modulo.",
+            "es": "Esta función ayuda a comprobar documentos frente a créditos, asignaciones y etapas de tramitación. El manual explica la revisión de cuentas y permisos antes de enviarlos, pero no detalla por completo este formulario.",
+            "ru": "Функция помогает проверять документы относительно утвержденных ассигнований, распределений и этапов согласования. Руководство описывает проверку счетов и прав доступа, но не все особенности данной формы.",
+            "pt": "A função ajuda a verificar documentos face às dotações, atribuições e etapas do fluxo. O manual descreve contas e permissões antes do envio, mas não apresenta uma descrição completa deste formulário.",
+            "tr": "Bu özellik, mali belgelerin onaylı ödeneklere, tahsislere ve iş akışına göre kontrolünü destekler. Kılavuz hesap düzeyleri ve yetkileri açıklar; bu formun tüm özellikleri ayrıca belgelenmemiştir.",
+            "ar": "تساعد هذه الوظيفة في فحص المستندات المالية مقابل الاعتمادات والتخصيصات ومراحل تداول المستند. ويشرح الدليل مراجعة مستويات الحساب والصلاحيات قبل الإرسال، دون وصف مستقل شامل لهذا النموذج."
+          }
+        },
+        {
+          "id": "budget-09",
+          "title": {
+            "fa": "گزارش جامع اعتبارات",
+            "en": "Comprehensive Appropriations Report"
+          },
+          "description": {
+            "fa": "گزارش جامع اعتبارات برای مشاهده و مقایسه اطلاعات مالی واحد اعتبارات طراحی شده و امکان نمایش تفاوت مبالغ پرداختی و دریافتی را به تفکیک منبع، برنامه و فصل فراهم می‌کند. این گزارش به کاربران کمک می‌کند گردش اعتبار و وضعیت منابع را در سطوح مختلف بررسی کنند و از داده‌های تجمیعی برای کنترل و تحلیل عملکرد اعتبارات استفاده نمایند.",
+            "en": "The comprehensive appropriations report presents figures from the budget-control unit and compares incoming and outgoing amounts by funding source, programme and chapter. Aggregated information supports reviewing budget movements and analysing how resources were used.",
+            "de": "Der umfassende Haushaltsbericht zeigt Beträge aus der Mittelbewirtschaftung und vergleicht Ein- und Ausgänge nach Quelle, Programm und Kapitel. Zusammengefasste Daten unterstützen die Kontrolle und Analyse des Mitteleinsatzes.",
+            "fr": "Le rapport général des crédits compare les montants reçus et versés selon la source de financement, le programme et le chapitre. Les données consolidées facilitent le suivi et l’analyse de l’utilisation des crédits.",
+            "it": "Il rapporto generale degli stanziamenti confronta importi incassati e pagati per fonte, programma e capitolo. I dati aggregati facilitano l’analisi dei movimenti e dell’impiego delle risorse.",
+            "es": "El informe general de créditos compara importes recibidos y pagados por fuente, programa y capítulo. Los datos consolidados facilitan el seguimiento y análisis del uso de los recursos presupuestarios.",
+            "ru": "Сводный отчет об ассигнованиях сравнивает поступления и выплаты по источникам, программам и разделам. Сводные данные помогают анализировать движение и использование бюджетных ресурсов.",
+            "pt": "O relatório geral de dotações compara valores recebidos e pagos por fonte, programa e capítulo. Os dados agregados facilitam a análise dos movimentos e da utilização dos recursos.",
+            "tr": "Kapsamlı ödenek raporu, gelen ve ödenen tutarları kaynak, program ve bölüm bazında karşılaştırır. Toplu veriler bütçe hareketlerinin ve kaynak kullanımının analizini destekler.",
+            "ar": "يعرض التقرير الشامل للاعتمادات المبالغ الواردة والمدفوعة حسب مصدر التمويل والبرنامج والفصل. وتساعد البيانات المجمعة على متابعة حركة الاعتمادات وتحليل استخدام الموارد."
+          }
+        }
+      ]
+    },
+    {
+      "id": "receipt",
+      "icon": "truck",
+      "title": {
+        "fa": "راهبرد دریافت اسناد ستاد ها",
+        "en": "Document Receipt Procedures",
+        "de": "Verfahren zum Dokumentenempfang",
+        "fr": "Procédures de réception de documents",
+        "it": "Procedure di ricezione documenti",
+        "es": "Procedimientos de recepción de documentos",
+        "ru": "Процедуры получения документов",
+        "pt": "Procedimentos de recepção de documentos",
+        "tr": "Belge kabul işlemleri",
+        "ar": "إجراءات استلام المستندات"
+      },
+      "items": [
+        {
+          "id": "receipt-01",
+          "title": {
+            "fa": "پروتکل ستاد",
+            "en": "Headquarters Protocol"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: بررسی اطلاعات مرتبط با «پروتکل ستاد».",
+            "en": "The supplied Financial manual does not document the functions of this specific form sufficiently. Its actual capabilities should be confirmed before publication.",
+            "de": "Das vorliegende Finanzhandbuch beschreibt die Funktionen dieses Formulars nicht ausreichend. Die tatsächlichen Möglichkeiten sollten vor der Veröffentlichung bestätigt werden.",
+            "fr": "Le manuel financier fourni ne décrit pas suffisamment les fonctions de ce formulaire. Ses capacités réelles doivent être confirmées avant publication.",
+            "it": "Il manuale finanziario fornito non documenta adeguatamente le funzioni di questo modulo. Le sue effettive capacità devono essere confermate prima della pubblicazione.",
+            "es": "El manual financiero proporcionado no documenta suficientemente las funciones de este formulario. Sus capacidades reales deben confirmarse antes de publicarlas.",
+            "ru": "В предоставленном финансовом руководстве недостаточно описаны функции этой формы. Ее реальные возможности необходимо подтвердить до публикации.",
+            "pt": "O manual financeiro fornecido não documenta suficientemente as funções deste formulário. As funcionalidades reais devem ser confirmadas antes da publicação.",
+            "tr": "Sağlanan mali kılavuz bu formun işlevlerini yeterince açıklamamaktadır. Gerçek özellikleri yayımlanmadan önce doğrulanmalıdır.",
+            "ar": "لا يوثق دليل النظام المالي المرفق وظائف هذا النموذج بما يكفي. ينبغي تأكيد إمكاناته الفعلية قبل النشر."
+          }
+        },
+        {
+          "id": "receipt-02",
+          "title": {
+            "fa": "مطالبات بدهی دولت",
+            "en": "Government Debt Claims"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: بررسی اطلاعات مرتبط با «مطالبات بدهی دولت».",
+            "en": "The supplied Financial manual does not document the functions of this specific form sufficiently. Its actual capabilities should be confirmed before publication.",
+            "de": "Das vorliegende Finanzhandbuch beschreibt die Funktionen dieses Formulars nicht ausreichend. Die tatsächlichen Möglichkeiten sollten vor der Veröffentlichung bestätigt werden.",
+            "fr": "Le manuel financier fourni ne décrit pas suffisamment les fonctions de ce formulaire. Ses capacités réelles doivent être confirmées avant publication.",
+            "it": "Il manuale finanziario fornito non documenta adeguatamente le funzioni di questo modulo. Le sue effettive capacità devono essere confermate prima della pubblicazione.",
+            "es": "El manual financiero proporcionado no documenta suficientemente las funciones de este formulario. Sus capacidades reales deben confirmarse antes de publicarlas.",
+            "ru": "В предоставленном финансовом руководстве недостаточно описаны функции этой формы. Ее реальные возможности необходимо подтвердить до публикации.",
+            "pt": "O manual financeiro fornecido não documenta suficientemente as funções deste formulário. As funcionalidades reais devem ser confirmadas antes da publicação.",
+            "tr": "Sağlanan mali kılavuz bu formun işlevlerini yeterince açıklamamaktadır. Gerçek özellikleri yayımlanmadan önce doğrulanmalıdır.",
+            "ar": "لا يوثق دليل النظام المالي المرفق وظائف هذا النموذج بما يكفي. ينبغي تأكيد إمكاناته الفعلية قبل النشر."
+          }
+        },
+        {
+          "id": "receipt-03",
+          "title": {
+            "fa": "صورت مطالبات فصلی",
+            "en": "Quarterly Claims Report"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «صورت مطالبات فصلی».",
+            "en": "The supplied Financial manual does not document the functions of this specific form sufficiently. Its actual capabilities should be confirmed before publication.",
+            "de": "Das vorliegende Finanzhandbuch beschreibt die Funktionen dieses Formulars nicht ausreichend. Die tatsächlichen Möglichkeiten sollten vor der Veröffentlichung bestätigt werden.",
+            "fr": "Le manuel financier fourni ne décrit pas suffisamment les fonctions de ce formulaire. Ses capacités réelles doivent être confirmées avant publication.",
+            "it": "Il manuale finanziario fornito non documenta adeguatamente le funzioni di questo modulo. Le sue effettive capacità devono essere confermate prima della pubblicazione.",
+            "es": "El manual financiero proporcionado no documenta suficientemente las funciones de este formulario. Sus capacidades reales deben confirmarse antes de publicarlas.",
+            "ru": "В предоставленном финансовом руководстве недостаточно описаны функции этой формы. Ее реальные возможности необходимо подтвердить до публикации.",
+            "pt": "O manual financeiro fornecido não documenta suficientemente as funções deste formulário. As funcionalidades reais devem ser confirmadas antes da publicação.",
+            "tr": "Sağlanan mali kılavuz bu formun işlevlerini yeterince açıklamamaktadır. Gerçek özellikleri yayımlanmadan önce doğrulanmalıdır.",
+            "ar": "لا يوثق دليل النظام المالي المرفق وظائف هذا النموذج بما يكفي. ينبغي تأكيد إمكاناته الفعلية قبل النشر."
+          }
+        },
+        {
+          "id": "receipt-04",
+          "title": {
+            "fa": "تهیه فایل مالیات",
+            "en": "Tax File Preparation"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «تهیه فایل مالیات».",
+            "en": "The supplied Financial manual does not document the functions of this specific form sufficiently. Its actual capabilities should be confirmed before publication.",
+            "de": "Das vorliegende Finanzhandbuch beschreibt die Funktionen dieses Formulars nicht ausreichend. Die tatsächlichen Möglichkeiten sollten vor der Veröffentlichung bestätigt werden.",
+            "fr": "Le manuel financier fourni ne décrit pas suffisamment les fonctions de ce formulaire. Ses capacités réelles doivent être confirmées avant publication.",
+            "it": "Il manuale finanziario fornito non documenta adeguatamente le funzioni di questo modulo. Le sue effettive capacità devono essere confermate prima della pubblicazione.",
+            "es": "El manual financiero proporcionado no documenta suficientemente las funciones de este formulario. Sus capacidades reales deben confirmarse antes de publicarlas.",
+            "ru": "В предоставленном финансовом руководстве недостаточно описаны функции этой формы. Ее реальные возможности необходимо подтвердить до публикации.",
+            "pt": "O manual financeiro fornecido não documenta suficientemente as funções deste formulário. As funcionalidades reais devem ser confirmadas antes da publicação.",
+            "tr": "Sağlanan mali kılavuz bu formun işlevlerini yeterince açıklamamaktadır. Gerçek özellikleri yayımlanmadan önce doğrulanmalıdır.",
+            "ar": "لا يوثق دليل النظام المالي المرفق وظائف هذا النموذج بما يكفي. ينبغي تأكيد إمكاناته الفعلية قبل النشر."
+          }
+        },
+        {
+          "id": "receipt-05",
+          "title": {
+            "fa": "دریافت اسناد از عاملین مالی",
+            "en": "Receive Financial Agent Documents"
+          },
+          "description": {
+            "fa": "این فرم برای دریافت اسناد مالی صادرشده توسط عاملان مالی در سامانه مرکزی در نظر گرفته شده است. بر اساس راهنما، اسناد دریافت‌شده پیش از ادامه گردش می‌توانند در واحد رسیدگی کنترل شوند؛ اطلاعات شماره، تاریخ و شرح سند قابل مشاهده است و در صورت نیاز سند برای تکمیل یا اصلاح به مرحله قبلی بازگردانده می‌شود.",
+            "en": "The system receives accounting documents issued by financial agents into the central application. According to the manual, the review unit can inspect document numbers, dates and descriptions before forwarding them, or return a document to the preceding stage for corrections.",
+            "de": "Von Finanzbeauftragten ausgestellte Belege werden in der Zentrale übernommen. Laut Handbuch prüft die Kontrollstelle Nummer, Datum und Buchungstext, bevor sie weiterleitet oder Belege zur Korrektur zurückgibt.",
+            "fr": "Le système reçoit les pièces émises par les agents financiers dans l’application centrale. Le service de contrôle vérifie numéro, date et libellé avant transmission, ou renvoie une pièce pour correction.",
+            "it": "Il sistema acquisisce i documenti emessi dagli agenti finanziari nell’applicazione centrale. L’ufficio di verifica controlla numero, data e descrizione prima dell’inoltro o li restituisce per le correzioni.",
+            "es": "El sistema recibe documentos emitidos por agentes financieros en la aplicación central. La unidad de revisión comprueba número, fecha y descripción antes de remitirlos o devolverlos para corrección.",
+            "ru": "Система принимает документы от финансовых агентов в центральное приложение. Подразделение проверки сверяет номер, дату и описание, после чего направляет документы дальше либо возвращает на исправление.",
+            "pt": "O sistema recebe documentos dos agentes financeiros na aplicação central. A unidade de revisão verifica número, data e descrição antes de os encaminhar ou devolver para correção.",
+            "tr": "Sistem, mali görevlilerin düzenlediği belgeleri merkezi uygulamaya alır. İnceleme birimi numara, tarih ve açıklamayı denetleyerek belgeleri ilerletir veya düzeltme için geri gönderir.",
+            "ar": "يستقبل النظام المستندات الصادرة عن الوكلاء الماليين في التطبيق المركزي. ويمكن لوحدة المراجعة فحص رقم المستند وتاريخه ووصفه قبل إحالته أو إرجاعه للمرحلة السابقة للتصحيح."
+          }
+        },
+        {
+          "id": "receipt-06",
+          "title": {
+            "fa": "فرم صدور حواله دفتر برنامه",
+            "en": "Program Office Payment Order"
+          },
+          "description": {
+            "fa": "این بخش با گردش اسناد و حواله‌ها میان واحدهای سازمانی مرتبط است. راهنما نشان می‌دهد که پس از تکمیل اطلاعات سند، از جمله شماره، تاریخ و مشخصات حواله، امکان ارسال آن به واحد بعدی در مسیر دریافت و پرداخت و دفتر اداری فراهم است. نقش و عملیات اختصاصی فرم «صدور حواله دفتر برنامه» در این PDF به‌صورت مستقل توضیح داده نشده است.",
+            "en": "This section concerns the transfer of vouchers and documents between organisational units. The manual describes forwarding a completed document, including its number, date and remittance details, through the payment and administrative-office workflow; the exact operations of this named form are not documented separately.",
+            "de": "Dieser Bereich betrifft die Weiterleitung von Anweisungen und Belegen zwischen Organisationseinheiten. Das Handbuch beschreibt Nummer, Datum und Überweisungsdaten im Zahlungs- und Verwaltungsablauf, nicht jedoch alle speziellen Funktionen dieses Formulars.",
+            "fr": "Cette rubrique concerne la circulation des ordres et pièces entre services. Le manuel décrit leur envoi avec numéro, date et références dans le circuit de paiement et d’administration, sans détailler ce formulaire précis.",
+            "it": "La sezione riguarda lo scambio di mandati e documenti tra uffici. Il manuale descrive l’inoltro con numero, data e riferimenti nel flusso dei pagamenti e dell’amministrazione, ma non il modulo specifico.",
+            "es": "Esta sección trata del envío de órdenes y documentos entre unidades. El manual describe su remisión con número, fecha y referencias en el circuito de pagos y oficina administrativa, sin detallar este formulario.",
+            "ru": "Раздел относится к передаче поручений и документов между подразделениями. Руководство описывает отправку с номером, датой и реквизитами по платежному и административному маршруту, но не отдельно эту форму.",
+            "pt": "Esta secção trata da circulação de ordens e documentos entre unidades. O manual descreve o envio com número, data e referências no fluxo de pagamentos e serviços administrativos, sem detalhar este formulário.",
+            "tr": "Bu bölüm, birimler arasında havale ve belge aktarımıyla ilgilidir. Kılavuz numara, tarih ve havale bilgileriyle ödeme ve idari iş akışında iletimi açıklar; özel form işlemleri ayrıca anlatılmamıştır.",
+            "ar": "يتعلق هذا القسم بتبادل الحوالات والمستندات بين الوحدات التنظيمية. ويصف الدليل إرسال المستند المكتمل برقم وتاريخ وبيانات الحوالة ضمن مسار الدفع والإدارة، دون شرح مستقل لعمليات هذا النموذج."
+          }
+        },
+        {
+          "id": "receipt-07",
+          "title": {
+            "fa": "دریافت اسناد کالاهای وارده",
+            "en": "Receive Incoming Goods Documents"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «دریافت اسناد کالاهای وارده».",
+            "en": "The supplied Financial manual does not document the functions of this specific form sufficiently. Its actual capabilities should be confirmed before publication.",
+            "de": "Das vorliegende Finanzhandbuch beschreibt die Funktionen dieses Formulars nicht ausreichend. Die tatsächlichen Möglichkeiten sollten vor der Veröffentlichung bestätigt werden.",
+            "fr": "Le manuel financier fourni ne décrit pas suffisamment les fonctions de ce formulaire. Ses capacités réelles doivent être confirmées avant publication.",
+            "it": "Il manuale finanziario fornito non documenta adeguatamente le funzioni di questo modulo. Le sue effettive capacità devono essere confermate prima della pubblicazione.",
+            "es": "El manual financiero proporcionado no documenta suficientemente las funciones de este formulario. Sus capacidades reales deben confirmarse antes de publicarlas.",
+            "ru": "В предоставленном финансовом руководстве недостаточно описаны функции этой формы. Ее реальные возможности необходимо подтвердить до публикации.",
+            "pt": "O manual financeiro fornecido não documenta suficientemente as funções deste formulário. As funcionalidades reais devem ser confirmadas antes da publicação.",
+            "tr": "Sağlanan mali kılavuz bu formun işlevlerini yeterince açıklamamaktadır. Gerçek özellikleri yayımlanmadan önce doğrulanmalıdır.",
+            "ar": "لا يوثق دليل النظام المالي المرفق وظائف هذا النموذج بما يكفي. ينبغي تأكيد إمكاناته الفعلية قبل النشر."
+          }
+        },
+        {
+          "id": "receipt-08",
+          "title": {
+            "fa": "دریافت اسناد کالاهای صادره",
+            "en": "Receive Outgoing Goods Documents"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «دریافت اسناد کالاهای صادره».",
+            "en": "The supplied Financial manual does not document the functions of this specific form sufficiently. Its actual capabilities should be confirmed before publication.",
+            "de": "Das vorliegende Finanzhandbuch beschreibt die Funktionen dieses Formulars nicht ausreichend. Die tatsächlichen Möglichkeiten sollten vor der Veröffentlichung bestätigt werden.",
+            "fr": "Le manuel financier fourni ne décrit pas suffisamment les fonctions de ce formulaire. Ses capacités réelles doivent être confirmées avant publication.",
+            "it": "Il manuale finanziario fornito non documenta adeguatamente le funzioni di questo modulo. Le sue effettive capacità devono essere confermate prima della pubblicazione.",
+            "es": "El manual financiero proporcionado no documenta suficientemente las funciones de este formulario. Sus capacidades reales deben confirmarse antes de publicarlas.",
+            "ru": "В предоставленном финансовом руководстве недостаточно описаны функции этой формы. Ее реальные возможности необходимо подтвердить до публикации.",
+            "pt": "O manual financeiro fornecido não documenta suficientemente as funções deste formulário. As funcionalidades reais devem ser confirmadas antes da publicação.",
+            "tr": "Sağlanan mali kılavuz bu formun işlevlerini yeterince açıklamamaktadır. Gerçek özellikleri yayımlanmadan önce doğrulanmalıdır.",
+            "ar": "لا يوثق دليل النظام المالي المرفق وظائف هذا النموذج بما يكفي. ينبغي تأكيد إمكاناته الفعلية قبل النشر."
+          }
+        },
+        {
+          "id": "receipt-09",
+          "title": {
+            "fa": "دریافت اسناد اموال انتقالی",
+            "en": "Receive Transferred Asset Documents"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «دریافت اسناد اموال انتقالی».",
+            "en": "The supplied Financial manual does not document the functions of this specific form sufficiently. Its actual capabilities should be confirmed before publication.",
+            "de": "Das vorliegende Finanzhandbuch beschreibt die Funktionen dieses Formulars nicht ausreichend. Die tatsächlichen Möglichkeiten sollten vor der Veröffentlichung bestätigt werden.",
+            "fr": "Le manuel financier fourni ne décrit pas suffisamment les fonctions de ce formulaire. Ses capacités réelles doivent être confirmées avant publication.",
+            "it": "Il manuale finanziario fornito non documenta adeguatamente le funzioni di questo modulo. Le sue effettive capacità devono essere confermate prima della pubblicazione.",
+            "es": "El manual financiero proporcionado no documenta suficientemente las funciones de este formulario. Sus capacidades reales deben confirmarse antes de publicarlas.",
+            "ru": "В предоставленном финансовом руководстве недостаточно описаны функции этой формы. Ее реальные возможности необходимо подтвердить до публикации.",
+            "pt": "O manual financeiro fornecido não documenta suficientemente as funções deste formulário. As funcionalidades reais devem ser confirmadas antes da publicação.",
+            "tr": "Sağlanan mali kılavuz bu formun işlevlerini yeterince açıklamamaktadır. Gerçek özellikleri yayımlanmadan önce doğrulanmalıdır.",
+            "ar": "لا يوثق دليل النظام المالي المرفق وظائف هذا النموذج بما يكفي. ينبغي تأكيد إمكاناته الفعلية قبل النشر."
+          }
+        },
+        {
+          "id": "receipt-10",
+          "title": {
+            "fa": "ارسال پیامک",
+            "en": "Send SMS"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «ارسال پیامک».",
+            "en": "The supplied Financial manual does not document the functions of this specific form sufficiently. Its actual capabilities should be confirmed before publication.",
+            "de": "Das vorliegende Finanzhandbuch beschreibt die Funktionen dieses Formulars nicht ausreichend. Die tatsächlichen Möglichkeiten sollten vor der Veröffentlichung bestätigt werden.",
+            "fr": "Le manuel financier fourni ne décrit pas suffisamment les fonctions de ce formulaire. Ses capacités réelles doivent être confirmées avant publication.",
+            "it": "Il manuale finanziario fornito non documenta adeguatamente le funzioni di questo modulo. Le sue effettive capacità devono essere confermate prima della pubblicazione.",
+            "es": "El manual financiero proporcionado no documenta suficientemente las funciones de este formulario. Sus capacidades reales deben confirmarse antes de publicarlas.",
+            "ru": "В предоставленном финансовом руководстве недостаточно описаны функции этой формы. Ее реальные возможности необходимо подтвердить до публикации.",
+            "pt": "O manual financeiro fornecido não documenta suficientemente as funções deste formulário. As funcionalidades reais devem ser confirmadas antes da publicação.",
+            "tr": "Sağlanan mali kılavuz bu formun işlevlerini yeterince açıklamamaktadır. Gerçek özellikleri yayımlanmadan önce doğrulanmalıdır.",
+            "ar": "لا يوثق دليل النظام المالي المرفق وظائف هذا النموذج بما يكفي. ينبغي تأكيد إمكاناته الفعلية قبل النشر."
+          }
+        }
+      ]
+    },
+    {
+      "id": "reports",
+      "icon": "file-text",
+      "title": {
+        "fa": "گزارشات حسابداری",
+        "en": "Accounting Reports",
+        "de": "Buchhaltungsberichte",
+        "fr": "Rapports comptables",
+        "it": "Report contabili",
+        "es": "Informes contables",
+        "ru": "Бухгалтерские отчёты",
+        "pt": "Relatórios contábeis",
+        "tr": "Muhasebe raporları",
+        "ar": "التقارير المحاسبية"
+      },
+      "items": [
+        {
+          "id": "reports-01",
+          "title": {
+            "fa": "دفتر کل",
+            "en": "General Ledger"
+          },
+          "description": {
+            "fa": "گزارش دفتر کل امکان جست‌وجو، مشاهده و چاپ اسناد صادرشده در سطح حساب‌های کل را فراهم می‌کند. کاربر می‌تواند شماره و تاریخ سند، کد حساب، شرح و مبالغ بدهکار و بستانکار را بررسی کند. مطابق راهنما، این گزارش اطلاعات سند و شرح حساب کل را نمایش می‌دهد و برای پیگیری گردش ثبت‌های حسابداری در سطح کل به کار می‌رود.",
+            "en": "The general ledger report searches, displays and prints posted documents at general-account level. Users can inspect document number and date, account code, description, and debit and credit amounts to trace accounting movements.",
+            "de": "Das Hauptbuch zeigt, sucht und druckt gebuchte Belege auf Sachkontenebene. Belegnummer, Datum, Kontocode, Buchungstext sowie Soll- und Habenbeträge ermöglichen die Nachverfolgung der Buchungen.",
+            "fr": "Le grand livre permet de rechercher, consulter et imprimer les écritures par compte général. Numéro, date, code, libellé et montants au débit et au crédit facilitent le suivi des mouvements.",
+            "it": "Il libro mastro permette di cercare, consultare e stampare registrazioni per conto generale. Numero, data, codice, causale e importi dare/avere consentono di seguirne i movimenti.",
+            "es": "El libro mayor permite buscar, consultar e imprimir asientos por cuenta general. Número, fecha, código, concepto e importes en debe y haber facilitan el seguimiento contable.",
+            "ru": "Главная книга позволяет искать, просматривать и печатать проводки по синтетическим счетам. Номер, дата, код, описание и суммы дебета и кредита помогают отслеживать движение средств.",
+            "pt": "O razão geral permite pesquisar, consultar e imprimir lançamentos por conta geral. Número, data, código, descrição e valores a débito e crédito facilitam o acompanhamento contabilístico.",
+            "tr": "Büyük defter raporu, ana hesap düzeyindeki kayıtları arar, gösterir ve yazdırır. Belge numarası, tarih, hesap kodu, açıklama ile borç/alacak tutarları incelenebilir.",
+            "ar": "يتيح تقرير دفتر الأستاذ العام البحث عن القيود وعرضها وطباعتها على مستوى الحسابات العامة. ويعرض رقم المستند وتاريخه ورمز الحساب والوصف ومبالغ المدين والدائن لتتبع الحركات المحاسبية."
+          }
+        },
+        {
+          "id": "reports-02",
+          "title": {
+            "fa": "دفتر معین",
+            "en": "Subsidiary Ledger"
+          },
+          "description": {
+            "fa": "گزارش دفتر معین برای مشاهده و چاپ گردش اسناد در سطح حساب‌های معین استفاده می‌شود. این گزارش شامل شماره و تاریخ اسناد، کد حساب، شرح و مبالغ بدهکار و بستانکار است و امکان محدودکردن اطلاعات بر اساس حساب معین موردنظر را دارد. راهنما همچنین به نمایش شرح سند، شرح کل و شرح حساب و امکان فیلترکردن بخش‌های غیرضروری اشاره می‌کند.",
+            "en": "The subsidiary ledger displays movements within a selected subsidiary account and supports searching and printing documents. It shows numbers, dates, account codes, descriptions and debit/credit figures; the document, general-account and subsidiary-account descriptions can be filtered.",
+            "de": "Das Nebenbuch zeigt Buchungen eines ausgewählten Unterkontos und ermöglicht Suche und Druck. Nummern, Daten, Kontocodes, Texte und Soll-/Habenwerte sind sichtbar; Beleg-, Hauptkonto- und Unterkontotexte lassen sich filtern.",
+            "fr": "Le grand livre auxiliaire présente les mouvements d’un compte auxiliaire, avec recherche et impression. Il affiche numéros, dates, codes, libellés et débits/crédits, avec filtrage des descriptions.",
+            "it": "Il mastro dei sottoconti mostra i movimenti di un conto selezionato, con ricerca e stampa. Sono visibili numeri, date, codici, causali e valori dare/avere; le descrizioni possono essere filtrate.",
+            "es": "El mayor auxiliar muestra movimientos de una subcuenta y permite buscar e imprimir documentos. Incluye números, fechas, códigos, conceptos y débitos/créditos, con filtros para las descripciones.",
+            "ru": "Вспомогательная книга показывает движения выбранного субсчета с поиском и печатью. Доступны номера, даты, коды, описания и дебет/кредит; описания можно фильтровать.",
+            "pt": "O razão auxiliar apresenta movimentos de uma subconta, permitindo pesquisar e imprimir. Mostra números, datas, códigos, descrições e débitos/créditos, com filtros para os textos.",
+            "tr": "Yardımcı defter, seçilen alt hesaptaki hareketleri arama ve yazdırmayla gösterir. Numara, tarih, kod, açıklama ve borç/alacak tutarları sunulur; açıklamalar filtrelenebilir.",
+            "ar": "يعرض دفتر الأستاذ المساعد حركات حساب فرعي محدد مع البحث والطباعة. ويتضمن أرقام المستندات وتواريخها والرموز والأوصاف ومبالغ المدين والدائن، مع إمكانية تصفية الأوصاف."
+          }
+        },
+        {
+          "id": "reports-03",
+          "title": {
+            "fa": "دفتر روزنامه",
+            "en": "Journal"
+          },
+          "description": {
+            "fa": "گزارش دفتر روزنامه امکان مرور اسناد ثبت‌شده در بازه موردنظر را فراهم می‌کند. بر اساس راهنما، کاربر می‌تواند اطلاعاتی نظیر شماره و تاریخ سند، کد حساب، شرح و مقادیر بدهکار و بستانکار را جست‌وجو، مشاهده و چاپ کند. این گزارش برای پیگیری ترتیب ثبت رویدادهای مالی و بررسی سوابق اسناد حسابداری کاربرد دارد.",
+            "en": "The journal report allows users to review accounting documents recorded over a selected period. Document number, date, account code, description and debit/credit figures can be searched, viewed and printed to follow the sequence of financial events.",
+            "de": "Das Journal zeigt Belege innerhalb eines gewählten Zeitraums. Belegnummer, Datum, Kontocode, Buchungstext und Soll-/Habenwerte können gesucht, angesehen und gedruckt werden, um die Buchungsfolge nachzuvollziehen.",
+            "fr": "Le journal permet de consulter les écritures d’une période donnée. Numéros, dates, codes, libellés et montants débit/crédit peuvent être recherchés et imprimés pour suivre la chronologie comptable.",
+            "it": "Il libro giornale mostra le registrazioni di un periodo. Numero, data, codice conto, causale e importi dare/avere sono ricercabili e stampabili per ricostruire la sequenza delle operazioni.",
+            "es": "El libro diario permite revisar asientos de un período. Se pueden buscar e imprimir números, fechas, códigos, conceptos e importes en debe y haber para seguir el orden de registro.",
+            "ru": "Журнал операций позволяет просматривать проводки за выбранный период. Номера, даты, коды, описания и суммы дебета/кредита доступны для поиска, просмотра и печати.",
+            "pt": "O diário permite consultar lançamentos de um período. Números, datas, códigos, descrições e montantes a débito/crédito podem ser pesquisados e impressos para acompanhar a sequência.",
+            "tr": "Yevmiye raporu, seçilen dönemin muhasebe kayıtlarını gösterir. Belge numarası, tarih, hesap kodu, açıklama ve borç/alacak tutarları aranabilir ve yazdırılabilir.",
+            "ar": "يتيح تقرير دفتر اليومية مراجعة القيود المسجلة خلال فترة محددة. ويمكن البحث عن رقم المستند والتاريخ ورمز الحساب والوصف ومبالغ المدين والدائن وعرضها وطباعتها."
+          }
+        },
+        {
+          "id": "reports-04",
+          "title": {
+            "fa": "تراز کل",
+            "en": "Trial Balance – General"
+          },
+          "description": {
+            "fa": "گزارش تراز کل، مانده و گردش حساب‌های کل را در قالب‌های دو، چهار، شش یا هشت‌ستونی نمایش می‌دهد. بنا بر راهنما، امکان تهیه گزارش به‌صورت تلفیقی یا تفکیکی، با چینش مستقیم یا معکوس و اعمال محدودیت بر مانده بدهکار و بستانکار وجود دارد. این قابلیت برای بررسی وضعیت حساب‌ها و مقایسه ساختارهای مختلف گزارش مالی مناسب است.",
+            "en": "The general trial balance shows general-account movements and balances in two-, four-, six- or eight-column layouts. Combined or separated presentations, direct or reversed ordering, and debit/credit balance limits help users examine account positions.",
+            "de": "Die Hauptsummen- und Saldenliste zeigt Bewegungen und Salden in zwei, vier, sechs oder acht Spalten. Kombinierte oder getrennte Ansichten, umgekehrte Reihenfolge und Soll-/Habengrenzen unterstützen die Kontenanalyse.",
+            "fr": "La balance générale présente mouvements et soldes en deux, quatre, six ou huit colonnes. Les vues regroupées ou séparées, l’ordre direct ou inversé et les limites de solde facilitent l’analyse.",
+            "it": "Il bilancio di verifica generale mostra movimenti e saldi su due, quattro, sei od otto colonne. Viste aggregate o separate, ordine inverso e limiti dare/avere facilitano l’analisi.",
+            "es": "El balance general de comprobación muestra movimientos y saldos en dos, cuatro, seis u ocho columnas. Las vistas agrupadas o separadas y los filtros de saldo deudor/acreedor apoyan el análisis.",
+            "ru": "Оборотно-сальдовая ведомость по общим счетам показывает обороты и остатки в 2, 4, 6 или 8 столбцах. Доступны объединенные и раздельные виды, обратный порядок и ограничения по дебету/кредиту.",
+            "pt": "O balancete geral mostra movimentos e saldos em duas, quatro, seis ou oito colunas. Vistas agregadas ou separadas, ordem inversa e limites de saldo facilitam a análise.",
+            "tr": "Genel mizan, ana hesap hareket ve bakiyelerini iki, dört, altı veya sekiz sütunda gösterir. Birleşik/ayrık görünüm, ters sıralama ve borç/alacak bakiye sınırları kullanılabilir.",
+            "ar": "يعرض ميزان المراجعة العام حركات الحسابات العامة وأرصدتها في عمودين أو أربعة أو ستة أو ثمانية أعمدة. وتتوفر عروض مجمعة أو مفصلة وخيارات ترتيب وتحديد حدود أرصدة المدين والدائن."
+          }
+        },
+        {
+          "id": "reports-05",
+          "title": {
+            "fa": "تراز معین",
+            "en": "Trial Balance – Subsidiary"
+          },
+          "description": {
+            "fa": "گزارش تراز معین اطلاعات حساب‌های معین را در قالب‌های دو، چهار، شش و هشت‌ستونی ارائه می‌کند. کاربر می‌تواند گزارش را به‌صورت مستقیم، تلفیقی یا تفکیکی تهیه کند و با تعیین محدودیت برای مانده بدهکار و بستانکار، حساب‌های موردنظر را مشاهده نماید. این گزارش برای کنترل گردش و مانده حساب‌ها در سطح معین کاربرد دارد.",
+            "en": "The subsidiary trial balance presents movements and balances for subsidiary accounts in two-, four-, six- or eight-column formats. Users can select combined or separated layouts and set debit or credit balance limits to focus on relevant accounts.",
+            "de": "Die Summen- und Saldenliste der Unterkonten zeigt Bewegungen und Salden in zwei, vier, sechs oder acht Spalten. Kombinierte oder getrennte Ansichten und Soll-/Habengrenzen begrenzen die Auswahl.",
+            "fr": "La balance auxiliaire présente mouvements et soldes des comptes auxiliaires en deux, quatre, six ou huit colonnes. Des vues regroupées ou séparées et des limites débiteur/créditeur permettent de cibler les comptes.",
+            "it": "Il bilancio di verifica dei sottoconti presenta movimenti e saldi su due, quattro, sei od otto colonne. Viste aggregate o separate e filtri sui saldi dare/avere restringono l’analisi.",
+            "es": "El balance de subcuentas muestra movimientos y saldos en dos, cuatro, seis u ocho columnas. Permite vistas agrupadas o separadas y limitar los saldos deudores o acreedores.",
+            "ru": "Оборотно-сальдовая ведомость по субсчетам показывает обороты и остатки в 2, 4, 6 или 8 столбцах. Доступны объединенные и раздельные виды и ограничения по остаткам.",
+            "pt": "O balancete auxiliar apresenta movimentos e saldos de subcontas em duas, quatro, seis ou oito colunas. É possível agrupar, separar e filtrar saldos devedores ou credores.",
+            "tr": "Yardımcı mizan, alt hesap hareket ve bakiyelerini iki, dört, altı veya sekiz sütunda sunar. Birleşik ya da ayrık düzenler ve borç/alacak bakiye sınırları seçilebilir.",
+            "ar": "يعرض ميزان المراجعة المساعد حركات الحسابات الفرعية وأرصدتها في تنسيقات متعددة الأعمدة. ويمكن اختيار العرض المجمع أو المفصل وتحديد حدود أرصدة المدين والدائن."
+          }
+        },
+        {
+          "id": "reports-06",
+          "title": {
+            "fa": "تراز تفصیلی",
+            "en": "Detailed Trial Balance"
+          },
+          "description": {
+            "fa": "گزارش تراز تفصیلی برای بررسی گردش و مانده حساب‌های تفصیلی مرتبط با اسناد مالی طراحی شده است. مطابق راهنما، می‌توان اطلاعات حساب‌های تفصیلی را در قالب‌های دو تا هشت‌ستونی، به شکل مستقیم، تلفیقی یا تفکیکی مشاهده کرد و با اعمال محدودیت برای مانده بدهکار یا بستانکار، دامنه گزارش را مشخص نمود.",
+            "en": "The analytical trial balance examines movements and balances of detailed accounts linked to financial documents. Two- to eight-column presentations, combined or separated formats, and debit/credit limits allow users to define the reporting scope.",
+            "de": "Die analytische Saldenliste untersucht Bewegungen und Salden detaillierter Konten aus Finanzbelegen. Darstellungen mit zwei bis acht Spalten, gruppierte oder getrennte Ansichten und Soll-/Habengrenzen bestimmen den Umfang.",
+            "fr": "La balance analytique examine les mouvements et soldes des comptes détaillés liés aux pièces financières. De deux à huit colonnes, vues regroupées ou séparées et limites débit/crédit définissent le périmètre.",
+            "it": "Il bilancio analitico esamina movimenti e saldi dei conti di dettaglio collegati ai documenti finanziari. Formati da due a otto colonne, aggregazioni e limiti dare/avere definiscono il risultato.",
+            "es": "El balance analítico revisa movimientos y saldos de cuentas detalladas vinculadas a documentos financieros. Los formatos de dos a ocho columnas y los límites de debe/haber delimitan el informe.",
+            "ru": "Аналитическая оборотно-сальдовая ведомость показывает обороты и остатки детальных счетов. Форматы от 2 до 8 столбцов, объединение и фильтры дебета/кредита определяют объем отчета.",
+            "pt": "O balancete analítico examina movimentos e saldos de contas detalhadas. Formatos de duas a oito colunas, vistas agrupadas ou separadas e limites a débito/crédito definem o relatório.",
+            "tr": "Detay mizanı, mali belgelere bağlı ayrıntılı hesapların hareket ve bakiyelerini inceler. İki ila sekiz sütunlu düzenler ve borç/alacak sınırları rapor kapsamını belirler.",
+            "ar": "يفحص ميزان المراجعة التفصيلي حركات الحسابات التحليلية وأرصدتها المرتبطة بالمستندات المالية. وتتيح صيغ العمودين إلى الثمانية والعروض المجمعة أو المفصلة وحدود المدين والدائن تحديد نطاق التقرير."
+          }
+        },
+        {
+          "id": "reports-07",
+          "title": {
+            "fa": "سند حسابداری",
+            "en": "Accounting Voucher"
+          },
+          "description": {
+            "fa": "گزارش سند حسابداری امکان نمایش اطلاعات هر سند را در قالب ساده، مرکب و سفارشی فراهم می‌کند؛ قالب‌ها به‌ترتیب سطوح کل، سطوح تفصیلی یا سطوح انتخابی را نشان می‌دهند. راهنما به گزارش گروه‌بندی‌شده، مشاهده شماره و تاریخ چک‌های مرتبط و فیلترکردن اسناد بر اساس اطلاعاتی مانند شماره چک نیز اشاره کرده است.",
+            "en": "The accounting voucher report displays a document in simple, compound or custom formats, covering general, detailed or selected account levels. Grouped layouts can show related cheque dates and numbers, while filters help locate documents by cheque number.",
+            "de": "Der Buchungsbelegbericht zeigt Belege einfach, kombiniert oder benutzerdefiniert für Haupt- und Detailkonten. Gruppierte Ansichten enthalten Scheckdaten; Filter finden Belege anhand der Schecknummer.",
+            "fr": "Le rapport des pièces comptables propose des formats simple, composé et personnalisé selon les niveaux de comptes. Les vues groupées présentent les références des chèques, avec recherche par numéro.",
+            "it": "Il rapporto dei documenti contabili offre formati semplice, composto e personalizzato per i livelli dei conti. Le viste raggruppate includono i riferimenti degli assegni, con filtri per numero.",
+            "es": "El informe de comprobantes ofrece formatos simple, compuesto y personalizado por niveles de cuenta. Las vistas agrupadas muestran fechas y números de cheques y permiten filtrar por ellos.",
+            "ru": "Отчет по бухгалтерским документам поддерживает простой, составной и настраиваемый виды для разных уровней счетов. Группировка показывает даты и номера чеков, поиск доступен по номеру.",
+            "pt": "O relatório de documentos contabilísticos oferece formatos simples, compostos e personalizados por nível de conta. Vistas agrupadas incluem datas e números de cheques, com pesquisa pelo número.",
+            "tr": "Muhasebe fişi raporu, hesap düzeylerini basit, birleşik veya özel biçimde gösterir. Gruplu görünümler çek tarihi ve numarasını içerir; çek numarasıyla arama yapılabilir.",
+            "ar": "يعرض تقرير السند المحاسبي المستند في صيغ بسيطة أو مركبة أو مخصصة حسب مستوى الحساب. ويمكن إظهار أرقام الشيكات وتواريخها في تقارير مجمعة وتصفية المستندات برقم الشيك."
+          }
+        },
+        {
+          "id": "reports-08",
+          "title": {
+            "fa": "مرور مانده حساب ها",
+            "en": "Account Balance Review"
+          },
+          "description": {
+            "fa": "مرور حساب‌ها یک گزارش تعاملی برای بررسی مانده و گردش حساب‌ها در سطوح مختلف است. کاربر ابتدا سطح شروع گزارش را انتخاب می‌کند، سپس با انتخاب سطرهای تراز و سطوح تفصیلی مرتبط، از نمای کلی به جزئیات حرکت می‌کند. در هر مرحله امکان مشاهده یا چاپ تراز، اسناد مرتبط و نمودارهای میله‌ای و دایره‌ای وجود دارد.",
+            "en": "Account balance exploration is an interactive report for reviewing balances and movements across account levels. Users start at a chosen level, drill into related detailed accounts, and can view or print trial balances, source documents, and bar or pie charts.",
+            "de": "Die interaktive Kontenübersicht untersucht Salden und Bewegungen über mehrere Kontenebenen. Nutzer wählen eine Einstiegsebene und navigieren in Details; Saldenlisten, Belege sowie Balken- und Kreisdiagramme lassen sich anzeigen oder drucken.",
+            "fr": "L’exploration des soldes est interactive : l’utilisateur choisit un niveau, puis descend dans les comptes détaillés associés. Il peut consulter ou imprimer balances, pièces et graphiques en barres ou secteurs.",
+            "it": "L’esplorazione dei saldi è interattiva: si sceglie il livello iniziale e si approfondiscono i conti collegati. Si possono consultare o stampare bilanci, documenti e grafici a barre o a torta.",
+            "es": "La consulta de saldos es interactiva: se elige un nivel inicial y se profundiza en cuentas relacionadas. Permite ver o imprimir balances, documentos y gráficos de barras o circulares.",
+            "ru": "Интерактивный обзор остатков позволяет переходить от выбранного уровня счетов к деталям. Можно просматривать или печатать ведомости, документы, столбчатые и круговые диаграммы.",
+            "pt": "A exploração de saldos é interativa: escolhe-se o nível inicial e aprofunda-se nas contas relacionadas. É possível consultar ou imprimir balancetes, documentos e gráficos de barras ou setores.",
+            "tr": "Hesap bakiyesi incelemesi etkileşimlidir: başlangıç düzeyi seçilir ve ilişkili ayrıntı hesaplarına inilir. Mizan, belgeler ve çubuk/pasta grafikler görüntülenip yazdırılabilir.",
+            "ar": "يتيح استعراض أرصدة الحسابات التفاعلي الانتقال من المستوى المختار إلى الحسابات التفصيلية المرتبطة. ويمكن عرض أو طباعة الموازين والمستندات والرسوم البيانية العمودية والدائرية."
+          }
+        },
+        {
+          "id": "reports-09",
+          "title": {
+            "fa": "کنترل مانده حساب ها",
+            "en": "Account Balance Control"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «کنترل مانده حساب ها».",
+            "en": "The supplied Financial manual does not document the functions of this specific form sufficiently. Its actual capabilities should be confirmed before publication.",
+            "de": "Das vorliegende Finanzhandbuch beschreibt die Funktionen dieses Formulars nicht ausreichend. Die tatsächlichen Möglichkeiten sollten vor der Veröffentlichung bestätigt werden.",
+            "fr": "Le manuel financier fourni ne décrit pas suffisamment les fonctions de ce formulaire. Ses capacités réelles doivent être confirmées avant publication.",
+            "it": "Il manuale finanziario fornito non documenta adeguatamente le funzioni di questo modulo. Le sue effettive capacità devono essere confermate prima della pubblicazione.",
+            "es": "El manual financiero proporcionado no documenta suficientemente las funciones de este formulario. Sus capacidades reales deben confirmarse antes de publicarlas.",
+            "ru": "В предоставленном финансовом руководстве недостаточно описаны функции этой формы. Ее реальные возможности необходимо подтвердить до публикации.",
+            "pt": "O manual financeiro fornecido não documenta suficientemente as funções deste formulário. As funcionalidades reais devem ser confirmadas antes da publicação.",
+            "tr": "Sağlanan mali kılavuz bu formun işlevlerini yeterince açıklamamaktadır. Gerçek özellikleri yayımlanmadan önce doğrulanmalıdır.",
+            "ar": "لا يوثق دليل النظام المالي المرفق وظائف هذا النموذج بما يكفي. ينبغي تأكيد إمكاناته الفعلية قبل النشر."
+          }
+        },
+        {
+          "id": "reports-10",
+          "title": {
+            "fa": "گزارش عملکردی",
+            "en": "Performance Report"
+          },
+          "description": {
+            "fa": "گزارش‌های عملکرد مالی و بودجه‌ای، اطلاعات اعتبار و هزینه را بر اساس ابعادی مانند برنامه، فصل و اعتبار مصوب نمایش می‌دهند. راهنما نمونه‌هایی از گزارش عملکرد اعتبارات جاری و تفریغ بودجه را معرفی می‌کند که به‌صورت مکانیزه تولید می‌شوند و امکان مقایسه میزان مصرف و تخصیص با سطوح بودجه‌ای را برای بررسی عملکرد فراهم می‌سازند.",
+            "en": "Financial and budget performance reports present appropriations and spending by dimensions such as programme, chapter and approved funds. The manual documents automatically generated current-appropriation and budget-execution reports to compare consumption and allocations against budget levels.",
+            "de": "Leistungsberichte stellen Mittel und Ausgaben nach Programm, Kapitel und genehmigtem Budget dar. Das Handbuch beschreibt automatisch erstellte Ausführungsberichte zum Vergleich von Verbrauch und Zuweisung.",
+            "fr": "Les rapports de performance présentent crédits et dépenses par programme, chapitre et budget approuvé. Le manuel décrit des rapports automatiques comparant consommations et répartitions aux niveaux budgétaires.",
+            "it": "I rapporti di andamento mostrano stanziamenti e spese per programma, capitolo e budget approvato. Il manuale descrive report automatici per confrontare utilizzi e assegnazioni.",
+            "es": "Los informes de ejecución muestran créditos y gastos por programa, capítulo y presupuesto aprobado. El manual describe informes automáticos que comparan consumo y asignación por nivel presupuestario.",
+            "ru": "Отчеты об исполнении показывают ассигнования и расходы по программам, разделам и утвержденным бюджетам. Руководство описывает автоматические отчеты для сравнения расходования и распределения.",
+            "pt": "Os relatórios de execução mostram dotações e despesas por programa, capítulo e orçamento aprovado. O manual descreve relatórios automáticos que comparam utilização e atribuições.",
+            "tr": "Performans raporları ödenek ve harcamaları program, bölüm ve onaylı bütçe bazında gösterir. Kılavuz tüketim ve tahsisleri karşılaştıran otomatik raporları açıklar.",
+            "ar": "تعرض تقارير الأداء المالي والموازني الاعتمادات والمصروفات حسب البرنامج والفصل والمبالغ المعتمدة. ويوضح الدليل تقارير آلية تقارن الاستخدام والتخصيص بمستويات الموازنة."
+          }
+        },
+        {
+          "id": "reports-11",
+          "title": {
+            "fa": "گزارشات پیشرفته و جامع حسابداری",
+            "en": "Advanced Accounting Reports"
+          },
+          "description": {
+            "fa": "گزارش جامع دفاتر و تراز امکان تهیه گزارش‌های حسابداری با تعیین ترتیب دلخواه گروه‌بندی کدها را فراهم می‌کند. کاربر می‌تواند سطح شروع گزارش و نوع خروجی دفتر یا تراز را انتخاب کند و ترکیب‌های مختلفی از سطوح حسابداری را به دست آورد. این انعطاف‌پذیری برای گزارش‌های مدیریتی، گزارش‌های پویا و بررسی مقایسه‌ای اطلاعات مالی کاربرد دارد.",
+            "en": "The comprehensive ledger and trial-balance report lets users choose the grouping order of accounting codes and the starting account level. It produces ledger or balance outputs with different account-level combinations for management reporting, dynamic analysis and financial comparisons.",
+            "de": "Der umfassende Hauptbuch- und Saldenbericht erlaubt die freie Reihenfolge der Kontengruppierung und die Wahl der Einstiegsebene. Unterschiedliche Kombinationen dienen Managementberichten, dynamischen Auswertungen und Vergleichen.",
+            "fr": "Le rapport général des livres et balances permet de choisir l’ordre de regroupement des codes et le niveau initial. Les combinaisons de comptes servent aux rapports de gestion et aux analyses comparatives.",
+            "it": "Il rapporto completo di libri e bilanci consente di scegliere l’ordine di raggruppamento dei codici e il livello iniziale. Le diverse combinazioni sostengono analisi gestionali, dinamiche e comparative.",
+            "es": "El informe integral de libros y balances permite ordenar la agrupación de códigos y elegir el nivel inicial. Las distintas combinaciones sirven para informes de gestión y análisis comparativos.",
+            "ru": "Комплексный отчет по книгам и ведомостям позволяет менять порядок группировки кодов и начальный уровень. Разные комбинации используются для управленческой и сравнительной отчетности.",
+            "pt": "O relatório integral de livros e balancetes permite escolher a ordem de agrupamento dos códigos e o nível inicial. Diferentes combinações apoiam análises de gestão e comparativas.",
+            "tr": "Kapsamlı defter ve mizan raporu, hesap kodlarının gruplama sırasını ve başlangıç düzeyini seçtirir. Farklı düzenler yönetim, dinamik analiz ve mali karşılaştırmalarda kullanılır.",
+            "ar": "يتيح التقرير الشامل للدفاتر والموازين اختيار ترتيب تجميع رموز الحسابات ومستوى البداية. ويمكن إنتاج دفاتر وموازين بتركيبات مختلفة لدعم التقارير الإدارية والتحليل والمقارنات المالية."
+          }
+        }
+      ]
+    },
+    {
+      "id": "statements",
+      "icon": "chart",
+      "title": {
+        "fa": "گزارشات صورت های مالی",
+        "en": "Financial Statements",
+        "de": "Jahresabschlussberichte",
+        "fr": "États financiers",
+        "it": "Prospetti finanziari",
+        "es": "Estados financieros",
+        "ru": "Финансовая отчётность",
+        "pt": "Demonstrações financeiras",
+        "tr": "Mali tablolar",
+        "ar": "القوائم المالية"
+      },
+      "items": [
+        {
+          "id": "statements-01",
+          "title": {
+            "fa": "صورت وضعیت مالی",
+            "en": "Statement of Financial Position"
+          },
+          "description": {
+            "fa": "این بخش صورت وضعیت مالی را برای نمایش تصویری تجمیعی از وضعیت مالی سازمان ارائه می‌کند. در صفحات پایانی راهنما، نمونه گزارش‌هایی نظیر صورت وضعیت مالی و صورت وضعیت خالص دارایی نمایش داده شده است که اقلام مالی را در سرفصل‌های مشخص گروه‌بندی می‌کنند. راهنما جزئیات کامل تنظیمات و عملیات این فرم را تشریح نکرده است.",
+            "en": "The financial-position statement presents a consolidated view of the organisation’s financial position. The manual shows examples of the statement and net-assets presentation, with items grouped under defined headings, but does not document all configuration steps.",
+            "de": "Die Vermögensübersicht bietet eine zusammengefasste Darstellung der Finanzlage. Das Handbuch zeigt Beispiele der Finanzlage und des Nettovermögens mit gruppierten Positionen, erläutert jedoch nicht alle Einstellungen.",
+            "fr": "L’état de la situation financière présente une vue consolidée de l’organisation. Le manuel illustre cet état et celui de l’actif net, avec postes regroupés, sans détailler tous les paramètres.",
+            "it": "Il prospetto della situazione patrimoniale offre una visione consolidata dell’organizzazione. Il manuale mostra esempi e voci raggruppate, senza descrivere tutte le impostazioni.",
+            "es": "El estado de situación financiera muestra una visión consolidada de la organización. El manual incluye ejemplos de situación y activos netos agrupados por partidas, sin detallar toda la configuración.",
+            "ru": "Отчет о финансовом положении представляет сводную картину организации. Руководство содержит примеры отчета и чистых активов с группировкой статей, но не описывает все настройки.",
+            "pt": "A demonstração da posição financeira oferece uma visão consolidada da organização. O manual apresenta exemplos de posição financeira e ativos líquidos agrupados, sem detalhar toda a configuração.",
+            "tr": "Finansal durum tablosu, kuruluşun mali durumunu toplu olarak gösterir. Kılavuz, kalemlerin gruplandığı mali durum ve net varlık örneklerini sunar; tüm ayarları açıklamaz.",
+            "ar": "يعرض بيان المركز المالي صورة مجمعة للوضع المالي للمنظمة. ويورد الدليل أمثلة لبيان المركز المالي وصافي الأصول مع تجميع البنود، لكنه لا يشرح جميع إعدادات النموذج."
+          }
+        },
+        {
+          "id": "statements-02",
+          "title": {
+            "fa": "صورت تغییرات وضعیت مالی",
+            "en": "Statement of Changes in Financial Position"
+          },
+          "description": {
+            "fa": "این گزارش برای نمایش تغییرات وضعیت مالی در قالب صورت مالی استفاده می‌شود. نمونه ارائه‌شده در راهنما، درآمدهای عملیاتی، هزینه‌های عملیاتی و خالص تغییرات حاصل از فعالیت‌ها را تا تاریخ گزارش تفکیک می‌کند. جزئیات محاسبات و شیوه تعریف اقلام گزارش در این PDF به‌صورت کامل توضیح داده نشده است.",
+            "en": "This statement presents changes in financial position over a reporting period. The example in the manual separates operating revenue, operating expenses and the net change from activities; detailed calculation rules and configuration are not fully described.",
+            "de": "Diese Aufstellung zeigt Veränderungen der Finanzlage innerhalb einer Periode. Das Beispiel trennt operative Erträge, operative Aufwendungen und Nettoveränderungen; Berechnung und Einstellungen sind nicht vollständig dokumentiert.",
+            "fr": "Cet état présente les variations de la situation financière sur une période. L’exemple distingue produits et charges d’exploitation ainsi que la variation nette, sans détailler tous les calculs.",
+            "it": "Il prospetto mostra le variazioni della situazione finanziaria nel periodo. L’esempio distingue ricavi operativi, costi operativi e variazione netta; calcoli e configurazione non sono completi.",
+            "es": "Este estado muestra cambios en la situación financiera durante un período. El ejemplo separa ingresos y gastos operativos y variación neta; los cálculos y ajustes no se explican completamente.",
+            "ru": "Отчет показывает изменения финансового положения за период. В примере выделены операционные доходы, расходы и чистое изменение; правила расчета и настройки описаны не полностью.",
+            "pt": "A demonstração apresenta alterações na posição financeira durante o período. O exemplo separa receitas e despesas operacionais e variação líquida, sem detalhar todos os cálculos.",
+            "tr": "Bu tablo, dönem içindeki mali durum değişikliklerini gösterir. Örnekte faaliyet gelirleri, giderleri ve net değişim ayrılır; hesaplama ve ayarlar tam açıklanmamıştır.",
+            "ar": "يعرض هذا البيان التغيرات في الوضع المالي خلال فترة التقرير. ويفصل المثال بين الإيرادات والمصروفات التشغيلية وصافي التغير، دون توثيق كامل لقواعد الحساب والإعداد."
+          }
+        },
+        {
+          "id": "statements-03",
+          "title": {
+            "fa": "صورت مقایسه بودجه و عملکرد",
+            "en": "Budget-to-Actual Comparison Statement"
+          },
+          "description": {
+            "fa": "گزارش‌های بودجه و عملکرد، داده‌های اعتبار مصوب و عملکرد واقعی را در سطوح مختلف برنامه و فصل کنار هم قرار می‌دهند تا امکان بررسی اختلاف و میزان تحقق بودجه فراهم شود. راهنما چند نمونه گزارش تفریغ بودجه و عملکرد اعتبارات را معرفی می‌کند که به شکل مکانیزه تهیه می‌شوند و برای تحلیل دوره‌ای منابع و مصارف کاربرد دارند.",
+            "en": "The budget-versus-actual report places approved appropriations and actual performance side by side by programme and chapter. Automatically generated budget-execution and appropriation reports help compare spending, allocations and budget achievement across reporting periods.",
+            "de": "Der Soll-Ist-Vergleich stellt genehmigte Budgets und Istwerte nach Programm und Kapitel gegenüber. Automatische Ausführungsberichte ermöglichen Vergleiche von Ausgaben, Zuweisungen und Zielerreichung nach Zeitraum.",
+            "fr": "Le rapport budget-réalisé confronte crédits approuvés et résultats réels par programme et chapitre. Les rapports automatiques permettent d’analyser dépenses, allocations et exécution sur différentes périodes.",
+            "it": "Il rapporto budget-consuntivo confronta stanziamenti approvati e risultati effettivi per programma e capitolo. I report automatici permettono di valutare spese, assegnazioni e realizzazione nel tempo.",
+            "es": "El informe presupuesto-real compara créditos aprobados y resultados efectivos por programa y capítulo. Los informes automáticos facilitan el análisis de gastos, asignaciones y ejecución por período.",
+            "ru": "Сравнение плана и факта сопоставляет утвержденные ассигнования и реальные показатели по программам и разделам. Автоматические отчеты помогают анализировать расходы, распределения и исполнение бюджета.",
+            "pt": "O relatório orçamento-realizado compara dotações aprovadas com resultados efetivos por programa e capítulo. Relatórios automáticos permitem analisar despesas, atribuições e execução por período.",
+            "tr": "Bütçe-gerçekleşen raporu onaylı ödenek ve fiili performansı program ve bölüm bazında karşılaştırır. Otomatik raporlar harcama, tahsis ve bütçe gerçekleşmesini dönemlere göre inceler.",
+            "ar": "يقارن تقرير الموازنة بالأداء الفعلي بين الاعتمادات المعتمدة والنتائج المحققة حسب البرنامج والفصل. وتساعد التقارير الآلية على تحليل الإنفاق والتخصيص ونسب التنفيذ عبر الفترات."
+          }
+        }
+      ]
+    },
+    {
+      "id": "controls",
+      "icon": "layers",
+      "title": {
+        "fa": "گزارشات و کنترل های ویژه",
+        "en": "Special Reports and Controls",
+        "de": "Sonderberichte und Kontrollen",
+        "fr": "Rapports et contrôles spéciaux",
+        "it": "Report e controlli speciali",
+        "es": "Informes y controles especiales",
+        "ru": "Специальные отчёты и контроль",
+        "pt": "Relatórios e controles especiais",
+        "tr": "Özel raporlar ve kontroller",
+        "ar": "التقارير والرقابة الخاصة"
+      },
+      "items": [
+        {
+          "id": "controls-01",
+          "title": {
+            "fa": "گزارش چک های صادره",
+            "en": "Issued Checks Report"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: بررسی اطلاعات مرتبط با «گزارش چک های صادره».",
+            "en": "The supplied Financial manual does not document the functions of this specific form sufficiently. Its actual capabilities should be confirmed before publication.",
+            "de": "Das vorliegende Finanzhandbuch beschreibt die Funktionen dieses Formulars nicht ausreichend. Die tatsächlichen Möglichkeiten sollten vor der Veröffentlichung bestätigt werden.",
+            "fr": "Le manuel financier fourni ne décrit pas suffisamment les fonctions de ce formulaire. Ses capacités réelles doivent être confirmées avant publication.",
+            "it": "Il manuale finanziario fornito non documenta adeguatamente le funzioni di questo modulo. Le sue effettive capacità devono essere confermate prima della pubblicazione.",
+            "es": "El manual financiero proporcionado no documenta suficientemente las funciones de este formulario. Sus capacidades reales deben confirmarse antes de publicarlas.",
+            "ru": "В предоставленном финансовом руководстве недостаточно описаны функции этой формы. Ее реальные возможности необходимо подтвердить до публикации.",
+            "pt": "O manual financeiro fornecido não documenta suficientemente as funções deste formulário. As funcionalidades reais devem ser confirmadas antes da publicação.",
+            "tr": "Sağlanan mali kılavuz bu formun işlevlerini yeterince açıklamamaktadır. Gerçek özellikleri yayımlanmadan önce doğrulanmalıdır.",
+            "ar": "لا يوثق دليل النظام المالي المرفق وظائف هذا النموذج بما يكفي. ينبغي تأكيد إمكاناته الفعلية قبل النشر."
+          }
+        },
+        {
+          "id": "controls-02",
+          "title": {
+            "fa": "گزارش چک های باطله شده",
+            "en": "Canceled Checks Report"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: بررسی اطلاعات مرتبط با «گزارش چک های باطله شده».",
+            "en": "The supplied Financial manual does not document the functions of this specific form sufficiently. Its actual capabilities should be confirmed before publication.",
+            "de": "Das vorliegende Finanzhandbuch beschreibt die Funktionen dieses Formulars nicht ausreichend. Die tatsächlichen Möglichkeiten sollten vor der Veröffentlichung bestätigt werden.",
+            "fr": "Le manuel financier fourni ne décrit pas suffisamment les fonctions de ce formulaire. Ses capacités réelles doivent être confirmées avant publication.",
+            "it": "Il manuale finanziario fornito non documenta adeguatamente le funzioni di questo modulo. Le sue effettive capacità devono essere confermate prima della pubblicazione.",
+            "es": "El manual financiero proporcionado no documenta suficientemente las funciones de este formulario. Sus capacidades reales deben confirmarse antes de publicarlas.",
+            "ru": "В предоставленном финансовом руководстве недостаточно описаны функции этой формы. Ее реальные возможности необходимо подтвердить до публикации.",
+            "pt": "O manual financeiro fornecido não documenta suficientemente as funções deste formulário. As funcionalidades reais devem ser confirmadas antes da publicação.",
+            "tr": "Sağlanan mali kılavuz bu formun işlevlerini yeterince açıklamamaktadır. Gerçek özellikleri yayımlanmadan önce doğrulanmalıdır.",
+            "ar": "لا يوثق دليل النظام المالي المرفق وظائف هذا النموذج بما يكفي. ينبغي تأكيد إمكاناته الفعلية قبل النشر."
+          }
+        },
+        {
+          "id": "controls-03",
+          "title": {
+            "fa": "گزارش وضعیت چک ها",
+            "en": "Check Status Report"
+          },
+          "description": {
+            "fa": "گزارش وضعیت چک‌ها برای مشاهده وضعیت چک‌های ثبت‌شده در سامانه استفاده می‌شود. راهنما نمونه جدول وضعیت چک را نمایش می‌دهد و در بخش صدور چک نیز به تفکیک چک‌های در دسترس، استفاده‌شده و باطل‌شده، انتخاب شماره چک و مشاهده مشخصات آن اشاره می‌کند. این اطلاعات برای پیگیری چک‌ها در فرایند پرداخت کاربرد دارند.",
+            "en": "The cheque-status report displays the current status of cheques recorded in the system. The manual distinguishes available, used and cancelled cheques and describes selecting a cheque number and viewing its details for payment tracking.",
+            "de": "Der Scheckstatusbericht zeigt den Status erfasster Schecks. Das Handbuch unterscheidet verfügbare, verwendete und stornierte Schecks und beschreibt die Auswahl der Nummer und die Ansicht der Details.",
+            "fr": "Le rapport d’état des chèques affiche leur statut. Le manuel distingue chèques disponibles, utilisés et annulés et décrit la sélection du numéro et la consultation des détails.",
+            "it": "Il rapporto sullo stato degli assegni mostra gli assegni registrati. Il manuale distingue assegni disponibili, utilizzati e annullati e illustra la scelta del numero e dei dettagli.",
+            "es": "El informe de estado de cheques muestra los cheques registrados. El manual diferencia cheques disponibles, usados y anulados, y permite seleccionar el número y consultar sus datos.",
+            "ru": "Отчет по статусу чеков показывает зарегистрированные чеки. Руководство различает доступные, использованные и аннулированные чеки и описывает просмотр их реквизитов.",
+            "pt": "O relatório de estado dos cheques mostra os cheques registados. O manual distingue cheques disponíveis, utilizados e anulados, permitindo selecionar o número e consultar os dados.",
+            "tr": "Çek durum raporu kayıtlı çeklerin durumunu gösterir. Kılavuz kullanılabilir, kullanılmış ve iptal edilmiş çekleri ayırır; çek numarası seçilip ayrıntıları görüntülenebilir.",
+            "ar": "يعرض تقرير حالة الشيكات أوضاع الشيكات المسجلة. ويميز الدليل بين الشيكات المتاحة والمستخدمة والملغاة، مع اختيار رقم الشيك وعرض تفاصيله لمتابعة الدفع."
+          }
+        },
+        {
+          "id": "controls-04",
+          "title": {
+            "fa": "فرم پرداخت الکترونیکی",
+            "en": "Electronic Payment Form"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «فرم پرداخت الکترونیکی».",
+            "en": "The supplied Financial manual does not document the functions of this specific form sufficiently. Its actual capabilities should be confirmed before publication.",
+            "de": "Das vorliegende Finanzhandbuch beschreibt die Funktionen dieses Formulars nicht ausreichend. Die tatsächlichen Möglichkeiten sollten vor der Veröffentlichung bestätigt werden.",
+            "fr": "Le manuel financier fourni ne décrit pas suffisamment les fonctions de ce formulaire. Ses capacités réelles doivent être confirmées avant publication.",
+            "it": "Il manuale finanziario fornito non documenta adeguatamente le funzioni di questo modulo. Le sue effettive capacità devono essere confermate prima della pubblicazione.",
+            "es": "El manual financiero proporcionado no documenta suficientemente las funciones de este formulario. Sus capacidades reales deben confirmarse antes de publicarlas.",
+            "ru": "В предоставленном финансовом руководстве недостаточно описаны функции этой формы. Ее реальные возможности необходимо подтвердить до публикации.",
+            "pt": "O manual financeiro fornecido não documenta suficientemente as funções deste formulário. As funcionalidades reais devem ser confirmadas antes da publicação.",
+            "tr": "Sağlanan mali kılavuz bu formun işlevlerini yeterince açıklamamaktadır. Gerçek özellikleri yayımlanmadan önce doğrulanmalıdır.",
+            "ar": "لا يوثق دليل النظام المالي المرفق وظائف هذا النموذج بما يكفي. ينبغي تأكيد إمكاناته الفعلية قبل النشر."
+          }
+        },
+        {
+          "id": "controls-05",
+          "title": {
+            "fa": "پیگیری اسناد ارسالی",
+            "en": "Outgoing Document Tracking"
+          },
+          "description": {
+            "fa": "این قابلیت برای پیگیری اسناد ارسالی میان واحدهای سازمانی کاربرد دارد. مطابق راهنما، سند در طول گردش میان اعتبارات، دریافت و پرداخت، رسیدگی، مدیریت مالی، صدور چک و دفتر اداری وضعیت‌های مختلف دارد و کاربران مجاز می‌توانند اسناد بررسی‌شده و بررسی‌نشده را مشاهده کرده یا برخی اسناد را برای اصلاح به مرحله قبلی بازگردانند.",
+            "en": "This function tracks accounting documents sent between organisational units. As documents move through appropriation, payment, audit, financial management, cheque issuance and administration, authorised users can check their status and return selected items for correction.",
+            "de": "Diese Funktion verfolgt Belege zwischen Organisationseinheiten. Während sie Bewilligung, Zahlung, Prüfung, Finanzleitung, Scheckausstellung und Verwaltung durchlaufen, können Berechtigte den Status prüfen und Belege zurückgeben.",
+            "fr": "Cette fonction suit les pièces transmises entre services. Lors de leur passage par crédits, paiement, contrôle, direction financière et émission des chèques, les utilisateurs autorisés suivent leur état et peuvent les renvoyer.",
+            "it": "La funzione segue i documenti tra uffici. Nel passaggio da stanziamenti, pagamenti, verifica, direzione finanziaria ed emissione assegni, gli utenti autorizzati controllano lo stato e possono restituire i documenti.",
+            "es": "Esta función sigue documentos enviados entre unidades. Durante créditos, pagos, revisión, dirección financiera y emisión de cheques, los usuarios autorizados consultan el estado y pueden devolverlos para corregir.",
+            "ru": "Функция отслеживает документы между подразделениями. На этапах ассигнований, оплаты, проверки, финансового управления и выдачи чеков уполномоченные пользователи проверяют статус и возвращают документы на исправление.",
+            "pt": "A função acompanha documentos entre unidades. Nas etapas de dotação, pagamento, conferência, gestão financeira e emissão de cheques, utilizadores autorizados verificam estados e devolvem documentos para correção.",
+            "tr": "Bu özellik, birimler arasında gönderilen muhasebe belgelerini izler. Ödenek, ödeme, inceleme, mali yönetim ve çek düzenleme aşamalarında yetkililer durumu görüp belgeleri düzeltmeye iade edebilir.",
+            "ar": "تتابع هذه الوظيفة المستندات المرسلة بين الوحدات التنظيمية. وخلال مراحل الاعتمادات والدفع والتدقيق والإدارة المالية وإصدار الشيكات يمكن للمستخدمين المخولين متابعة الحالة وإرجاع المستند للتصحيح."
+          }
+        },
+        {
+          "id": "controls-06",
+          "title": {
+            "fa": "عناوین حساب ها",
+            "en": "Account Titles"
+          },
+          "description": {
+            "fa": "گزارش عناوین حساب‌ها، فهرست حساب‌های تعریف‌شده را همراه با کد و ماهیت بدهکار یا بستانکار آن‌ها نمایش می‌دهد. بر اساس راهنما، کاربر می‌تواند این فهرست را مشاهده و چاپ کند؛ ازاین‌رو گزارش برای مراجعه سریع به ساختار حساب‌ها و بررسی عناوین ثبت‌شده در سیستم مناسب است.",
+            "en": "The account-title report lists all defined accounts together with their codes and debit or credit nature. Users can view and print the list to consult the accounting chart and verify registered account names.",
+            "de": "Der Kontenverzeichnisbericht listet definierte Konten mit Codes und Soll- oder Habeneigenschaft auf. Die Liste kann angezeigt und gedruckt werden, um Kontenplan und Bezeichnungen zu prüfen.",
+            "fr": "Le rapport des intitulés de comptes liste les comptes avec leurs codes et nature débitrice ou créditrice. La consultation et l’impression facilitent la vérification du plan comptable.",
+            "it": "Il rapporto dei nomi dei conti elenca conti, codici e natura dare/avere. È possibile visualizzare e stampare l’elenco per controllare il piano dei conti.",
+            "es": "El informe de denominaciones enumera cuentas, códigos y naturaleza deudora o acreedora. Se puede consultar e imprimir para comprobar el plan de cuentas.",
+            "ru": "Отчет по наименованиям счетов содержит коды и дебетовую или кредитовую природу каждого счета. Список можно просматривать и печатать для проверки плана счетов.",
+            "pt": "O relatório de títulos de contas lista contas, códigos e natureza devedora ou credora. É possível consultar e imprimir a lista para verificar o plano de contas.",
+            "tr": "Hesap adları raporu tüm tanımlı hesapları kodları ve borç/alacak niteliğiyle listeler. Hesap planını incelemek için liste görüntülenip yazdırılabilir.",
+            "ar": "يسرد تقرير عناوين الحسابات الحسابات المعرفة ورموزها وطبيعتها المدينة أو الدائنة. ويمكن عرض القائمة وطباعتها للرجوع إلى دليل الحسابات والتحقق من العناوين."
+          }
+        },
+        {
+          "id": "controls-07",
+          "title": {
+            "fa": "حساب های فاقد ریز",
+            "en": "Accounts Without Detail"
+          },
+          "description": {
+            "fa": "این گزارش حساب‌های فاقد ریز یا جزئیات مرتبط را در قالب فهرست قابل بررسی ارائه می‌کند. در راهنما نمونه‌ای از خروجی «حساب‌های فاقد فرزند» نمایش داده شده است که شامل کد حساب، شرح و ماهیت آن است. استفاده از این گزارش می‌تواند به شناسایی سرفصل‌هایی کمک کند که در ساختار حسابداری برای آن‌ها زیرحساب تعریف نشده است.",
+            "en": "The report identifies accounts without lower-level child accounts or additional detail. The example in the manual lists account codes, descriptions and debit/credit nature, helping users locate headings with no subordinate account defined.",
+            "de": "Der Bericht findet Konten ohne untergeordnete Detailkonten. Das Handbuch zeigt Codes, Bezeichnungen und Soll-/Habeneigenschaften, sodass Konten ohne Untergliederung erkennbar werden.",
+            "fr": "Ce rapport repère les comptes sans sous-comptes. L’exemple du manuel liste codes, libellés et nature débitrice ou créditrice pour identifier les rubriques sans détail.",
+            "it": "Il rapporto individua i conti senza sottoconti. L’esempio elenca codici, descrizioni e natura dare/avere per riconoscere le voci prive di dettaglio.",
+            "es": "El informe identifica cuentas sin subcuentas. El ejemplo muestra códigos, conceptos y naturaleza deudora o acreedora para localizar partidas sin desglose.",
+            "ru": "Отчет выявляет счета без дочерних субсчетов. Пример содержит коды, описания и характер дебета/кредита, помогая находить неразвернутые позиции.",
+            "pt": "O relatório identifica contas sem subcontas. O exemplo lista códigos, descrições e natureza devedora ou credora para localizar rubricas sem detalhe.",
+            "tr": "Bu rapor, alt hesabı bulunmayan hesapları belirler. Örnekte hesap kodu, açıklama ve borç/alacak niteliği gösterilerek ayrıntısız başlıklar bulunur.",
+            "ar": "يحدد التقرير الحسابات التي لا تتفرع عنها حسابات أدنى. ويعرض المثال رموز الحسابات وأوصافها وطبيعتها المدينة أو الدائنة لتحديد البنود غير المفصلة."
+          }
+        },
+        {
+          "id": "controls-08",
+          "title": {
+            "fa": "کنترل تراز الگوها",
+            "en": "Template Balance Control"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: بررسی اطلاعات مرتبط با «کنترل تراز الگوها».",
+            "en": "The supplied Financial manual does not document the functions of this specific form sufficiently. Its actual capabilities should be confirmed before publication.",
+            "de": "Das vorliegende Finanzhandbuch beschreibt die Funktionen dieses Formulars nicht ausreichend. Die tatsächlichen Möglichkeiten sollten vor der Veröffentlichung bestätigt werden.",
+            "fr": "Le manuel financier fourni ne décrit pas suffisamment les fonctions de ce formulaire. Ses capacités réelles doivent être confirmées avant publication.",
+            "it": "Il manuale finanziario fornito non documenta adeguatamente le funzioni di questo modulo. Le sue effettive capacità devono essere confermate prima della pubblicazione.",
+            "es": "El manual financiero proporcionado no documenta suficientemente las funciones de este formulario. Sus capacidades reales deben confirmarse antes de publicarlas.",
+            "ru": "В предоставленном финансовом руководстве недостаточно описаны функции этой формы. Ее реальные возможности необходимо подтвердить до публикации.",
+            "pt": "O manual financeiro fornecido não documenta suficientemente as funções deste formulário. As funcionalidades reais devem ser confirmadas antes da publicação.",
+            "tr": "Sağlanan mali kılavuz bu formun işlevlerini yeterince açıklamamaktadır. Gerçek özellikleri yayımlanmadan önce doğrulanmalıdır.",
+            "ar": "لا يوثق دليل النظام المالي المرفق وظائف هذا النموذج بما يكفي. ينبغي تأكيد إمكاناته الفعلية قبل النشر."
+          }
+        },
+        {
+          "id": "controls-09",
+          "title": {
+            "fa": "کنترل اسناد مالی",
+            "en": "Financial Document Control"
+          },
+          "description": {
+            "fa": "کنترل اسناد مالی در جریان گردش سند با بررسی اطلاعات حساب‌ها، مجوزهای کاربری و کامل‌بودن مراحل انجام می‌شود. راهنما نشان می‌دهد که سند پیش از ارسال به واحد بعدی می‌تواند بازبینی و در صورت نیاز اصلاح شود؛ همچنین بخش «بررسی روند اسناد» وضعیت گردش اسناد را در واحدهای مختلف نمایش می‌دهد. جزئیات مستقل این منو در PDF محدود است.",
+            "en": "Financial-document checks examine account data, access permissions and workflow completion before forwarding a document. The manual also describes review of document progress across units and returning documents for correction; this menu itself is not fully documented.",
+            "de": "Finanzbelegkontrollen prüfen Kontodaten, Zugriffsrechte und den Bearbeitungsstand vor der Weiterleitung. Das Handbuch beschreibt Statuskontrolle zwischen Stellen und Rückgabe zur Korrektur, nicht jedoch alle Funktionen dieses Menüs.",
+            "fr": "Le contrôle des pièces vérifie comptes, autorisations et étapes terminées avant transmission. Le manuel décrit le suivi entre services et le retour pour correction, sans détailler tout ce menu.",
+            "it": "Il controllo dei documenti verifica conti, autorizzazioni e completamento del flusso prima dell’inoltro. Il manuale tratta lo stato tra uffici e la restituzione per correzioni, ma non tutte le funzioni.",
+            "es": "El control de documentos comprueba cuentas, permisos y etapas antes de enviarlos. El manual describe el seguimiento entre unidades y la devolución para corregir, sin documentar todo este menú.",
+            "ru": "Контроль документов проверяет счета, права доступа и завершение этапов до передачи. Руководство описывает отслеживание движения и возврат на исправление, но не все функции данного меню.",
+            "pt": "O controlo documental verifica contas, permissões e etapas concluídas antes do envio. O manual descreve o acompanhamento entre unidades e devolução para correção, sem detalhar todo o menu.",
+            "tr": "Mali belge kontrolü, gönderimden önce hesap bilgilerini, yetkileri ve iş akışını inceler. Kılavuz birimler arası izlemeyi ve düzeltme için iadeyi açıklar; menünün tüm işlevleri belgeli değildir.",
+            "ar": "تفحص رقابة المستندات المالية بيانات الحسابات والصلاحيات واكتمال مراحل المعالجة قبل الإرسال. ويوضح الدليل متابعة سير المستندات وإعادتها للتصحيح، دون توثيق جميع وظائف القائمة."
+          }
+        },
+        {
+          "id": "controls-10",
+          "title": {
+            "fa": "ردیابی مغایرت های اسناد مالی",
+            "en": "Financial Document Discrepancy Tracking"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «ردیابی مغایرت های اسناد مالی».",
+            "en": "The supplied Financial manual does not document the functions of this specific form sufficiently. Its actual capabilities should be confirmed before publication.",
+            "de": "Das vorliegende Finanzhandbuch beschreibt die Funktionen dieses Formulars nicht ausreichend. Die tatsächlichen Möglichkeiten sollten vor der Veröffentlichung bestätigt werden.",
+            "fr": "Le manuel financier fourni ne décrit pas suffisamment les fonctions de ce formulaire. Ses capacités réelles doivent être confirmées avant publication.",
+            "it": "Il manuale finanziario fornito non documenta adeguatamente le funzioni di questo modulo. Le sue effettive capacità devono essere confermate prima della pubblicazione.",
+            "es": "El manual financiero proporcionado no documenta suficientemente las funciones de este formulario. Sus capacidades reales deben confirmarse antes de publicarlas.",
+            "ru": "В предоставленном финансовом руководстве недостаточно описаны функции этой формы. Ее реальные возможности необходимо подтвердить до публикации.",
+            "pt": "O manual financeiro fornecido não documenta suficientemente as funções deste formulário. As funcionalidades reais devem ser confirmadas antes da publicação.",
+            "tr": "Sağlanan mali kılavuz bu formun işlevlerini yeterince açıklamamaktadır. Gerçek özellikleri yayımlanmadan önce doğrulanmalıdır.",
+            "ar": "لا يوثق دليل النظام المالي المرفق وظائف هذا النموذج بما يكفي. ينبغي تأكيد إمكاناته الفعلية قبل النشر."
+          }
+        }
+      ]
+    },
+    {
+      "id": "setup",
+      "icon": "settings",
+      "title": {
+        "fa": "تعاریف و تنظیمات اولیه",
+        "en": "Definitions and Initial Settings",
+        "de": "Definitionen und Grundeinstellungen",
+        "fr": "Définitions et paramètres initiaux",
+        "it": "Definizioni e impostazioni iniziali",
+        "es": "Definiciones y ajustes iniciales",
+        "ru": "Определения и начальные настройки",
+        "pt": "Definições e configurações iniciais",
+        "tr": "Tanımlar ve başlangıç ayarları",
+        "ar": "التعريفات والإعدادات الأولية"
+      },
+      "items": [
+        {
+          "id": "setup-01",
+          "title": {
+            "fa": "تعریف و ارتباط حساب ها",
+            "en": "Define and Link Accounts"
+          },
+          "description": {
+            "fa": "در بخش تعریف و ارتباط حساب‌ها، کدهای حساب‌های مستقل و سطوح حسابداری با یکدیگر مرتبط می‌شوند. راهنما توضیح می‌دهد که می‌توان ارتباط حساب‌های کل با حساب‌های تفصیلی را به‌صورت درختی مشاهده و مدیریت کرد تا هنگام صدور سند، انتخاب کدهای معتبر و مرتبط امکان‌پذیر باشد. این ساختار برای انسجام کدینگ و کنترل ثبت اسناد به کار می‌رود.",
+            "en": "This section defines links between independent account codes and the different levels of the chart of accounts. The manual describes viewing and managing general-to-detailed account relationships in a tree, supporting valid account selection when creating vouchers.",
+            "de": "Der Bereich verknüpft unabhängige Kontocodes und Ebenen des Kontenplans. Das Handbuch beschreibt eine Baumansicht der Beziehungen zwischen Haupt- und Detailkonten, um bei der Belegerstellung zulässige Codes auszuwählen.",
+            "fr": "Cette section relie les codes de comptes indépendants aux niveaux du plan comptable. Le manuel décrit une arborescence des liens entre comptes généraux et détaillés pour choisir les codes lors de la saisie.",
+            "it": "La sezione collega i codici dei conti indipendenti ai livelli del piano dei conti. Il manuale descrive la gestione ad albero dei rapporti tra conti generali e dettagliati per scegliere codici validi.",
+            "es": "Esta sección vincula códigos de cuentas independientes y niveles del plan contable. El manual describe una vista de árbol de las relaciones entre cuentas generales y detalladas para registrar documentos.",
+            "ru": "Раздел связывает независимые коды счетов с уровнями плана счетов. Руководство описывает древовидное управление связями общих и детальных счетов для правильного выбора кодов при проводке.",
+            "pt": "Esta secção liga códigos de contas independentes aos níveis do plano de contas. O manual descreve relações em árvore entre contas gerais e detalhadas para selecionar códigos válidos nos documentos.",
+            "tr": "Bu bölüm bağımsız hesap kodlarını hesap planı düzeyleriyle ilişkilendirir. Kılavuz, fiş oluştururken geçerli kodların seçimi için ana ve detay hesap bağlantılarının ağaç görünümünü açıklar.",
+            "ar": "يحدد هذا القسم الارتباطات بين رموز الحسابات المستقلة ومستويات دليل الحسابات. ويوضح الدليل عرض وإدارة الروابط بين الحسابات العامة والتفصيلية بهيكل شجري لضمان اختيار رموز صحيحة عند إصدار السندات."
+          }
+        },
+        {
+          "id": "setup-02",
+          "title": {
+            "fa": "تعریف حساب های تفصیلی",
+            "en": "Detailed Account Definitions"
+          },
+          "description": {
+            "fa": "فرم تعریف حساب‌های تفصیلی برای تعریف و طبقه‌بندی انواع حساب‌های تفصیلی در گروه‌های مرتبط استفاده می‌شود. مطابق راهنما، نمونه‌هایی از تفصیلی‌های سال جاری و مازاد در گروه منابع معرفی شده‌اند و حساب‌های تفصیلی مرتبط با سطوح مختلف کدینگ از طریق این تنظیمات قابل استفاده می‌شوند. این ارتباط در نمایش درختی حساب‌ها و صدور سند نیز کاربرد دارد.",
+            "en": "The detailed-account setup form creates and categorises analytical accounts within relevant groups. The manual gives examples of current-year and surplus detailed accounts under funding sources and explains their use in the account-code hierarchy and document entry.",
+            "de": "Die Einrichtung der Detailkonten definiert und gruppiert analytische Konten. Das Handbuch nennt Konten für laufendes Jahr und Überschüsse bei Finanzierungsquellen und zeigt ihre Verwendung im Kontenbaum und in Belegen.",
+            "fr": "Le paramétrage des comptes analytiques permet leur création et classement. Le manuel cite des exemples de comptes de l’exercice et d’excédent dans les sources de fonds et leur utilisation dans la codification.",
+            "it": "La definizione dei conti analitici consente di crearli e classificarli. Il manuale cita conti dell’anno corrente e avanzo tra le fonti, impiegati nella gerarchia e nei documenti.",
+            "es": "La configuración de cuentas analíticas permite crearlas y clasificarlas. El manual incluye ejemplos del año corriente y excedentes en fuentes de financiación y su uso en la estructura contable.",
+            "ru": "Настройка аналитических счетов позволяет создавать и группировать их. Руководство приводит примеры счетов текущего года и излишков по источникам финансирования и их использование в структуре кодов.",
+            "pt": "A configuração de contas analíticas permite criá-las e agrupá-las. O manual inclui exemplos do ano corrente e excedentes entre as fontes de financiamento e o seu uso no plano de contas.",
+            "tr": "Detay hesap tanımı, analitik hesapların oluşturulup gruplandırılmasını sağlar. Kılavuz, finansman kaynaklarında cari yıl ve fazla hesaplarını ve kodlama ağacındaki kullanımlarını örnekler.",
+            "ar": "يتيح نموذج تعريف الحسابات التفصيلية إنشاء الحسابات التحليلية وتصنيفها في مجموعات. ويورد الدليل أمثلة لحسابات السنة الجارية والفائض ضمن مصادر التمويل واستخدامها في هيكل الرموز وإدخال السندات."
+          }
+        },
+        {
+          "id": "setup-03",
+          "title": {
+            "fa": "تعریف هزینه های تفصیلی",
+            "en": "Detailed Cost Definitions"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: تعریف اطلاعات مرتبط با «تعریف هزینه های تفصیلی».",
+            "en": "The supplied Financial manual does not document the functions of this specific form sufficiently. Its actual capabilities should be confirmed before publication.",
+            "de": "Das vorliegende Finanzhandbuch beschreibt die Funktionen dieses Formulars nicht ausreichend. Die tatsächlichen Möglichkeiten sollten vor der Veröffentlichung bestätigt werden.",
+            "fr": "Le manuel financier fourni ne décrit pas suffisamment les fonctions de ce formulaire. Ses capacités réelles doivent être confirmées avant publication.",
+            "it": "Il manuale finanziario fornito non documenta adeguatamente le funzioni di questo modulo. Le sue effettive capacità devono essere confermate prima della pubblicazione.",
+            "es": "El manual financiero proporcionado no documenta suficientemente las funciones de este formulario. Sus capacidades reales deben confirmarse antes de publicarlas.",
+            "ru": "В предоставленном финансовом руководстве недостаточно описаны функции этой формы. Ее реальные возможности необходимо подтвердить до публикации.",
+            "pt": "O manual financeiro fornecido não documenta suficientemente as funções deste formulário. As funcionalidades reais devem ser confirmadas antes da publicação.",
+            "tr": "Sağlanan mali kılavuz bu formun işlevlerini yeterince açıklamamaktadır. Gerçek özellikleri yayımlanmadan önce doğrulanmalıdır.",
+            "ar": "لا يوثق دليل النظام المالي المرفق وظائف هذا النموذج بما يكفي. ينبغي تأكيد إمكاناته الفعلية قبل النشر."
+          }
+        },
+        {
+          "id": "setup-04",
+          "title": {
+            "fa": "تعریف گروه کل ها",
+            "en": "General Ledger Group Definitions"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: تعریف اطلاعات مرتبط با «تعریف گروه کل ها».",
+            "en": "The supplied Financial manual does not document the functions of this specific form sufficiently. Its actual capabilities should be confirmed before publication.",
+            "de": "Das vorliegende Finanzhandbuch beschreibt die Funktionen dieses Formulars nicht ausreichend. Die tatsächlichen Möglichkeiten sollten vor der Veröffentlichung bestätigt werden.",
+            "fr": "Le manuel financier fourni ne décrit pas suffisamment les fonctions de ce formulaire. Ses capacités réelles doivent être confirmées avant publication.",
+            "it": "Il manuale finanziario fornito non documenta adeguatamente le funzioni di questo modulo. Le sue effettive capacità devono essere confermate prima della pubblicazione.",
+            "es": "El manual financiero proporcionado no documenta suficientemente las funciones de este formulario. Sus capacidades reales deben confirmarse antes de publicarlas.",
+            "ru": "В предоставленном финансовом руководстве недостаточно описаны функции этой формы. Ее реальные возможности необходимо подтвердить до публикации.",
+            "pt": "O manual financeiro fornecido não documenta suficientemente as funções deste formulário. As funcionalidades reais devem ser confirmadas antes da publicação.",
+            "tr": "Sağlanan mali kılavuz bu formun işlevlerini yeterince açıklamamaktadır. Gerçek özellikleri yayımlanmadan önce doğrulanmalıdır.",
+            "ar": "لا يوثق دليل النظام المالي المرفق وظائف هذا النموذج بما يكفي. ينبغي تأكيد إمكاناته الفعلية قبل النشر."
+          }
+        },
+        {
+          "id": "setup-05",
+          "title": {
+            "fa": "تعریف شرح های استاندارد",
+            "en": "Standard Narrations"
+          },
+          "description": {
+            "fa": "تعریف شرح‌های استاندارد برای ثبت متن‌های ازپیش‌تعریف‌شده در بخش‌های مرتبط با اسناد حسابداری در نظر گرفته شده است. راهنما این فرم را در بخش تعاریف اولیه معرفی می‌کند و در بخش اسناد نیز کاربرد شرح سند و توضیحات هر سطر را نشان می‌دهد. بااین‌حال جزئیات نحوه ساخت و انتخاب شرح استاندارد در PDF ارائه نشده است.",
+            "en": "Standard descriptions are intended to store predefined text for use in accounting-document fields. The manual identifies the form among initial definitions and shows where document and line descriptions are used, but does not explain the full setup procedure.",
+            "de": "Standardtexte speichern vorgegebene Formulierungen für Buchungsbelege. Das Handbuch nennt diese Grundeinstellung und zeigt Beleg- und Zeilentexte, erklärt aber die vollständige Einrichtung nicht.",
+            "fr": "Les libellés standard stockent des textes prédéfinis pour les pièces comptables. Le manuel cite ce paramétrage et montre les descriptions des pièces et lignes, sans expliquer la procédure complète.",
+            "it": "Le descrizioni standard memorizzano testi predefiniti per i documenti contabili. Il manuale indica il modulo e mostra le descrizioni di documento e riga, senza spiegare l’intera configurazione.",
+            "es": "Las descripciones estándar guardan textos predefinidos para documentos contables. El manual menciona el formulario y los conceptos de documento y línea, pero no detalla toda su configuración.",
+            "ru": "Стандартные описания хранят заранее заданные тексты для бухгалтерских документов. Руководство упоминает форму и поля описания документа и строки, но не весь порядок настройки.",
+            "pt": "As descrições padrão guardam textos predefinidos para documentos contabilísticos. O manual apresenta o formulário e os campos de descrição, mas não detalha toda a configuração.",
+            "tr": "Standart açıklamalar, muhasebe belgelerinde kullanılacak hazır metinleri saklar. Kılavuz bu tanımı ve belge/satır açıklamalarını gösterir; tüm kurulum adımlarını açıklamaz.",
+            "ar": "يُستخدم تعريف الأوصاف القياسية لحفظ نصوص جاهزة في حقول المستندات المحاسبية. ويذكر الدليل النموذج ضمن التعريفات الأولية ومواضع أوصاف المستند والأسطر، لكنه لا يشرح إعدادها بالكامل."
+          }
+        },
+        {
+          "id": "setup-06",
+          "title": {
+            "fa": "تنظیمات و کنترل های مدیریتی",
+            "en": "Administrative Settings and Controls"
+          },
+          "description": {
+            "fa": "در تنظیمات و کنترل‌های مدیریتی، پارامترهای پایه و سیاست‌های اجرای عملیات مالی تعیین می‌شوند. راهنما نمونه‌هایی مانند شیوه صدور سند خودکار، تنظیمات اعتبارات، کنترل‌های مربوط به گزارش‌ها و محدوده‌های کاری چک را معرفی می‌کند. این تنظیمات به مدیریت نحوه عملکرد فرم‌ها و اعمال محدودیت‌های متناسب با فرایند سازمان کمک می‌کنند.",
+            "en": "Management settings define operating policies for financial forms. The manual identifies automatic document issuance, appropriation parameters, reporting controls and cheque-related restrictions among the configurable options, helping align system behaviour with organisational processes.",
+            "de": "Die Verwaltungseinstellungen legen Regeln für Finanzformulare fest. Laut Handbuch sind automatische Belegausstellung, Budgetparameter, Berichtskontrollen und Scheckbeschränkungen einstellbar, um Abläufe an die Organisation anzupassen.",
+            "fr": "Les paramètres de gestion définissent les règles des formulaires financiers. Le manuel cite l’émission automatique de pièces, les paramètres de crédits, les contrôles de rapports et les limites liées aux chèques.",
+            "it": "Le impostazioni gestionali regolano i moduli finanziari. Il manuale cita emissione automatica dei documenti, parametri degli stanziamenti, controlli sui report e vincoli sugli assegni.",
+            "es": "Los ajustes de gestión regulan los formularios financieros. El manual menciona emisión automática de documentos, parámetros de créditos, controles de informes y restricciones de cheques.",
+            "ru": "Управленческие настройки задают правила финансовых форм. Руководство описывает автоматическое оформление документов, параметры ассигнований, контроль отчетов и ограничения по чекам.",
+            "pt": "As definições de gestão regulam os formulários financeiros. O manual cita emissão automática de documentos, parâmetros de dotações, controlo de relatórios e restrições de cheques.",
+            "tr": "Yönetim ayarları mali formların çalışma kurallarını belirler. Kılavuz otomatik belge düzenleme, ödenek parametreleri, rapor kontrolleri ve çek kısıtlarını açıklar.",
+            "ar": "تحدد الإعدادات والرقابة الإدارية سياسات تشغيل النماذج المالية. ويذكر الدليل إعدادات إصدار السندات تلقائياً والاعتمادات وضوابط التقارير والقيود المتعلقة بالشيكات لملاءمة إجراءات المؤسسة."
+          }
+        }
+      ]
+    },
+    {
+      "id": "tools",
+      "icon": "sparkles",
+      "title": {
+        "fa": "ابزارها و امکانات",
+        "en": "Tools and Utilities",
+        "de": "Werkzeuge und Hilfsmittel",
+        "fr": "Outils et utilitaires",
+        "it": "Strumenti e utilità",
+        "es": "Herramientas y utilidades",
+        "ru": "Инструменты и утилиты",
+        "pt": "Ferramentas e utilitários",
+        "tr": "Araçlar ve olanaklar",
+        "ar": "الأدوات والإمكانات"
+      },
+      "items": [
+        {
+          "id": "tools-01",
+          "title": {
+            "fa": "لیست کاربران",
+            "en": "User List"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: بررسی اطلاعات مرتبط با «لیست کاربران».",
+            "en": "The supplied Financial manual does not document the functions of this specific form sufficiently. Its actual capabilities should be confirmed before publication.",
+            "de": "Das vorliegende Finanzhandbuch beschreibt die Funktionen dieses Formulars nicht ausreichend. Die tatsächlichen Möglichkeiten sollten vor der Veröffentlichung bestätigt werden.",
+            "fr": "Le manuel financier fourni ne décrit pas suffisamment les fonctions de ce formulaire. Ses capacités réelles doivent être confirmées avant publication.",
+            "it": "Il manuale finanziario fornito non documenta adeguatamente le funzioni di questo modulo. Le sue effettive capacità devono essere confermate prima della pubblicazione.",
+            "es": "El manual financiero proporcionado no documenta suficientemente las funciones de este formulario. Sus capacidades reales deben confirmarse antes de publicarlas.",
+            "ru": "В предоставленном финансовом руководстве недостаточно описаны функции этой формы. Ее реальные возможности необходимо подтвердить до публикации.",
+            "pt": "O manual financeiro fornecido não documenta suficientemente as funções deste formulário. As funcionalidades reais devem ser confirmadas antes da publicação.",
+            "tr": "Sağlanan mali kılavuz bu formun işlevlerini yeterince açıklamamaktadır. Gerçek özellikleri yayımlanmadan önce doğrulanmalıdır.",
+            "ar": "لا يوثق دليل النظام المالي المرفق وظائف هذا النموذج بما يكفي. ينبغي تأكيد إمكاناته الفعلية قبل النشر."
+          }
+        },
+        {
+          "id": "tools-02",
+          "title": {
+            "fa": "به روز رسانی برنامه",
+            "en": "Update Program"
+          },
+          "description": {
+            "fa": "ابزار به‌روزرسانی برای دریافت و اعمال نسخه‌های اصلاحی نرم‌افزار در نظر گرفته شده است. طبق راهنما، به‌روزرسانی می‌تواند در بخش‌های گزارش‌ها، بانک اطلاعاتی و برنامه کاربردی انجام شود و فایل‌های اصلاحی از طریق ارتباط HTTP یا FTP یا انتقال داخلی و فایل محلی دریافت شوند. این امکان برای نگهداری و به‌روزرسانی نسخه‌های نصب‌شده کاربرد دارد.",
+            "en": "The software-update tool retrieves and applies corrective releases for reports, the database and the application. The manual describes receiving update files via HTTP or FTP, internal distribution or a local file to maintain installed versions.",
+            "de": "Das Updatewerkzeug lädt Korrekturen für Berichte, Datenbank und Anwendung und installiert sie. Laut Handbuch können Dateien per HTTP, FTP, interner Verteilung oder lokalem Datenträger übertragen werden.",
+            "fr": "L’outil de mise à jour récupère et applique des correctifs aux rapports, à la base de données et à l’application. Le manuel prévoit un transfert HTTP, FTP, interne ou par fichier local.",
+            "it": "Lo strumento di aggiornamento riceve e applica correzioni a report, database e applicazione. Il manuale prevede trasferimento HTTP, FTP, distribuzione interna o file locale.",
+            "es": "La herramienta de actualización obtiene y aplica correcciones a informes, base de datos y aplicación. El manual admite transferencia por HTTP, FTP, distribución interna o archivo local.",
+            "ru": "Средство обновления получает и применяет исправления для отчетов, базы данных и приложения. Руководство предусматривает HTTP, FTP, внутреннюю раздачу и локальные файлы.",
+            "pt": "A ferramenta de atualização obtém e aplica correções a relatórios, base de dados e aplicação. O manual prevê HTTP, FTP, distribuição interna ou ficheiro local.",
+            "tr": "Güncelleme aracı rapor, veritabanı ve uygulama düzeltmelerini alıp uygular. Kılavuz HTTP, FTP, kurum içi dağıtım veya yerel dosyadan güncellemeyi açıklar.",
+            "ar": "تستقبل أداة تحديث البرنامج الإصدارات التصحيحية للتقارير وقاعدة البيانات والتطبيق وتطبقها. ويذكر الدليل الحصول على ملفات التحديث عبر HTTP أو FTP أو التوزيع الداخلي أو ملف محلي."
+          }
+        },
+        {
+          "id": "tools-03",
+          "title": {
+            "fa": "تعریف یادآوری مستندات",
+            "en": "Document Reminder Settings"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: تعریف اطلاعات مرتبط با «تعریف یادآوری مستندات».",
+            "en": "The supplied Financial manual does not document the functions of this specific form sufficiently. Its actual capabilities should be confirmed before publication.",
+            "de": "Das vorliegende Finanzhandbuch beschreibt die Funktionen dieses Formulars nicht ausreichend. Die tatsächlichen Möglichkeiten sollten vor der Veröffentlichung bestätigt werden.",
+            "fr": "Le manuel financier fourni ne décrit pas suffisamment les fonctions de ce formulaire. Ses capacités réelles doivent être confirmées avant publication.",
+            "it": "Il manuale finanziario fornito non documenta adeguatamente le funzioni di questo modulo. Le sue effettive capacità devono essere confermate prima della pubblicazione.",
+            "es": "El manual financiero proporcionado no documenta suficientemente las funciones de este formulario. Sus capacidades reales deben confirmarse antes de publicarlas.",
+            "ru": "В предоставленном финансовом руководстве недостаточно описаны функции этой формы. Ее реальные возможности необходимо подтвердить до публикации.",
+            "pt": "O manual financeiro fornecido não documenta suficientemente as funções deste formulário. As funcionalidades reais devem ser confirmadas antes da publicação.",
+            "tr": "Sağlanan mali kılavuz bu formun işlevlerini yeterince açıklamamaktadır. Gerçek özellikleri yayımlanmadan önce doğrulanmalıdır.",
+            "ar": "لا يوثق دليل النظام المالي المرفق وظائف هذا النموذج بما يكفي. ينبغي تأكيد إمكاناته الفعلية قبل النشر."
+          }
+        },
+        {
+          "id": "tools-04",
+          "title": {
+            "fa": "تهیه فایل پشتیبانی",
+            "en": "Support File"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «تهیه فایل پشتیبانی».",
+            "en": "The supplied Financial manual does not document the functions of this specific form sufficiently. Its actual capabilities should be confirmed before publication.",
+            "de": "Das vorliegende Finanzhandbuch beschreibt die Funktionen dieses Formulars nicht ausreichend. Die tatsächlichen Möglichkeiten sollten vor der Veröffentlichung bestätigt werden.",
+            "fr": "Le manuel financier fourni ne décrit pas suffisamment les fonctions de ce formulaire. Ses capacités réelles doivent être confirmées avant publication.",
+            "it": "Il manuale finanziario fornito non documenta adeguatamente le funzioni di questo modulo. Le sue effettive capacità devono essere confermate prima della pubblicazione.",
+            "es": "El manual financiero proporcionado no documenta suficientemente las funciones de este formulario. Sus capacidades reales deben confirmarse antes de publicarlas.",
+            "ru": "В предоставленном финансовом руководстве недостаточно описаны функции этой формы. Ее реальные возможности необходимо подтвердить до публикации.",
+            "pt": "O manual financeiro fornecido não documenta suficientemente as funções deste formulário. As funcionalidades reais devem ser confirmadas antes da publicação.",
+            "tr": "Sağlanan mali kılavuz bu formun işlevlerini yeterince açıklamamaktadır. Gerçek özellikleri yayımlanmadan önce doğrulanmalıdır.",
+            "ar": "لا يوثق دليل النظام المالي المرفق وظائف هذا النموذج بما يكفي. ينبغي تأكيد إمكاناته الفعلية قبل النشر."
+          }
+        },
+        {
+          "id": "tools-05",
+          "title": {
+            "fa": "درج خطاها و پیشنهادات",
+            "en": "Errors and Suggestions"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «درج خطاها و پیشنهادات».",
+            "en": "The supplied Financial manual does not document the functions of this specific form sufficiently. Its actual capabilities should be confirmed before publication.",
+            "de": "Das vorliegende Finanzhandbuch beschreibt die Funktionen dieses Formulars nicht ausreichend. Die tatsächlichen Möglichkeiten sollten vor der Veröffentlichung bestätigt werden.",
+            "fr": "Le manuel financier fourni ne décrit pas suffisamment les fonctions de ce formulaire. Ses capacités réelles doivent être confirmées avant publication.",
+            "it": "Il manuale finanziario fornito non documenta adeguatamente le funzioni di questo modulo. Le sue effettive capacità devono essere confermate prima della pubblicazione.",
+            "es": "El manual financiero proporcionado no documenta suficientemente las funciones de este formulario. Sus capacidades reales deben confirmarse antes de publicarlas.",
+            "ru": "В предоставленном финансовом руководстве недостаточно описаны функции этой формы. Ее реальные возможности необходимо подтвердить до публикации.",
+            "pt": "O manual financeiro fornecido não documenta suficientemente as funções deste formulário. As funcionalidades reais devem ser confirmadas antes da publicação.",
+            "tr": "Sağlanan mali kılavuz bu formun işlevlerini yeterince açıklamamaktadır. Gerçek özellikleri yayımlanmadan önce doğrulanmalıdır.",
+            "ar": "لا يوثق دليل النظام المالي المرفق وظائف هذا النموذج بما يكفي. ينبغي تأكيد إمكاناته الفعلية قبل النشر."
+          }
+        },
+        {
+          "id": "tools-06",
+          "title": {
+            "fa": "نظر سنجی نرم افزار مالی",
+            "en": "Financial Software Survey"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «نظر سنجی نرم افزار مالی».",
+            "en": "The supplied Financial manual does not document the functions of this specific form sufficiently. Its actual capabilities should be confirmed before publication.",
+            "de": "Das vorliegende Finanzhandbuch beschreibt die Funktionen dieses Formulars nicht ausreichend. Die tatsächlichen Möglichkeiten sollten vor der Veröffentlichung bestätigt werden.",
+            "fr": "Le manuel financier fourni ne décrit pas suffisamment les fonctions de ce formulaire. Ses capacités réelles doivent être confirmées avant publication.",
+            "it": "Il manuale finanziario fornito non documenta adeguatamente le funzioni di questo modulo. Le sue effettive capacità devono essere confermate prima della pubblicazione.",
+            "es": "El manual financiero proporcionado no documenta suficientemente las funciones de este formulario. Sus capacidades reales deben confirmarse antes de publicarlas.",
+            "ru": "В предоставленном финансовом руководстве недостаточно описаны функции этой формы. Ее реальные возможности необходимо подтвердить до публикации.",
+            "pt": "O manual financeiro fornecido não documenta suficientemente as funções deste formulário. As funcionalidades reais devem ser confirmadas antes da publicação.",
+            "tr": "Sağlanan mali kılavuz bu formun işlevlerini yeterince açıklamamaktadır. Gerçek özellikleri yayımlanmadan önce doğrulanmalıdır.",
+            "ar": "لا يوثق دليل النظام المالي المرفق وظائف هذا النموذج بما يكفي. ينبغي تأكيد إمكاناته الفعلية قبل النشر."
+          }
+        },
+        {
+          "id": "tools-07",
+          "title": {
+            "fa": "فیلم های آموزشی",
+            "en": "Training Videos"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «فیلم های آموزشی».",
+            "en": "The supplied Financial manual does not document the functions of this specific form sufficiently. Its actual capabilities should be confirmed before publication.",
+            "de": "Das vorliegende Finanzhandbuch beschreibt die Funktionen dieses Formulars nicht ausreichend. Die tatsächlichen Möglichkeiten sollten vor der Veröffentlichung bestätigt werden.",
+            "fr": "Le manuel financier fourni ne décrit pas suffisamment les fonctions de ce formulaire. Ses capacités réelles doivent être confirmées avant publication.",
+            "it": "Il manuale finanziario fornito non documenta adeguatamente le funzioni di questo modulo. Le sue effettive capacità devono essere confermate prima della pubblicazione.",
+            "es": "El manual financiero proporcionado no documenta suficientemente las funciones de este formulario. Sus capacidades reales deben confirmarse antes de publicarlas.",
+            "ru": "В предоставленном финансовом руководстве недостаточно описаны функции этой формы. Ее реальные возможности необходимо подтвердить до публикации.",
+            "pt": "O manual financeiro fornecido não documenta suficientemente as funções deste formulário. As funcionalidades reais devem ser confirmadas antes da publicação.",
+            "tr": "Sağlanan mali kılavuz bu formun işlevlerini yeterince açıklamamaktadır. Gerçek özellikleri yayımlanmadan önce doğrulanmalıdır.",
+            "ar": "لا يوثق دليل النظام المالي المرفق وظائف هذا النموذج بما يكفي. ينبغي تأكيد إمكاناته الفعلية قبل النشر."
+          }
+        },
+        {
+          "id": "tools-08",
+          "title": {
+            "fa": "انتخاب پوسته",
+            "en": "Select Theme"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «انتخاب پوسته».",
+            "en": "The supplied Financial manual does not document the functions of this specific form sufficiently. Its actual capabilities should be confirmed before publication.",
+            "de": "Das vorliegende Finanzhandbuch beschreibt die Funktionen dieses Formulars nicht ausreichend. Die tatsächlichen Möglichkeiten sollten vor der Veröffentlichung bestätigt werden.",
+            "fr": "Le manuel financier fourni ne décrit pas suffisamment les fonctions de ce formulaire. Ses capacités réelles doivent être confirmées avant publication.",
+            "it": "Il manuale finanziario fornito non documenta adeguatamente le funzioni di questo modulo. Le sue effettive capacità devono essere confermate prima della pubblicazione.",
+            "es": "El manual financiero proporcionado no documenta suficientemente las funciones de este formulario. Sus capacidades reales deben confirmarse antes de publicarlas.",
+            "ru": "В предоставленном финансовом руководстве недостаточно описаны функции этой формы. Ее реальные возможности необходимо подтвердить до публикации.",
+            "pt": "O manual financeiro fornecido não documenta suficientemente as funções deste formulário. As funcionalidades reais devem ser confirmadas antes da publicação.",
+            "tr": "Sağlanan mali kılavuz bu formun işlevlerini yeterince açıklamamaktadır. Gerçek özellikleri yayımlanmadan önce doğrulanmalıdır.",
+            "ar": "لا يوثق دليل النظام المالي المرفق وظائف هذا النموذج بما يكفي. ينبغي تأكيد إمكاناته الفعلية قبل النشر."
+          }
+        }
+      ]
+    }
+  ],
+  "ui": {
+    "overview": {
+      "fa": "قابلیت‌های نرم‌افزار مدیریت مالی",
+      "en": "Explore Financial Management Features",
+      "de": "Finanzverwaltung",
+      "fr": "Gestion financière",
+      "it": "Gestione finanziaria",
+      "es": "Gestión financiera",
+      "ru": "Финансовое управление",
+      "pt": "Gestão financeira",
+      "tr": "Mali yönetim",
+      "ar": "الإدارة المالية"
+    },
+    "intro": {
+      "en": "Browse main menus, discover available functions and read a short explanation of each.",
+      "de": "Wählen Sie ein Hauptmenü und lesen Sie die Beschreibungen.",
+      "fr": "Choisissez un menu pour découvrir ses fonctionnalités.",
+      "it": "Seleziona un menu per esplorare le funzioni.",
+      "es": "Seleccione un menú para conocer sus funciones.",
+      "ru": "Выберите раздел для просмотра функций.",
+      "pt": "Selecione um menu para conhecer os recursos.",
+      "tr": "İşlevleri görmek için bir menü seçin.",
+      "ar": "اختر قائمة لاستعراض الوظائف وشرحها.",
+      "fa": "برای مشاهده زیرمنوها و توضیحات، یک منو انتخاب کنید."
+    },
+    "search": {
+      "en": "Search menus and features...",
+      "de": "Menüs und Funktionen suchen...",
+      "fr": "Rechercher des menus et fonctions...",
+      "it": "Cerca menu e funzioni...",
+      "es": "Buscar menús y funciones...",
+      "ru": "Поиск меню и функций...",
+      "pt": "Buscar menus e recursos...",
+      "tr": "Menü ve özellik ara...",
+      "ar": "ابحث في القوائم والوظائف...",
+      "fa": "جست‌وجوی منوها و امکانات..."
+    },
+    "menu": {
+      "en": "Main menus",
+      "de": "Hauptmenüs",
+      "fr": "Menus principaux",
+      "it": "Menu principali",
+      "es": "Menús principales",
+      "ru": "Главные меню",
+      "pt": "Menus principais",
+      "tr": "Ana menüler",
+      "ar": "القوائم الرئيسية",
+      "fa": "منوهای اصلی"
+    },
+    "functions": {
+      "en": "Available functions",
+      "de": "Verfügbare Funktionen",
+      "fr": "Fonctions disponibles",
+      "it": "Funzioni disponibili",
+      "es": "Funciones disponibles",
+      "ru": "Доступные функции",
+      "pt": "Funções disponíveis",
+      "tr": "Mevcut işlevler",
+      "ar": "الوظائف المتاحة",
+      "fa": "زیرمنوهای موجود"
+    },
+    "preview": {
+      "en": "Feature overview",
+      "de": "Funktionsübersicht",
+      "fr": "Aperçu de la fonction",
+      "it": "Panoramica della funzione",
+      "es": "Descripción de la función",
+      "ru": "Обзор функции",
+      "pt": "Visão geral da função",
+      "tr": "Özellik açıklaması",
+      "ar": "نبذة عن الوظيفة",
+      "fa": "توضیح کاربرد"
+    },
+    "noitems": {
+      "en": "Submenus for this section are not visible in the supplied screenshots.",
+      "de": "Untermenüs dieses Bereichs sind in den Bildern nicht erkennbar.",
+      "fr": "Les sous-menus de cette section ne sont pas visibles sur les captures.",
+      "it": "I sottomenu di questa sezione non sono visibili nelle immagini.",
+      "es": "Los submenús de esta sección no aparecen en las capturas.",
+      "ru": "Подменю этого раздела не видны на скриншотах.",
+      "pt": "Os submenus desta seção não aparecem nas capturas.",
+      "tr": "Bu bölümün alt menüleri sağlanan görsellerde görünmüyor.",
+      "ar": "القوائم الفرعية لهذا القسم غير ظاهرة في الصور المرفقة.",
+      "fa": "زیرمنوهای این بخش در تصاویر ارسالی قابل مشاهده نیستند."
+    },
+    "noresults": {
+      "en": "No matching features found.",
+      "de": "Keine passenden Funktionen gefunden.",
+      "fr": "Aucune fonction correspondante.",
+      "it": "Nessuna funzione trovata.",
+      "es": "No se encontraron funciones.",
+      "ru": "Совпадений не найдено.",
+      "pt": "Nenhuma função encontrada.",
+      "tr": "Eşleşen özellik bulunamadı.",
+      "ar": "لا توجد نتائج مطابقة.",
+      "fa": "موردی پیدا نشد."
+    },
+    "items": {
+      "en": "features",
+      "de": "Funktionen",
+      "fr": "fonctions",
+      "it": "funzioni",
+      "es": "funciones",
+      "ru": "функций",
+      "pt": "funções",
+      "tr": "özellik",
+      "ar": "وظيفة",
+      "fa": "گزینه"
+    },
+    "language": {
+      "en": "Language",
+      "de": "Sprache",
+      "fr": "Langue",
+      "it": "Lingua",
+      "es": "Idioma",
+      "ru": "Язык",
+      "pt": "Idioma",
+      "tr": "Dil",
+      "ar": "اللغة",
+      "fa": "زبان"
+    },
+    "note": {
+      "fa": "عنوان‌های فارسی از تصاویر استخراج شده‌اند؛ شرح کاربردها پیشنهادی است. موارد ترجمه‌نشده از انگلیسی نمایش داده می‌شوند.",
+      "en": "Persian labels were transcribed from screenshots. Descriptions are indicative; untranslated items fall back to English."
+    },
+    "count": {
+      "en": "Menu catalog",
+      "de": "Menükatalog",
+      "fr": "Catalogue des menus",
+      "it": "Catalogo dei menu",
+      "es": "Catálogo de menús",
+      "ru": "Каталог меню",
+      "pt": "Catálogo de menus",
+      "tr": "Menü kataloğu",
+      "ar": "دليل القوائم",
+      "fa": "کاتالوگ منوها"
+    }
+  }
+}

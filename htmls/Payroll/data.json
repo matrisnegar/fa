@@ -1,0 +1,1727 @@
+{
+  "schemaVersion": 1,
+  "software": {
+    "id": "payroll",
+    "vendor": "Matris Negar Data Co.",
+    "name": {
+      "fa": "سیستم حقوق و دستمزد",
+      "en": "Payroll and Compensation"
+    }
+  },
+  "languages": [
+    "en",
+    "de",
+    "fr",
+    "it",
+    "es",
+    "ru",
+    "pt",
+    "tr",
+    "ar",
+    "fa"
+  ],
+  "menus": [
+    {
+      "id": "payroll-01",
+      "icon": "clipboard-list",
+      "title": {
+        "fa": "فرم های ورود اطلاعات",
+        "en": "Data Entry Forms"
+      },
+      "items": [
+        {
+          "id": "payroll-01-01",
+          "title": {
+            "fa": "مشخصات پرسنل",
+            "en": "Personnel Details"
+          },
+          "description": {
+            "fa": "در پرونده پرسنلی، اطلاعات هویتی، محل خدمت، نوع استخدام، سابقه خدمت و سایر مشخصات پایه ثبت و بازیابی می‌شوند. این اطلاعات در فرم‌ها و محاسبات حقوق و دستمزد کاربرد دارند.",
+            "en": "Record identity, workplace, employment type, service history and other employee master data used throughout payroll processing.",
+            "de": "Dieses Formular dient der Erfassung, Prüfung und Verwaltung von Gehaltsabrechnungen und Entgeltdaten. Zugehörige Datensätze können im jeweiligen Arbeitsablauf eingesehen werden.",
+            "fr": "Ce formulaire permet de saisir, consulter et gérer les calculs et données de paie. Les enregistrements peuvent être vérifiés dans le processus correspondant.",
+            "it": "Questo modulo consente di inserire, consultare e gestire i calcoli e dati delle retribuzioni. I dati registrati possono essere verificati nel relativo flusso di lavoro.",
+            "es": "Este formulario permite registrar, consultar y gestionar los cálculos y datos de nómina. Los registros se pueden revisar durante el proceso correspondiente.",
+            "ru": "Форма предназначена для ввода, просмотра и ведения расчётов и данных заработной платы. Записи можно проверить в соответствующем рабочем процессе.",
+            "pt": "Este formulário permite registar, consultar e gerir os cálculos e dados da folha salarial. Os registos podem ser verificados no processo correspondente.",
+            "tr": "Bu form, bordro hesaplamaları ve verileri bilgilerini kaydetmek, incelemek ve yönetmek için kullanılır. İlgili kayıtlar iş akışı içinde kontrol edilebilir.",
+            "ar": "يُستخدم هذا النموذج لإدخال بيانات حسابات وبيانات الرواتب ومراجعتها وإدارتها. ويمكن التحقق من السجلات في سير العمل المرتبط بها."
+          }
+        },
+        {
+          "id": "payroll-01-02",
+          "title": {
+            "fa": "دانش احکام",
+            "en": "Employment Decree Data"
+          },
+          "description": {
+            "fa": "اطلاعات احکام پرسنلی شامل نوع و تاریخ حکم، اطلاعات کارگزینی و پارامترهای حقوقی ثبت می‌شوند. این اقلام مبنای محاسبات مزایا و حقوق کارکنان قرار می‌گیرند.",
+            "en": "Record personnel orders, effective dates, appointment information and remuneration parameters used in payroll calculations.",
+            "de": "Dieses Formular dient der Erfassung, Prüfung und Verwaltung von Personalverfügungen. Zugehörige Datensätze können im jeweiligen Arbeitsablauf eingesehen werden.",
+            "fr": "Ce formulaire permet de saisir, consulter et gérer les décisions administratives du personnel. Les enregistrements peuvent être vérifiés dans le processus correspondant.",
+            "it": "Questo modulo consente di inserire, consultare e gestire i provvedimenti del personale. I dati registrati possono essere verificati nel relativo flusso di lavoro.",
+            "es": "Este formulario permite registrar, consultar y gestionar los resoluciones de personal. Los registros se pueden revisar durante el proceso correspondiente.",
+            "ru": "Форма предназначена для ввода, просмотра и ведения кадровых приказов. Записи можно проверить в соответствующем рабочем процессе.",
+            "pt": "Este formulário permite registar, consultar e gerir os atos administrativos de pessoal. Os registos podem ser verificados no processo correspondente.",
+            "tr": "Bu form, personel atama kararları bilgilerini kaydetmek, incelemek ve yönetmek için kullanılır. İlgili kayıtlar iş akışı içinde kontrol edilebilir.",
+            "ar": "يُستخدم هذا النموذج لإدخال بيانات قرارات شؤون الموظفين ومراجعتها وإدارتها. ويمكن التحقق من السجلات في سير العمل المرتبط بها."
+          }
+        },
+        {
+          "id": "payroll-01-03",
+          "title": {
+            "fa": "اطلاعات کارکردها",
+            "en": "Work Record Data"
+          },
+          "description": {
+            "fa": "کارکرد ماهانه شامل ساعت‌ها و روزهای کار، تأخیر، اضافه‌کاری، غیبت، نوبت‌کاری و کشیک ثبت می‌شود تا در محاسبات حقوق لحاظ شود.",
+            "en": "Capture monthly workdays, working hours, lateness, overtime, absences, shifts and on-call duties for payroll.",
+            "de": "Dieses Formular dient der Erfassung, Prüfung und Verwaltung von Arbeitszeit- und Anwesenheitsdaten. Zugehörige Datensätze können im jeweiligen Arbeitsablauf eingesehen werden.",
+            "fr": "Ce formulaire permet de saisir, consulter et gérer les temps de travail et présences. Les enregistrements peuvent être vérifiés dans le processus correspondant.",
+            "it": "Questo modulo consente di inserire, consultare e gestire i presenze e orari di lavoro. I dati registrati possono essere verificati nel relativo flusso di lavoro.",
+            "es": "Este formulario permite registrar, consultar y gestionar los asistencia y horas trabajadas. Los registros se pueden revisar durante el proceso correspondiente.",
+            "ru": "Форма предназначена для ввода, просмотра и ведения учёта рабочего времени. Записи можно проверить в соответствующем рабочем процессе.",
+            "pt": "Este formulário permite registar, consultar e gerir os frequência e horas trabalhadas. Os registos podem ser verificados no processo correspondente.",
+            "tr": "Bu form, çalışma ve devam kayıtları bilgilerini kaydetmek, incelemek ve yönetmek için kullanılır. İlgili kayıtlar iş akışı içinde kontrol edilebilir.",
+            "ar": "يُستخدم هذا النموذج لإدخال بيانات الحضور وساعات عمل الموظفين ومراجعتها وإدارتها. ويمكن التحقق من السجلات في سير العمل المرتبط بها."
+          }
+        },
+        {
+          "id": "payroll-01-04",
+          "title": {
+            "fa": "اطلاعات حقوقی",
+            "en": "Payroll Data"
+          },
+          "description": {
+            "fa": "در این فرم تنظیمات حقوقی هر کارمند شامل اطلاعات حساب بانکی، وضعیت بیمه، سنوات و وضعیت فعال یا غیرفعال بودن اقلام حقوقی نگهداری می‌شود.",
+            "en": "Maintain each employee’s payroll settings, banking details, insurance status, service-year rules and active pay components.",
+            "de": "Dieses Formular dient der Erfassung, Prüfung und Verwaltung von Gehaltsabrechnungen und Entgeltdaten. Zugehörige Datensätze können im jeweiligen Arbeitsablauf eingesehen werden.",
+            "fr": "Ce formulaire permet de saisir, consulter et gérer les calculs et données de paie. Les enregistrements peuvent être vérifiés dans le processus correspondant.",
+            "it": "Questo modulo consente di inserire, consultare e gestire i calcoli e dati delle retribuzioni. I dati registrati possono essere verificati nel relativo flusso di lavoro.",
+            "es": "Este formulario permite registrar, consultar y gestionar los cálculos y datos de nómina. Los registros se pueden revisar durante el proceso correspondiente.",
+            "ru": "Форма предназначена для ввода, просмотра и ведения расчётов и данных заработной платы. Записи можно проверить в соответствующем рабочем процессе.",
+            "pt": "Este formulário permite registar, consultar e gerir os cálculos e dados da folha salarial. Os registos podem ser verificados no processo correspondente.",
+            "tr": "Bu form, bordro hesaplamaları ve verileri bilgilerini kaydetmek, incelemek ve yönetmek için kullanılır. İlgili kayıtlar iş akışı içinde kontrol edilebilir.",
+            "ar": "يُستخدم هذا النموذج لإدخال بيانات حسابات وبيانات الرواتب ومراجعتها وإدارتها. ويمكن التحقق من السجلات في سير العمل المرتبط بها."
+          }
+        },
+        {
+          "id": "payroll-01-05",
+          "title": {
+            "fa": "اطلاعات وام ها",
+            "en": "Loan Data"
+          },
+          "description": {
+            "fa": "وام‌های پرسنلی شامل نوع وام، اصل مبلغ، مانده، قسط ماهانه و شماره حساب ثبت می‌شوند. اقساط فعال می‌توانند در محاسبات و فیش حقوقی منظور شوند.",
+            "en": "Record employee loans with principal, outstanding balance, installment amount and bank account; active installments are considered in payroll.",
+            "de": "Dieses Formular dient der Erfassung, Prüfung und Verwaltung von Mitarbeiterdarlehen. Zugehörige Datensätze können im jeweiligen Arbeitsablauf eingesehen werden.",
+            "fr": "Ce formulaire permet de saisir, consulter et gérer les prêts du personnel. Les enregistrements peuvent être vérifiés dans le processus correspondant.",
+            "it": "Questo modulo consente di inserire, consultare e gestire i prestiti ai dipendenti. I dati registrati possono essere verificati nel relativo flusso di lavoro.",
+            "es": "Este formulario permite registrar, consultar y gestionar los préstamos a empleados. Los registros se pueden revisar durante el proceso correspondiente.",
+            "ru": "Форма предназначена для ввода, просмотра и ведения займов сотрудников. Записи можно проверить в соответствующем рабочем процессе.",
+            "pt": "Este formulário permite registar, consultar e gerir os empréstimos a funcionários. Os registos podem ser verificados no processo correspondente.",
+            "tr": "Bu form, personel kredileri bilgilerini kaydetmek, incelemek ve yönetmek için kullanılır. İlgili kayıtlar iş akışı içinde kontrol edilebilir.",
+            "ar": "يُستخدم هذا النموذج لإدخال بيانات قروض الموظفين ومراجعتها وإدارتها. ويمكن التحقق من السجلات في سير العمل المرتبط بها."
+          }
+        },
+        {
+          "id": "payroll-01-06",
+          "title": {
+            "fa": "اطلاعات بیمه اندوخته",
+            "en": "Insurance and Savings Data"
+          },
+          "description": {
+            "fa": "اطلاعات بیمه کارکنان و افراد تحت تکفل، نوع صندوق و تعداد افراد بیمه‌شده ثبت می‌شود. مشخصات بیمه در محاسبات و گزارش‌های حقوقی استفاده می‌شوند.",
+            "en": "Maintain insurance types, employee and dependent coverage details, and related payroll settings.",
+            "de": "Dieses Formular dient der Erfassung, Prüfung und Verwaltung von Mitarbeiterversicherungen. Zugehörige Datensätze können im jeweiligen Arbeitsablauf eingesehen werden.",
+            "fr": "Ce formulaire permet de saisir, consulter et gérer les assurances du personnel. Les enregistrements peuvent être vérifiés dans le processus correspondant.",
+            "it": "Questo modulo consente di inserire, consultare e gestire i assicurazioni del personale. I dati registrati possono essere verificati nel relativo flusso di lavoro.",
+            "es": "Este formulario permite registrar, consultar y gestionar los seguros del personal. Los registros se pueden revisar durante el proceso correspondiente.",
+            "ru": "Форма предназначена для ввода, просмотра и ведения страхования сотрудников. Записи можно проверить в соответствующем рабочем процессе.",
+            "pt": "Este formulário permite registar, consultar e gerir os seguros dos funcionários. Os registos podem ser verificados no processo correspondente.",
+            "tr": "Bu form, personel sigortaları bilgilerini kaydetmek, incelemek ve yönetmek için kullanılır. İlgili kayıtlar iş akışı içinde kontrol edilebilir.",
+            "ar": "يُستخدم هذا النموذج لإدخال بيانات تأمين الموظفين ومراجعتها وإدارتها. ويمكن التحقق من السجلات في سير العمل المرتبط بها."
+          }
+        },
+        {
+          "id": "payroll-01-07",
+          "title": {
+            "fa": "مزايا و کسورات",
+            "en": "Benefits and Deductions"
+          },
+          "description": {
+            "fa": "اقلام مزایا و کسورات ماهانه برای افراد انتخاب و مبلغ‌گذاری می‌شوند و امکان ثبت گروهی وجود دارد. پس از ذخیره، نتیجه در محاسبات و فیش حقوقی قابل مشاهده است.",
+            "en": "Enter monthly benefits and deductions for selected employees or groups and reflect the saved amounts in payroll calculations and payslips.",
+            "de": "Dieses Formular dient der Erfassung, Prüfung und Verwaltung von Zulagen und Gehaltsabzüge. Zugehörige Datensätze können im jeweiligen Arbeitsablauf eingesehen werden.",
+            "fr": "Ce formulaire permet de saisir, consulter et gérer les avantages et retenues salariales. Les enregistrements peuvent être vérifiés dans le processus correspondant.",
+            "it": "Questo modulo consente di inserire, consultare e gestire i indennità e trattenute salariali. I dati registrati possono essere verificati nel relativo flusso di lavoro.",
+            "es": "Este formulario permite registrar, consultar y gestionar los prestaciones y deducciones salariales. Los registros se pueden revisar durante el proceso correspondiente.",
+            "ru": "Форма предназначена для ввода, просмотра и ведения надбавок и удержаний. Записи можно проверить в соответствующем рабочем процессе.",
+            "pt": "Este formulário permite registar, consultar e gerir os benefícios e descontos salariais. Os registos podem ser verificados no processo correspondente.",
+            "tr": "Bu form, ücret yan hakları ve kesintileri bilgilerini kaydetmek, incelemek ve yönetmek için kullanılır. İlgili kayıtlar iş akışı içinde kontrol edilebilir.",
+            "ar": "يُستخدم هذا النموذج لإدخال بيانات البدلات والاستقطاعات من الرواتب ومراجعتها وإدارتها. ويمكن التحقق من السجلات في سير العمل المرتبط بها."
+          }
+        },
+        {
+          "id": "payroll-01-08",
+          "title": {
+            "fa": "اطلاعات مدیریت ها",
+            "en": "Management Data"
+          },
+          "description": {
+            "fa": "این فرم در فهرست منوهای نرم‌افزار وجود دارد، اما راهنمای PDF ارائه‌شده درباره عملکرد دقیق آن توضیح کافی ندارد. برای درج معرفی تخصصی، تکمیل مستندات این بخش لازم است.",
+            "en": "This form appears in the application menu, but the supplied PDF does not describe its exact functions in sufficient detail. Further documentation is needed for a precise feature description.",
+            "de": "Dieses Formular ist im Anwendungsmenü enthalten. Das vorliegende PDF-Handbuch beschreibt seine genauen Funktionen jedoch nicht ausreichend. Für eine verlässliche Funktionsbeschreibung ist zusätzliche Dokumentation erforderlich.",
+            "fr": "Ce formulaire figure dans le menu de l’application, mais le manuel PDF fourni ne décrit pas suffisamment ses fonctions précises. Une documentation complémentaire est nécessaire pour une présentation fiable.",
+            "it": "Questo modulo è presente nel menu dell’applicazione, ma il manuale PDF fornito non ne descrive sufficientemente le funzioni specifiche. È necessaria ulteriore documentazione per una descrizione accurata.",
+            "es": "Este formulario aparece en el menú de la aplicación, pero el manual PDF proporcionado no describe sus funciones con suficiente detalle. Se necesita documentación adicional para una descripción precisa.",
+            "ru": "Эта форма присутствует в меню приложения, однако предоставленное руководство PDF недостаточно подробно описывает её функции. Для точного описания необходима дополнительная документация.",
+            "pt": "Este formulário consta do menu da aplicação, mas o manual PDF fornecido não descreve as suas funções com detalhe suficiente. É necessária documentação adicional para uma descrição rigorosa.",
+            "tr": "Bu form uygulama menüsünde bulunmaktadır; ancak sağlanan PDF kılavuzu işlevlerini yeterli ayrıntıyla açıklamamaktadır. Doğru bir özellik açıklaması için ek belge gereklidir.",
+            "ar": "يظهر هذا النموذج في قائمة البرنامج، لكن دليل PDF المقدم لا يشرح وظائفه الدقيقة بالتفصيل الكافي. وتلزم وثائق إضافية لإعداد وصف موثوق لخصائصه."
+          }
+        },
+        {
+          "id": "payroll-01-09",
+          "title": {
+            "fa": "مرخصی پرسنل",
+            "en": "Personnel Leave"
+          },
+          "description": {
+            "fa": "مرخصی‌های روزانه یا ساعتی کارکنان با تاریخ، نوع و میزان مرخصی ثبت می‌شوند و سقف آن‌ها مطابق تنظیمات استخدامی قابل تعیین است.",
+            "en": "Register employee leave by date, type and hours or days, with limits configured by employment category.",
+            "de": "Dieses Formular dient der Erfassung, Prüfung und Verwaltung von Urlaubs- und Abwesenheitsdaten. Zugehörige Datensätze können im jeweiligen Arbeitsablauf eingesehen werden.",
+            "fr": "Ce formulaire permet de saisir, consulter et gérer les congés du personnel. Les enregistrements peuvent être vérifiés dans le processus correspondant.",
+            "it": "Questo modulo consente di inserire, consultare e gestire i congedi del personale. I dati registrati possono essere verificati nel relativo flusso di lavoro.",
+            "es": "Este formulario permite registrar, consultar y gestionar los permisos y licencias del personal. Los registros se pueden revisar durante el proceso correspondiente.",
+            "ru": "Форма предназначена для ввода, просмотра и ведения отпусков сотрудников. Записи можно проверить в соответствующем рабочем процессе.",
+            "pt": "Este formulário permite registar, consultar e gerir os licenças e férias dos funcionários. Os registos podem ser verificados no processo correspondente.",
+            "tr": "Bu form, personel izinleri bilgilerini kaydetmek, incelemek ve yönetmek için kullanılır. İlgili kayıtlar iş akışı içinde kontrol edilebilir.",
+            "ar": "يُستخدم هذا النموذج لإدخال بيانات إجازات الموظفين ومراجعتها وإدارتها. ويمكن التحقق من السجلات في سير العمل المرتبط بها."
+          }
+        }
+      ]
+    },
+    {
+      "id": "payroll-02",
+      "icon": "settings",
+      "title": {
+        "fa": "عملیات حقوق و دستمزد",
+        "en": "Payroll Operations"
+      },
+      "items": [
+        {
+          "id": "payroll-02-01",
+          "title": {
+            "fa": "محاسبات حقوق و دستمزد",
+            "en": "Payroll Calculations"
+          },
+          "description": {
+            "fa": "محاسبات حقوق ماه جاری برای یک یا چند کارمند به‌صورت فردی یا گروهی انجام می‌شود. برنامه اقلام محاسبه‌شده را نمایش می‌دهد تا خطاهای ناشی از اطلاعات ورودی پیگیری شوند.",
+            "en": "Run current-month payroll for individual employees or groups, with calculated components available for reviewing input-related discrepancies.",
+            "de": "Dieser Bereich unterstützt die dokumentierten Abläufe rund um Gehaltsabrechnungen und Entgeltdaten. Die Ergebnisse können im zugehörigen Arbeitsablauf geprüft werden.",
+            "fr": "Cette section permet d’exécuter les opérations documentées relatives aux calculs et données de paie. Les résultats peuvent être vérifiés dans le processus correspondant.",
+            "it": "Questa sezione permette di eseguire le operazioni documentate relative ai calcoli e dati delle retribuzioni. I risultati possono essere verificati nel processo pertinente.",
+            "es": "Esta sección permite realizar las operaciones documentadas relacionadas con los cálculos y datos de nómina. Los resultados se pueden revisar en el proceso correspondiente.",
+            "ru": "Раздел предназначен для выполнения документированных операций в области расчётов и данных заработной платы. Результаты можно проверить в соответствующем процессе.",
+            "pt": "Esta secção permite executar as operações documentadas relacionadas com os cálculos e dados da folha salarial. Os resultados podem ser verificados no processo correspondente.",
+            "tr": "Bu bölüm, bordro hesaplamaları ve verileri ile ilgili belgelenmiş işlemleri yürütür. Sonuçlar ilgili iş akışında kontrol edilebilir.",
+            "ar": "يتيح هذا القسم تنفيذ العمليات الموثقة المتعلقة بـحسابات وبيانات الرواتب. ويمكن مراجعة النتائج ضمن سير العمل المرتبط بها."
+          }
+        },
+        {
+          "id": "payroll-02-02",
+          "title": {
+            "fa": "محاسبه معوقه",
+            "en": "Arrears Calculation"
+          },
+          "description": {
+            "fa": "معوقات حقوقی با انتخاب کارکنان و بازه زمانی، به روش اختلاف احکام یا تفاوت پرداخت محاسبه می‌شوند. امکان انتخاب اقلام خاص و مرور نتایج معوقات وجود دارد.",
+            "en": "Calculate pay arrears over a selected period using differences between personnel orders or past payments, with options to restrict included pay items.",
+            "de": "Dieser Bereich unterstützt die dokumentierten Abläufe rund um Gehaltsnachzahlungen und Verbindlichkeiten. Die Ergebnisse können im zugehörigen Arbeitsablauf geprüft werden.",
+            "fr": "Cette section permet d’exécuter les opérations documentées relatives aux rappels et dettes salariales. Les résultats peuvent être vérifiés dans le processus correspondant.",
+            "it": "Questa sezione permette di eseguire le operazioni documentate relative ai arretrati e debiti retributivi. I risultati possono essere verificati nel processo pertinente.",
+            "es": "Esta sección permite realizar las operaciones documentadas relacionadas con los atrasos y deudas salariales. Los resultados se pueden revisar en el proceso correspondiente.",
+            "ru": "Раздел предназначен для выполнения документированных операций в области задолженностей и перерасчётов зарплаты. Результаты можно проверить в соответствующем процессе.",
+            "pt": "Esta secção permite executar as operações documentadas relacionadas com os atrasados e dívidas salariais. Os resultados podem ser verificados no processo correspondente.",
+            "tr": "Bu bölüm, maaş farkları ve borçları ile ilgili belgelenmiş işlemleri yürütür. Sonuçlar ilgili iş akışında kontrol edilebilir.",
+            "ar": "يتيح هذا القسم تنفيذ العمليات الموثقة المتعلقة بـمتأخرات الرواتب والالتزامات. ويمكن مراجعة النتائج ضمن سير العمل المرتبط بها."
+          }
+        },
+        {
+          "id": "payroll-02-03",
+          "title": {
+            "fa": "محاسبه دیون",
+            "en": "Debt Calculation"
+          },
+          "description": {
+            "fa": "دیون حقوقی به‌صورت فردی یا گروهی و با انتخاب دوره‌های مربوط محاسبه می‌شوند. این بخش از سازوکار مشابه معوقات استفاده می‌کند و بازه سال‌های مختلف را پوشش می‌دهد.",
+            "en": "Calculate payroll liabilities for individuals or groups across selected years using processing options similar to arrears.",
+            "de": "Dieser Bereich unterstützt die dokumentierten Abläufe rund um Gehaltsnachzahlungen und Verbindlichkeiten. Die Ergebnisse können im zugehörigen Arbeitsablauf geprüft werden.",
+            "fr": "Cette section permet d’exécuter les opérations documentées relatives aux rappels et dettes salariales. Les résultats peuvent être vérifiés dans le processus correspondant.",
+            "it": "Questa sezione permette di eseguire le operazioni documentate relative ai arretrati e debiti retributivi. I risultati possono essere verificati nel processo pertinente.",
+            "es": "Esta sección permite realizar las operaciones documentadas relacionadas con los atrasos y deudas salariales. Los resultados se pueden revisar en el proceso correspondiente.",
+            "ru": "Раздел предназначен для выполнения документированных операций в области задолженностей и перерасчётов зарплаты. Результаты можно проверить в соответствующем процессе.",
+            "pt": "Esta secção permite executar as operações documentadas relacionadas com os atrasados e dívidas salariais. Os resultados podem ser verificados no processo correspondente.",
+            "tr": "Bu bölüm, maaş farkları ve borçları ile ilgili belgelenmiş işlemleri yürütür. Sonuçlar ilgili iş akışında kontrol edilebilir.",
+            "ar": "يتيح هذا القسم تنفيذ العمليات الموثقة المتعلقة بـمتأخرات الرواتب والالتزامات. ويمكن مراجعة النتائج ضمن سير العمل المرتبط بها."
+          }
+        },
+        {
+          "id": "payroll-02-04",
+          "title": {
+            "fa": "سایر پرداختی ها",
+            "en": "Other Payments"
+          },
+          "description": {
+            "fa": "پرداخت‌های خارج از حقوق ماهانه، مانند عیدی و پاداش، با تعیین مبنای محاسبه و کنترل مالیات ثبت می‌شوند. امکان تهیه فهرست بانک و صدور سند مالی برای این پرداخت‌ها وجود دارد.",
+            "en": "Process nonregular payments such as bonuses or holiday allowances, determine amounts and tax parameters, and prepare bank or accounting outputs.",
+            "de": "Dieses Formular dient der Erfassung, Prüfung und Verwaltung von Gehaltsabrechnungen und Entgeltdaten. Zugehörige Datensätze können im jeweiligen Arbeitsablauf eingesehen werden.",
+            "fr": "Ce formulaire permet de saisir, consulter et gérer les calculs et données de paie. Les enregistrements peuvent être vérifiés dans le processus correspondant.",
+            "it": "Questo modulo consente di inserire, consultare e gestire i calcoli e dati delle retribuzioni. I dati registrati possono essere verificati nel relativo flusso di lavoro.",
+            "es": "Este formulario permite registrar, consultar y gestionar los cálculos y datos de nómina. Los registros se pueden revisar durante el proceso correspondiente.",
+            "ru": "Форма предназначена для ввода, просмотра и ведения расчётов и данных заработной платы. Записи можно проверить в соответствующем рабочем процессе.",
+            "pt": "Este formulário permite registar, consultar e gerir os cálculos e dados da folha salarial. Os registos podem ser verificados no processo correspondente.",
+            "tr": "Bu form, bordro hesaplamaları ve verileri bilgilerini kaydetmek, incelemek ve yönetmek için kullanılır. İlgili kayıtlar iş akışı içinde kontrol edilebilir.",
+            "ar": "يُستخدم هذا النموذج لإدخال بيانات حسابات وبيانات الرواتب ومراجعتها وإدارتها. ويمكن التحقق من السجلات في سير العمل المرتبط بها."
+          }
+        },
+        {
+          "id": "payroll-02-05",
+          "title": {
+            "fa": "دریافت و صدور اطلاعات",
+            "en": "Import and Export Data"
+          },
+          "description": {
+            "fa": "اطلاعات حقوقی برای تبادل با سامانه‌های مرتبط آماده و در قالب‌های مستند خروجی گرفته می‌شود. بعضی خروجی‌ها برای ارسال به سازمان بازنشستگی و سایر نهادهای ذی‌ربط تهیه می‌شوند.",
+            "en": "Prepare and exchange payroll data through the documented export workflows, including files for pension and other agencies.",
+            "de": "Dieser Bereich unterstützt die dokumentierten Abläufe rund um Gehaltsabrechnungen und Entgeltdaten. Die Ergebnisse können im zugehörigen Arbeitsablauf geprüft werden.",
+            "fr": "Cette section permet d’exécuter les opérations documentées relatives aux calculs et données de paie. Les résultats peuvent être vérifiés dans le processus correspondant.",
+            "it": "Questa sezione permette di eseguire le operazioni documentate relative ai calcoli e dati delle retribuzioni. I risultati possono essere verificati nel processo pertinente.",
+            "es": "Esta sección permite realizar las operaciones documentadas relacionadas con los cálculos y datos de nómina. Los resultados se pueden revisar en el proceso correspondiente.",
+            "ru": "Раздел предназначен для выполнения документированных операций в области расчётов и данных заработной платы. Результаты можно проверить в соответствующем процессе.",
+            "pt": "Esta secção permite executar as operações documentadas relacionadas com os cálculos e dados da folha salarial. Os resultados podem ser verificados no processo correspondente.",
+            "tr": "Bu bölüm, bordro hesaplamaları ve verileri ile ilgili belgelenmiş işlemleri yürütür. Sonuçlar ilgili iş akışında kontrol edilebilir.",
+            "ar": "يتيح هذا القسم تنفيذ العمليات الموثقة المتعلقة بـحسابات وبيانات الرواتب. ويمكن مراجعة النتائج ضمن سير العمل المرتبط بها."
+          }
+        },
+        {
+          "id": "payroll-02-06",
+          "title": {
+            "fa": "بستن فایل حقوقی",
+            "en": "Close Payroll File"
+          },
+          "description": {
+            "fa": "پس از تکمیل محاسبات ماه، فایل حقوقی بسته می‌شود تا سیستم برای دوره بعدی آماده گردد. راهنما امکان گرفتن نسخه پشتیبان پیش از بستن ماه را نیز ذکر می‌کند.",
+            "en": "Close the completed payroll period and prepare the system for the next month, with an option to back up data before closing.",
+            "de": "Dieser Bereich unterstützt die dokumentierten Abläufe rund um Datenaustauschdateien. Die Ergebnisse können im zugehörigen Arbeitsablauf geprüft werden.",
+            "fr": "Cette section permet d’exécuter les opérations documentées relatives aux fichiers d’échange de données. Les résultats peuvent être vérifiés dans le processus correspondant.",
+            "it": "Questa sezione permette di eseguire le operazioni documentate relative ai file di scambio dati. I risultati possono essere verificati nel processo pertinente.",
+            "es": "Esta sección permite realizar las operaciones documentadas relacionadas con los archivos de intercambio de datos. Los resultados se pueden revisar en el proceso correspondiente.",
+            "ru": "Раздел предназначен для выполнения документированных операций в области файлов обмена данными. Результаты можно проверить в соответствующем процессе.",
+            "pt": "Esta secção permite executar as operações documentadas relacionadas com os ficheiros de intercâmbio de dados. Os resultados podem ser verificados no processo correspondente.",
+            "tr": "Bu bölüm, veri aktarım dosyaları ile ilgili belgelenmiş işlemleri yürütür. Sonuçlar ilgili iş akışında kontrol edilebilir.",
+            "ar": "يتيح هذا القسم تنفيذ العمليات الموثقة المتعلقة بـملفات تبادل البيانات. ويمكن مراجعة النتائج ضمن سير العمل المرتبط بها."
+          }
+        }
+      ]
+    },
+    {
+      "id": "payroll-03",
+      "icon": "file-text",
+      "title": {
+        "fa": "گزارشات حقوق",
+        "en": "Payroll Reports"
+      },
+      "items": [
+        {
+          "id": "payroll-03-01",
+          "title": {
+            "fa": "فیش جامع حقوق",
+            "en": "Comprehensive Payslip"
+          },
+          "description": {
+            "fa": "فیش و گزارش جامع حقوق، اقلام مزایا، کسورات و مبالغ پرداختی را برای کارکنان منتخب نمایش می‌دهد. گزارش‌های حقوق برای دوره‌های مختلف و گروه‌های استخدامی قابل تهیه هستند.",
+            "en": "Display comprehensive pay information including benefits, deductions and payment amounts for selected employees and reporting periods.",
+            "de": "Dieser Bericht stellt Informationen zu Gehaltsabrechnungen zur Prüfung und periodischen Auswertung bereit. Er unterstützt die Kontrolle erfasster Daten.",
+            "fr": "Ce rapport présente les bulletins de paie pour consultation et analyse par période. Il facilite le contrôle des données enregistrées.",
+            "it": "Questo rapporto presenta i cedolini paga per la consultazione e l’analisi periodica. Agevola il controllo dei dati registrati.",
+            "es": "Este informe presenta información sobre los recibos de nómina para su revisión y análisis por período. Facilita el control de los datos registrados.",
+            "ru": "Отчёт отображает сведения о расчётных листков для проверки и анализа по периодам. Он помогает контролировать зарегистрированные данные.",
+            "pt": "Este relatório apresenta informações sobre os recibos de vencimento para consulta e análise por período. Facilita a verificação dos dados registados.",
+            "tr": "Bu rapor, maaş bordroları hakkında dönem bazında inceleme ve raporlama imkânı sunar. Kaydedilen bilgilerin kontrolünü destekler.",
+            "ar": "يعرض هذا التقرير معلومات كشوف الرواتب الفردية للمراجعة والتحليل حسب الفترة. ويساعد على التحقق من البيانات المسجلة."
+          }
+        },
+        {
+          "id": "payroll-03-02",
+          "title": {
+            "fa": "ریز فیش جامع حقوق و مزایا",
+            "en": "Detailed Payslip"
+          },
+          "description": {
+            "fa": "فیش حقوقی با جزئیات اقلام محاسبه‌شده در قالب‌های چاپی پیش‌بینی‌شده در نرم‌افزار نمایش داده می‌شود.",
+            "en": "Generate detailed payslip views with individual calculated remuneration items in the application’s supported print layouts.",
+            "de": "Dieser Bericht stellt Informationen zu Gehaltsabrechnungen zur Prüfung und periodischen Auswertung bereit. Er unterstützt die Kontrolle erfasster Daten.",
+            "fr": "Ce rapport présente les bulletins de paie pour consultation et analyse par période. Il facilite le contrôle des données enregistrées.",
+            "it": "Questo rapporto presenta i cedolini paga per la consultazione e l’analisi periodica. Agevola il controllo dei dati registrati.",
+            "es": "Este informe presenta información sobre los recibos de nómina para su revisión y análisis por período. Facilita el control de los datos registrados.",
+            "ru": "Отчёт отображает сведения о расчётных листков для проверки и анализа по периодам. Он помогает контролировать зарегистрированные данные.",
+            "pt": "Este relatório apresenta informações sobre os recibos de vencimento para consulta e análise por período. Facilita a verificação dos dados registados.",
+            "tr": "Bu rapor, maaş bordroları hakkında dönem bazında inceleme ve raporlama imkânı sunar. Kaydedilen bilgilerin kontrolünü destekler.",
+            "ar": "يعرض هذا التقرير معلومات كشوف الرواتب الفردية للمراجعة والتحليل حسب الفترة. ويساعد على التحقق من البيانات المسجلة."
+          }
+        },
+        {
+          "id": "payroll-03-03",
+          "title": {
+            "fa": "لیست جامع حقوق و مزایا",
+            "en": "Comprehensive Payroll List"
+          },
+          "description": {
+            "fa": "فهرست جامع حقوق و مزایا برای یک ماه یا دوره‌ای از ماه‌ها و به تفکیک پرسنل، نوع استخدام یا محل خدمت تهیه می‌شود.",
+            "en": "Prepare payroll and benefit lists for a month or range of months, grouped by employee, employment category or workplace.",
+            "de": "Dieser Bericht stellt Informationen zu Zulagen und Gehaltsabzüge zur Prüfung und periodischen Auswertung bereit. Er unterstützt die Kontrolle erfasster Daten.",
+            "fr": "Ce rapport présente les avantages et retenues salariales pour consultation et analyse par période. Il facilite le contrôle des données enregistrées.",
+            "it": "Questo rapporto presenta i indennità e trattenute salariali per la consultazione e l’analisi periodica. Agevola il controllo dei dati registrati.",
+            "es": "Este informe presenta información sobre los prestaciones y deducciones salariales para su revisión y análisis por período. Facilita el control de los datos registrados.",
+            "ru": "Отчёт отображает сведения о надбавок и удержаний для проверки и анализа по периодам. Он помогает контролировать зарегистрированные данные.",
+            "pt": "Este relatório apresenta informações sobre os benefícios e descontos salariais para consulta e análise por período. Facilita a verificação dos dados registados.",
+            "tr": "Bu rapor, ücret yan hakları ve kesintileri hakkında dönem bazında inceleme ve raporlama imkânı sunar. Kaydedilen bilgilerin kontrolünü destekler.",
+            "ar": "يعرض هذا التقرير معلومات البدلات والاستقطاعات من الرواتب للمراجعة والتحليل حسب الفترة. ويساعد على التحقق من البيانات المسجلة."
+          }
+        },
+        {
+          "id": "payroll-03-04",
+          "title": {
+            "fa": "لیست سنواتی دیون حقوقی",
+            "en": "Historical Salary Debts List"
+          },
+          "description": {
+            "fa": "دیون و معوقات کارکنان برای دوره‌های مشخص و سال‌های گذشته قابل گزارش‌گیری است و با انتخاب گروه استخدامی یا افراد نمایش داده می‌شود.",
+            "en": "Report outstanding payroll debts and arrears for selected staff or employment groups across specified years.",
+            "de": "Dieser Bericht stellt Informationen zu Gehaltsnachzahlungen und Verbindlichkeiten zur Prüfung und periodischen Auswertung bereit. Er unterstützt die Kontrolle erfasster Daten.",
+            "fr": "Ce rapport présente les rappels et dettes salariales pour consultation et analyse par période. Il facilite le contrôle des données enregistrées.",
+            "it": "Questo rapporto presenta i arretrati e debiti retributivi per la consultazione e l’analisi periodica. Agevola il controllo dei dati registrati.",
+            "es": "Este informe presenta información sobre los atrasos y deudas salariales para su revisión y análisis por período. Facilita el control de los datos registrados.",
+            "ru": "Отчёт отображает сведения о задолженностей и перерасчётов зарплаты для проверки и анализа по периодам. Он помогает контролировать зарегистрированные данные.",
+            "pt": "Este relatório apresenta informações sobre os atrasados e dívidas salariais para consulta e análise por período. Facilita a verificação dos dados registados.",
+            "tr": "Bu rapor, maaş farkları ve borçları hakkında dönem bazında inceleme ve raporlama imkânı sunar. Kaydedilen bilgilerin kontrolünü destekler.",
+            "ar": "يعرض هذا التقرير معلومات متأخرات الرواتب والالتزامات للمراجعة والتحليل حسب الفترة. ويساعد على التحقق من البيانات المسجلة."
+          }
+        },
+        {
+          "id": "payroll-03-05",
+          "title": {
+            "fa": "لیست مقایسه حقوق و مزایا",
+            "en": "Payroll Comparison List"
+          },
+          "description": {
+            "fa": "گزارش مقایسه دو فهرست حقوقی، افزایش یا کاهش اقلام متناظر بین ماه‌های انتخاب‌شده را نشان می‌دهد و به کنترل مغایرت‌ها کمک می‌کند.",
+            "en": "Compare payroll items between two selected months and identify item-level increases, decreases and discrepancies.",
+            "de": "Dieser Bericht stellt Informationen zu Gehaltsvergleiche und Abweichungen zur Prüfung und periodischen Auswertung bereit. Er unterstützt die Kontrolle erfasster Daten.",
+            "fr": "Ce rapport présente les comparaisons et écarts de paie pour consultation et analyse par période. Il facilite le contrôle des données enregistrées.",
+            "it": "Questo rapporto presenta i confronti e differenze delle retribuzioni per la consultazione e l’analisi periodica. Agevola il controllo dei dati registrati.",
+            "es": "Este informe presenta información sobre los comparaciones y diferencias de nómina para su revisión y análisis por período. Facilita el control de los datos registrados.",
+            "ru": "Отчёт отображает сведения о сравнений и расхождений по зарплате для проверки и анализа по периодам. Он помогает контролировать зарегистрированные данные.",
+            "pt": "Este relatório apresenta informações sobre os comparações e diferenças salariais para consulta e análise por período. Facilita a verificação dos dados registados.",
+            "tr": "Bu rapor, bordro karşılaştırmaları ve farkları hakkında dönem bazında inceleme ve raporlama imkânı sunar. Kaydedilen bilgilerin kontrolünü destekler.",
+            "ar": "يعرض هذا التقرير معلومات مقارنات الرواتب والفروقات للمراجعة والتحليل حسب الفترة. ويساعد على التحقق من البيانات المسجلة."
+          }
+        },
+        {
+          "id": "payroll-03-06",
+          "title": {
+            "fa": "رسی هزینه",
+            "en": "Expense Review"
+          },
+          "description": {
+            "fa": "این فرم در فهرست منوهای نرم‌افزار وجود دارد، اما راهنمای PDF ارائه‌شده درباره عملکرد دقیق آن توضیح کافی ندارد. برای درج معرفی تخصصی، تکمیل مستندات این بخش لازم است.",
+            "en": "This form appears in the application menu, but the supplied PDF does not describe its exact functions in sufficient detail. Further documentation is needed for a precise feature description.",
+            "de": "Dieses Formular ist im Anwendungsmenü enthalten. Das vorliegende PDF-Handbuch beschreibt seine genauen Funktionen jedoch nicht ausreichend. Für eine verlässliche Funktionsbeschreibung ist zusätzliche Dokumentation erforderlich.",
+            "fr": "Ce formulaire figure dans le menu de l’application, mais le manuel PDF fourni ne décrit pas suffisamment ses fonctions précises. Une documentation complémentaire est nécessaire pour une présentation fiable.",
+            "it": "Questo modulo è presente nel menu dell’applicazione, ma il manuale PDF fornito non ne descrive sufficientemente le funzioni specifiche. È necessaria ulteriore documentazione per una descrizione accurata.",
+            "es": "Este formulario aparece en el menú de la aplicación, pero el manual PDF proporcionado no describe sus funciones con suficiente detalle. Se necesita documentación adicional para una descripción precisa.",
+            "ru": "Эта форма присутствует в меню приложения, однако предоставленное руководство PDF недостаточно подробно описывает её функции. Для точного описания необходима дополнительная документация.",
+            "pt": "Este formulário consta do menu da aplicação, mas o manual PDF fornecido não descreve as suas funções com detalhe suficiente. É necessária documentação adicional para uma descrição rigorosa.",
+            "tr": "Bu form uygulama menüsünde bulunmaktadır; ancak sağlanan PDF kılavuzu işlevlerini yeterli ayrıntıyla açıklamamaktadır. Doğru bir özellik açıklaması için ek belge gereklidir.",
+            "ar": "يظهر هذا النموذج في قائمة البرنامج، لكن دليل PDF المقدم لا يشرح وظائفه الدقيقة بالتفصيل الكافي. وتلزم وثائق إضافية لإعداد وصف موثوق لخصائصه."
+          }
+        },
+        {
+          "id": "payroll-03-07",
+          "title": {
+            "fa": "سایر هزینه",
+            "en": "Other Expenses"
+          },
+          "description": {
+            "fa": "این فرم در فهرست منوهای نرم‌افزار وجود دارد، اما راهنمای PDF ارائه‌شده درباره عملکرد دقیق آن توضیح کافی ندارد. برای درج معرفی تخصصی، تکمیل مستندات این بخش لازم است.",
+            "en": "This form appears in the application menu, but the supplied PDF does not describe its exact functions in sufficient detail. Further documentation is needed for a precise feature description.",
+            "de": "Dieses Formular ist im Anwendungsmenü enthalten. Das vorliegende PDF-Handbuch beschreibt seine genauen Funktionen jedoch nicht ausreichend. Für eine verlässliche Funktionsbeschreibung ist zusätzliche Dokumentation erforderlich.",
+            "fr": "Ce formulaire figure dans le menu de l’application, mais le manuel PDF fourni ne décrit pas suffisamment ses fonctions précises. Une documentation complémentaire est nécessaire pour une présentation fiable.",
+            "it": "Questo modulo è presente nel menu dell’applicazione, ma il manuale PDF fornito non ne descrive sufficientemente le funzioni specifiche. È necessaria ulteriore documentazione per una descrizione accurata.",
+            "es": "Este formulario aparece en el menú de la aplicación, pero el manual PDF proporcionado no describe sus funciones con suficiente detalle. Se necesita documentación adicional para una descripción precisa.",
+            "ru": "Эта форма присутствует в меню приложения, однако предоставленное руководство PDF недостаточно подробно описывает её функции. Для точного описания необходима дополнительная документация.",
+            "pt": "Este formulário consta do menu da aplicação, mas o manual PDF fornecido não descreve as suas funções com detalhe suficiente. É necessária documentação adicional para uma descrição rigorosa.",
+            "tr": "Bu form uygulama menüsünde bulunmaktadır; ancak sağlanan PDF kılavuzu işlevlerini yeterli ayrıntıyla açıklamamaktadır. Doğru bir özellik açıklaması için ek belge gereklidir.",
+            "ar": "يظهر هذا النموذج في قائمة البرنامج، لكن دليل PDF المقدم لا يشرح وظائفه الدقيقة بالتفصيل الكافي. وتلزم وثائق إضافية لإعداد وصف موثوق لخصائصه."
+          }
+        },
+        {
+          "id": "payroll-03-08",
+          "title": {
+            "fa": "پیمانی هزینه",
+            "en": "Contractual Expenses"
+          },
+          "description": {
+            "fa": "این فرم در فهرست منوهای نرم‌افزار وجود دارد، اما راهنمای PDF ارائه‌شده درباره عملکرد دقیق آن توضیح کافی ندارد. برای درج معرفی تخصصی، تکمیل مستندات این بخش لازم است.",
+            "en": "This form appears in the application menu, but the supplied PDF does not describe its exact functions in sufficient detail. Further documentation is needed for a precise feature description.",
+            "de": "Dieses Formular ist im Anwendungsmenü enthalten. Das vorliegende PDF-Handbuch beschreibt seine genauen Funktionen jedoch nicht ausreichend. Für eine verlässliche Funktionsbeschreibung ist zusätzliche Dokumentation erforderlich.",
+            "fr": "Ce formulaire figure dans le menu de l’application, mais le manuel PDF fourni ne décrit pas suffisamment ses fonctions précises. Une documentation complémentaire est nécessaire pour une présentation fiable.",
+            "it": "Questo modulo è presente nel menu dell’applicazione, ma il manuale PDF fornito non ne descrive sufficientemente le funzioni specifiche. È necessaria ulteriore documentazione per una descrizione accurata.",
+            "es": "Este formulario aparece en el menú de la aplicación, pero el manual PDF proporcionado no describe sus funciones con suficiente detalle. Se necesita documentación adicional para una descripción precisa.",
+            "ru": "Эта форма присутствует в меню приложения, однако предоставленное руководство PDF недостаточно подробно описывает её функции. Для точного описания необходима дополнительная документация.",
+            "pt": "Este formulário consta do menu da aplicação, mas o manual PDF fornecido não descreve as suas funções com detalhe suficiente. É necessária documentação adicional para uma descrição rigorosa.",
+            "tr": "Bu form uygulama menüsünde bulunmaktadır; ancak sağlanan PDF kılavuzu işlevlerini yeterli ayrıntıyla açıklamamaktadır. Doğru bir özellik açıklaması için ek belge gereklidir.",
+            "ar": "يظهر هذا النموذج في قائمة البرنامج، لكن دليل PDF المقدم لا يشرح وظائفه الدقيقة بالتفصيل الكافي. وتلزم وثائق إضافية لإعداد وصف موثوق لخصائصه."
+          }
+        },
+        {
+          "id": "payroll-03-09",
+          "title": {
+            "fa": "درخواست وجه هزینه",
+            "en": "Expense Fund Request"
+          },
+          "description": {
+            "fa": "اطلاعات درخواست وجه برای پرداخت حقوق و مزایا با جمع ناخالص، انواع کسورات و خالص پرداختی در فرم مخصوص تهیه می‌شوند.",
+            "en": "Prepare a payroll fund request showing gross amounts, deductions and net payments.",
+            "de": "Dieses Formular dient der Erfassung, Prüfung und Verwaltung von Bankzahlungsdateien. Zugehörige Datensätze können im jeweiligen Arbeitsablauf eingesehen werden.",
+            "fr": "Ce formulaire permet de saisir, consulter et gérer les fichiers de paiement bancaire. Les enregistrements peuvent être vérifiés dans le processus correspondant.",
+            "it": "Questo modulo consente di inserire, consultare e gestire i file di pagamento bancari. I dati registrati possono essere verificati nel relativo flusso di lavoro.",
+            "es": "Este formulario permite registrar, consultar y gestionar los archivos de pagos bancarios. Los registros se pueden revisar durante el proceso correspondiente.",
+            "ru": "Форма предназначена для ввода, просмотра и ведения банковских платёжных файлов. Записи можно проверить в соответствующем рабочем процессе.",
+            "pt": "Este formulário permite registar, consultar e gerir os ficheiros de pagamentos bancários. Os registos podem ser verificados no processo correspondente.",
+            "tr": "Bu form, banka ödeme dosyaları bilgilerini kaydetmek, incelemek ve yönetmek için kullanılır. İlgili kayıtlar iş akışı içinde kontrol edilebilir.",
+            "ar": "يُستخدم هذا النموذج لإدخال بيانات ملفات المدفوعات المصرفية ومراجعتها وإدارتها. ويمكن التحقق من السجلات في سير العمل المرتبط بها."
+          }
+        },
+        {
+          "id": "payroll-03-10",
+          "title": {
+            "fa": "لیست بانک ملی",
+            "en": "Bank Melli List"
+          },
+          "description": {
+            "fa": "فهرست پرداخت بانکی براساس نوع استخدام، ماهیت حقوق یا معوقه و گزینه‌های مرتب‌سازی تهیه می‌شود.",
+            "en": "Prepare bank payment lists with options for employee type, pay period, arrears and sorting.",
+            "de": "Dieser Bericht stellt Informationen zu Bankzahlungsdateien zur Prüfung und periodischen Auswertung bereit. Er unterstützt die Kontrolle erfasster Daten.",
+            "fr": "Ce rapport présente les fichiers de paiement bancaire pour consultation et analyse par période. Il facilite le contrôle des données enregistrées.",
+            "it": "Questo rapporto presenta i file di pagamento bancari per la consultazione e l’analisi periodica. Agevola il controllo dei dati registrati.",
+            "es": "Este informe presenta información sobre los archivos de pagos bancarios para su revisión y análisis por período. Facilita el control de los datos registrados.",
+            "ru": "Отчёт отображает сведения о банковских платёжных файлов для проверки и анализа по периодам. Он помогает контролировать зарегистрированные данные.",
+            "pt": "Este relatório apresenta informações sobre os ficheiros de pagamentos bancários para consulta e análise por período. Facilita a verificação dos dados registados.",
+            "tr": "Bu rapor, banka ödeme dosyaları hakkında dönem bazında inceleme ve raporlama imkânı sunar. Kaydedilen bilgilerin kontrolünü destekler.",
+            "ar": "يعرض هذا التقرير معلومات ملفات المدفوعات المصرفية للمراجعة والتحليل حسب الفترة. ويساعد على التحقق من البيانات المسجلة."
+          }
+        }
+      ]
+    },
+    {
+      "id": "payroll-04",
+      "icon": "chart",
+      "title": {
+        "fa": "گزارشات ضمیمه حقوق",
+        "en": "Supplementary Payroll Reports"
+      },
+      "items": [
+        {
+          "id": "payroll-04-01",
+          "title": {
+            "fa": "کسور بازنشستگی",
+            "en": "Pension Deductions"
+          },
+          "description": {
+            "fa": "گزارش کسور بازنشستگی سهم کارمند و کارفرما براساس نوع صندوق، نوع استخدام و ماه یا سال موردنظر تهیه می‌شود.",
+            "en": "Report employee and employer pension deductions by fund, employment category and selected period.",
+            "de": "Dieses Formular dient der Erfassung, Prüfung und Verwaltung von Renten- und Pensionsbeiträge. Zugehörige Datensätze können im jeweiligen Arbeitsablauf eingesehen werden.",
+            "fr": "Ce formulaire permet de saisir, consulter et gérer les cotisations de retraite. Les enregistrements peuvent être vérifiés dans le processus correspondant.",
+            "it": "Questo modulo consente di inserire, consultare e gestire i contributi pensionistici. I dati registrati possono essere verificati nel relativo flusso di lavoro.",
+            "es": "Este formulario permite registrar, consultar y gestionar los cotizaciones de jubilación. Los registros se pueden revisar durante el proceso correspondiente.",
+            "ru": "Форма предназначена для ввода, просмотра и ведения пенсионных взносов. Записи можно проверить в соответствующем рабочем процессе.",
+            "pt": "Este formulário permite registar, consultar e gerir os contribuições para a reforma. Os registos podem ser verificados no processo correspondente.",
+            "tr": "Bu form, emeklilik katkı payları bilgilerini kaydetmek, incelemek ve yönetmek için kullanılır. İlgili kayıtlar iş akışı içinde kontrol edilebilir.",
+            "ar": "يُستخدم هذا النموذج لإدخال بيانات اشتراكات التقاعد ومراجعتها وإدارتها. ويمكن التحقق من السجلات في سير العمل المرتبط بها."
+          }
+        },
+        {
+          "id": "payroll-04-02",
+          "title": {
+            "fa": "خدمات درمانی بازنشستگان",
+            "en": "Retiree Healthcare Services"
+          },
+          "description": {
+            "fa": "گزارش خدمات درمانی بازنشستگان در قالب‌های مختلف و برای مبالغ حقوق یا معوقه تهیه می‌شود.",
+            "en": "Generate retiree healthcare deduction reports for salary or arrears in the documented reporting layouts.",
+            "de": "Dieses Formular dient der Erfassung, Prüfung und Verwaltung von Renten- und Pensionsbeiträge. Zugehörige Datensätze können im jeweiligen Arbeitsablauf eingesehen werden.",
+            "fr": "Ce formulaire permet de saisir, consulter et gérer les cotisations de retraite. Les enregistrements peuvent être vérifiés dans le processus correspondant.",
+            "it": "Questo modulo consente di inserire, consultare e gestire i contributi pensionistici. I dati registrati possono essere verificati nel relativo flusso di lavoro.",
+            "es": "Este formulario permite registrar, consultar y gestionar los cotizaciones de jubilación. Los registros se pueden revisar durante el proceso correspondiente.",
+            "ru": "Форма предназначена для ввода, просмотра и ведения пенсионных взносов. Записи можно проверить в соответствующем рабочем процессе.",
+            "pt": "Este formulário permite registar, consultar e gerir os contribuições para a reforma. Os registos podem ser verificados no processo correspondente.",
+            "tr": "Bu form, emeklilik katkı payları bilgilerini kaydetmek, incelemek ve yönetmek için kullanılır. İlgili kayıtlar iş akışı içinde kontrol edilebilir.",
+            "ar": "يُستخدم هذا النموذج لإدخال بيانات اشتراكات التقاعد ومراجعتها وإدارتها. ويمكن التحقق من السجلات في سير العمل المرتبط بها."
+          }
+        },
+        {
+          "id": "payroll-04-03",
+          "title": {
+            "fa": "بیمه تامین اجتماعی",
+            "en": "Social Security Insurance"
+          },
+          "description": {
+            "fa": "گزارش‌های بیمه تأمین اجتماعی با کنترل‌های حقوقی معرفی‌شده در راهنما تهیه می‌شوند و قابلیت ارائه فهرست پرسنل و فایل خروجی را دارند.",
+            "en": "Produce social security payroll reports, personnel lists and related export files with documented consistency checks.",
+            "de": "Dieses Formular dient der Erfassung, Prüfung und Verwaltung von Mitarbeiterversicherungen. Zugehörige Datensätze können im jeweiligen Arbeitsablauf eingesehen werden.",
+            "fr": "Ce formulaire permet de saisir, consulter et gérer les assurances du personnel. Les enregistrements peuvent être vérifiés dans le processus correspondant.",
+            "it": "Questo modulo consente di inserire, consultare e gestire i assicurazioni del personale. I dati registrati possono essere verificati nel relativo flusso di lavoro.",
+            "es": "Este formulario permite registrar, consultar y gestionar los seguros del personal. Los registros se pueden revisar durante el proceso correspondiente.",
+            "ru": "Форма предназначена для ввода, просмотра и ведения страхования сотрудников. Записи можно проверить в соответствующем рабочем процессе.",
+            "pt": "Este formulário permite registar, consultar e gerir os seguros dos funcionários. Os registos podem ser verificados no processo correspondente.",
+            "tr": "Bu form, personel sigortaları bilgilerini kaydetmek, incelemek ve yönetmek için kullanılır. İlgili kayıtlar iş akışı içinde kontrol edilebilir.",
+            "ar": "يُستخدم هذا النموذج لإدخال بيانات تأمين الموظفين ومراجعتها وإدارتها. ويمكن التحقق من السجلات في سير العمل المرتبط بها."
+          }
+        },
+        {
+          "id": "payroll-04-04",
+          "title": {
+            "fa": "خدمات درمانی کارکنان",
+            "en": "Employee Healthcare Services"
+          },
+          "description": {
+            "fa": "بیمه خدمات درمانی کارکنان بر اساس نوع بیمه‌شده، افراد تبعی و سهم کارمند، دولت یا دستگاه اجرایی گزارش می‌شود.",
+            "en": "Report employee medical insurance by principal or dependent coverage and relevant contribution shares.",
+            "de": "Dieses Formular dient der Erfassung, Prüfung und Verwaltung von Mitarbeiterversicherungen. Zugehörige Datensätze können im jeweiligen Arbeitsablauf eingesehen werden.",
+            "fr": "Ce formulaire permet de saisir, consulter et gérer les assurances du personnel. Les enregistrements peuvent être vérifiés dans le processus correspondant.",
+            "it": "Questo modulo consente di inserire, consultare e gestire i assicurazioni del personale. I dati registrati possono essere verificati nel relativo flusso di lavoro.",
+            "es": "Este formulario permite registrar, consultar y gestionar los seguros del personal. Los registros se pueden revisar durante el proceso correspondiente.",
+            "ru": "Форма предназначена для ввода, просмотра и ведения страхования сотрудников. Записи можно проверить в соответствующем рабочем процессе.",
+            "pt": "Este formulário permite registar, consultar e gerir os seguros dos funcionários. Os registos podem ser verificados no processo correspondente.",
+            "tr": "Bu form, personel sigortaları bilgilerini kaydetmek, incelemek ve yönetmek için kullanılır. İlgili kayıtlar iş akışı içinde kontrol edilebilir.",
+            "ar": "يُستخدم هذا النموذج لإدخال بيانات تأمين الموظفين ومراجعتها وإدارتها. ويمكن التحقق من السجلات في سير العمل المرتبط بها."
+          }
+        },
+        {
+          "id": "payroll-04-05",
+          "title": {
+            "fa": "لیست مالیات",
+            "en": "Tax List"
+          },
+          "description": {
+            "fa": "گزارش مالیات حقوق شامل درآمد مشمول مالیات، معافیت‌ها و مالیات کارکنان تهیه می‌شود. همچنین خروجی‌های مرتبط با ارسال فهرست مالیاتی در راهنما معرفی شده‌اند.",
+            "en": "Report taxable salary, exemptions and payroll tax amounts, and prepare the documented tax-list outputs.",
+            "de": "Dieser Bericht stellt Informationen zu Lohnsteuer zur Prüfung und periodischen Auswertung bereit. Er unterstützt die Kontrolle erfasster Daten.",
+            "fr": "Ce rapport présente les impôts sur les salaires pour consultation et analyse par période. Il facilite le contrôle des données enregistrées.",
+            "it": "Questo rapporto presenta i imposte sulle retribuzioni per la consultazione e l’analisi periodica. Agevola il controllo dei dati registrati.",
+            "es": "Este informe presenta información sobre los impuestos sobre nómina para su revisión y análisis por período. Facilita el control de los datos registrados.",
+            "ru": "Отчёт отображает сведения о налогов на заработную плату для проверки и анализа по периодам. Он помогает контролировать зарегистрированные данные.",
+            "pt": "Este relatório apresenta informações sobre os impostos sobre salários para consulta e análise por período. Facilita a verificação dos dados registados.",
+            "tr": "Bu rapor, ücret vergileri hakkında dönem bazında inceleme ve raporlama imkânı sunar. Kaydedilen bilgilerin kontrolünü destekler.",
+            "ar": "يعرض هذا التقرير معلومات ضرائب الرواتب للمراجعة والتحليل حسب الفترة. ويساعد على التحقق من البيانات المسجلة."
+          }
+        },
+        {
+          "id": "payroll-04-06",
+          "title": {
+            "fa": "لیست وام",
+            "en": "Loan List"
+          },
+          "description": {
+            "fa": "فهرست وام کارکنان، نوع وام، اصل وام، مبلغ قسط، مانده و سایر مشخصات ثبت‌شده را برای گروه منتخب نمایش می‌دهد.",
+            "en": "Report employee loans, showing principal, installment amount, outstanding balance and loan type.",
+            "de": "Dieser Bericht stellt Informationen zu Mitarbeiterdarlehen zur Prüfung und periodischen Auswertung bereit. Er unterstützt die Kontrolle erfasster Daten.",
+            "fr": "Ce rapport présente les prêts du personnel pour consultation et analyse par période. Il facilite le contrôle des données enregistrées.",
+            "it": "Questo rapporto presenta i prestiti ai dipendenti per la consultazione e l’analisi periodica. Agevola il controllo dei dati registrati.",
+            "es": "Este informe presenta información sobre los préstamos a empleados para su revisión y análisis por período. Facilita el control de los datos registrados.",
+            "ru": "Отчёт отображает сведения о займов сотрудников для проверки и анализа по периодам. Он помогает контролировать зарегистрированные данные.",
+            "pt": "Este relatório apresenta informações sobre os empréstimos a funcionários para consulta e análise por período. Facilita a verificação dos dados registados.",
+            "tr": "Bu rapor, personel kredileri hakkında dönem bazında inceleme ve raporlama imkânı sunar. Kaydedilen bilgilerin kontrolünü destekler.",
+            "ar": "يعرض هذا التقرير معلومات قروض الموظفين للمراجعة والتحليل حسب الفترة. ويساعد على التحقق من البيانات المسجلة."
+          }
+        },
+        {
+          "id": "payroll-04-07",
+          "title": {
+            "fa": "لیست کسور بیمه",
+            "en": "Insurance Deductions List"
+          },
+          "description": {
+            "fa": "این فرم در فهرست منوهای نرم‌افزار وجود دارد، اما راهنمای PDF ارائه‌شده درباره عملکرد دقیق آن توضیح کافی ندارد. برای درج معرفی تخصصی، تکمیل مستندات این بخش لازم است.",
+            "en": "This form appears in the application menu, but the supplied PDF does not describe its exact functions in sufficient detail. Further documentation is needed for a precise feature description.",
+            "de": "Dieses Formular ist im Anwendungsmenü enthalten. Das vorliegende PDF-Handbuch beschreibt seine genauen Funktionen jedoch nicht ausreichend. Für eine verlässliche Funktionsbeschreibung ist zusätzliche Dokumentation erforderlich.",
+            "fr": "Ce formulaire figure dans le menu de l’application, mais le manuel PDF fourni ne décrit pas suffisamment ses fonctions précises. Une documentation complémentaire est nécessaire pour une présentation fiable.",
+            "it": "Questo modulo è presente nel menu dell’applicazione, ma il manuale PDF fornito non ne descrive sufficientemente le funzioni specifiche. È necessaria ulteriore documentazione per una descrizione accurata.",
+            "es": "Este formulario aparece en el menú de la aplicación, pero el manual PDF proporcionado no describe sus funciones con suficiente detalle. Se necesita documentación adicional para una descripción precisa.",
+            "ru": "Эта форма присутствует в меню приложения, однако предоставленное руководство PDF недостаточно подробно описывает её функции. Для точного описания необходима дополнительная документация.",
+            "pt": "Este formulário consta do menu da aplicação, mas o manual PDF fornecido não descreve as suas funções com detalhe suficiente. É necessária documentação adicional para uma descrição rigorosa.",
+            "tr": "Bu form uygulama menüsünde bulunmaktadır; ancak sağlanan PDF kılavuzu işlevlerini yeterli ayrıntıyla açıklamamaktadır. Doğru bir özellik açıklaması için ek belge gereklidir.",
+            "ar": "يظهر هذا النموذج في قائمة البرنامج، لكن دليل PDF المقدم لا يشرح وظائفه الدقيقة بالتفصيل الكافي. وتلزم وثائق إضافية لإعداد وصف موثوق لخصائصه."
+          }
+        },
+        {
+          "id": "payroll-04-08",
+          "title": {
+            "fa": "لیست مراتب",
+            "en": "Rank List"
+          },
+          "description": {
+            "fa": "این فرم در فهرست منوهای نرم‌افزار وجود دارد، اما راهنمای PDF ارائه‌شده درباره عملکرد دقیق آن توضیح کافی ندارد. برای درج معرفی تخصصی، تکمیل مستندات این بخش لازم است.",
+            "en": "This form appears in the application menu, but the supplied PDF does not describe its exact functions in sufficient detail. Further documentation is needed for a precise feature description.",
+            "de": "Dieses Formular ist im Anwendungsmenü enthalten. Das vorliegende PDF-Handbuch beschreibt seine genauen Funktionen jedoch nicht ausreichend. Für eine verlässliche Funktionsbeschreibung ist zusätzliche Dokumentation erforderlich.",
+            "fr": "Ce formulaire figure dans le menu de l’application, mais le manuel PDF fourni ne décrit pas suffisamment ses fonctions précises. Une documentation complémentaire est nécessaire pour une présentation fiable.",
+            "it": "Questo modulo è presente nel menu dell’applicazione, ma il manuale PDF fornito non ne descrive sufficientemente le funzioni specifiche. È necessaria ulteriore documentazione per una descrizione accurata.",
+            "es": "Este formulario aparece en el menú de la aplicación, pero el manual PDF proporcionado no describe sus funciones con suficiente detalle. Se necesita documentación adicional para una descripción precisa.",
+            "ru": "Эта форма присутствует в меню приложения, однако предоставленное руководство PDF недостаточно подробно описывает её функции. Для точного описания необходима дополнительная документация.",
+            "pt": "Este formulário consta do menu da aplicação, mas o manual PDF fornecido não descreve as suas funções com detalhe suficiente. É necessária documentação adicional para uma descrição rigorosa.",
+            "tr": "Bu form uygulama menüsünde bulunmaktadır; ancak sağlanan PDF kılavuzu işlevlerini yeterli ayrıntıyla açıklamamaktadır. Doğru bir özellik açıklaması için ek belge gereklidir.",
+            "ar": "يظهر هذا النموذج في قائمة البرنامج، لكن دليل PDF المقدم لا يشرح وظائفه الدقيقة بالتفصيل الكافي. وتلزم وثائق إضافية لإعداد وصف موثوق لخصائصه."
+          }
+        },
+        {
+          "id": "payroll-04-09",
+          "title": {
+            "fa": "بیمه درمان گروهی",
+            "en": "Group Health Insurance"
+          },
+          "description": {
+            "fa": "بیمه درمان گروهی با تعداد افراد تحت پوشش و سهم پرداختی کارمند و کارفرما گزارش می‌شود.",
+            "en": "Report group medical insurance coverage counts and employee/employer contributions.",
+            "de": "Dieses Formular dient der Erfassung, Prüfung und Verwaltung von Mitarbeiterversicherungen. Zugehörige Datensätze können im jeweiligen Arbeitsablauf eingesehen werden.",
+            "fr": "Ce formulaire permet de saisir, consulter et gérer les assurances du personnel. Les enregistrements peuvent être vérifiés dans le processus correspondant.",
+            "it": "Questo modulo consente di inserire, consultare e gestire i assicurazioni del personale. I dati registrati possono essere verificati nel relativo flusso di lavoro.",
+            "es": "Este formulario permite registrar, consultar y gestionar los seguros del personal. Los registros se pueden revisar durante el proceso correspondiente.",
+            "ru": "Форма предназначена для ввода, просмотра и ведения страхования сотрудников. Записи можно проверить в соответствующем рабочем процессе.",
+            "pt": "Este formulário permite registar, consultar e gerir os seguros dos funcionários. Os registos podem ser verificados no processo correspondente.",
+            "tr": "Bu form, personel sigortaları bilgilerini kaydetmek, incelemek ve yönetmek için kullanılır. İlgili kayıtlar iş akışı içinde kontrol edilebilir.",
+            "ar": "يُستخدم هذا النموذج لإدخال بيانات تأمين الموظفين ومراجعتها وإدارتها. ويمكن التحقق من السجلات في سير العمل المرتبط بها."
+          }
+        },
+        {
+          "id": "payroll-04-10",
+          "title": {
+            "fa": "لیست اضافه کاری",
+            "en": "Overtime List"
+          },
+          "description": {
+            "fa": "گزارش اضافه‌کاری اقلام ساعتی و ریالی، معافیت‌ها و کسورات بیمه‌ای را در ماه‌های انتخاب‌شده نمایش می‌دهد.",
+            "en": "Show overtime hours, amounts and the applicable exemption or insurance-deduction information for selected periods.",
+            "de": "Dieser Bericht stellt Informationen zu Gehaltsabrechnungen und Entgeltdaten zur Prüfung und periodischen Auswertung bereit. Er unterstützt die Kontrolle erfasster Daten.",
+            "fr": "Ce rapport présente les calculs et données de paie pour consultation et analyse par période. Il facilite le contrôle des données enregistrées.",
+            "it": "Questo rapporto presenta i calcoli e dati delle retribuzioni per la consultazione e l’analisi periodica. Agevola il controllo dei dati registrati.",
+            "es": "Este informe presenta información sobre los cálculos y datos de nómina para su revisión y análisis por período. Facilita el control de los datos registrados.",
+            "ru": "Отчёт отображает сведения о расчётов и данных заработной платы для проверки и анализа по периодам. Он помогает контролировать зарегистрированные данные.",
+            "pt": "Este relatório apresenta informações sobre os cálculos e dados da folha salarial para consulta e análise por período. Facilita a verificação dos dados registados.",
+            "tr": "Bu rapor, bordro hesaplamaları ve verileri hakkında dönem bazında inceleme ve raporlama imkânı sunar. Kaydedilen bilgilerin kontrolünü destekler.",
+            "ar": "يعرض هذا التقرير معلومات حسابات وبيانات الرواتب للمراجعة والتحليل حسب الفترة. ويساعد على التحقق من البيانات المسجلة."
+          }
+        },
+        {
+          "id": "payroll-04-11",
+          "title": {
+            "fa": "لیست بین کارمندان",
+            "en": "Employee Comparison List"
+          },
+          "description": {
+            "fa": "این فرم در فهرست منوهای نرم‌افزار وجود دارد، اما راهنمای PDF ارائه‌شده درباره عملکرد دقیق آن توضیح کافی ندارد. برای درج معرفی تخصصی، تکمیل مستندات این بخش لازم است.",
+            "en": "This form appears in the application menu, but the supplied PDF does not describe its exact functions in sufficient detail. Further documentation is needed for a precise feature description.",
+            "de": "Dieses Formular ist im Anwendungsmenü enthalten. Das vorliegende PDF-Handbuch beschreibt seine genauen Funktionen jedoch nicht ausreichend. Für eine verlässliche Funktionsbeschreibung ist zusätzliche Dokumentation erforderlich.",
+            "fr": "Ce formulaire figure dans le menu de l’application, mais le manuel PDF fourni ne décrit pas suffisamment ses fonctions précises. Une documentation complémentaire est nécessaire pour une présentation fiable.",
+            "it": "Questo modulo è presente nel menu dell’applicazione, ma il manuale PDF fornito non ne descrive sufficientemente le funzioni specifiche. È necessaria ulteriore documentazione per una descrizione accurata.",
+            "es": "Este formulario aparece en el menú de la aplicación, pero el manual PDF proporcionado no describe sus funciones con suficiente detalle. Se necesita documentación adicional para una descripción precisa.",
+            "ru": "Эта форма присутствует в меню приложения, однако предоставленное руководство PDF недостаточно подробно описывает её функции. Для точного описания необходима дополнительная документация.",
+            "pt": "Este formulário consta do menu da aplicação, mas o manual PDF fornecido não descreve as suas funções com detalhe suficiente. É necessária documentação adicional para uma descrição rigorosa.",
+            "tr": "Bu form uygulama menüsünde bulunmaktadır; ancak sağlanan PDF kılavuzu işlevlerini yeterli ayrıntıyla açıklamamaktadır. Doğru bir özellik açıklaması için ek belge gereklidir.",
+            "ar": "يظهر هذا النموذج في قائمة البرنامج، لكن دليل PDF المقدم لا يشرح وظائفه الدقيقة بالتفصيل الكافي. وتلزم وثائق إضافية لإعداد وصف موثوق لخصائصه."
+          }
+        },
+        {
+          "id": "payroll-04-12",
+          "title": {
+            "fa": "لیست بین اقلام ها",
+            "en": "Item Comparison List"
+          },
+          "description": {
+            "fa": "این فرم در فهرست منوهای نرم‌افزار وجود دارد، اما راهنمای PDF ارائه‌شده درباره عملکرد دقیق آن توضیح کافی ندارد. برای درج معرفی تخصصی، تکمیل مستندات این بخش لازم است.",
+            "en": "This form appears in the application menu, but the supplied PDF does not describe its exact functions in sufficient detail. Further documentation is needed for a precise feature description.",
+            "de": "Dieses Formular ist im Anwendungsmenü enthalten. Das vorliegende PDF-Handbuch beschreibt seine genauen Funktionen jedoch nicht ausreichend. Für eine verlässliche Funktionsbeschreibung ist zusätzliche Dokumentation erforderlich.",
+            "fr": "Ce formulaire figure dans le menu de l’application, mais le manuel PDF fourni ne décrit pas suffisamment ses fonctions précises. Une documentation complémentaire est nécessaire pour une présentation fiable.",
+            "it": "Questo modulo è presente nel menu dell’applicazione, ma il manuale PDF fornito non ne descrive sufficientemente le funzioni specifiche. È necessaria ulteriore documentazione per una descrizione accurata.",
+            "es": "Este formulario aparece en el menú de la aplicación, pero el manual PDF proporcionado no describe sus funciones con suficiente detalle. Se necesita documentación adicional para una descripción precisa.",
+            "ru": "Эта форма присутствует в меню приложения, однако предоставленное руководство PDF недостаточно подробно описывает её функции. Для точного описания необходима дополнительная документация.",
+            "pt": "Este formulário consta do menu da aplicação, mas o manual PDF fornecido não descreve as suas funções com detalhe suficiente. É necessária documentação adicional para uma descrição rigorosa.",
+            "tr": "Bu form uygulama menüsünde bulunmaktadır; ancak sağlanan PDF kılavuzu işlevlerini yeterli ayrıntıyla açıklamamaktadır. Doğru bir özellik açıklaması için ek belge gereklidir.",
+            "ar": "يظهر هذا النموذج في قائمة البرنامج، لكن دليل PDF المقدم لا يشرح وظائفه الدقيقة بالتفصيل الكافي. وتلزم وثائق إضافية لإعداد وصف موثوق لخصائصه."
+          }
+        },
+        {
+          "id": "payroll-04-13",
+          "title": {
+            "fa": "بیمه تکمیلی عمر",
+            "en": "Supplementary Life Insurance"
+          },
+          "description": {
+            "fa": "بخش بیمه تکمیلی و عمر در راهنما معرفی شده است، اما جزئیات همه فرمول‌ها یا قالب‌های آن تشریح نشده است.",
+            "en": "Supplementary and life insurance reports are referenced, but the full calculations and report layouts are not documented.",
+            "de": "Dieses Formular dient der Erfassung, Prüfung und Verwaltung von Mitarbeiterversicherungen. Zugehörige Datensätze können im jeweiligen Arbeitsablauf eingesehen werden.",
+            "fr": "Ce formulaire permet de saisir, consulter et gérer les assurances du personnel. Les enregistrements peuvent être vérifiés dans le processus correspondant.",
+            "it": "Questo modulo consente di inserire, consultare e gestire i assicurazioni del personale. I dati registrati possono essere verificati nel relativo flusso di lavoro.",
+            "es": "Este formulario permite registrar, consultar y gestionar los seguros del personal. Los registros se pueden revisar durante el proceso correspondiente.",
+            "ru": "Форма предназначена для ввода, просмотра и ведения страхования сотрудников. Записи можно проверить в соответствующем рабочем процессе.",
+            "pt": "Este formulário permite registar, consultar e gerir os seguros dos funcionários. Os registos podem ser verificados no processo correspondente.",
+            "tr": "Bu form, personel sigortaları bilgilerini kaydetmek, incelemek ve yönetmek için kullanılır. İlgili kayıtlar iş akışı içinde kontrol edilebilir.",
+            "ar": "يُستخدم هذا النموذج لإدخال بيانات تأمين الموظفين ومراجعتها وإدارتها. ويمكن التحقق من السجلات في سير العمل المرتبط بها."
+          }
+        },
+        {
+          "id": "payroll-04-14",
+          "title": {
+            "fa": "لیست بیمه عمر",
+            "en": "Life Insurance List"
+          },
+          "description": {
+            "fa": "اطلاعات بیمه عمر کارکنان شامل سهم کارمند، سهم کارفرما، مانده و مبلغ کل در قالب گزارش ارائه می‌شود.",
+            "en": "Display life insurance information including employee contributions, employer contributions, balances and totals.",
+            "de": "Dieser Bericht stellt Informationen zu Mitarbeiterversicherungen zur Prüfung und periodischen Auswertung bereit. Er unterstützt die Kontrolle erfasster Daten.",
+            "fr": "Ce rapport présente les assurances du personnel pour consultation et analyse par période. Il facilite le contrôle des données enregistrées.",
+            "it": "Questo rapporto presenta i assicurazioni del personale per la consultazione e l’analisi periodica. Agevola il controllo dei dati registrati.",
+            "es": "Este informe presenta información sobre los seguros del personal para su revisión y análisis por período. Facilita el control de los datos registrados.",
+            "ru": "Отчёт отображает сведения о страхования сотрудников для проверки и анализа по периодам. Он помогает контролировать зарегистрированные данные.",
+            "pt": "Este relatório apresenta informações sobre os seguros dos funcionários para consulta e análise por período. Facilita a verificação dos dados registados.",
+            "tr": "Bu rapor, personel sigortaları hakkında dönem bazında inceleme ve raporlama imkânı sunar. Kaydedilen bilgilerin kontrolünü destekler.",
+            "ar": "يعرض هذا التقرير معلومات تأمين الموظفين للمراجعة والتحليل حسب الفترة. ويساعد على التحقق من البيانات المسجلة."
+          }
+        },
+        {
+          "id": "payroll-04-15",
+          "title": {
+            "fa": "لیست مأموریت ها",
+            "en": "Assignments List"
+          },
+          "description": {
+            "fa": "سوابق مأموریت کارکنان شامل بازه زمانی و مشخصات مأموریت در قالب فهرست قابل بررسی هستند.",
+            "en": "Review employee assignment records and their dates in a report.",
+            "de": "Dieser Bericht stellt Informationen zu Dienstreisen und dienstlichen Einsätzen zur Prüfung und periodischen Auswertung bereit. Er unterstützt die Kontrolle erfasster Daten.",
+            "fr": "Ce rapport présente les missions et déplacements du personnel pour consultation et analyse par période. Il facilite le contrôle des données enregistrées.",
+            "it": "Questo rapporto presenta i missioni e trasferte del personale per la consultazione e l’analisi periodica. Agevola il controllo dei dati registrati.",
+            "es": "Este informe presenta información sobre los misiones y desplazamientos del personal para su revisión y análisis por período. Facilita el control de los datos registrados.",
+            "ru": "Отчёт отображает сведения о служебных командировок для проверки и анализа по периодам. Он помогает контролировать зарегистрированные данные.",
+            "pt": "Este relatório apresenta informações sobre os missões e deslocações profissionais para consulta e análise por período. Facilita a verificação dos dados registados.",
+            "tr": "Bu rapor, personel görevlendirmeleri hakkında dönem bazında inceleme ve raporlama imkânı sunar. Kaydedilen bilgilerin kontrolünü destekler.",
+            "ar": "يعرض هذا التقرير معلومات مهام وانتدابات الموظفين للمراجعة والتحليل حسب الفترة. ويساعد على التحقق من البيانات المسجلة."
+          }
+        },
+        {
+          "id": "payroll-04-16",
+          "title": {
+            "fa": "لیست مرخصی",
+            "en": "Leave List"
+          },
+          "description": {
+            "fa": "فهرست مرخصی‌های کارکنان، نوع مرخصی و ساعت یا روز استفاده‌شده را نمایش می‌دهد.",
+            "en": "Report employee leave types and durations in days or hours.",
+            "de": "Dieser Bericht stellt Informationen zu Urlaubs- und Abwesenheitsdaten zur Prüfung und periodischen Auswertung bereit. Er unterstützt die Kontrolle erfasster Daten.",
+            "fr": "Ce rapport présente les congés du personnel pour consultation et analyse par période. Il facilite le contrôle des données enregistrées.",
+            "it": "Questo rapporto presenta i congedi del personale per la consultazione e l’analisi periodica. Agevola il controllo dei dati registrati.",
+            "es": "Este informe presenta información sobre los permisos y licencias del personal para su revisión y análisis por período. Facilita el control de los datos registrados.",
+            "ru": "Отчёт отображает сведения о отпусков сотрудников для проверки и анализа по периодам. Он помогает контролировать зарегистрированные данные.",
+            "pt": "Este relatório apresenta informações sobre os licenças e férias dos funcionários para consulta e análise por período. Facilita a verificação dos dados registados.",
+            "tr": "Bu rapor, personel izinleri hakkında dönem bazında inceleme ve raporlama imkânı sunar. Kaydedilen bilgilerin kontrolünü destekler.",
+            "ar": "يعرض هذا التقرير معلومات إجازات الموظفين للمراجعة والتحليل حسب الفترة. ويساعد على التحقق من البيانات المسجلة."
+          }
+        }
+      ]
+    },
+    {
+      "id": "payroll-05",
+      "icon": "clipboard-list",
+      "title": {
+        "fa": "فرم های عملیاتی",
+        "en": "Operational Forms"
+      },
+      "items": [
+        {
+          "id": "payroll-05-01",
+          "title": {
+            "fa": "سند حقوقی",
+            "en": "Payroll Voucher"
+          },
+          "description": {
+            "fa": "اطلاعات لیست حقوق در قالب روکش سند حسابداری تجمیع شده و برای صدور سند مالی و ارسال به واحد اعتبارات استفاده می‌شوند.",
+            "en": "Summarize payroll items into an accounting voucher that can be used for posting to the financial system.",
+            "de": "Dieses Formular dient der Erfassung, Prüfung und Verwaltung von Buchungsbelege der Lohnabrechnung. Zugehörige Datensätze können im jeweiligen Arbeitsablauf eingesehen werden.",
+            "fr": "Ce formulaire permet de saisir, consulter et gérer les pièces comptables de paie. Les enregistrements peuvent être vérifiés dans le processus correspondant.",
+            "it": "Questo modulo consente di inserire, consultare e gestire i documenti contabili delle retribuzioni. I dati registrati possono essere verificati nel relativo flusso di lavoro.",
+            "es": "Este formulario permite registrar, consultar y gestionar los documentos contables de nómina. Los registros se pueden revisar durante el proceso correspondiente.",
+            "ru": "Форма предназначена для ввода, просмотра и ведения бухгалтерских документов по зарплате. Записи можно проверить в соответствующем рабочем процессе.",
+            "pt": "Este formulário permite registar, consultar e gerir os documentos contabilísticos da folha salarial. Os registos podem ser verificados no processo correspondente.",
+            "tr": "Bu form, bordro muhasebe belgeleri bilgilerini kaydetmek, incelemek ve yönetmek için kullanılır. İlgili kayıtlar iş akışı içinde kontrol edilebilir.",
+            "ar": "يُستخدم هذا النموذج لإدخال بيانات المستندات المحاسبية للرواتب ومراجعتها وإدارتها. ويمكن التحقق من السجلات في سير العمل المرتبط بها."
+          }
+        },
+        {
+          "id": "payroll-05-02",
+          "title": {
+            "fa": "فایل مالیات",
+            "en": "Tax File"
+          },
+          "description": {
+            "fa": "فهرست مالیات حقوق در قالب فایل معرفی‌شده در راهنما تولید و برای ارائه به سامانه مالیاتی آماده می‌شود.",
+            "en": "Generate payroll tax files in the format documented for submission to the tax authority.",
+            "de": "Dieses Formular dient der Erfassung, Prüfung und Verwaltung von Lohnsteuer. Zugehörige Datensätze können im jeweiligen Arbeitsablauf eingesehen werden.",
+            "fr": "Ce formulaire permet de saisir, consulter et gérer les impôts sur les salaires. Les enregistrements peuvent être vérifiés dans le processus correspondant.",
+            "it": "Questo modulo consente di inserire, consultare e gestire i imposte sulle retribuzioni. I dati registrati possono essere verificati nel relativo flusso di lavoro.",
+            "es": "Este formulario permite registrar, consultar y gestionar los impuestos sobre nómina. Los registros se pueden revisar durante el proceso correspondiente.",
+            "ru": "Форма предназначена для ввода, просмотра и ведения налогов на заработную плату. Записи можно проверить в соответствующем рабочем процессе.",
+            "pt": "Este formulário permite registar, consultar e gerir os impostos sobre salários. Os registos podem ser verificados no processo correspondente.",
+            "tr": "Bu form, ücret vergileri bilgilerini kaydetmek, incelemek ve yönetmek için kullanılır. İlgili kayıtlar iş akışı içinde kontrol edilebilir.",
+            "ar": "يُستخدم هذا النموذج لإدخال بيانات ضرائب الرواتب ومراجعتها وإدارتها. ويمكن التحقق من السجلات في سير العمل المرتبط بها."
+          }
+        },
+        {
+          "id": "payroll-05-03",
+          "title": {
+            "fa": "ایمیل فیش حقوقی",
+            "en": "Email Payslips"
+          },
+          "description": {
+            "fa": "فیش حقوقی می‌تواند از طریق ایمیل برای کارکنان ارسال شود. امکان مشاهده وضعیت پیام‌های ارسالی نیز در راهنما توضیح داده شده است.",
+            "en": "Email payslips to employees and check the status of sent messages.",
+            "de": "Dieser Bericht stellt Informationen zu Gehaltsabrechnungen zur Prüfung und periodischen Auswertung bereit. Er unterstützt die Kontrolle erfasster Daten.",
+            "fr": "Ce rapport présente les bulletins de paie pour consultation et analyse par période. Il facilite le contrôle des données enregistrées.",
+            "it": "Questo rapporto presenta i cedolini paga per la consultazione e l’analisi periodica. Agevola il controllo dei dati registrati.",
+            "es": "Este informe presenta información sobre los recibos de nómina para su revisión y análisis por período. Facilita el control de los datos registrados.",
+            "ru": "Отчёт отображает сведения о расчётных листков для проверки и анализа по периодам. Он помогает контролировать зарегистрированные данные.",
+            "pt": "Este relatório apresenta informações sobre os recibos de vencimento para consulta e análise por período. Facilita a verificação dos dados registados.",
+            "tr": "Bu rapor, maaş bordroları hakkında dönem bazında inceleme ve raporlama imkânı sunar. Kaydedilen bilgilerin kontrolünü destekler.",
+            "ar": "يعرض هذا التقرير معلومات كشوف الرواتب الفردية للمراجعة والتحليل حسب الفترة. ويساعد على التحقق من البيانات المسجلة."
+          }
+        },
+        {
+          "id": "payroll-05-04",
+          "title": {
+            "fa": "مدیریت ارسال پیامک",
+            "en": "SMS Sending Management"
+          },
+          "description": {
+            "fa": "این فرم در فهرست منوهای نرم‌افزار وجود دارد، اما راهنمای PDF ارائه‌شده درباره عملکرد دقیق آن توضیح کافی ندارد. برای درج معرفی تخصصی، تکمیل مستندات این بخش لازم است.",
+            "en": "This form appears in the application menu, but the supplied PDF does not describe its exact functions in sufficient detail. Further documentation is needed for a precise feature description.",
+            "de": "Dieses Formular ist im Anwendungsmenü enthalten. Das vorliegende PDF-Handbuch beschreibt seine genauen Funktionen jedoch nicht ausreichend. Für eine verlässliche Funktionsbeschreibung ist zusätzliche Dokumentation erforderlich.",
+            "fr": "Ce formulaire figure dans le menu de l’application, mais le manuel PDF fourni ne décrit pas suffisamment ses fonctions précises. Une documentation complémentaire est nécessaire pour une présentation fiable.",
+            "it": "Questo modulo è presente nel menu dell’applicazione, ma il manuale PDF fornito non ne descrive sufficientemente le funzioni specifiche. È necessaria ulteriore documentazione per una descrizione accurata.",
+            "es": "Este formulario aparece en el menú de la aplicación, pero el manual PDF proporcionado no describe sus funciones con suficiente detalle. Se necesita documentación adicional para una descripción precisa.",
+            "ru": "Эта форма присутствует в меню приложения, однако предоставленное руководство PDF недостаточно подробно описывает её функции. Для точного описания необходима дополнительная документация.",
+            "pt": "Este formulário consta do menu da aplicação, mas o manual PDF fornecido não descreve as suas funções com detalhe suficiente. É necessária documentação adicional para uma descrição rigorosa.",
+            "tr": "Bu form uygulama menüsünde bulunmaktadır; ancak sağlanan PDF kılavuzu işlevlerini yeterli ayrıntıyla açıklamamaktadır. Doğru bir özellik açıklaması için ek belge gereklidir.",
+            "ar": "يظهر هذا النموذج في قائمة البرنامج، لكن دليل PDF المقدم لا يشرح وظائفه الدقيقة بالتفصيل الكافي. وتلزم وثائق إضافية لإعداد وصف موثوق لخصائصه."
+          }
+        },
+        {
+          "id": "payroll-05-05",
+          "title": {
+            "fa": "لیست انجام کار معین",
+            "en": "Work List"
+          },
+          "description": {
+            "fa": "این فرم در فهرست منوهای نرم‌افزار وجود دارد، اما راهنمای PDF ارائه‌شده درباره عملکرد دقیق آن توضیح کافی ندارد. برای درج معرفی تخصصی، تکمیل مستندات این بخش لازم است.",
+            "en": "This form appears in the application menu, but the supplied PDF does not describe its exact functions in sufficient detail. Further documentation is needed for a precise feature description.",
+            "de": "Dieses Formular ist im Anwendungsmenü enthalten. Das vorliegende PDF-Handbuch beschreibt seine genauen Funktionen jedoch nicht ausreichend. Für eine verlässliche Funktionsbeschreibung ist zusätzliche Dokumentation erforderlich.",
+            "fr": "Ce formulaire figure dans le menu de l’application, mais le manuel PDF fourni ne décrit pas suffisamment ses fonctions précises. Une documentation complémentaire est nécessaire pour une présentation fiable.",
+            "it": "Questo modulo è presente nel menu dell’applicazione, ma il manuale PDF fornito non ne descrive sufficientemente le funzioni specifiche. È necessaria ulteriore documentazione per una descrizione accurata.",
+            "es": "Este formulario aparece en el menú de la aplicación, pero el manual PDF proporcionado no describe sus funciones con suficiente detalle. Se necesita documentación adicional para una descripción precisa.",
+            "ru": "Эта форма присутствует в меню приложения, однако предоставленное руководство PDF недостаточно подробно описывает её функции. Для точного описания необходима дополнительная документация.",
+            "pt": "Este formulário consta do menu da aplicação, mas o manual PDF fornecido não descreve as suas funções com detalhe suficiente. É necessária documentação adicional para uma descrição rigorosa.",
+            "tr": "Bu form uygulama menüsünde bulunmaktadır; ancak sağlanan PDF kılavuzu işlevlerini yeterli ayrıntıyla açıklamamaktadır. Doğru bir özellik açıklaması için ek belge gereklidir.",
+            "ar": "يظهر هذا النموذج في قائمة البرنامج، لكن دليل PDF المقدم لا يشرح وظائفه الدقيقة بالتفصيل الكافي. وتلزم وثائق إضافية لإعداد وصف موثوق لخصائصه."
+          }
+        },
+        {
+          "id": "payroll-05-06",
+          "title": {
+            "fa": "اولاد و عائله بازنشستگان",
+            "en": "Retiree Dependents"
+          },
+          "description": {
+            "fa": "این فرم در فهرست منوهای نرم‌افزار وجود دارد، اما راهنمای PDF ارائه‌شده درباره عملکرد دقیق آن توضیح کافی ندارد. برای درج معرفی تخصصی، تکمیل مستندات این بخش لازم است.",
+            "en": "This form appears in the application menu, but the supplied PDF does not describe its exact functions in sufficient detail. Further documentation is needed for a precise feature description.",
+            "de": "Dieses Formular ist im Anwendungsmenü enthalten. Das vorliegende PDF-Handbuch beschreibt seine genauen Funktionen jedoch nicht ausreichend. Für eine verlässliche Funktionsbeschreibung ist zusätzliche Dokumentation erforderlich.",
+            "fr": "Ce formulaire figure dans le menu de l’application, mais le manuel PDF fourni ne décrit pas suffisamment ses fonctions précises. Une documentation complémentaire est nécessaire pour une présentation fiable.",
+            "it": "Questo modulo è presente nel menu dell’applicazione, ma il manuale PDF fornito non ne descrive sufficientemente le funzioni specifiche. È necessaria ulteriore documentazione per una descrizione accurata.",
+            "es": "Este formulario aparece en el menú de la aplicación, pero el manual PDF proporcionado no describe sus funciones con suficiente detalle. Se necesita documentación adicional para una descripción precisa.",
+            "ru": "Эта форма присутствует в меню приложения, однако предоставленное руководство PDF недостаточно подробно описывает её функции. Для точного описания необходима дополнительная документация.",
+            "pt": "Este formulário consta do menu da aplicação, mas o manual PDF fornecido não descreve as suas funções com detalhe suficiente. É necessária documentação adicional para uma descrição rigorosa.",
+            "tr": "Bu form uygulama menüsünde bulunmaktadır; ancak sağlanan PDF kılavuzu işlevlerini yeterli ayrıntıyla açıklamamaktadır. Doğru bir özellik açıklaması için ek belge gereklidir.",
+            "ar": "يظهر هذا النموذج في قائمة البرنامج، لكن دليل PDF المقدم لا يشرح وظائفه الدقيقة بالتفصيل الكافي. وتلزم وثائق إضافية لإعداد وصف موثوق لخصائصه."
+          }
+        },
+        {
+          "id": "payroll-05-07",
+          "title": {
+            "fa": "تعدیل مالیاتی",
+            "en": "Tax Adjustment"
+          },
+          "description": {
+            "fa": "این فرم در فهرست منوهای نرم‌افزار وجود دارد، اما راهنمای PDF ارائه‌شده درباره عملکرد دقیق آن توضیح کافی ندارد. برای درج معرفی تخصصی، تکمیل مستندات این بخش لازم است.",
+            "en": "This form appears in the application menu, but the supplied PDF does not describe its exact functions in sufficient detail. Further documentation is needed for a precise feature description.",
+            "de": "Dieses Formular ist im Anwendungsmenü enthalten. Das vorliegende PDF-Handbuch beschreibt seine genauen Funktionen jedoch nicht ausreichend. Für eine verlässliche Funktionsbeschreibung ist zusätzliche Dokumentation erforderlich.",
+            "fr": "Ce formulaire figure dans le menu de l’application, mais le manuel PDF fourni ne décrit pas suffisamment ses fonctions précises. Une documentation complémentaire est nécessaire pour une présentation fiable.",
+            "it": "Questo modulo è presente nel menu dell’applicazione, ma il manuale PDF fornito non ne descrive sufficientemente le funzioni specifiche. È necessaria ulteriore documentazione per una descrizione accurata.",
+            "es": "Este formulario aparece en el menú de la aplicación, pero el manual PDF proporcionado no describe sus funciones con suficiente detalle. Se necesita documentación adicional para una descripción precisa.",
+            "ru": "Эта форма присутствует в меню приложения, однако предоставленное руководство PDF недостаточно подробно описывает её функции. Для точного описания необходима дополнительная документация.",
+            "pt": "Este formulário consta do menu da aplicação, mas o manual PDF fornecido não descreve as suas funções com detalhe suficiente. É necessária documentação adicional para uma descrição rigorosa.",
+            "tr": "Bu form uygulama menüsünde bulunmaktadır; ancak sağlanan PDF kılavuzu işlevlerini yeterli ayrıntıyla açıklamamaktadır. Doğru bir özellik açıklaması için ek belge gereklidir.",
+            "ar": "يظهر هذا النموذج في قائمة البرنامج، لكن دليل PDF المقدم لا يشرح وظائفه الدقيقة بالتفصيل الكافي. وتلزم وثائق إضافية لإعداد وصف موثوق لخصائصه."
+          }
+        },
+        {
+          "id": "payroll-05-08",
+          "title": {
+            "fa": "عملکرد حقوق پرسنل",
+            "en": "Personnel Payroll Performance"
+          },
+          "description": {
+            "fa": "این فرم در فهرست منوهای نرم‌افزار وجود دارد، اما راهنمای PDF ارائه‌شده درباره عملکرد دقیق آن توضیح کافی ندارد. برای درج معرفی تخصصی، تکمیل مستندات این بخش لازم است.",
+            "en": "This form appears in the application menu, but the supplied PDF does not describe its exact functions in sufficient detail. Further documentation is needed for a precise feature description.",
+            "de": "Dieses Formular ist im Anwendungsmenü enthalten. Das vorliegende PDF-Handbuch beschreibt seine genauen Funktionen jedoch nicht ausreichend. Für eine verlässliche Funktionsbeschreibung ist zusätzliche Dokumentation erforderlich.",
+            "fr": "Ce formulaire figure dans le menu de l’application, mais le manuel PDF fourni ne décrit pas suffisamment ses fonctions précises. Une documentation complémentaire est nécessaire pour une présentation fiable.",
+            "it": "Questo modulo è presente nel menu dell’applicazione, ma il manuale PDF fornito non ne descrive sufficientemente le funzioni specifiche. È necessaria ulteriore documentazione per una descrizione accurata.",
+            "es": "Este formulario aparece en el menú de la aplicación, pero el manual PDF proporcionado no describe sus funciones con suficiente detalle. Se necesita documentación adicional para una descripción precisa.",
+            "ru": "Эта форма присутствует в меню приложения, однако предоставленное руководство PDF недостаточно подробно описывает её функции. Для точного описания необходима дополнительная документация.",
+            "pt": "Este formulário consta do menu da aplicação, mas o manual PDF fornecido não descreve as suas funções com detalhe suficiente. É necessária documentação adicional para uma descrição rigorosa.",
+            "tr": "Bu form uygulama menüsünde bulunmaktadır; ancak sağlanan PDF kılavuzu işlevlerini yeterli ayrıntıyla açıklamamaktadır. Doğru bir özellik açıklaması için ek belge gereklidir.",
+            "ar": "يظهر هذا النموذج في قائمة البرنامج، لكن دليل PDF المقدم لا يشرح وظائفه الدقيقة بالتفصيل الكافي. وتلزم وثائق إضافية لإعداد وصف موثوق لخصائصه."
+          }
+        },
+        {
+          "id": "payroll-05-09",
+          "title": {
+            "fa": "نظام سامانه های دولت",
+            "en": "Government Systems"
+          },
+          "description": {
+            "fa": "این فرم در فهرست منوهای نرم‌افزار وجود دارد، اما راهنمای PDF ارائه‌شده درباره عملکرد دقیق آن توضیح کافی ندارد. برای درج معرفی تخصصی، تکمیل مستندات این بخش لازم است.",
+            "en": "This form appears in the application menu, but the supplied PDF does not describe its exact functions in sufficient detail. Further documentation is needed for a precise feature description.",
+            "de": "Dieses Formular ist im Anwendungsmenü enthalten. Das vorliegende PDF-Handbuch beschreibt seine genauen Funktionen jedoch nicht ausreichend. Für eine verlässliche Funktionsbeschreibung ist zusätzliche Dokumentation erforderlich.",
+            "fr": "Ce formulaire figure dans le menu de l’application, mais le manuel PDF fourni ne décrit pas suffisamment ses fonctions précises. Une documentation complémentaire est nécessaire pour une présentation fiable.",
+            "it": "Questo modulo è presente nel menu dell’applicazione, ma il manuale PDF fornito non ne descrive sufficientemente le funzioni specifiche. È necessaria ulteriore documentazione per una descrizione accurata.",
+            "es": "Este formulario aparece en el menú de la aplicación, pero el manual PDF proporcionado no describe sus funciones con suficiente detalle. Se necesita documentación adicional para una descripción precisa.",
+            "ru": "Эта форма присутствует в меню приложения, однако предоставленное руководство PDF недостаточно подробно описывает её функции. Для точного описания необходима дополнительная документация.",
+            "pt": "Este formulário consta do menu da aplicação, mas o manual PDF fornecido não descreve as suas funções com detalhe suficiente. É necessária documentação adicional para uma descrição rigorosa.",
+            "tr": "Bu form uygulama menüsünde bulunmaktadır; ancak sağlanan PDF kılavuzu işlevlerini yeterli ayrıntıyla açıklamamaktadır. Doğru bir özellik açıklaması için ek belge gereklidir.",
+            "ar": "يظهر هذا النموذج في قائمة البرنامج، لكن دليل PDF المقدم لا يشرح وظائفه الدقيقة بالتفصيل الكافي. وتلزم وثائق إضافية لإعداد وصف موثوق لخصائصه."
+          }
+        },
+        {
+          "id": "payroll-05-10",
+          "title": {
+            "fa": "گزارشات پویا",
+            "en": "Dynamic Reports"
+          },
+          "description": {
+            "fa": "گزارش‌های پویا با انتخاب ستون‌ها و فیلدها ساخته می‌شوند و خروجی‌هایی از جمله Excel، HTML، XML و متن تولید می‌کنند.",
+            "en": "Create custom reports by selecting fields, arranging columns and exporting to Excel, HTML, XML or text.",
+            "de": "Dieser Bericht stellt Informationen zu Personalauswertungen zur Prüfung und periodischen Auswertung bereit. Er unterstützt die Kontrolle erfasster Daten.",
+            "fr": "Ce rapport présente les rapports sur le personnel pour consultation et analyse par période. Il facilite le contrôle des données enregistrées.",
+            "it": "Questo rapporto presenta i report sul personale per la consultazione e l’analisi periodica. Agevola il controllo dei dati registrati.",
+            "es": "Este informe presenta información sobre los informes de personal para su revisión y análisis por período. Facilita el control de los datos registrados.",
+            "ru": "Отчёт отображает сведения о отчётов по персоналу для проверки и анализа по периодам. Он помогает контролировать зарегистрированные данные.",
+            "pt": "Este relatório apresenta informações sobre os relatórios de pessoal para consulta e análise por período. Facilita a verificação dos dados registados.",
+            "tr": "Bu rapor, personel raporları hakkında dönem bazında inceleme ve raporlama imkânı sunar. Kaydedilen bilgilerin kontrolünü destekler.",
+            "ar": "يعرض هذا التقرير معلومات تقارير شؤون الموظفين للمراجعة والتحليل حسب الفترة. ويساعد على التحقق من البيانات المسجلة."
+          }
+        }
+      ]
+    },
+    {
+      "id": "payroll-06",
+      "icon": "layers",
+      "title": {
+        "fa": "فایل ها و قالب ها",
+        "en": "Files and Templates"
+      },
+      "items": [
+        {
+          "id": "payroll-06-01",
+          "title": {
+            "fa": "دیسکت بانک ملی",
+            "en": "Bank Melli Export File"
+          },
+          "description": {
+            "fa": "فایل خروجی بانک براساس مشخصات پرداخت و گروه کارکنان انتخاب‌شده تهیه می‌شود و برخلاف فهرست چاپی، در مسیر تعیین‌شده ذخیره می‌گردد.",
+            "en": "Generate a bank payment file for the selected employees and payment options and save it to the chosen location.",
+            "de": "Dieses Formular dient der Erfassung, Prüfung und Verwaltung von Bankzahlungsdateien. Zugehörige Datensätze können im jeweiligen Arbeitsablauf eingesehen werden.",
+            "fr": "Ce formulaire permet de saisir, consulter et gérer les fichiers de paiement bancaire. Les enregistrements peuvent être vérifiés dans le processus correspondant.",
+            "it": "Questo modulo consente di inserire, consultare e gestire i file di pagamento bancari. I dati registrati possono essere verificati nel relativo flusso di lavoro.",
+            "es": "Este formulario permite registrar, consultar y gestionar los archivos de pagos bancarios. Los registros se pueden revisar durante el proceso correspondiente.",
+            "ru": "Форма предназначена для ввода, просмотра и ведения банковских платёжных файлов. Записи можно проверить в соответствующем рабочем процессе.",
+            "pt": "Este formulário permite registar, consultar e gerir os ficheiros de pagamentos bancários. Os registos podem ser verificados no processo correspondente.",
+            "tr": "Bu form, banka ödeme dosyaları bilgilerini kaydetmek, incelemek ve yönetmek için kullanılır. İlgili kayıtlar iş akışı içinde kontrol edilebilir.",
+            "ar": "يُستخدم هذا النموذج لإدخال بيانات ملفات المدفوعات المصرفية ومراجعتها وإدارتها. ويمكن التحقق من السجلات في سير العمل المرتبط بها."
+          }
+        },
+        {
+          "id": "payroll-06-02",
+          "title": {
+            "fa": "قالب اداره کل خزانه",
+            "en": "Treasury Department Template"
+          },
+          "description": {
+            "fa": "خروجی اطلاعات حقوق برای ارائه به خزانه تهیه می‌شود و کنترل‌هایی برای تطبیق مبالغ و شناسایی مغایرت‌های پرداخت در راهنما آمده است.",
+            "en": "Prepare Treasury payroll exports with checks for reconciling amounts and identifying payment differences.",
+            "de": "Dieses Formular dient der Erfassung, Prüfung und Verwaltung von Datenaustauschdateien. Zugehörige Datensätze können im jeweiligen Arbeitsablauf eingesehen werden.",
+            "fr": "Ce formulaire permet de saisir, consulter et gérer les fichiers d’échange de données. Les enregistrements peuvent être vérifiés dans le processus correspondant.",
+            "it": "Questo modulo consente di inserire, consultare e gestire i file di scambio dati. I dati registrati possono essere verificati nel relativo flusso di lavoro.",
+            "es": "Este formulario permite registrar, consultar y gestionar los archivos de intercambio de datos. Los registros se pueden revisar durante el proceso correspondiente.",
+            "ru": "Форма предназначена для ввода, просмотра и ведения файлов обмена данными. Записи можно проверить в соответствующем рабочем процессе.",
+            "pt": "Este formulário permite registar, consultar e gerir os ficheiros de intercâmbio de dados. Os registos podem ser verificados no processo correspondente.",
+            "tr": "Bu form, veri aktarım dosyaları bilgilerini kaydetmek, incelemek ve yönetmek için kullanılır. İlgili kayıtlar iş akışı içinde kontrol edilebilir.",
+            "ar": "يُستخدم هذا النموذج لإدخال بيانات ملفات تبادل البيانات ومراجعتها وإدارتها. ويمكن التحقق من السجلات في سير العمل المرتبط بها."
+          }
+        },
+        {
+          "id": "payroll-06-03",
+          "title": {
+            "fa": "قالب تامین اجتماعی",
+            "en": "Social Security Template"
+          },
+          "description": {
+            "fa": "فایل‌های مربوط به بیمه تأمین اجتماعی با گزینه‌های گزارش و کنترل‌های مربوط به اطلاعات کارکرد و حقوق آماده می‌شوند.",
+            "en": "Prepare social security reporting files based on payroll and attendance information.",
+            "de": "Dieses Formular dient der Erfassung, Prüfung und Verwaltung von Datenaustauschdateien. Zugehörige Datensätze können im jeweiligen Arbeitsablauf eingesehen werden.",
+            "fr": "Ce formulaire permet de saisir, consulter et gérer les fichiers d’échange de données. Les enregistrements peuvent être vérifiés dans le processus correspondant.",
+            "it": "Questo modulo consente di inserire, consultare e gestire i file di scambio dati. I dati registrati possono essere verificati nel relativo flusso di lavoro.",
+            "es": "Este formulario permite registrar, consultar y gestionar los archivos de intercambio de datos. Los registros se pueden revisar durante el proceso correspondiente.",
+            "ru": "Форма предназначена для ввода, просмотра и ведения файлов обмена данными. Записи можно проверить в соответствующем рабочем процессе.",
+            "pt": "Este formulário permite registar, consultar e gerir os ficheiros de intercâmbio de dados. Os registos podem ser verificados no processo correspondente.",
+            "tr": "Bu form, veri aktarım dosyaları bilgilerini kaydetmek, incelemek ve yönetmek için kullanılır. İlgili kayıtlar iş akışı içinde kontrol edilebilir.",
+            "ar": "يُستخدم هذا النموذج لإدخال بيانات ملفات تبادل البيانات ومراجعتها وإدارتها. ويمكن التحقق من السجلات في سير العمل المرتبط بها."
+          }
+        },
+        {
+          "id": "payroll-06-04",
+          "title": {
+            "fa": "قالب خدمات درمانی",
+            "en": "Healthcare Services Template"
+          },
+          "description": {
+            "fa": "خروجی اطلاعات خدمات درمانی با انتخاب کارکنان و پارامترهای موردنظر تولید می‌شود.",
+            "en": "Produce healthcare-insurance export files for selected staff and reporting parameters.",
+            "de": "Dieses Formular dient der Erfassung, Prüfung und Verwaltung von Mitarbeiterversicherungen. Zugehörige Datensätze können im jeweiligen Arbeitsablauf eingesehen werden.",
+            "fr": "Ce formulaire permet de saisir, consulter et gérer les assurances du personnel. Les enregistrements peuvent être vérifiés dans le processus correspondant.",
+            "it": "Questo modulo consente di inserire, consultare e gestire i assicurazioni del personale. I dati registrati possono essere verificati nel relativo flusso di lavoro.",
+            "es": "Este formulario permite registrar, consultar y gestionar los seguros del personal. Los registros se pueden revisar durante el proceso correspondiente.",
+            "ru": "Форма предназначена для ввода, просмотра и ведения страхования сотрудников. Записи можно проверить в соответствующем рабочем процессе.",
+            "pt": "Este formulário permite registar, consultar e gerir os seguros dos funcionários. Os registos podem ser verificados no processo correspondente.",
+            "tr": "Bu form, personel sigortaları bilgilerini kaydetmek, incelemek ve yönetmek için kullanılır. İlgili kayıtlar iş akışı içinde kontrol edilebilir.",
+            "ar": "يُستخدم هذا النموذج لإدخال بيانات تأمين الموظفين ومراجعتها وإدارتها. ويمكن التحقق من السجلات في سير العمل المرتبط بها."
+          }
+        },
+        {
+          "id": "payroll-06-05",
+          "title": {
+            "fa": "قالب حقوق بازنشستگی",
+            "en": "Pension Payroll Template"
+          },
+          "description": {
+            "fa": "اطلاعات حقوق و کسور بازنشستگی در قالب فایل تعیین‌شده برای ارسال به سازمان بازنشستگی آماده می‌شود.",
+            "en": "Generate the specified payroll and pension deduction file for the pension organization.",
+            "de": "Dieses Formular dient der Erfassung, Prüfung und Verwaltung von Renten- und Pensionsbeiträge. Zugehörige Datensätze können im jeweiligen Arbeitsablauf eingesehen werden.",
+            "fr": "Ce formulaire permet de saisir, consulter et gérer les cotisations de retraite. Les enregistrements peuvent être vérifiés dans le processus correspondant.",
+            "it": "Questo modulo consente di inserire, consultare e gestire i contributi pensionistici. I dati registrati possono essere verificati nel relativo flusso di lavoro.",
+            "es": "Este formulario permite registrar, consultar y gestionar los cotizaciones de jubilación. Los registros se pueden revisar durante el proceso correspondiente.",
+            "ru": "Форма предназначена для ввода, просмотра и ведения пенсионных взносов. Записи можно проверить в соответствующем рабочем процессе.",
+            "pt": "Este formulário permite registar, consultar e gerir os contribuições para a reforma. Os registos podem ser verificados no processo correspondente.",
+            "tr": "Bu form, emeklilik katkı payları bilgilerini kaydetmek, incelemek ve yönetmek için kullanılır. İlgili kayıtlar iş akışı içinde kontrol edilebilir.",
+            "ar": "يُستخدم هذا النموذج لإدخال بيانات اشتراكات التقاعد ومراجعتها وإدارتها. ويمكن التحقق من السجلات في سير العمل المرتبط بها."
+          }
+        },
+        {
+          "id": "payroll-06-06",
+          "title": {
+            "fa": "قالب کشور بازنشستگی",
+            "en": "National Pension Template"
+          },
+          "description": {
+            "fa": "این فرم در فهرست منوهای نرم‌افزار وجود دارد، اما راهنمای PDF ارائه‌شده درباره عملکرد دقیق آن توضیح کافی ندارد. برای درج معرفی تخصصی، تکمیل مستندات این بخش لازم است.",
+            "en": "This form appears in the application menu, but the supplied PDF does not describe its exact functions in sufficient detail. Further documentation is needed for a precise feature description.",
+            "de": "Dieses Formular ist im Anwendungsmenü enthalten. Das vorliegende PDF-Handbuch beschreibt seine genauen Funktionen jedoch nicht ausreichend. Für eine verlässliche Funktionsbeschreibung ist zusätzliche Dokumentation erforderlich.",
+            "fr": "Ce formulaire figure dans le menu de l’application, mais le manuel PDF fourni ne décrit pas suffisamment ses fonctions précises. Une documentation complémentaire est nécessaire pour une présentation fiable.",
+            "it": "Questo modulo è presente nel menu dell’applicazione, ma il manuale PDF fornito non ne descrive sufficientemente le funzioni specifiche. È necessaria ulteriore documentazione per una descrizione accurata.",
+            "es": "Este formulario aparece en el menú de la aplicación, pero el manual PDF proporcionado no describe sus funciones con suficiente detalle. Se necesita documentación adicional para una descripción precisa.",
+            "ru": "Эта форма присутствует в меню приложения, однако предоставленное руководство PDF недостаточно подробно описывает её функции. Для точного описания необходима дополнительная документация.",
+            "pt": "Este formulário consta do menu da aplicação, mas o manual PDF fornecido não descreve as suas funções com detalhe suficiente. É necessária documentação adicional para uma descrição rigorosa.",
+            "tr": "Bu form uygulama menüsünde bulunmaktadır; ancak sağlanan PDF kılavuzu işlevlerini yeterli ayrıntıyla açıklamamaktadır. Doğru bir özellik açıklaması için ek belge gereklidir.",
+            "ar": "يظهر هذا النموذج في قائمة البرنامج، لكن دليل PDF المقدم لا يشرح وظائفه الدقيقة بالتفصيل الكافي. وتلزم وثائق إضافية لإعداد وصف موثوق لخصائصه."
+          }
+        },
+        {
+          "id": "payroll-06-07",
+          "title": {
+            "fa": "قالب درمانی بازنشستگی",
+            "en": "Retiree Healthcare Template"
+          },
+          "description": {
+            "fa": "اطلاعات درمان بازنشستگان در قالب خروجی مرتبط تهیه می‌شود؛ راهنما تولید فایل Excel برای برخی گزارش‌های سازمان بازنشستگی را شرح می‌دهد.",
+            "en": "Prepare retiree healthcare reporting outputs; the manual also documents Excel-based pension agency files.",
+            "de": "Dieses Formular dient der Erfassung, Prüfung und Verwaltung von Renten- und Pensionsbeiträge. Zugehörige Datensätze können im jeweiligen Arbeitsablauf eingesehen werden.",
+            "fr": "Ce formulaire permet de saisir, consulter et gérer les cotisations de retraite. Les enregistrements peuvent être vérifiés dans le processus correspondant.",
+            "it": "Questo modulo consente di inserire, consultare e gestire i contributi pensionistici. I dati registrati possono essere verificati nel relativo flusso di lavoro.",
+            "es": "Este formulario permite registrar, consultar y gestionar los cotizaciones de jubilación. Los registros se pueden revisar durante el proceso correspondiente.",
+            "ru": "Форма предназначена для ввода, просмотра и ведения пенсионных взносов. Записи можно проверить в соответствующем рабочем процессе.",
+            "pt": "Este formulário permite registar, consultar e gerir os contribuições para a reforma. Os registos podem ser verificados no processo correspondente.",
+            "tr": "Bu form, emeklilik katkı payları bilgilerini kaydetmek, incelemek ve yönetmek için kullanılır. İlgili kayıtlar iş akışı içinde kontrol edilebilir.",
+            "ar": "يُستخدم هذا النموذج لإدخال بيانات اشتراكات التقاعد ومراجعتها وإدارتها. ويمكن التحقق من السجلات في سير العمل المرتبط بها."
+          }
+        },
+        {
+          "id": "payroll-06-08",
+          "title": {
+            "fa": "صورت ارسال وجه بازنشستگی",
+            "en": "Pension Remittance Report"
+          },
+          "description": {
+            "fa": "صورت ارسال وجه بازنشستگی شامل اقلام حقوق، معوقه و سهم‌های بازنشستگی مرتبط با کارکنان رسمی آماده می‌شود.",
+            "en": "Prepare pension remittance information including salary, arrears and contributions for applicable employees.",
+            "de": "Dieser Bericht stellt Informationen zu Renten- und Pensionsbeiträge zur Prüfung und periodischen Auswertung bereit. Er unterstützt die Kontrolle erfasster Daten.",
+            "fr": "Ce rapport présente les cotisations de retraite pour consultation et analyse par période. Il facilite le contrôle des données enregistrées.",
+            "it": "Questo rapporto presenta i contributi pensionistici per la consultazione e l’analisi periodica. Agevola il controllo dei dati registrati.",
+            "es": "Este informe presenta información sobre los cotizaciones de jubilación para su revisión y análisis por período. Facilita el control de los datos registrados.",
+            "ru": "Отчёт отображает сведения о пенсионных взносов для проверки и анализа по периодам. Он помогает контролировать зарегистрированные данные.",
+            "pt": "Este relatório apresenta informações sobre os contribuições para a reforma para consulta e análise por período. Facilita a verificação dos dados registados.",
+            "tr": "Bu rapor, emeklilik katkı payları hakkında dönem bazında inceleme ve raporlama imkânı sunar. Kaydedilen bilgilerin kontrolünü destekler.",
+            "ar": "يعرض هذا التقرير معلومات اشتراكات التقاعد للمراجعة والتحليل حسب الفترة. ويساعد على التحقق من البيانات المسجلة."
+          }
+        },
+        {
+          "id": "payroll-06-09",
+          "title": {
+            "fa": "تجمیع قالب های بانک",
+            "en": "Combine Bank Templates"
+          },
+          "description": {
+            "fa": "چند فایل پرداخت بانکی مربوط به یک بانک در یک خروجی تجمیع می‌شوند تا برای ارائه به بانک قابل استفاده باشند.",
+            "en": "Combine multiple bank payment files for the same bank into a single submission file.",
+            "de": "Dieser Bereich unterstützt die dokumentierten Abläufe rund um Bankzahlungsdateien. Die Ergebnisse können im zugehörigen Arbeitsablauf geprüft werden.",
+            "fr": "Cette section permet d’exécuter les opérations documentées relatives aux fichiers de paiement bancaire. Les résultats peuvent être vérifiés dans le processus correspondant.",
+            "it": "Questa sezione permette di eseguire le operazioni documentate relative ai file di pagamento bancari. I risultati possono essere verificati nel processo pertinente.",
+            "es": "Esta sección permite realizar las operaciones documentadas relacionadas con los archivos de pagos bancarios. Los resultados se pueden revisar en el proceso correspondiente.",
+            "ru": "Раздел предназначен для выполнения документированных операций в области банковских платёжных файлов. Результаты можно проверить в соответствующем процессе.",
+            "pt": "Esta secção permite executar as operações documentadas relacionadas com os ficheiros de pagamentos bancários. Os resultados podem ser verificados no processo correspondente.",
+            "tr": "Bu bölüm, banka ödeme dosyaları ile ilgili belgelenmiş işlemleri yürütür. Sonuçlar ilgili iş akışında kontrol edilebilir.",
+            "ar": "يتيح هذا القسم تنفيذ العمليات الموثقة المتعلقة بـملفات المدفوعات المصرفية. ويمكن مراجعة النتائج ضمن سير العمل المرتبط بها."
+          }
+        }
+      ]
+    },
+    {
+      "id": "payroll-07",
+      "icon": "file-text",
+      "title": {
+        "fa": "گزارشات اداری",
+        "en": "Administrative Reports"
+      },
+      "items": [
+        {
+          "id": "payroll-07-01",
+          "title": {
+            "fa": "مشخصات پرسنلی",
+            "en": "Personnel Information"
+          },
+          "description": {
+            "fa": "گزارش مشخصات شناسنامه‌ای و اطلاعات پایه کارکنان برای بررسی وضعیت پرسنلی تهیه می‌شود.",
+            "en": "List identity and basic employee information.",
+            "de": "Dieser Bericht stellt Informationen zu Gehaltsabrechnungen und Entgeltdaten zur Prüfung und periodischen Auswertung bereit. Er unterstützt die Kontrolle erfasster Daten.",
+            "fr": "Ce rapport présente les calculs et données de paie pour consultation et analyse par période. Il facilite le contrôle des données enregistrées.",
+            "it": "Questo rapporto presenta i calcoli e dati delle retribuzioni per la consultazione e l’analisi periodica. Agevola il controllo dei dati registrati.",
+            "es": "Este informe presenta información sobre los cálculos y datos de nómina para su revisión y análisis por período. Facilita el control de los datos registrados.",
+            "ru": "Отчёт отображает сведения о расчётов и данных заработной платы для проверки и анализа по периодам. Он помогает контролировать зарегистрированные данные.",
+            "pt": "Este relatório apresenta informações sobre os cálculos e dados da folha salarial para consulta e análise por período. Facilita a verificação dos dados registados.",
+            "tr": "Bu rapor, bordro hesaplamaları ve verileri hakkında dönem bazında inceleme ve raporlama imkânı sunar. Kaydedilen bilgilerin kontrolünü destekler.",
+            "ar": "يعرض هذا التقرير معلومات حسابات وبيانات الرواتب للمراجعة والتحليل حسب الفترة. ويساعد على التحقق من البيانات المسجلة."
+          }
+        },
+        {
+          "id": "payroll-07-02",
+          "title": {
+            "fa": "استخدامی پرسنل",
+            "en": "Personnel Employment"
+          },
+          "description": {
+            "fa": "فهرست کارکنان به تفکیک نوع استخدام نمایش داده می‌شود تا وضعیت گروه‌های استخدامی قابل بررسی باشد.",
+            "en": "List personnel grouped by employment category.",
+            "de": "Dieses Formular dient der Erfassung, Prüfung und Verwaltung von Systemeinstellungen und Stammdaten. Zugehörige Datensätze können im jeweiligen Arbeitsablauf eingesehen werden.",
+            "fr": "Ce formulaire permet de saisir, consulter et gérer les paramètres et définitions du système. Les enregistrements peuvent être vérifiés dans le processus correspondant.",
+            "it": "Questo modulo consente di inserire, consultare e gestire i impostazioni e definizioni del sistema. I dati registrati possono essere verificati nel relativo flusso di lavoro.",
+            "es": "Este formulario permite registrar, consultar y gestionar los configuraciones y definiciones del sistema. Los registros se pueden revisar durante el proceso correspondiente.",
+            "ru": "Форма предназначена для ввода, просмотра и ведения настроек и справочников системы. Записи можно проверить в соответствующем рабочем процессе.",
+            "pt": "Este formulário permite registar, consultar e gerir os configurações e definições do sistema. Os registos podem ser verificados no processo correspondente.",
+            "tr": "Bu form, sistem ayarları ve tanımları bilgilerini kaydetmek, incelemek ve yönetmek için kullanılır. İlgili kayıtlar iş akışı içinde kontrol edilebilir.",
+            "ar": "يُستخدم هذا النموذج لإدخال بيانات إعدادات النظام وتعريفاته ومراجعتها وإدارتها. ويمكن التحقق من السجلات في سير العمل المرتبط بها."
+          }
+        },
+        {
+          "id": "payroll-07-03",
+          "title": {
+            "fa": "محل خدمت پرسنل",
+            "en": "Personnel Work Location"
+          },
+          "description": {
+            "fa": "فهرست کارکنان به تفکیک محل خدمت ارائه می‌شود.",
+            "en": "Report employees by service location.",
+            "de": "Dieses Formular dient der Erfassung, Prüfung und Verwaltung von Gehaltsabrechnungen und Entgeltdaten. Zugehörige Datensätze können im jeweiligen Arbeitsablauf eingesehen werden.",
+            "fr": "Ce formulaire permet de saisir, consulter et gérer les calculs et données de paie. Les enregistrements peuvent être vérifiés dans le processus correspondant.",
+            "it": "Questo modulo consente di inserire, consultare e gestire i calcoli e dati delle retribuzioni. I dati registrati possono essere verificati nel relativo flusso di lavoro.",
+            "es": "Este formulario permite registrar, consultar y gestionar los cálculos y datos de nómina. Los registros se pueden revisar durante el proceso correspondiente.",
+            "ru": "Форма предназначена для ввода, просмотра и ведения расчётов и данных заработной платы. Записи можно проверить в соответствующем рабочем процессе.",
+            "pt": "Este formulário permite registar, consultar e gerir os cálculos e dados da folha salarial. Os registos podem ser verificados no processo correspondente.",
+            "tr": "Bu form, bordro hesaplamaları ve verileri bilgilerini kaydetmek, incelemek ve yönetmek için kullanılır. İlgili kayıtlar iş akışı içinde kontrol edilebilir.",
+            "ar": "يُستخدم هذا النموذج لإدخال بيانات حسابات وبيانات الرواتب ومراجعتها وإدارتها. ويمكن التحقق من السجلات في سير العمل المرتبط بها."
+          }
+        },
+        {
+          "id": "payroll-07-04",
+          "title": {
+            "fa": "کارکرد پرسنل",
+            "en": "Personnel Attendance Records"
+          },
+          "description": {
+            "fa": "کارکرد کارکنان شامل زمان کار، تأخیر، تعجیل و اضافه‌کاری گزارش می‌شود.",
+            "en": "Report working time, lateness and overtime for selected employees.",
+            "de": "Dieses Formular dient der Erfassung, Prüfung und Verwaltung von Arbeitszeit- und Anwesenheitsdaten. Zugehörige Datensätze können im jeweiligen Arbeitsablauf eingesehen werden.",
+            "fr": "Ce formulaire permet de saisir, consulter et gérer les temps de travail et présences. Les enregistrements peuvent être vérifiés dans le processus correspondant.",
+            "it": "Questo modulo consente di inserire, consultare e gestire i presenze e orari di lavoro. I dati registrati possono essere verificati nel relativo flusso di lavoro.",
+            "es": "Este formulario permite registrar, consultar y gestionar los asistencia y horas trabajadas. Los registros se pueden revisar durante el proceso correspondiente.",
+            "ru": "Форма предназначена для ввода, просмотра и ведения учёта рабочего времени. Записи можно проверить в соответствующем рабочем процессе.",
+            "pt": "Este formulário permite registar, consultar e gerir os frequência e horas trabalhadas. Os registos podem ser verificados no processo correspondente.",
+            "tr": "Bu form, çalışma ve devam kayıtları bilgilerini kaydetmek, incelemek ve yönetmek için kullanılır. İlgili kayıtlar iş akışı içinde kontrol edilebilir.",
+            "ar": "يُستخدم هذا النموذج لإدخال بيانات الحضور وساعات عمل الموظفين ومراجعتها وإدارتها. ويمكن التحقق من السجلات في سير العمل المرتبط بها."
+          }
+        },
+        {
+          "id": "payroll-07-05",
+          "title": {
+            "fa": "استخدامی کارکرد",
+            "en": "Employment and Work Records"
+          },
+          "description": {
+            "fa": "اقلام کارکرد بر اساس گروه استخدامی کارکنان ارائه می‌شود.",
+            "en": "Summarize work records by employment category.",
+            "de": "Dieses Formular dient der Erfassung, Prüfung und Verwaltung von Arbeitszeit- und Anwesenheitsdaten. Zugehörige Datensätze können im jeweiligen Arbeitsablauf eingesehen werden.",
+            "fr": "Ce formulaire permet de saisir, consulter et gérer les temps de travail et présences. Les enregistrements peuvent être vérifiés dans le processus correspondant.",
+            "it": "Questo modulo consente di inserire, consultare e gestire i presenze e orari di lavoro. I dati registrati possono essere verificati nel relativo flusso di lavoro.",
+            "es": "Este formulario permite registrar, consultar y gestionar los asistencia y horas trabajadas. Los registros se pueden revisar durante el proceso correspondiente.",
+            "ru": "Форма предназначена для ввода, просмотра и ведения учёта рабочего времени. Записи можно проверить в соответствующем рабочем процессе.",
+            "pt": "Este formulário permite registar, consultar e gerir os frequência e horas trabalhadas. Os registos podem ser verificados no processo correspondente.",
+            "tr": "Bu form, çalışma ve devam kayıtları bilgilerini kaydetmek, incelemek ve yönetmek için kullanılır. İlgili kayıtlar iş akışı içinde kontrol edilebilir.",
+            "ar": "يُستخدم هذا النموذج لإدخال بيانات الحضور وساعات عمل الموظفين ومراجعتها وإدارتها. ويمكن التحقق من السجلات في سير العمل المرتبط بها."
+          }
+        },
+        {
+          "id": "payroll-07-06",
+          "title": {
+            "fa": "لیست محل خدمت کارکرد",
+            "en": "Work Location List"
+          },
+          "description": {
+            "fa": "کارکرد پرسنل به تفکیک محل خدمت نمایش داده می‌شود.",
+            "en": "Group employee attendance data by workplace.",
+            "de": "Dieser Bericht stellt Informationen zu Arbeitszeit- und Anwesenheitsdaten zur Prüfung und periodischen Auswertung bereit. Er unterstützt die Kontrolle erfasster Daten.",
+            "fr": "Ce rapport présente les temps de travail et présences pour consultation et analyse par période. Il facilite le contrôle des données enregistrées.",
+            "it": "Questo rapporto presenta i presenze e orari di lavoro per la consultazione e l’analisi periodica. Agevola il controllo dei dati registrati.",
+            "es": "Este informe presenta información sobre los asistencia y horas trabajadas para su revisión y análisis por período. Facilita el control de los datos registrados.",
+            "ru": "Отчёт отображает сведения о учёта рабочего времени для проверки и анализа по периодам. Он помогает контролировать зарегистрированные данные.",
+            "pt": "Este relatório apresenta informações sobre os frequência e horas trabalhadas para consulta e análise por período. Facilita a verificação dos dados registados.",
+            "tr": "Bu rapor, çalışma ve devam kayıtları hakkında dönem bazında inceleme ve raporlama imkânı sunar. Kaydedilen bilgilerin kontrolünü destekler.",
+            "ar": "يعرض هذا التقرير معلومات الحضور وساعات عمل الموظفين للمراجعة والتحليل حسب الفترة. ويساعد على التحقق من البيانات المسجلة."
+          }
+        }
+      ]
+    },
+    {
+      "id": "payroll-08",
+      "icon": "settings",
+      "title": {
+        "fa": "اطلاعات پایه و تنظیمات",
+        "en": "Basic Information and Settings"
+      },
+      "items": [
+        {
+          "id": "payroll-08-01",
+          "title": {
+            "fa": "انواع استخدام ها",
+            "en": "Employment Types"
+          },
+          "description": {
+            "fa": "انواع استخدامی با تنظیم نظام پرداخت، گروه‌های کاری و ویژگی‌های مرتبط با احکام و حقوق تعریف می‌شوند.",
+            "en": "Define employment categories and pay-system settings for personnel orders and payroll.",
+            "de": "Dieses Formular dient der Erfassung, Prüfung und Verwaltung von Systemeinstellungen und Stammdaten. Zugehörige Datensätze können im jeweiligen Arbeitsablauf eingesehen werden.",
+            "fr": "Ce formulaire permet de saisir, consulter et gérer les paramètres et définitions du système. Les enregistrements peuvent être vérifiés dans le processus correspondant.",
+            "it": "Questo modulo consente di inserire, consultare e gestire i impostazioni e definizioni del sistema. I dati registrati possono essere verificati nel relativo flusso di lavoro.",
+            "es": "Este formulario permite registrar, consultar y gestionar los configuraciones y definiciones del sistema. Los registros se pueden revisar durante el proceso correspondiente.",
+            "ru": "Форма предназначена для ввода, просмотра и ведения настроек и справочников системы. Записи можно проверить в соответствующем рабочем процессе.",
+            "pt": "Este formulário permite registar, consultar e gerir os configurações e definições do sistema. Os registos podem ser verificados no processo correspondente.",
+            "tr": "Bu form, sistem ayarları ve tanımları bilgilerini kaydetmek, incelemek ve yönetmek için kullanılır. İlgili kayıtlar iş akışı içinde kontrol edilebilir.",
+            "ar": "يُستخدم هذا النموذج لإدخال بيانات إعدادات النظام وتعريفاته ومراجعتها وإدارتها. ويمكن التحقق من السجلات في سير العمل المرتبط بها."
+          }
+        },
+        {
+          "id": "payroll-08-02",
+          "title": {
+            "fa": "مشخصات استخدامی",
+            "en": "Employment Attributes"
+          },
+          "description": {
+            "fa": "تنظیمات مرتبط با نوع استخدام، مانند ضوابط مرخصی، اضافه‌کاری و پارامترهای پرداخت، مبنای محاسبات حقوق هستند.",
+            "en": "Maintain employment-type rules for leave, overtime and remuneration calculations.",
+            "de": "Dieses Formular dient der Erfassung, Prüfung und Verwaltung von Systemeinstellungen und Stammdaten. Zugehörige Datensätze können im jeweiligen Arbeitsablauf eingesehen werden.",
+            "fr": "Ce formulaire permet de saisir, consulter et gérer les paramètres et définitions du système. Les enregistrements peuvent être vérifiés dans le processus correspondant.",
+            "it": "Questo modulo consente di inserire, consultare e gestire i impostazioni e definizioni del sistema. I dati registrati possono essere verificati nel relativo flusso di lavoro.",
+            "es": "Este formulario permite registrar, consultar y gestionar los configuraciones y definiciones del sistema. Los registros se pueden revisar durante el proceso correspondiente.",
+            "ru": "Форма предназначена для ввода, просмотра и ведения настроек и справочников системы. Записи можно проверить в соответствующем рабочем процессе.",
+            "pt": "Este formulário permite registar, consultar e gerir os configurações e definições do sistema. Os registos podem ser verificados no processo correspondente.",
+            "tr": "Bu form, sistem ayarları ve tanımları bilgilerini kaydetmek, incelemek ve yönetmek için kullanılır. İlgili kayıtlar iş akışı içinde kontrol edilebilir.",
+            "ar": "يُستخدم هذا النموذج لإدخال بيانات إعدادات النظام وتعريفاته ومراجعتها وإدارتها. ويمكن التحقق من السجلات في سير العمل المرتبط بها."
+          }
+        },
+        {
+          "id": "payroll-08-03",
+          "title": {
+            "fa": "جداول مالیاتی",
+            "en": "Tax Tables"
+          },
+          "description": {
+            "fa": "جداول مالیاتی سال جاری و سال قبل به همراه نحوه محاسبه مالیات حقوق در این بخش تنظیم می‌شوند.",
+            "en": "Maintain current- and prior-year payroll tax tables and related calculation settings.",
+            "de": "Dieses Formular dient der Erfassung, Prüfung und Verwaltung von Lohnsteuer. Zugehörige Datensätze können im jeweiligen Arbeitsablauf eingesehen werden.",
+            "fr": "Ce formulaire permet de saisir, consulter et gérer les impôts sur les salaires. Les enregistrements peuvent être vérifiés dans le processus correspondant.",
+            "it": "Questo modulo consente di inserire, consultare e gestire i imposte sulle retribuzioni. I dati registrati possono essere verificati nel relativo flusso di lavoro.",
+            "es": "Este formulario permite registrar, consultar y gestionar los impuestos sobre nómina. Los registros se pueden revisar durante el proceso correspondiente.",
+            "ru": "Форма предназначена для ввода, просмотра и ведения налогов на заработную плату. Записи можно проверить в соответствующем рабочем процессе.",
+            "pt": "Este formulário permite registar, consultar e gerir os impostos sobre salários. Os registos podem ser verificados no processo correspondente.",
+            "tr": "Bu form, ücret vergileri bilgilerini kaydetmek, incelemek ve yönetmek için kullanılır. İlgili kayıtlar iş akışı içinde kontrol edilebilir.",
+            "ar": "يُستخدم هذا النموذج لإدخال بيانات ضرائب الرواتب ومراجعتها وإدارتها. ويمكن التحقق من السجلات في سير العمل المرتبط بها."
+          }
+        },
+        {
+          "id": "payroll-08-04",
+          "title": {
+            "fa": "مشخصات اداری",
+            "en": "Administrative Attributes"
+          },
+          "description": {
+            "fa": "این فرم در فهرست منوهای نرم‌افزار وجود دارد، اما راهنمای PDF ارائه‌شده درباره عملکرد دقیق آن توضیح کافی ندارد. برای درج معرفی تخصصی، تکمیل مستندات این بخش لازم است.",
+            "en": "This form appears in the application menu, but the supplied PDF does not describe its exact functions in sufficient detail. Further documentation is needed for a precise feature description.",
+            "de": "Dieses Formular ist im Anwendungsmenü enthalten. Das vorliegende PDF-Handbuch beschreibt seine genauen Funktionen jedoch nicht ausreichend. Für eine verlässliche Funktionsbeschreibung ist zusätzliche Dokumentation erforderlich.",
+            "fr": "Ce formulaire figure dans le menu de l’application, mais le manuel PDF fourni ne décrit pas suffisamment ses fonctions précises. Une documentation complémentaire est nécessaire pour une présentation fiable.",
+            "it": "Questo modulo è presente nel menu dell’applicazione, ma il manuale PDF fornito non ne descrive sufficientemente le funzioni specifiche. È necessaria ulteriore documentazione per una descrizione accurata.",
+            "es": "Este formulario aparece en el menú de la aplicación, pero el manual PDF proporcionado no describe sus funciones con suficiente detalle. Se necesita documentación adicional para una descripción precisa.",
+            "ru": "Эта форма присутствует в меню приложения, однако предоставленное руководство PDF недостаточно подробно описывает её функции. Для точного описания необходима дополнительная документация.",
+            "pt": "Este formulário consta do menu da aplicação, mas o manual PDF fornecido não descreve as suas funções com detalhe suficiente. É necessária documentação adicional para uma descrição rigorosa.",
+            "tr": "Bu form uygulama menüsünde bulunmaktadır; ancak sağlanan PDF kılavuzu işlevlerini yeterli ayrıntıyla açıklamamaktadır. Doğru bir özellik açıklaması için ek belge gereklidir.",
+            "ar": "يظهر هذا النموذج في قائمة البرنامج، لكن دليل PDF المقدم لا يشرح وظائفه الدقيقة بالتفصيل الكافي. وتلزم وثائق إضافية لإعداد وصف موثوق لخصائصه."
+          }
+        },
+        {
+          "id": "payroll-08-05",
+          "title": {
+            "fa": "لیست هزینه های متغیر",
+            "en": "Variable Expenses List"
+          },
+          "description": {
+            "fa": "این فرم در فهرست منوهای نرم‌افزار وجود دارد، اما راهنمای PDF ارائه‌شده درباره عملکرد دقیق آن توضیح کافی ندارد. برای درج معرفی تخصصی، تکمیل مستندات این بخش لازم است.",
+            "en": "This form appears in the application menu, but the supplied PDF does not describe its exact functions in sufficient detail. Further documentation is needed for a precise feature description.",
+            "de": "Dieses Formular ist im Anwendungsmenü enthalten. Das vorliegende PDF-Handbuch beschreibt seine genauen Funktionen jedoch nicht ausreichend. Für eine verlässliche Funktionsbeschreibung ist zusätzliche Dokumentation erforderlich.",
+            "fr": "Ce formulaire figure dans le menu de l’application, mais le manuel PDF fourni ne décrit pas suffisamment ses fonctions précises. Une documentation complémentaire est nécessaire pour une présentation fiable.",
+            "it": "Questo modulo è presente nel menu dell’applicazione, ma il manuale PDF fornito non ne descrive sufficientemente le funzioni specifiche. È necessaria ulteriore documentazione per una descrizione accurata.",
+            "es": "Este formulario aparece en el menú de la aplicación, pero el manual PDF proporcionado no describe sus funciones con suficiente detalle. Se necesita documentación adicional para una descripción precisa.",
+            "ru": "Эта форма присутствует в меню приложения, однако предоставленное руководство PDF недостаточно подробно описывает её функции. Для точного описания необходима дополнительная документация.",
+            "pt": "Este formulário consta do menu da aplicação, mas o manual PDF fornecido não descreve as suas funções com detalhe suficiente. É necessária documentação adicional para uma descrição rigorosa.",
+            "tr": "Bu form uygulama menüsünde bulunmaktadır; ancak sağlanan PDF kılavuzu işlevlerini yeterli ayrıntıyla açıklamamaktadır. Doğru bir özellik açıklaması için ek belge gereklidir.",
+            "ar": "يظهر هذا النموذج في قائمة البرنامج، لكن دليل PDF المقدم لا يشرح وظائفه الدقيقة بالتفصيل الكافي. وتلزم وثائق إضافية لإعداد وصف موثوق لخصائصه."
+          }
+        },
+        {
+          "id": "payroll-08-06",
+          "title": {
+            "fa": "تعاریف و تنظیمات",
+            "en": "Definitions and Settings"
+          },
+          "description": {
+            "fa": "این فرم در فهرست منوهای نرم‌افزار وجود دارد، اما راهنمای PDF ارائه‌شده درباره عملکرد دقیق آن توضیح کافی ندارد. برای درج معرفی تخصصی، تکمیل مستندات این بخش لازم است.",
+            "en": "This form appears in the application menu, but the supplied PDF does not describe its exact functions in sufficient detail. Further documentation is needed for a precise feature description.",
+            "de": "Dieses Formular ist im Anwendungsmenü enthalten. Das vorliegende PDF-Handbuch beschreibt seine genauen Funktionen jedoch nicht ausreichend. Für eine verlässliche Funktionsbeschreibung ist zusätzliche Dokumentation erforderlich.",
+            "fr": "Ce formulaire figure dans le menu de l’application, mais le manuel PDF fourni ne décrit pas suffisamment ses fonctions précises. Une documentation complémentaire est nécessaire pour une présentation fiable.",
+            "it": "Questo modulo è presente nel menu dell’applicazione, ma il manuale PDF fornito non ne descrive sufficientemente le funzioni specifiche. È necessaria ulteriore documentazione per una descrizione accurata.",
+            "es": "Este formulario aparece en el menú de la aplicación, pero el manual PDF proporcionado no describe sus funciones con suficiente detalle. Se necesita documentación adicional para una descripción precisa.",
+            "ru": "Эта форма присутствует в меню приложения, однако предоставленное руководство PDF недостаточно подробно описывает её функции. Для точного описания необходима дополнительная документация.",
+            "pt": "Este formulário consta do menu da aplicação, mas o manual PDF fornecido não descreve as suas funções com detalhe suficiente. É necessária documentação adicional para uma descrição rigorosa.",
+            "tr": "Bu form uygulama menüsünde bulunmaktadır; ancak sağlanan PDF kılavuzu işlevlerini yeterli ayrıntıyla açıklamamaktadır. Doğru bir özellik açıklaması için ek belge gereklidir.",
+            "ar": "يظهر هذا النموذج في قائمة البرنامج، لكن دليل PDF المقدم لا يشرح وظائفه الدقيقة بالتفصيل الكافي. وتلزم وثائق إضافية لإعداد وصف موثوق لخصائصه."
+          }
+        }
+      ]
+    },
+    {
+      "id": "payroll-09",
+      "icon": "wrench",
+      "title": {
+        "fa": "امکانات و ابزار",
+        "en": "Tools and Utilities"
+      },
+      "items": [
+        {
+          "id": "payroll-09-01",
+          "title": {
+            "fa": "لیست کاربران",
+            "en": "User List"
+          },
+          "description": {
+            "fa": "کاربران، نقش مدیر یا کاربر و مجوزهای دسترسی به فرم‌های نرم‌افزار تعریف و مدیریت می‌شوند.",
+            "en": "Manage application users, roles and access permissions.",
+            "de": "Dieser Bericht stellt Informationen zu Benutzer und Zugriffsrechte zur Prüfung und periodischen Auswertung bereit. Er unterstützt die Kontrolle erfasster Daten.",
+            "fr": "Ce rapport présente les utilisateurs et droits d’accès pour consultation et analyse par période. Il facilite le contrôle des données enregistrées.",
+            "it": "Questo rapporto presenta i utenti e autorizzazioni per la consultazione e l’analisi periodica. Agevola il controllo dei dati registrati.",
+            "es": "Este informe presenta información sobre los usuarios y permisos de acceso para su revisión y análisis por período. Facilita el control de los datos registrados.",
+            "ru": "Отчёт отображает сведения о пользователей и прав доступа для проверки и анализа по периодам. Он помогает контролировать зарегистрированные данные.",
+            "pt": "Este relatório apresenta informações sobre os utilizadores e permissões de acesso para consulta e análise por período. Facilita a verificação dos dados registados.",
+            "tr": "Bu rapor, kullanıcılar ve erişim izinleri hakkında dönem bazında inceleme ve raporlama imkânı sunar. Kaydedilen bilgilerin kontrolünü destekler.",
+            "ar": "يعرض هذا التقرير معلومات المستخدمين وصلاحيات الوصول للمراجعة والتحليل حسب الفترة. ويساعد على التحقق من البيانات المسجلة."
+          }
+        },
+        {
+          "id": "payroll-09-02",
+          "title": {
+            "fa": "به روزرسانی برنامه",
+            "en": "Update Program"
+          },
+          "description": {
+            "fa": "به‌روزرسانی اجزای نرم‌افزار شامل برنامه، پایگاه داده و گزارش‌ها از مسیرهای معرفی‌شده قابل انجام است.",
+            "en": "Update application, database and reporting components through the documented mechanisms.",
+            "de": "Dieser Bereich unterstützt die dokumentierten Abläufe rund um Softwareaktualisierungen. Die Ergebnisse können im zugehörigen Arbeitsablauf geprüft werden.",
+            "fr": "Cette section permet d’exécuter les opérations documentées relatives aux mises à jour du logiciel. Les résultats peuvent être vérifiés dans le processus correspondant.",
+            "it": "Questa sezione permette di eseguire le operazioni documentate relative ai aggiornamenti software. I risultati possono essere verificati nel processo pertinente.",
+            "es": "Esta sección permite realizar las operaciones documentadas relacionadas con los actualizaciones del programa. Los resultados se pueden revisar en el proceso correspondiente.",
+            "ru": "Раздел предназначен для выполнения документированных операций в области обновлений программного обеспечения. Результаты можно проверить в соответствующем процессе.",
+            "pt": "Esta secção permite executar as operações documentadas relacionadas com os atualizações do software. Os resultados podem ser verificados no processo correspondente.",
+            "tr": "Bu bölüm, yazılım güncellemeleri ile ilgili belgelenmiş işlemleri yürütür. Sonuçlar ilgili iş akışında kontrol edilebilir.",
+            "ar": "يتيح هذا القسم تنفيذ العمليات الموثقة المتعلقة بـتحديثات البرنامج. ويمكن مراجعة النتائج ضمن سير العمل المرتبط بها."
+          }
+        },
+        {
+          "id": "payroll-09-03",
+          "title": {
+            "fa": "تهیه فایل پشتیبانی",
+            "en": "Create Support File"
+          },
+          "description": {
+            "fa": "فایل پشتیبانی از اطلاعات نرم‌افزار تهیه و برای پیگیری مسائل فنی قابل ارسال است.",
+            "en": "Prepare and transmit a support file for technical assistance.",
+            "de": "Dieses Formular dient der Erfassung, Prüfung und Verwaltung von Datenaustauschdateien. Zugehörige Datensätze können im jeweiligen Arbeitsablauf eingesehen werden.",
+            "fr": "Ce formulaire permet de saisir, consulter et gérer les fichiers d’échange de données. Les enregistrements peuvent être vérifiés dans le processus correspondant.",
+            "it": "Questo modulo consente di inserire, consultare e gestire i file di scambio dati. I dati registrati possono essere verificati nel relativo flusso di lavoro.",
+            "es": "Este formulario permite registrar, consultar y gestionar los archivos de intercambio de datos. Los registros se pueden revisar durante el proceso correspondiente.",
+            "ru": "Форма предназначена для ввода, просмотра и ведения файлов обмена данными. Записи можно проверить в соответствующем рабочем процессе.",
+            "pt": "Este formulário permite registar, consultar e gerir os ficheiros de intercâmbio de dados. Os registos podem ser verificados no processo correspondente.",
+            "tr": "Bu form, veri aktarım dosyaları bilgilerini kaydetmek, incelemek ve yönetmek için kullanılır. İlgili kayıtlar iş akışı içinde kontrol edilebilir.",
+            "ar": "يُستخدم هذا النموذج لإدخال بيانات ملفات تبادل البيانات ومراجعتها وإدارتها. ويمكن التحقق من السجلات في سير العمل المرتبط بها."
+          }
+        },
+        {
+          "id": "payroll-09-04",
+          "title": {
+            "fa": "ارتباط با سایر سازمان ها",
+            "en": "Connect with Other Organizations"
+          },
+          "description": {
+            "fa": "این فرم در فهرست منوهای نرم‌افزار وجود دارد، اما راهنمای PDF ارائه‌شده درباره عملکرد دقیق آن توضیح کافی ندارد. برای درج معرفی تخصصی، تکمیل مستندات این بخش لازم است.",
+            "en": "This form appears in the application menu, but the supplied PDF does not describe its exact functions in sufficient detail. Further documentation is needed for a precise feature description.",
+            "de": "Dieses Formular ist im Anwendungsmenü enthalten. Das vorliegende PDF-Handbuch beschreibt seine genauen Funktionen jedoch nicht ausreichend. Für eine verlässliche Funktionsbeschreibung ist zusätzliche Dokumentation erforderlich.",
+            "fr": "Ce formulaire figure dans le menu de l’application, mais le manuel PDF fourni ne décrit pas suffisamment ses fonctions précises. Une documentation complémentaire est nécessaire pour une présentation fiable.",
+            "it": "Questo modulo è presente nel menu dell’applicazione, ma il manuale PDF fornito non ne descrive sufficientemente le funzioni specifiche. È necessaria ulteriore documentazione per una descrizione accurata.",
+            "es": "Este formulario aparece en el menú de la aplicación, pero el manual PDF proporcionado no describe sus funciones con suficiente detalle. Se necesita documentación adicional para una descripción precisa.",
+            "ru": "Эта форма присутствует в меню приложения, однако предоставленное руководство PDF недостаточно подробно описывает её функции. Для точного описания необходима дополнительная документация.",
+            "pt": "Este formulário consta do menu da aplicação, mas o manual PDF fornecido não descreve as suas funções com detalhe suficiente. É necessária documentação adicional para uma descrição rigorosa.",
+            "tr": "Bu form uygulama menüsünde bulunmaktadır; ancak sağlanan PDF kılavuzu işlevlerini yeterli ayrıntıyla açıklamamaktadır. Doğru bir özellik açıklaması için ek belge gereklidir.",
+            "ar": "يظهر هذا النموذج في قائمة البرنامج، لكن دليل PDF المقدم لا يشرح وظائفه الدقيقة بالتفصيل الكافي. وتلزم وثائق إضافية لإعداد وصف موثوق لخصائصه."
+          }
+        },
+        {
+          "id": "payroll-09-05",
+          "title": {
+            "fa": "ارسال و پیگیری خطاها و پیشنهادات",
+            "en": "Submit and Track Errors and Suggestions"
+          },
+          "description": {
+            "fa": "این فرم در فهرست منوهای نرم‌افزار وجود دارد، اما راهنمای PDF ارائه‌شده درباره عملکرد دقیق آن توضیح کافی ندارد. برای درج معرفی تخصصی، تکمیل مستندات این بخش لازم است.",
+            "en": "This form appears in the application menu, but the supplied PDF does not describe its exact functions in sufficient detail. Further documentation is needed for a precise feature description.",
+            "de": "Dieses Formular ist im Anwendungsmenü enthalten. Das vorliegende PDF-Handbuch beschreibt seine genauen Funktionen jedoch nicht ausreichend. Für eine verlässliche Funktionsbeschreibung ist zusätzliche Dokumentation erforderlich.",
+            "fr": "Ce formulaire figure dans le menu de l’application, mais le manuel PDF fourni ne décrit pas suffisamment ses fonctions précises. Une documentation complémentaire est nécessaire pour une présentation fiable.",
+            "it": "Questo modulo è presente nel menu dell’applicazione, ma il manuale PDF fornito non ne descrive sufficientemente le funzioni specifiche. È necessaria ulteriore documentazione per una descrizione accurata.",
+            "es": "Este formulario aparece en el menú de la aplicación, pero el manual PDF proporcionado no describe sus funciones con suficiente detalle. Se necesita documentación adicional para una descripción precisa.",
+            "ru": "Эта форма присутствует в меню приложения, однако предоставленное руководство PDF недостаточно подробно описывает её функции. Для точного описания необходима дополнительная документация.",
+            "pt": "Este formulário consta do menu da aplicação, mas o manual PDF fornecido não descreve as suas funções com detalhe suficiente. É necessária documentação adicional para uma descrição rigorosa.",
+            "tr": "Bu form uygulama menüsünde bulunmaktadır; ancak sağlanan PDF kılavuzu işlevlerini yeterli ayrıntıyla açıklamamaktadır. Doğru bir özellik açıklaması için ek belge gereklidir.",
+            "ar": "يظهر هذا النموذج في قائمة البرنامج، لكن دليل PDF المقدم لا يشرح وظائفه الدقيقة بالتفصيل الكافي. وتلزم وثائق إضافية لإعداد وصف موثوق لخصائصه."
+          }
+        },
+        {
+          "id": "payroll-09-06",
+          "title": {
+            "fa": "سوالات متداول",
+            "en": "Frequently Asked Questions"
+          },
+          "description": {
+            "fa": "این فرم در فهرست منوهای نرم‌افزار وجود دارد، اما راهنمای PDF ارائه‌شده درباره عملکرد دقیق آن توضیح کافی ندارد. برای درج معرفی تخصصی، تکمیل مستندات این بخش لازم است.",
+            "en": "This form appears in the application menu, but the supplied PDF does not describe its exact functions in sufficient detail. Further documentation is needed for a precise feature description.",
+            "de": "Dieses Formular ist im Anwendungsmenü enthalten. Das vorliegende PDF-Handbuch beschreibt seine genauen Funktionen jedoch nicht ausreichend. Für eine verlässliche Funktionsbeschreibung ist zusätzliche Dokumentation erforderlich.",
+            "fr": "Ce formulaire figure dans le menu de l’application, mais le manuel PDF fourni ne décrit pas suffisamment ses fonctions précises. Une documentation complémentaire est nécessaire pour une présentation fiable.",
+            "it": "Questo modulo è presente nel menu dell’applicazione, ma il manuale PDF fornito non ne descrive sufficientemente le funzioni specifiche. È necessaria ulteriore documentazione per una descrizione accurata.",
+            "es": "Este formulario aparece en el menú de la aplicación, pero el manual PDF proporcionado no describe sus funciones con suficiente detalle. Se necesita documentación adicional para una descripción precisa.",
+            "ru": "Эта форма присутствует в меню приложения, однако предоставленное руководство PDF недостаточно подробно описывает её функции. Для точного описания необходима дополнительная документация.",
+            "pt": "Este formulário consta do menu da aplicação, mas o manual PDF fornecido não descreve as suas funções com detalhe suficiente. É necessária documentação adicional para uma descrição rigorosa.",
+            "tr": "Bu form uygulama menüsünde bulunmaktadır; ancak sağlanan PDF kılavuzu işlevlerini yeterli ayrıntıyla açıklamamaktadır. Doğru bir özellik açıklaması için ek belge gereklidir.",
+            "ar": "يظهر هذا النموذج في قائمة البرنامج، لكن دليل PDF المقدم لا يشرح وظائفه الدقيقة بالتفصيل الكافي. وتلزم وثائق إضافية لإعداد وصف موثوق لخصائصه."
+          }
+        }
+      ]
+    }
+  ],
+  "ui": {
+    "overview": {
+      "fa": "کاتالوگ امکانات سیستم حقوق و دستمزد",
+      "en": "Payroll and Compensation — Feature Catalog"
+    },
+    "intro": {
+      "en": "Browse main menus, discover available functions and read a short explanation of each.",
+      "de": "Wählen Sie ein Hauptmenü und lesen Sie die Beschreibungen.",
+      "fr": "Choisissez un menu pour découvrir ses fonctionnalités.",
+      "it": "Seleziona un menu per esplorare le funzioni.",
+      "es": "Seleccione un menú para conocer sus funciones.",
+      "ru": "Выберите раздел для просмотра функций.",
+      "pt": "Selecione um menu para conhecer os recursos.",
+      "tr": "İşlevleri görmek için bir menü seçin.",
+      "ar": "اختر قائمة لاستعراض الوظائف وشرحها.",
+      "fa": "برای مشاهده زیرمنوها و توضیحات، یک منو انتخاب کنید."
+    },
+    "search": {
+      "en": "Search menus and features...",
+      "de": "Menüs und Funktionen suchen...",
+      "fr": "Rechercher des menus et fonctions...",
+      "it": "Cerca menu e funzioni...",
+      "es": "Buscar menús y funciones...",
+      "ru": "Поиск меню и функций...",
+      "pt": "Buscar menus e recursos...",
+      "tr": "Menü ve özellik ara...",
+      "ar": "ابحث في القوائم والوظائف...",
+      "fa": "جست‌وجوی منوها و امکانات..."
+    },
+    "menu": {
+      "en": "Main menus",
+      "de": "Hauptmenüs",
+      "fr": "Menus principaux",
+      "it": "Menu principali",
+      "es": "Menús principales",
+      "ru": "Главные меню",
+      "pt": "Menus principais",
+      "tr": "Ana menüler",
+      "ar": "القوائم الرئيسية",
+      "fa": "منوهای اصلی"
+    },
+    "functions": {
+      "en": "Available functions",
+      "de": "Verfügbare Funktionen",
+      "fr": "Fonctions disponibles",
+      "it": "Funzioni disponibili",
+      "es": "Funciones disponibles",
+      "ru": "Доступные функции",
+      "pt": "Funções disponíveis",
+      "tr": "Mevcut işlevler",
+      "ar": "الوظائف المتاحة",
+      "fa": "زیرمنوهای موجود"
+    },
+    "preview": {
+      "en": "Feature overview",
+      "de": "Funktionsübersicht",
+      "fr": "Aperçu de la fonction",
+      "it": "Panoramica della funzione",
+      "es": "Descripción de la función",
+      "ru": "Обзор функции",
+      "pt": "Visão geral da função",
+      "tr": "Özellik açıklaması",
+      "ar": "نبذة عن الوظيفة",
+      "fa": "توضیح کاربرد"
+    },
+    "noitems": {
+      "en": "Submenus for this section are not visible in the supplied screenshots.",
+      "de": "Untermenüs dieses Bereichs sind in den Bildern nicht erkennbar.",
+      "fr": "Les sous-menus de cette section ne sont pas visibles sur les captures.",
+      "it": "I sottomenu di questa sezione non sono visibili nelle immagini.",
+      "es": "Los submenús de esta sección no aparecen en las capturas.",
+      "ru": "Подменю этого раздела не видны на скриншотах.",
+      "pt": "Os submenus desta seção não aparecem nas capturas.",
+      "tr": "Bu bölümün alt menüleri sağlanan görsellerde görünmüyor.",
+      "ar": "القوائم الفرعية لهذا القسم غير ظاهرة في الصور المرفقة.",
+      "fa": "زیرمنوهای این بخش در تصاویر ارسالی قابل مشاهده نیستند."
+    },
+    "noresults": {
+      "en": "No matching features found.",
+      "de": "Keine passenden Funktionen gefunden.",
+      "fr": "Aucune fonction correspondante.",
+      "it": "Nessuna funzione trovata.",
+      "es": "No se encontraron funciones.",
+      "ru": "Совпадений не найдено.",
+      "pt": "Nenhuma função encontrada.",
+      "tr": "Eşleşen özellik bulunamadı.",
+      "ar": "لا توجد نتائج مطابقة.",
+      "fa": "موردی پیدا نشد."
+    },
+    "items": {
+      "en": "features",
+      "de": "Funktionen",
+      "fr": "fonctions",
+      "it": "funzioni",
+      "es": "funciones",
+      "ru": "функций",
+      "pt": "funções",
+      "tr": "özellik",
+      "ar": "وظيفة",
+      "fa": "گزینه"
+    },
+    "language": {
+      "en": "Language",
+      "de": "Sprache",
+      "fr": "Langue",
+      "it": "Lingua",
+      "es": "Idioma",
+      "ru": "Язык",
+      "pt": "Idioma",
+      "tr": "Dil",
+      "ar": "اللغة",
+      "fa": "زبان"
+    },
+    "note": {
+      "fa": "منوها از تصاویر ارسالی استخراج شده‌اند؛ عبارات ریز و توضیحات نیازمند بازبینی قبل از انتشار رسمی هستند.",
+      "en": "Menu names were extracted from supplied screenshots. Small labels and feature descriptions require review before publication."
+    },
+    "count": {
+      "en": "Menu catalog",
+      "de": "Menükatalog",
+      "fr": "Catalogue des menus",
+      "it": "Catalogo dei menu",
+      "es": "Catálogo de menús",
+      "ru": "Каталог меню",
+      "pt": "Catálogo de menus",
+      "tr": "Menü kataloğu",
+      "ar": "دليل القوائم",
+      "fa": "کاتالوگ منوها"
+    }
+  }
+}

@@ -1,0 +1,650 @@
+{
+  "schemaVersion": 1,
+  "software": {
+    "id": "fanoos",
+    "vendor": "Matris Negar Data Co.",
+    "name": {
+      "fa": "فانوس",
+      "en": "Fanoos"
+    }
+  },
+  "languages": [
+    "en",
+    "de",
+    "fr",
+    "it",
+    "es",
+    "ru",
+    "pt",
+    "tr",
+    "ar",
+    "fa"
+  ],
+  "menus": [
+    {
+      "id": "fanoos-01",
+      "icon": "wallet",
+      "title": {
+        "fa": "حقوق و دستمزد",
+        "en": "Payroll"
+      },
+      "items": [
+        {
+          "id": "fanoos-01-01",
+          "title": {
+            "fa": "اطلاعات پرسنلی",
+            "en": "Personnel Information"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «اطلاعات پرسنلی» در این بخش از نرم‌افزار.",
+            "en": "Access and use Personnel Information in this section of the software."
+          }
+        },
+        {
+          "id": "fanoos-01-02",
+          "title": {
+            "fa": "فیش حقوق",
+            "en": "Payslip"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «فیش حقوق» در این بخش از نرم‌افزار.",
+            "en": "Access and use Payslip in this section of the software."
+          }
+        },
+        {
+          "id": "fanoos-01-03",
+          "title": {
+            "fa": "سایر پرداختی ها",
+            "en": "Other Payments"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «سایر پرداختی ها» در این بخش از نرم‌افزار.",
+            "en": "Access and use Other Payments in this section of the software."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fanoos-02",
+      "icon": "bar-chart-3",
+      "title": {
+        "fa": "گزارشات",
+        "en": "Reports"
+      },
+      "items": [
+        {
+          "id": "fanoos-02-01",
+          "title": {
+            "fa": "بیمه تامین اجتماعی",
+            "en": "Social Security Insurance"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «بیمه تامین اجتماعی» در این بخش از نرم‌افزار.",
+            "en": "Access and use Social Security Insurance in this section of the software."
+          }
+        },
+        {
+          "id": "fanoos-02-02",
+          "title": {
+            "fa": "بیمه خدمت درمانی",
+            "en": "Medical Service Insurance"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «بیمه خدمت درمانی» در این بخش از نرم‌افزار.",
+            "en": "Access and use Medical Service Insurance in this section of the software."
+          }
+        },
+        {
+          "id": "fanoos-02-03",
+          "title": {
+            "fa": "کسور بازنشستگی",
+            "en": "Retirement Deductions"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «کسور بازنشستگی» در این بخش از نرم‌افزار.",
+            "en": "Access and use Retirement Deductions in this section of the software."
+          }
+        },
+        {
+          "id": "fanoos-02-04",
+          "title": {
+            "fa": "لیست مالیات ها",
+            "en": "Tax List"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «لیست مالیات ها» در این بخش از نرم‌افزار.",
+            "en": "Access and use Tax List in this section of the software."
+          }
+        },
+        {
+          "id": "fanoos-02-05",
+          "title": {
+            "fa": "بیمه سرانه",
+            "en": "Per Capita Insurance"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «بیمه سرانه» در این بخش از نرم‌افزار.",
+            "en": "Access and use Per Capita Insurance in this section of the software."
+          }
+        },
+        {
+          "id": "fanoos-02-06",
+          "title": {
+            "fa": "لیست مزایا",
+            "en": "Benefits List"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «لیست مزایا» در این بخش از نرم‌افزار.",
+            "en": "Access and use Benefits List in this section of the software."
+          }
+        },
+        {
+          "id": "fanoos-02-07",
+          "title": {
+            "fa": "لیست کسورات",
+            "en": "Deductions List"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «لیست کسورات» در این بخش از نرم‌افزار.",
+            "en": "Access and use Deductions List in this section of the software."
+          }
+        },
+        {
+          "id": "fanoos-02-08",
+          "title": {
+            "fa": "لیست وام ها",
+            "en": "Loan List"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «لیست وام ها» در این بخش از نرم‌افزار.",
+            "en": "Access and use Loan List in this section of the software."
+          }
+        },
+        {
+          "id": "fanoos-02-09",
+          "title": {
+            "fa": "لیست پس اندازها",
+            "en": "Savings List"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «لیست پس اندازها» در این بخش از نرم‌افزار.",
+            "en": "Access and use Savings List in this section of the software."
+          }
+        },
+        {
+          "id": "fanoos-02-10",
+          "title": {
+            "fa": "پس انداز کارکنان",
+            "en": "Employee Savings"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «پس انداز کارکنان» در این بخش از نرم‌افزار.",
+            "en": "Access and use Employee Savings in this section of the software."
+          }
+        },
+        {
+          "id": "fanoos-02-11",
+          "title": {
+            "fa": "لیست ماموریت ها",
+            "en": "Mission List"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «لیست ماموریت ها» در این بخش از نرم‌افزار.",
+            "en": "Access and use Mission List in this section of the software."
+          }
+        },
+        {
+          "id": "fanoos-02-12",
+          "title": {
+            "fa": "بیمه عمر",
+            "en": "Life Insurance"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «بیمه عمر» در این بخش از نرم‌افزار.",
+            "en": "Access and use Life Insurance in this section of the software."
+          }
+        },
+        {
+          "id": "fanoos-02-13",
+          "title": {
+            "fa": "بیمه تکمیلی",
+            "en": "Supplementary Insurance"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «بیمه تکمیلی» در این بخش از نرم‌افزار.",
+            "en": "Access and use Supplementary Insurance in this section of the software."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fanoos-03",
+      "icon": "file-pen-line",
+      "title": {
+        "fa": "درخواستها",
+        "en": "Requests"
+      },
+      "items": [
+        {
+          "id": "fanoos-03-01",
+          "title": {
+            "fa": "فرم مرخصی/ماموریت",
+            "en": "Leave/Mission Form"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «فرم مرخصی/ماموریت» در این بخش از نرم‌افزار.",
+            "en": "Access and use Leave/Mission Form in this section of the software."
+          }
+        },
+        {
+          "id": "fanoos-03-02",
+          "title": {
+            "fa": "پیگیری مرخصی/ماموریت",
+            "en": "Track Leave/Mission"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «پیگیری مرخصی/ماموریت» در این بخش از نرم‌افزار.",
+            "en": "Access and use Track Leave/Mission in this section of the software."
+          }
+        },
+        {
+          "id": "fanoos-03-03",
+          "title": {
+            "fa": "درخواست دورکاری/اضافه‌کاری",
+            "en": "Remote Work/Overtime Request"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «درخواست دورکاری/اضافه‌کاری» در این بخش از نرم‌افزار.",
+            "en": "Access and use Remote Work/Overtime Request in this section of the software."
+          }
+        },
+        {
+          "id": "fanoos-03-04",
+          "title": {
+            "fa": "پیگیری دورکاری/اضافه‌کاری",
+            "en": "Track Remote Work/Overtime"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «پیگیری دورکاری/اضافه‌کاری» در این بخش از نرم‌افزار.",
+            "en": "Access and use Track Remote Work/Overtime in this section of the software."
+          }
+        },
+        {
+          "id": "fanoos-03-05",
+          "title": {
+            "fa": "درخواست کالا",
+            "en": "Item Request"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «درخواست کالا» در این بخش از نرم‌افزار.",
+            "en": "Access and use Item Request in this section of the software."
+          }
+        },
+        {
+          "id": "fanoos-03-06",
+          "title": {
+            "fa": "پیگیری درخواست کالا",
+            "en": "Track Item Request"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «پیگیری درخواست کالا» در این بخش از نرم‌افزار.",
+            "en": "Access and use Track Item Request in this section of the software."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fanoos-04",
+      "icon": "scroll-text",
+      "title": {
+        "fa": "احکام",
+        "en": "Orders"
+      },
+      "items": [
+        {
+          "id": "fanoos-04-01",
+          "title": {
+            "fa": "گردش احکام",
+            "en": "Order Workflow"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «گردش احکام» در این بخش از نرم‌افزار.",
+            "en": "Access and use Order Workflow in this section of the software."
+          }
+        },
+        {
+          "id": "fanoos-04-02",
+          "title": {
+            "fa": "مشاهده احکام",
+            "en": "View Orders"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «مشاهده احکام» در این بخش از نرم‌افزار.",
+            "en": "Access and use View Orders in this section of the software."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fanoos-05",
+      "icon": "plane",
+      "title": {
+        "fa": "مرخصی/ماموریت",
+        "en": "Leave/Mission"
+      },
+      "items": [
+        {
+          "id": "fanoos-05-01",
+          "title": {
+            "fa": "فرمهای جاری",
+            "en": "Current Forms"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «فرمهای جاری» در این بخش از نرم‌افزار.",
+            "en": "Access and use Current Forms in this section of the software."
+          }
+        },
+        {
+          "id": "fanoos-05-02",
+          "title": {
+            "fa": "فرمهای مختومه",
+            "en": "Closed Forms"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «فرمهای مختومه» در این بخش از نرم‌افزار.",
+            "en": "Access and use Closed Forms in this section of the software."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fanoos-06",
+      "icon": "clock-3",
+      "title": {
+        "fa": "کارکردها",
+        "en": "Attendance"
+      },
+      "items": [
+        {
+          "id": "fanoos-06-01",
+          "title": {
+            "fa": "ثبت/تایید کارکردها",
+            "en": "Register/Approve Attendance"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «ثبت/تایید کارکردها» در این بخش از نرم‌افزار.",
+            "en": "Access and use Register/Approve Attendance in this section of the software."
+          }
+        },
+        {
+          "id": "fanoos-06-02",
+          "title": {
+            "fa": "مشاهده ترددها",
+            "en": "View Attendance Logs"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «مشاهده ترددها» در این بخش از نرم‌افزار.",
+            "en": "Access and use View Attendance Logs in this section of the software."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fanoos-07",
+      "icon": "package",
+      "title": {
+        "fa": "مدیریت کالا",
+        "en": "Asset & Goods Management"
+      },
+      "items": [
+        {
+          "id": "fanoos-07-01",
+          "title": {
+            "fa": "گزارشات اموال",
+            "en": "Asset Reports"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «گزارشات اموال» در این بخش از نرم‌افزار.",
+            "en": "Access and use Asset Reports in this section of the software."
+          }
+        },
+        {
+          "id": "fanoos-07-02",
+          "title": {
+            "fa": "تایید درخواست کالا",
+            "en": "Approve Item Requests"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «تایید درخواست کالا» در این بخش از نرم‌افزار.",
+            "en": "Access and use Approve Item Requests in this section of the software."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fanoos-08",
+      "icon": "messages-square",
+      "title": {
+        "fa": "پیام ها",
+        "en": "Messages"
+      },
+      "items": [
+        {
+          "id": "fanoos-08-01",
+          "title": {
+            "fa": "ایجاد پیام",
+            "en": "Create Message"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «ایجاد پیام» در این بخش از نرم‌افزار.",
+            "en": "Access and use Create Message in this section of the software."
+          }
+        },
+        {
+          "id": "fanoos-08-02",
+          "title": {
+            "fa": "پیام های دریافتی",
+            "en": "Inbox Messages"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «پیام های دریافتی» در این بخش از نرم‌افزار.",
+            "en": "Access and use Inbox Messages in this section of the software."
+          }
+        },
+        {
+          "id": "fanoos-08-03",
+          "title": {
+            "fa": "پیام های ارسالی",
+            "en": "Sent Messages"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «پیام های ارسالی» در این بخش از نرم‌افزار.",
+            "en": "Access and use Sent Messages in this section of the software."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fanoos-09",
+      "icon": "settings",
+      "title": {
+        "fa": "تنظیمات",
+        "en": "Settings"
+      },
+      "items": [
+        {
+          "id": "fanoos-09-01",
+          "title": {
+            "fa": "تغییر رمز عبور",
+            "en": "Change Password"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «تغییر رمز عبور» در این بخش از نرم‌افزار.",
+            "en": "Access and use Change Password in this section of the software."
+          }
+        },
+        {
+          "id": "fanoos-09-02",
+          "title": {
+            "fa": "تعریف مسئولین",
+            "en": "Define Supervisors"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «تعریف مسئولین» در این بخش از نرم‌افزار.",
+            "en": "Access and use Define Supervisors in this section of the software."
+          }
+        },
+        {
+          "id": "fanoos-09-03",
+          "title": {
+            "fa": "تعریف امضا",
+            "en": "Define Signature"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «تعریف امضا» در این بخش از نرم‌افزار.",
+            "en": "Access and use Define Signature in this section of the software."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fanoos-10",
+      "icon": "log-out",
+      "title": {
+        "fa": "خروج",
+        "en": "Exit"
+      },
+      "items": []
+    }
+  ],
+  "ui": {
+    "overview": {
+      "fa": "کاتالوگ امکانات نرم‌افزار فانوس",
+      "en": "Fanoos — Feature Catalog"
+    },
+    "intro": {
+      "en": "Browse main menus, discover available functions and read a short explanation of each.",
+      "de": "Wählen Sie ein Hauptmenü und lesen Sie die Beschreibungen.",
+      "fr": "Choisissez un menu pour découvrir ses fonctionnalités.",
+      "it": "Seleziona un menu per esplorare le funzioni.",
+      "es": "Seleccione un menú para conocer sus funciones.",
+      "ru": "Выберите раздел для просмотра функций.",
+      "pt": "Selecione um menu para conhecer os recursos.",
+      "tr": "İşlevleri görmek için bir menü seçin.",
+      "ar": "اختر قائمة لاستعراض الوظائف وشرحها.",
+      "fa": "برای مشاهده زیرمنوها و توضیحات، یک منو انتخاب کنید."
+    },
+    "search": {
+      "en": "Search menus and features...",
+      "de": "Menüs und Funktionen suchen...",
+      "fr": "Rechercher des menus et fonctions...",
+      "it": "Cerca menu e funzioni...",
+      "es": "Buscar menús y funciones...",
+      "ru": "Поиск меню и функций...",
+      "pt": "Buscar menus e recursos...",
+      "tr": "Menü ve özellik ara...",
+      "ar": "ابحث في القوائم والوظائف...",
+      "fa": "جست‌وجوی منوها و امکانات..."
+    },
+    "menu": {
+      "en": "Main menus",
+      "de": "Hauptmenüs",
+      "fr": "Menus principaux",
+      "it": "Menu principali",
+      "es": "Menús principales",
+      "ru": "Главные меню",
+      "pt": "Menus principais",
+      "tr": "Ana menüler",
+      "ar": "القوائم الرئيسية",
+      "fa": "منوهای اصلی"
+    },
+    "functions": {
+      "en": "Available functions",
+      "de": "Verfügbare Funktionen",
+      "fr": "Fonctions disponibles",
+      "it": "Funzioni disponibili",
+      "es": "Funciones disponibles",
+      "ru": "Доступные функции",
+      "pt": "Funções disponíveis",
+      "tr": "Mevcut işlevler",
+      "ar": "الوظائف المتاحة",
+      "fa": "زیرمنوهای موجود"
+    },
+    "preview": {
+      "en": "Feature overview",
+      "de": "Funktionsübersicht",
+      "fr": "Aperçu de la fonction",
+      "it": "Panoramica della funzione",
+      "es": "Descripción de la función",
+      "ru": "Обзор функции",
+      "pt": "Visão geral da função",
+      "tr": "Özellik açıklaması",
+      "ar": "نبذة عن الوظيفة",
+      "fa": "توضیح کاربرد"
+    },
+    "noitems": {
+      "en": "Submenus for this section are not visible in the supplied screenshots.",
+      "de": "Untermenüs dieses Bereichs sind in den Bildern nicht erkennbar.",
+      "fr": "Les sous-menus de cette section ne sont pas visibles sur les captures.",
+      "it": "I sottomenu di questa sezione non sono visibili nelle immagini.",
+      "es": "Los submenús de esta sección no aparecen en las capturas.",
+      "ru": "Подменю этого раздела не видны на скриншотах.",
+      "pt": "Os submenus desta seção não aparecem nas capturas.",
+      "tr": "Bu bölümün alt menüleri sağlanan görsellerde görünmüyor.",
+      "ar": "القوائم الفرعية لهذا القسم غير ظاهرة في الصور المرفقة.",
+      "fa": "زیرمنوهای این بخش در تصاویر ارسالی قابل مشاهده نیستند."
+    },
+    "noresults": {
+      "en": "No matching features found.",
+      "de": "Keine passenden Funktionen gefunden.",
+      "fr": "Aucune fonction correspondante.",
+      "it": "Nessuna funzione trovata.",
+      "es": "No se encontraron funciones.",
+      "ru": "Совпадений не найдено.",
+      "pt": "Nenhuma função encontrada.",
+      "tr": "Eşleşen özellik bulunamadı.",
+      "ar": "لا توجد نتائج مطابقة.",
+      "fa": "موردی پیدا نشد."
+    },
+    "items": {
+      "en": "features",
+      "de": "Funktionen",
+      "fr": "fonctions",
+      "it": "funzioni",
+      "es": "funciones",
+      "ru": "функций",
+      "pt": "funções",
+      "tr": "özellik",
+      "ar": "وظيفة",
+      "fa": "گزینه"
+    },
+    "language": {
+      "en": "Language",
+      "de": "Sprache",
+      "fr": "Langue",
+      "it": "Lingua",
+      "es": "Idioma",
+      "ru": "Язык",
+      "pt": "Idioma",
+      "tr": "Dil",
+      "ar": "اللغة",
+      "fa": "زبان"
+    },
+    "note": {
+      "fa": "منوهای فانوس از روی تصویر ارسالی استخراج شده‌اند و ممکن است برخی عناوین ریز نیازمند بازبینی باشند.",
+      "en": "Fanoos menus were extracted from the supplied screenshot and some small labels may require review."
+    },
+    "count": {
+      "en": "Menu catalog",
+      "de": "Menükatalog",
+      "fr": "Catalogue des menus",
+      "it": "Catalogo dei menu",
+      "es": "Catálogo de menús",
+      "ru": "Каталог меню",
+      "pt": "Catálogo de menus",
+      "tr": "Menü kataloğu",
+      "ar": "دليل القوائم",
+      "fa": "کاتالوگ منوها"
+    }
+  }
+}

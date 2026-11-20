@@ -1,0 +1,553 @@
+{
+  "schemaVersion": 1,
+  "software": {
+    "id": "office",
+    "vendor": "Matris Negar Data Co.",
+    "name": {
+      "fa": "مکاتبات",
+      "en": "Correspondence"
+    }
+  },
+  "languages": [
+    "en",
+    "de",
+    "fr",
+    "it",
+    "es",
+    "ru",
+    "pt",
+    "tr",
+    "ar",
+    "fa"
+  ],
+  "menus": [
+    {
+      "id": "office-01",
+      "icon": "file-text",
+      "title": {
+        "fa": "پیش نویس ها",
+        "en": "Drafts"
+      },
+      "items": []
+    },
+    {
+      "id": "office-02",
+      "icon": "printer",
+      "title": {
+        "fa": "پرینت ها",
+        "en": "Prints"
+      },
+      "items": []
+    },
+    {
+      "id": "office-03",
+      "icon": "search",
+      "title": {
+        "fa": "جستجوی نامه",
+        "en": "Letter Search"
+      },
+      "items": []
+    },
+    {
+      "id": "office-04",
+      "icon": "file-plus",
+      "title": {
+        "fa": "ایجاد نامه جدید",
+        "en": "Create New Letter"
+      },
+      "items": [
+        {
+          "id": "office-04-01",
+          "title": {
+            "fa": "نامه داخلی",
+            "en": "Internal Letter"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «نامه داخلی» در این بخش از نرم‌افزار.",
+            "en": "Access and use Internal Letter in this section of the software."
+          }
+        },
+        {
+          "id": "office-04-02",
+          "title": {
+            "fa": "نامه صادره",
+            "en": "Outgoing Letter"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «نامه صادره» در این بخش از نرم‌افزار.",
+            "en": "Access and use Outgoing Letter in this section of the software."
+          }
+        },
+        {
+          "id": "office-04-03",
+          "title": {
+            "fa": "نامه وارده",
+            "en": "Incoming Letter"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «نامه وارده» در این بخش از نرم‌افزار.",
+            "en": "Access and use Incoming Letter in this section of the software."
+          }
+        },
+        {
+          "id": "office-04-04",
+          "title": {
+            "fa": "ثبت نامه",
+            "en": "Register Letter"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «ثبت نامه» در این بخش از نرم‌افزار.",
+            "en": "Access and use Register Letter in this section of the software."
+          }
+        }
+      ]
+    },
+    {
+      "id": "office-05",
+      "icon": "at-sign",
+      "title": {
+        "fa": "ایمیل",
+        "en": "Email"
+      },
+      "items": []
+    },
+    {
+      "id": "office-06",
+      "icon": "inbox",
+      "title": {
+        "fa": "کارتابل نامه ها",
+        "en": "Letter Inbox"
+      },
+      "items": [
+        {
+          "id": "office-06-01",
+          "title": {
+            "fa": "دریافتی/ارسالی",
+            "en": "Received/Sent"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «دریافتی/ارسالی» در این بخش از نرم‌افزار.",
+            "en": "Access and use Received/Sent in this section of the software."
+          }
+        },
+        {
+          "id": "office-06-02",
+          "title": {
+            "fa": "پیگیری ها",
+            "en": "Follow-ups"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «پیگیری ها» در این بخش از نرم‌افزار.",
+            "en": "Access and use Follow-ups in this section of the software."
+          }
+        },
+        {
+          "id": "office-06-03",
+          "title": {
+            "fa": "سررسید ها",
+            "en": "Due Items"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «سررسید ها» در این بخش از نرم‌افزار.",
+            "en": "Access and use Due Items in this section of the software."
+          }
+        },
+        {
+          "id": "office-06-04",
+          "title": {
+            "fa": "بسته شده",
+            "en": "Closed"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «بسته شده» در این بخش از نرم‌افزار.",
+            "en": "Access and use Closed in this section of the software."
+          }
+        },
+        {
+          "id": "office-06-05",
+          "title": {
+            "fa": "همه نامه ها",
+            "en": "All Letters"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «همه نامه ها» در این بخش از نرم‌افزار.",
+            "en": "Access and use All Letters in this section of the software."
+          }
+        }
+      ]
+    },
+    {
+      "id": "office-07",
+      "icon": "folder-open",
+      "title": {
+        "fa": "پوشه ها",
+        "en": "Folders"
+      },
+      "items": []
+    },
+    {
+      "id": "office-08",
+      "icon": "clipboard-list",
+      "title": {
+        "fa": "کارتابل احکام",
+        "en": "Orders Inbox"
+      },
+      "items": []
+    },
+    {
+      "id": "office-09",
+      "icon": "file-stack",
+      "title": {
+        "fa": "کارتابل فرمها",
+        "en": "Forms Inbox"
+      },
+      "items": [
+        {
+          "id": "office-09-01",
+          "title": {
+            "fa": "فرمهای جاری",
+            "en": "Current Forms"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «فرمهای جاری» در این بخش از نرم‌افزار.",
+            "en": "Access and use Current Forms in this section of the software."
+          }
+        },
+        {
+          "id": "office-09-02",
+          "title": {
+            "fa": "فرمهای مختومه",
+            "en": "Closed Forms"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «فرمهای مختومه» در این بخش از نرم‌افزار.",
+            "en": "Access and use Closed Forms in this section of the software."
+          }
+        },
+        {
+          "id": "office-09-03",
+          "title": {
+            "fa": "ایجاد فرم",
+            "en": "Create Form"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «ایجاد فرم» در این بخش از نرم‌افزار.",
+            "en": "Access and use Create Form in this section of the software."
+          }
+        },
+        {
+          "id": "office-09-04",
+          "title": {
+            "fa": "فرمهای من",
+            "en": "My Forms"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «فرمهای من» در این بخش از نرم‌افزار.",
+            "en": "Access and use My Forms in this section of the software."
+          }
+        }
+      ]
+    },
+    {
+      "id": "office-10",
+      "icon": "messages-square",
+      "title": {
+        "fa": "پیام ها",
+        "en": "Messages"
+      },
+      "items": [
+        {
+          "id": "office-10-01",
+          "title": {
+            "fa": "ایجاد پیام",
+            "en": "Create Message"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «ایجاد پیام» در این بخش از نرم‌افزار.",
+            "en": "Access and use Create Message in this section of the software."
+          }
+        },
+        {
+          "id": "office-10-02",
+          "title": {
+            "fa": "پیام های دریافتی",
+            "en": "Inbox Messages"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «پیام های دریافتی» در این بخش از نرم‌افزار.",
+            "en": "Access and use Inbox Messages in this section of the software."
+          }
+        },
+        {
+          "id": "office-10-03",
+          "title": {
+            "fa": "پیام های ارسالی",
+            "en": "Sent Messages"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «پیام های ارسالی» در این بخش از نرم‌افزار.",
+            "en": "Access and use Sent Messages in this section of the software."
+          }
+        }
+      ]
+    },
+    {
+      "id": "office-11",
+      "icon": "users",
+      "title": {
+        "fa": "گزارشات پرسنلی",
+        "en": "Personnel Reports"
+      },
+      "items": [
+        {
+          "id": "office-11-01",
+          "title": {
+            "fa": "کارکردهای جاری",
+            "en": "Current Attendance"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «کارکردهای جاری» در این بخش از نرم‌افزار.",
+            "en": "Access and use Current Attendance in this section of the software."
+          }
+        },
+        {
+          "id": "office-11-02",
+          "title": {
+            "fa": "آخرین مشتری",
+            "en": "Latest Customer"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «آخرین مشتری» در این بخش از نرم‌افزار.",
+            "en": "Access and use Latest Customer in this section of the software."
+          }
+        },
+        {
+          "id": "office-11-03",
+          "title": {
+            "fa": "گزارش روزانه",
+            "en": "Daily Report"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «گزارش روزانه» در این بخش از نرم‌افزار.",
+            "en": "Access and use Daily Report in this section of the software."
+          }
+        }
+      ]
+    },
+    {
+      "id": "office-12",
+      "icon": "settings",
+      "title": {
+        "fa": "تعاریف و تنظیمات",
+        "en": "Definitions & Settings"
+      },
+      "items": [
+        {
+          "id": "office-12-01",
+          "title": {
+            "fa": "تغییر رمز عبور",
+            "en": "Change Password"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «تغییر رمز عبور» در این بخش از نرم‌افزار.",
+            "en": "Access and use Change Password in this section of the software."
+          }
+        },
+        {
+          "id": "office-12-02",
+          "title": {
+            "fa": "الگوی نامه",
+            "en": "Letter Template"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «الگوی نامه» در این بخش از نرم‌افزار.",
+            "en": "Access and use Letter Template in this section of the software."
+          }
+        },
+        {
+          "id": "office-12-03",
+          "title": {
+            "fa": "تعریف مسئولین",
+            "en": "Define Supervisors"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «تعریف مسئولین» در این بخش از نرم‌افزار.",
+            "en": "Access and use Define Supervisors in this section of the software."
+          }
+        },
+        {
+          "id": "office-12-04",
+          "title": {
+            "fa": "اشخاص و شرکتها",
+            "en": "People and Companies"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «اشخاص و شرکتها» در این بخش از نرم‌افزار.",
+            "en": "Access and use People and Companies in this section of the software."
+          }
+        },
+        {
+          "id": "office-12-05",
+          "title": {
+            "fa": "رزرو شماره نامه",
+            "en": "Reserve Letter Number"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «رزرو شماره نامه» در این بخش از نرم‌افزار.",
+            "en": "Access and use Reserve Letter Number in this section of the software."
+          }
+        },
+        {
+          "id": "office-12-06",
+          "title": {
+            "fa": "تعریف عنوان امضا",
+            "en": "Define Signature Title"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا استفاده از «تعریف عنوان امضا» در این بخش از نرم‌افزار.",
+            "en": "Access and use Define Signature Title in this section of the software."
+          }
+        }
+      ]
+    },
+    {
+      "id": "office-13",
+      "icon": "log-out",
+      "title": {
+        "fa": "خروج",
+        "en": "Exit"
+      },
+      "items": []
+    }
+  ],
+  "ui": {
+    "overview": {
+      "fa": "کاتالوگ امکانات نرم‌افزار مکاتبات",
+      "en": "Correspondence — Feature Catalog"
+    },
+    "intro": {
+      "en": "Browse main menus, discover available functions and read a short explanation of each.",
+      "de": "Wählen Sie ein Hauptmenü und lesen Sie die Beschreibungen.",
+      "fr": "Choisissez un menu pour découvrir ses fonctionnalités.",
+      "it": "Seleziona un menu per esplorare le funzioni.",
+      "es": "Seleccione un menú para conocer sus funciones.",
+      "ru": "Выберите раздел для просмотра функций.",
+      "pt": "Selecione um menu para conhecer os recursos.",
+      "tr": "İşlevleri görmek için bir menü seçin.",
+      "ar": "اختر قائمة لاستعراض الوظائف وشرحها.",
+      "fa": "برای مشاهده زیرمنوها و توضیحات، یک منو انتخاب کنید."
+    },
+    "search": {
+      "en": "Search menus and features...",
+      "de": "Menüs und Funktionen suchen...",
+      "fr": "Rechercher des menus et fonctions...",
+      "it": "Cerca menu e funzioni...",
+      "es": "Buscar menús y funciones...",
+      "ru": "Поиск меню и функций...",
+      "pt": "Buscar menus e recursos...",
+      "tr": "Menü ve özellik ara...",
+      "ar": "ابحث في القوائم والوظائف...",
+      "fa": "جست‌وجوی منوها و امکانات..."
+    },
+    "menu": {
+      "en": "Main menus",
+      "de": "Hauptmenüs",
+      "fr": "Menus principaux",
+      "it": "Menu principali",
+      "es": "Menús principales",
+      "ru": "Главные меню",
+      "pt": "Menus principais",
+      "tr": "Ana menüler",
+      "ar": "القوائم الرئيسية",
+      "fa": "منوهای اصلی"
+    },
+    "functions": {
+      "en": "Available functions",
+      "de": "Verfügbare Funktionen",
+      "fr": "Fonctions disponibles",
+      "it": "Funzioni disponibili",
+      "es": "Funciones disponibles",
+      "ru": "Доступные функции",
+      "pt": "Funções disponíveis",
+      "tr": "Mevcut işlevler",
+      "ar": "الوظائف المتاحة",
+      "fa": "زیرمنوهای موجود"
+    },
+    "preview": {
+      "en": "Feature overview",
+      "de": "Funktionsübersicht",
+      "fr": "Aperçu de la fonction",
+      "it": "Panoramica della funzione",
+      "es": "Descripción de la función",
+      "ru": "Обзор функции",
+      "pt": "Visão geral da função",
+      "tr": "Özellik açıklaması",
+      "ar": "نبذة عن الوظيفة",
+      "fa": "توضیح کاربرد"
+    },
+    "noitems": {
+      "en": "Submenus for this section are not visible in the supplied screenshots.",
+      "de": "Untermenüs dieses Bereichs sind in den Bildern nicht erkennbar.",
+      "fr": "Les sous-menus de cette section ne sont pas visibles sur les captures.",
+      "it": "I sottomenu di questa sezione non sono visibili nelle immagini.",
+      "es": "Los submenús de esta sección no aparecen en las capturas.",
+      "ru": "Подменю этого раздела не видны на скриншотах.",
+      "pt": "Os submenus desta seção não aparecem nas capturas.",
+      "tr": "Bu bölümün alt menüleri sağlanan görsellerde görünmüyor.",
+      "ar": "القوائم الفرعية لهذا القسم غير ظاهرة في الصور المرفقة.",
+      "fa": "زیرمنوهای این بخش در تصاویر ارسالی قابل مشاهده نیستند."
+    },
+    "noresults": {
+      "en": "No matching features found.",
+      "de": "Keine passenden Funktionen gefunden.",
+      "fr": "Aucune fonction correspondante.",
+      "it": "Nessuna funzione trovata.",
+      "es": "No se encontraron funciones.",
+      "ru": "Совпадений не найдено.",
+      "pt": "Nenhuma função encontrada.",
+      "tr": "Eşleşen özellik bulunamadı.",
+      "ar": "لا توجد نتائج مطابقة.",
+      "fa": "موردی پیدا نشد."
+    },
+    "items": {
+      "en": "features",
+      "de": "Funktionen",
+      "fr": "fonctions",
+      "it": "funzioni",
+      "es": "funciones",
+      "ru": "функций",
+      "pt": "funções",
+      "tr": "özellik",
+      "ar": "وظيفة",
+      "fa": "گزینه"
+    },
+    "language": {
+      "en": "Language",
+      "de": "Sprache",
+      "fr": "Langue",
+      "it": "Lingua",
+      "es": "Idioma",
+      "ru": "Язык",
+      "pt": "Idioma",
+      "tr": "Dil",
+      "ar": "اللغة",
+      "fa": "زبان"
+    },
+    "note": {
+      "fa": "منوهای نرم‌افزار مکاتبات از روی تصویر ارسالی استخراج شده‌اند و ممکن است برخی عناوین نیازمند بازبینی باشند.",
+      "en": "Correspondence software menus were extracted from the supplied screenshot and some labels may require review."
+    },
+    "count": {
+      "en": "Menu catalog",
+      "de": "Menükatalog",
+      "fr": "Catalogue des menus",
+      "it": "Catalogo dei menu",
+      "es": "Catálogo de menús",
+      "ru": "Каталог меню",
+      "pt": "Catálogo de menus",
+      "tr": "Menü kataloğu",
+      "ar": "دليل القوائم",
+      "fa": "کاتالوگ منوها"
+    }
+  }
+}

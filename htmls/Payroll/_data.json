@@ -1,0 +1,1103 @@
+{
+  "schemaVersion": 1,
+  "software": {
+    "id": "payroll",
+    "vendor": "Matris Negar Data Co.",
+    "name": {
+      "fa": "سیستم حقوق و دستمزد",
+      "en": "Payroll and Compensation"
+    }
+  },
+  "languages": [
+    "en",
+    "de",
+    "fr",
+    "it",
+    "es",
+    "ru",
+    "pt",
+    "tr",
+    "ar",
+    "fa"
+  ],
+  "menus": [
+    {
+      "id": "payroll-01",
+      "icon": "clipboard-list",
+      "title": {
+        "fa": "فرم های ورود اطلاعات",
+        "en": "Data Entry Forms"
+      },
+      "items": [
+        {
+          "id": "payroll-01-01",
+          "title": {
+            "fa": "مشخصات پرسنل",
+            "en": "Personnel Details"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «مشخصات پرسنل» در این بخش از نرم‌افزار.",
+            "en": "Access and manage personnel details in this module."
+          }
+        },
+        {
+          "id": "payroll-01-02",
+          "title": {
+            "fa": "دانش احکام",
+            "en": "Employment Decree Data"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «دانش احکام» در این بخش از نرم‌افزار.",
+            "en": "Access and manage employment decree data in this module."
+          }
+        },
+        {
+          "id": "payroll-01-03",
+          "title": {
+            "fa": "اطلاعات کارکردها",
+            "en": "Work Record Data"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «اطلاعات کارکردها» در این بخش از نرم‌افزار.",
+            "en": "Access and manage work record data in this module."
+          }
+        },
+        {
+          "id": "payroll-01-04",
+          "title": {
+            "fa": "اطلاعات حقوقی",
+            "en": "Payroll Data"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «اطلاعات حقوقی» در این بخش از نرم‌افزار.",
+            "en": "Access and manage payroll data in this module."
+          }
+        },
+        {
+          "id": "payroll-01-05",
+          "title": {
+            "fa": "اطلاعات وام ها",
+            "en": "Loan Data"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «اطلاعات وام ها» در این بخش از نرم‌افزار.",
+            "en": "Access and manage loan data in this module."
+          }
+        },
+        {
+          "id": "payroll-01-06",
+          "title": {
+            "fa": "اطلاعات بیمه اندوخته",
+            "en": "Insurance and Savings Data"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «اطلاعات بیمه اندوخته» در این بخش از نرم‌افزار.",
+            "en": "Access and manage insurance and savings data in this module."
+          }
+        },
+        {
+          "id": "payroll-01-07",
+          "title": {
+            "fa": "مزايا و کسورات",
+            "en": "Benefits and Deductions"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «مزايا و کسورات» در این بخش از نرم‌افزار.",
+            "en": "Access and manage benefits and deductions in this module."
+          }
+        },
+        {
+          "id": "payroll-01-08",
+          "title": {
+            "fa": "اطلاعات مدیریت ها",
+            "en": "Management Data"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «اطلاعات مدیریت ها» در این بخش از نرم‌افزار.",
+            "en": "Access and manage management data in this module."
+          }
+        },
+        {
+          "id": "payroll-01-09",
+          "title": {
+            "fa": "مرخصی پرسنل",
+            "en": "Personnel Leave"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «مرخصی پرسنل» در این بخش از نرم‌افزار.",
+            "en": "Access and manage personnel leave in this module."
+          }
+        }
+      ]
+    },
+    {
+      "id": "payroll-02",
+      "icon": "settings",
+      "title": {
+        "fa": "عملیات حقوق و دستمزد",
+        "en": "Payroll Operations"
+      },
+      "items": [
+        {
+          "id": "payroll-02-01",
+          "title": {
+            "fa": "محاسبات حقوق و دستمزد",
+            "en": "Payroll Calculations"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «محاسبات حقوق و دستمزد» در این بخش از نرم‌افزار.",
+            "en": "Access and manage payroll calculations in this module."
+          }
+        },
+        {
+          "id": "payroll-02-02",
+          "title": {
+            "fa": "محاسبه معوقه",
+            "en": "Arrears Calculation"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «محاسبه معوقه» در این بخش از نرم‌افزار.",
+            "en": "Access and manage arrears calculation in this module."
+          }
+        },
+        {
+          "id": "payroll-02-03",
+          "title": {
+            "fa": "محاسبه دیون",
+            "en": "Debt Calculation"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «محاسبه دیون» در این بخش از نرم‌افزار.",
+            "en": "Access and manage debt calculation in this module."
+          }
+        },
+        {
+          "id": "payroll-02-04",
+          "title": {
+            "fa": "سایر پرداختی ها",
+            "en": "Other Payments"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «سایر پرداختی ها» در این بخش از نرم‌افزار.",
+            "en": "Access and manage other payments in this module."
+          }
+        },
+        {
+          "id": "payroll-02-05",
+          "title": {
+            "fa": "دریافت و صدور اطلاعات",
+            "en": "Import and Export Data"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «دریافت و صدور اطلاعات» در این بخش از نرم‌افزار.",
+            "en": "Access and manage import and export data in this module."
+          }
+        },
+        {
+          "id": "payroll-02-06",
+          "title": {
+            "fa": "بستن فایل حقوقی",
+            "en": "Close Payroll File"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «بستن فایل حقوقی» در این بخش از نرم‌افزار.",
+            "en": "Access and manage close payroll file in this module."
+          }
+        }
+      ]
+    },
+    {
+      "id": "payroll-03",
+      "icon": "file-text",
+      "title": {
+        "fa": "گزارشات حقوق",
+        "en": "Payroll Reports"
+      },
+      "items": [
+        {
+          "id": "payroll-03-01",
+          "title": {
+            "fa": "فیش جامع حقوق",
+            "en": "Comprehensive Payslip"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «فیش جامع حقوق» در این بخش از نرم‌افزار.",
+            "en": "Access and manage comprehensive payslip in this module."
+          }
+        },
+        {
+          "id": "payroll-03-02",
+          "title": {
+            "fa": "ریز فیش جامع حقوق و مزایا",
+            "en": "Detailed Payslip"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «ریز فیش جامع حقوق و مزایا» در این بخش از نرم‌افزار.",
+            "en": "Access and manage detailed payslip in this module."
+          }
+        },
+        {
+          "id": "payroll-03-03",
+          "title": {
+            "fa": "لیست جامع حقوق و مزایا",
+            "en": "Comprehensive Payroll List"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «لیست جامع حقوق و مزایا» در این بخش از نرم‌افزار.",
+            "en": "Access and manage comprehensive payroll list in this module."
+          }
+        },
+        {
+          "id": "payroll-03-04",
+          "title": {
+            "fa": "لیست سنواتی دیون حقوقی",
+            "en": "Historical Salary Debts List"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «لیست سنواتی دیون حقوقی» در این بخش از نرم‌افزار.",
+            "en": "Access and manage historical salary debts list in this module."
+          }
+        },
+        {
+          "id": "payroll-03-05",
+          "title": {
+            "fa": "لیست مقایسه حقوق و مزایا",
+            "en": "Payroll Comparison List"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «لیست مقایسه حقوق و مزایا» در این بخش از نرم‌افزار.",
+            "en": "Access and manage payroll comparison list in this module."
+          }
+        },
+        {
+          "id": "payroll-03-06",
+          "title": {
+            "fa": "رسی هزینه",
+            "en": "Expense Review"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «رسی هزینه» در این بخش از نرم‌افزار.",
+            "en": "Access and manage expense review in this module."
+          }
+        },
+        {
+          "id": "payroll-03-07",
+          "title": {
+            "fa": "سایر هزینه",
+            "en": "Other Expenses"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «سایر هزینه» در این بخش از نرم‌افزار.",
+            "en": "Access and manage other expenses in this module."
+          }
+        },
+        {
+          "id": "payroll-03-08",
+          "title": {
+            "fa": "پیمانی هزینه",
+            "en": "Contractual Expenses"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «پیمانی هزینه» در این بخش از نرم‌افزار.",
+            "en": "Access and manage contractual expenses in this module."
+          }
+        },
+        {
+          "id": "payroll-03-09",
+          "title": {
+            "fa": "درخواست وجه هزینه",
+            "en": "Expense Fund Request"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «درخواست وجه هزینه» در این بخش از نرم‌افزار.",
+            "en": "Access and manage expense fund request in this module."
+          }
+        },
+        {
+          "id": "payroll-03-10",
+          "title": {
+            "fa": "لیست بانک ملی",
+            "en": "Bank Melli List"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «لیست بانک ملی» در این بخش از نرم‌افزار.",
+            "en": "Access and manage bank melli list in this module."
+          }
+        }
+      ]
+    },
+    {
+      "id": "payroll-04",
+      "icon": "chart",
+      "title": {
+        "fa": "گزارشات ضمیمه حقوق",
+        "en": "Supplementary Payroll Reports"
+      },
+      "items": [
+        {
+          "id": "payroll-04-01",
+          "title": {
+            "fa": "کسور بازنشستگی",
+            "en": "Pension Deductions"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «کسور بازنشستگی» در این بخش از نرم‌افزار.",
+            "en": "Access and manage pension deductions in this module."
+          }
+        },
+        {
+          "id": "payroll-04-02",
+          "title": {
+            "fa": "خدمات درمانی بازنشستگان",
+            "en": "Retiree Healthcare Services"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «خدمات درمانی بازنشستگان» در این بخش از نرم‌افزار.",
+            "en": "Access and manage retiree healthcare services in this module."
+          }
+        },
+        {
+          "id": "payroll-04-03",
+          "title": {
+            "fa": "بیمه تامین اجتماعی",
+            "en": "Social Security Insurance"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «بیمه تامین اجتماعی» در این بخش از نرم‌افزار.",
+            "en": "Access and manage social security insurance in this module."
+          }
+        },
+        {
+          "id": "payroll-04-04",
+          "title": {
+            "fa": "خدمات درمانی کارکنان",
+            "en": "Employee Healthcare Services"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «خدمات درمانی کارکنان» در این بخش از نرم‌افزار.",
+            "en": "Access and manage employee healthcare services in this module."
+          }
+        },
+        {
+          "id": "payroll-04-05",
+          "title": {
+            "fa": "لیست مالیات",
+            "en": "Tax List"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «لیست مالیات» در این بخش از نرم‌افزار.",
+            "en": "Access and manage tax list in this module."
+          }
+        },
+        {
+          "id": "payroll-04-06",
+          "title": {
+            "fa": "لیست وام",
+            "en": "Loan List"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «لیست وام» در این بخش از نرم‌افزار.",
+            "en": "Access and manage loan list in this module."
+          }
+        },
+        {
+          "id": "payroll-04-07",
+          "title": {
+            "fa": "لیست کسور بیمه",
+            "en": "Insurance Deductions List"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «لیست کسور بیمه» در این بخش از نرم‌افزار.",
+            "en": "Access and manage insurance deductions list in this module."
+          }
+        },
+        {
+          "id": "payroll-04-08",
+          "title": {
+            "fa": "لیست مراتب",
+            "en": "Rank List"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «لیست مراتب» در این بخش از نرم‌افزار.",
+            "en": "Access and manage rank list in this module."
+          }
+        },
+        {
+          "id": "payroll-04-09",
+          "title": {
+            "fa": "بیمه درمان گروهی",
+            "en": "Group Health Insurance"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «بیمه درمان گروهی» در این بخش از نرم‌افزار.",
+            "en": "Access and manage group health insurance in this module."
+          }
+        },
+        {
+          "id": "payroll-04-10",
+          "title": {
+            "fa": "لیست اضافه کاری",
+            "en": "Overtime List"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «لیست اضافه کاری» در این بخش از نرم‌افزار.",
+            "en": "Access and manage overtime list in this module."
+          }
+        },
+        {
+          "id": "payroll-04-11",
+          "title": {
+            "fa": "لیست بین کارمندان",
+            "en": "Employee Comparison List"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «لیست بین کارمندان» در این بخش از نرم‌افزار.",
+            "en": "Access and manage employee comparison list in this module."
+          }
+        },
+        {
+          "id": "payroll-04-12",
+          "title": {
+            "fa": "لیست بین اقلام ها",
+            "en": "Item Comparison List"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «لیست بین اقلام ها» در این بخش از نرم‌افزار.",
+            "en": "Access and manage item comparison list in this module."
+          }
+        },
+        {
+          "id": "payroll-04-13",
+          "title": {
+            "fa": "بیمه تکمیلی عمر",
+            "en": "Supplementary Life Insurance"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «بیمه تکمیلی عمر» در این بخش از نرم‌افزار.",
+            "en": "Access and manage supplementary life insurance in this module."
+          }
+        },
+        {
+          "id": "payroll-04-14",
+          "title": {
+            "fa": "لیست بیمه عمر",
+            "en": "Life Insurance List"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «لیست بیمه عمر» در این بخش از نرم‌افزار.",
+            "en": "Access and manage life insurance list in this module."
+          }
+        },
+        {
+          "id": "payroll-04-15",
+          "title": {
+            "fa": "لیست مأموریت ها",
+            "en": "Assignments List"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «لیست مأموریت ها» در این بخش از نرم‌افزار.",
+            "en": "Access and manage assignments list in this module."
+          }
+        },
+        {
+          "id": "payroll-04-16",
+          "title": {
+            "fa": "لیست مرخصی",
+            "en": "Leave List"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «لیست مرخصی» در این بخش از نرم‌افزار.",
+            "en": "Access and manage leave list in this module."
+          }
+        }
+      ]
+    },
+    {
+      "id": "payroll-05",
+      "icon": "clipboard-list",
+      "title": {
+        "fa": "فرم های عملیاتی",
+        "en": "Operational Forms"
+      },
+      "items": [
+        {
+          "id": "payroll-05-01",
+          "title": {
+            "fa": "سند حقوقی",
+            "en": "Payroll Voucher"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «سند حقوقی» در این بخش از نرم‌افزار.",
+            "en": "Access and manage payroll voucher in this module."
+          }
+        },
+        {
+          "id": "payroll-05-02",
+          "title": {
+            "fa": "فایل مالیات",
+            "en": "Tax File"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «فایل مالیات» در این بخش از نرم‌افزار.",
+            "en": "Access and manage tax file in this module."
+          }
+        },
+        {
+          "id": "payroll-05-03",
+          "title": {
+            "fa": "ایمیل فیش حقوقی",
+            "en": "Email Payslips"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «ایمیل فیش حقوقی» در این بخش از نرم‌افزار.",
+            "en": "Access and manage email payslips in this module."
+          }
+        },
+        {
+          "id": "payroll-05-04",
+          "title": {
+            "fa": "مدیریت ارسال پیامک",
+            "en": "SMS Sending Management"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «مدیریت ارسال پیامک» در این بخش از نرم‌افزار.",
+            "en": "Access and manage sms sending management in this module."
+          }
+        },
+        {
+          "id": "payroll-05-05",
+          "title": {
+            "fa": "لیست انجام کار معین",
+            "en": "Work List"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «لیست انجام کار معین» در این بخش از نرم‌افزار.",
+            "en": "Access and manage work list in this module."
+          }
+        },
+        {
+          "id": "payroll-05-06",
+          "title": {
+            "fa": "اولاد و عائله بازنشستگان",
+            "en": "Retiree Dependents"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «اولاد و عائله بازنشستگان» در این بخش از نرم‌افزار.",
+            "en": "Access and manage retiree dependents in this module."
+          }
+        },
+        {
+          "id": "payroll-05-07",
+          "title": {
+            "fa": "تعدیل مالیاتی",
+            "en": "Tax Adjustment"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «تعدیل مالیاتی» در این بخش از نرم‌افزار.",
+            "en": "Access and manage tax adjustment in this module."
+          }
+        },
+        {
+          "id": "payroll-05-08",
+          "title": {
+            "fa": "عملکرد حقوق پرسنل",
+            "en": "Personnel Payroll Performance"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «عملکرد حقوق پرسنل» در این بخش از نرم‌افزار.",
+            "en": "Access and manage personnel payroll performance in this module."
+          }
+        },
+        {
+          "id": "payroll-05-09",
+          "title": {
+            "fa": "نظام سامانه های دولت",
+            "en": "Government Systems"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «نظام سامانه های دولت» در این بخش از نرم‌افزار.",
+            "en": "Access and manage government systems in this module."
+          }
+        },
+        {
+          "id": "payroll-05-10",
+          "title": {
+            "fa": "گزارشات پویا",
+            "en": "Dynamic Reports"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «گزارشات پویا» در این بخش از نرم‌افزار.",
+            "en": "Access and manage dynamic reports in this module."
+          }
+        }
+      ]
+    },
+    {
+      "id": "payroll-06",
+      "icon": "layers",
+      "title": {
+        "fa": "فایل ها و قالب ها",
+        "en": "Files and Templates"
+      },
+      "items": [
+        {
+          "id": "payroll-06-01",
+          "title": {
+            "fa": "دیسکت بانک ملی",
+            "en": "Bank Melli Export File"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «دیسکت بانک ملی» در این بخش از نرم‌افزار.",
+            "en": "Access and manage bank melli export file in this module."
+          }
+        },
+        {
+          "id": "payroll-06-02",
+          "title": {
+            "fa": "قالب اداره کل خزانه",
+            "en": "Treasury Department Template"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «قالب اداره کل خزانه» در این بخش از نرم‌افزار.",
+            "en": "Access and manage treasury department template in this module."
+          }
+        },
+        {
+          "id": "payroll-06-03",
+          "title": {
+            "fa": "قالب تامین اجتماعی",
+            "en": "Social Security Template"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «قالب تامین اجتماعی» در این بخش از نرم‌افزار.",
+            "en": "Access and manage social security template in this module."
+          }
+        },
+        {
+          "id": "payroll-06-04",
+          "title": {
+            "fa": "قالب خدمات درمانی",
+            "en": "Healthcare Services Template"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «قالب خدمات درمانی» در این بخش از نرم‌افزار.",
+            "en": "Access and manage healthcare services template in this module."
+          }
+        },
+        {
+          "id": "payroll-06-05",
+          "title": {
+            "fa": "قالب حقوق بازنشستگی",
+            "en": "Pension Payroll Template"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «قالب حقوق بازنشستگی» در این بخش از نرم‌افزار.",
+            "en": "Access and manage pension payroll template in this module."
+          }
+        },
+        {
+          "id": "payroll-06-06",
+          "title": {
+            "fa": "قالب کشور بازنشستگی",
+            "en": "National Pension Template"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «قالب کشور بازنشستگی» در این بخش از نرم‌افزار.",
+            "en": "Access and manage national pension template in this module."
+          }
+        },
+        {
+          "id": "payroll-06-07",
+          "title": {
+            "fa": "قالب درمانی بازنشستگی",
+            "en": "Retiree Healthcare Template"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «قالب درمانی بازنشستگی» در این بخش از نرم‌افزار.",
+            "en": "Access and manage retiree healthcare template in this module."
+          }
+        },
+        {
+          "id": "payroll-06-08",
+          "title": {
+            "fa": "صورت ارسال وجه بازنشستگی",
+            "en": "Pension Remittance Report"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «صورت ارسال وجه بازنشستگی» در این بخش از نرم‌افزار.",
+            "en": "Access and manage pension remittance report in this module."
+          }
+        },
+        {
+          "id": "payroll-06-09",
+          "title": {
+            "fa": "تجمیع قالب های بانک",
+            "en": "Combine Bank Templates"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «تجمیع قالب های بانک» در این بخش از نرم‌افزار.",
+            "en": "Access and manage combine bank templates in this module."
+          }
+        }
+      ]
+    },
+    {
+      "id": "payroll-07",
+      "icon": "file-text",
+      "title": {
+        "fa": "گزارشات اداری",
+        "en": "Administrative Reports"
+      },
+      "items": [
+        {
+          "id": "payroll-07-01",
+          "title": {
+            "fa": "مشخصات پرسنلی",
+            "en": "Personnel Information"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «مشخصات پرسنلی» در این بخش از نرم‌افزار.",
+            "en": "Access and manage personnel information in this module."
+          }
+        },
+        {
+          "id": "payroll-07-02",
+          "title": {
+            "fa": "استخدامی پرسنل",
+            "en": "Personnel Employment"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «استخدامی پرسنل» در این بخش از نرم‌افزار.",
+            "en": "Access and manage personnel employment in this module."
+          }
+        },
+        {
+          "id": "payroll-07-03",
+          "title": {
+            "fa": "محل خدمت پرسنل",
+            "en": "Personnel Work Location"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «محل خدمت پرسنل» در این بخش از نرم‌افزار.",
+            "en": "Access and manage personnel work location in this module."
+          }
+        },
+        {
+          "id": "payroll-07-04",
+          "title": {
+            "fa": "کارکرد پرسنل",
+            "en": "Personnel Attendance Records"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «کارکرد پرسنل» در این بخش از نرم‌افزار.",
+            "en": "Access and manage personnel attendance records in this module."
+          }
+        },
+        {
+          "id": "payroll-07-05",
+          "title": {
+            "fa": "استخدامی کارکرد",
+            "en": "Employment and Work Records"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «استخدامی کارکرد» در این بخش از نرم‌افزار.",
+            "en": "Access and manage employment and work records in this module."
+          }
+        },
+        {
+          "id": "payroll-07-06",
+          "title": {
+            "fa": "لیست محل خدمت کارکرد",
+            "en": "Work Location List"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «لیست محل خدمت کارکرد» در این بخش از نرم‌افزار.",
+            "en": "Access and manage work location list in this module."
+          }
+        }
+      ]
+    },
+    {
+      "id": "payroll-08",
+      "icon": "settings",
+      "title": {
+        "fa": "اطلاعات پایه و تنظیمات",
+        "en": "Basic Information and Settings"
+      },
+      "items": [
+        {
+          "id": "payroll-08-01",
+          "title": {
+            "fa": "انواع استخدام ها",
+            "en": "Employment Types"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «انواع استخدام ها» در این بخش از نرم‌افزار.",
+            "en": "Access and manage employment types in this module."
+          }
+        },
+        {
+          "id": "payroll-08-02",
+          "title": {
+            "fa": "مشخصات استخدامی",
+            "en": "Employment Attributes"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «مشخصات استخدامی» در این بخش از نرم‌افزار.",
+            "en": "Access and manage employment attributes in this module."
+          }
+        },
+        {
+          "id": "payroll-08-03",
+          "title": {
+            "fa": "جداول مالیاتی",
+            "en": "Tax Tables"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «جداول مالیاتی» در این بخش از نرم‌افزار.",
+            "en": "Access and manage tax tables in this module."
+          }
+        },
+        {
+          "id": "payroll-08-04",
+          "title": {
+            "fa": "مشخصات اداری",
+            "en": "Administrative Attributes"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «مشخصات اداری» در این بخش از نرم‌افزار.",
+            "en": "Access and manage administrative attributes in this module."
+          }
+        },
+        {
+          "id": "payroll-08-05",
+          "title": {
+            "fa": "لیست هزینه های متغیر",
+            "en": "Variable Expenses List"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «لیست هزینه های متغیر» در این بخش از نرم‌افزار.",
+            "en": "Access and manage variable expenses list in this module."
+          }
+        },
+        {
+          "id": "payroll-08-06",
+          "title": {
+            "fa": "تعاریف و تنظیمات",
+            "en": "Definitions and Settings"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «تعاریف و تنظیمات» در این بخش از نرم‌افزار.",
+            "en": "Access and manage definitions and settings in this module."
+          }
+        }
+      ]
+    },
+    {
+      "id": "payroll-09",
+      "icon": "wrench",
+      "title": {
+        "fa": "امکانات و ابزار",
+        "en": "Tools and Utilities"
+      },
+      "items": [
+        {
+          "id": "payroll-09-01",
+          "title": {
+            "fa": "لیست کاربران",
+            "en": "User List"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «لیست کاربران» در این بخش از نرم‌افزار.",
+            "en": "Access and manage user list in this module."
+          }
+        },
+        {
+          "id": "payroll-09-02",
+          "title": {
+            "fa": "به روزرسانی برنامه",
+            "en": "Update Program"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «به روزرسانی برنامه» در این بخش از نرم‌افزار.",
+            "en": "Access and manage update program in this module."
+          }
+        },
+        {
+          "id": "payroll-09-03",
+          "title": {
+            "fa": "تهیه فایل پشتیبانی",
+            "en": "Create Support File"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «تهیه فایل پشتیبانی» در این بخش از نرم‌افزار.",
+            "en": "Access and manage create support file in this module."
+          }
+        },
+        {
+          "id": "payroll-09-04",
+          "title": {
+            "fa": "ارتباط با سایر سازمان ها",
+            "en": "Connect with Other Organizations"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «ارتباط با سایر سازمان ها» در این بخش از نرم‌افزار.",
+            "en": "Access and manage connect with other organizations in this module."
+          }
+        },
+        {
+          "id": "payroll-09-05",
+          "title": {
+            "fa": "ارسال و پیگیری خطاها و پیشنهادات",
+            "en": "Submit and Track Errors and Suggestions"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «ارسال و پیگیری خطاها و پیشنهادات» در این بخش از نرم‌افزار.",
+            "en": "Access and manage submit and track errors and suggestions in this module."
+          }
+        },
+        {
+          "id": "payroll-09-06",
+          "title": {
+            "fa": "سوالات متداول",
+            "en": "Frequently Asked Questions"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «سوالات متداول» در این بخش از نرم‌افزار.",
+            "en": "Access and manage frequently asked questions in this module."
+          }
+        }
+      ]
+    }
+  ],
+  "ui": {
+    "overview": {
+      "fa": "کاتالوگ امکانات سیستم حقوق و دستمزد",
+      "en": "Payroll and Compensation — Feature Catalog"
+    },
+    "intro": {
+      "en": "Browse main menus, discover available functions and read a short explanation of each.",
+      "de": "Wählen Sie ein Hauptmenü und lesen Sie die Beschreibungen.",
+      "fr": "Choisissez un menu pour découvrir ses fonctionnalités.",
+      "it": "Seleziona un menu per esplorare le funzioni.",
+      "es": "Seleccione un menú para conocer sus funciones.",
+      "ru": "Выберите раздел для просмотра функций.",
+      "pt": "Selecione um menu para conhecer os recursos.",
+      "tr": "İşlevleri görmek için bir menü seçin.",
+      "ar": "اختر قائمة لاستعراض الوظائف وشرحها.",
+      "fa": "برای مشاهده زیرمنوها و توضیحات، یک منو انتخاب کنید."
+    },
+    "search": {
+      "en": "Search menus and features...",
+      "de": "Menüs und Funktionen suchen...",
+      "fr": "Rechercher des menus et fonctions...",
+      "it": "Cerca menu e funzioni...",
+      "es": "Buscar menús y funciones...",
+      "ru": "Поиск меню и функций...",
+      "pt": "Buscar menus e recursos...",
+      "tr": "Menü ve özellik ara...",
+      "ar": "ابحث في القوائم والوظائف...",
+      "fa": "جست‌وجوی منوها و امکانات..."
+    },
+    "menu": {
+      "en": "Main menus",
+      "de": "Hauptmenüs",
+      "fr": "Menus principaux",
+      "it": "Menu principali",
+      "es": "Menús principales",
+      "ru": "Главные меню",
+      "pt": "Menus principais",
+      "tr": "Ana menüler",
+      "ar": "القوائم الرئيسية",
+      "fa": "منوهای اصلی"
+    },
+    "functions": {
+      "en": "Available functions",
+      "de": "Verfügbare Funktionen",
+      "fr": "Fonctions disponibles",
+      "it": "Funzioni disponibili",
+      "es": "Funciones disponibles",
+      "ru": "Доступные функции",
+      "pt": "Funções disponíveis",
+      "tr": "Mevcut işlevler",
+      "ar": "الوظائف المتاحة",
+      "fa": "زیرمنوهای موجود"
+    },
+    "preview": {
+      "en": "Feature overview",
+      "de": "Funktionsübersicht",
+      "fr": "Aperçu de la fonction",
+      "it": "Panoramica della funzione",
+      "es": "Descripción de la función",
+      "ru": "Обзор функции",
+      "pt": "Visão geral da função",
+      "tr": "Özellik açıklaması",
+      "ar": "نبذة عن الوظيفة",
+      "fa": "توضیح کاربرد"
+    },
+    "noitems": {
+      "en": "Submenus for this section are not visible in the supplied screenshots.",
+      "de": "Untermenüs dieses Bereichs sind in den Bildern nicht erkennbar.",
+      "fr": "Les sous-menus de cette section ne sont pas visibles sur les captures.",
+      "it": "I sottomenu di questa sezione non sono visibili nelle immagini.",
+      "es": "Los submenús de esta sección no aparecen en las capturas.",
+      "ru": "Подменю этого раздела не видны на скриншотах.",
+      "pt": "Os submenus desta seção não aparecem nas capturas.",
+      "tr": "Bu bölümün alt menüleri sağlanan görsellerde görünmüyor.",
+      "ar": "القوائم الفرعية لهذا القسم غير ظاهرة في الصور المرفقة.",
+      "fa": "زیرمنوهای این بخش در تصاویر ارسالی قابل مشاهده نیستند."
+    },
+    "noresults": {
+      "en": "No matching features found.",
+      "de": "Keine passenden Funktionen gefunden.",
+      "fr": "Aucune fonction correspondante.",
+      "it": "Nessuna funzione trovata.",
+      "es": "No se encontraron funciones.",
+      "ru": "Совпадений не найдено.",
+      "pt": "Nenhuma função encontrada.",
+      "tr": "Eşleşen özellik bulunamadı.",
+      "ar": "لا توجد نتائج مطابقة.",
+      "fa": "موردی پیدا نشد."
+    },
+    "items": {
+      "en": "features",
+      "de": "Funktionen",
+      "fr": "fonctions",
+      "it": "funzioni",
+      "es": "funciones",
+      "ru": "функций",
+      "pt": "funções",
+      "tr": "özellik",
+      "ar": "وظيفة",
+      "fa": "گزینه"
+    },
+    "language": {
+      "en": "Language",
+      "de": "Sprache",
+      "fr": "Langue",
+      "it": "Lingua",
+      "es": "Idioma",
+      "ru": "Язык",
+      "pt": "Idioma",
+      "tr": "Dil",
+      "ar": "اللغة",
+      "fa": "زبان"
+    },
+    "note": {
+      "fa": "منوها از تصاویر ارسالی استخراج شده‌اند؛ عبارات ریز و توضیحات نیازمند بازبینی قبل از انتشار رسمی هستند.",
+      "en": "Menu names were extracted from supplied screenshots. Small labels and feature descriptions require review before publication."
+    },
+    "count": {
+      "en": "Menu catalog",
+      "de": "Menükatalog",
+      "fr": "Catalogue des menus",
+      "it": "Catalogo dei menu",
+      "es": "Catálogo de menús",
+      "ru": "Каталог меню",
+      "pt": "Catálogo de menus",
+      "tr": "Menü kataloğu",
+      "ar": "دليل القوائم",
+      "fa": "کاتالوگ منوها"
+    }
+  }
+}

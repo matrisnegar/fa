@@ -1,0 +1,840 @@
+{
+  "schemaVersion": 1,
+  "software": {
+    "id": "inventory",
+    "vendor": "Matris Negar Data Co.",
+    "name": {
+      "fa": "سیستم انبار و تدارکات",
+      "en": "Inventory and Procurement"
+    }
+  },
+  "languages": [
+    "en",
+    "de",
+    "fr",
+    "it",
+    "es",
+    "ru",
+    "pt",
+    "tr",
+    "ar",
+    "fa"
+  ],
+  "menus": [
+    {
+      "id": "inventory-01",
+      "icon": "clipboard-list",
+      "title": {
+        "fa": "فرم های ورود اطلاعات",
+        "en": "Data Entry Forms"
+      },
+      "items": [
+        {
+          "id": "inventory-01-01",
+          "title": {
+            "fa": "درخواست کالا",
+            "en": "Item Request"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «درخواست کالا» در این بخش از نرم‌افزار.",
+            "en": "Access and manage item request in this module."
+          }
+        },
+        {
+          "id": "inventory-01-02",
+          "title": {
+            "fa": "سفارش کالا از انبار",
+            "en": "Warehouse Item Order"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «سفارش کالا از انبار» در این بخش از نرم‌افزار.",
+            "en": "Access and manage warehouse item order in this module."
+          }
+        },
+        {
+          "id": "inventory-01-03",
+          "title": {
+            "fa": "رسید کالا به انبار",
+            "en": "Warehouse Goods Receipt"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «رسید کالا به انبار» در این بخش از نرم‌افزار.",
+            "en": "Access and manage warehouse goods receipt in this module."
+          }
+        },
+        {
+          "id": "inventory-01-04",
+          "title": {
+            "fa": "حواله خروج از انبار",
+            "en": "Warehouse Issue Voucher"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «حواله خروج از انبار» در این بخش از نرم‌افزار.",
+            "en": "Access and manage warehouse issue voucher in this module."
+          }
+        },
+        {
+          "id": "inventory-01-05",
+          "title": {
+            "fa": "مشاهده کالاهای ورودی",
+            "en": "View Incoming Goods"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «مشاهده کالاهای ورودی» در این بخش از نرم‌افزار.",
+            "en": "Access and manage view incoming goods in this module."
+          }
+        },
+        {
+          "id": "inventory-01-06",
+          "title": {
+            "fa": "عملیات انبارگردانی",
+            "en": "Inventory Stocktaking Operations"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «عملیات انبارگردانی» در این بخش از نرم‌افزار.",
+            "en": "Access and manage inventory stocktaking operations in this module."
+          }
+        }
+      ]
+    },
+    {
+      "id": "inventory-02",
+      "icon": "truck",
+      "title": {
+        "fa": "راهبردهای دریافت و ارسال",
+        "en": "Receiving and Sending Procedures"
+      },
+      "items": [
+        {
+          "id": "inventory-02-01",
+          "title": {
+            "fa": "ارسال رسید ها از مورد مالی",
+            "en": "Send Receipts to Finance"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «ارسال رسید ها از مورد مالی» در این بخش از نرم‌افزار.",
+            "en": "Access and manage send receipts to finance in this module."
+          }
+        },
+        {
+          "id": "inventory-02-02",
+          "title": {
+            "fa": "ارسال حواله ها از مورد مالی",
+            "en": "Send Issue Vouchers to Finance"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «ارسال حواله ها از مورد مالی» در این بخش از نرم‌افزار.",
+            "en": "Access and manage send issue vouchers to finance in this module."
+          }
+        },
+        {
+          "id": "inventory-02-03",
+          "title": {
+            "fa": "دریافت موجودی از اموال",
+            "en": "Receive Inventory from Assets"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «دریافت موجودی از اموال» در این بخش از نرم‌افزار.",
+            "en": "Access and manage receive inventory from assets in this module."
+          }
+        }
+      ]
+    },
+    {
+      "id": "inventory-03",
+      "icon": "file-text",
+      "title": {
+        "fa": "گزارشات عمومی",
+        "en": "General Reports"
+      },
+      "items": [
+        {
+          "id": "inventory-03-01",
+          "title": {
+            "fa": "کاردکس کالا",
+            "en": "Item Kardex"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «کاردکس کالا» در این بخش از نرم‌افزار.",
+            "en": "Access and manage item kardex in this module."
+          }
+        },
+        {
+          "id": "inventory-03-02",
+          "title": {
+            "fa": "موجودی در انبار",
+            "en": "Warehouse Stock Balance"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «موجودی در انبار» در این بخش از نرم‌افزار.",
+            "en": "Access and manage warehouse stock balance in this module."
+          }
+        },
+        {
+          "id": "inventory-03-03",
+          "title": {
+            "fa": "گزارش ویژه",
+            "en": "Special Reports"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «گزارش ویژه» در این بخش از نرم‌افزار.",
+            "en": "Access and manage special reports in this module."
+          }
+        },
+        {
+          "id": "inventory-03-04",
+          "title": {
+            "fa": "لیست رسید ها",
+            "en": "Goods Receipt List"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «لیست رسید ها» در این بخش از نرم‌افزار.",
+            "en": "Access and manage goods receipt list in this module."
+          }
+        },
+        {
+          "id": "inventory-03-05",
+          "title": {
+            "fa": "لیست حواله ها",
+            "en": "Issue Voucher List"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «لیست حواله ها» در این بخش از نرم‌افزار.",
+            "en": "Access and manage issue voucher list in this module."
+          }
+        },
+        {
+          "id": "inventory-03-06",
+          "title": {
+            "fa": "پیگیری اسناد خرید",
+            "en": "Purchase Document Tracking"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «پیگیری اسناد خرید» در این بخش از نرم‌افزار.",
+            "en": "Access and manage purchase document tracking in this module."
+          }
+        },
+        {
+          "id": "inventory-03-07",
+          "title": {
+            "fa": "لیست درخواست ها",
+            "en": "Request List"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «لیست درخواست ها» در این بخش از نرم‌افزار.",
+            "en": "Access and manage request list in this module."
+          }
+        },
+        {
+          "id": "inventory-03-08",
+          "title": {
+            "fa": "لیست سفارشات",
+            "en": "Order List"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «لیست سفارشات» در این بخش از نرم‌افزار.",
+            "en": "Access and manage order list in this module."
+          }
+        },
+        {
+          "id": "inventory-03-09",
+          "title": {
+            "fa": "لیست کلی سفارشات",
+            "en": "Complete Order List"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «لیست کلی سفارشات» در این بخش از نرم‌افزار.",
+            "en": "Access and manage complete order list in this module."
+          }
+        },
+        {
+          "id": "inventory-03-10",
+          "title": {
+            "fa": "لیست جزئی سفارشات",
+            "en": "Detailed Order List"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «لیست جزئی سفارشات» در این بخش از نرم‌افزار.",
+            "en": "Access and manage detailed order list in this module."
+          }
+        }
+      ]
+    },
+    {
+      "id": "inventory-04",
+      "icon": "truck",
+      "title": {
+        "fa": "راهبرد تدارکات",
+        "en": "Procurement Procedures"
+      },
+      "items": [
+        {
+          "id": "inventory-04-01",
+          "title": {
+            "fa": "استعلام/مناقصه (تدارکات)",
+            "en": "Procurement Inquiry / Tender"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «استعلام/مناقصه (تدارکات)» در این بخش از نرم‌افزار.",
+            "en": "Access and manage procurement inquiry / tender in this module."
+          }
+        },
+        {
+          "id": "inventory-04-02",
+          "title": {
+            "fa": "پیگیری سوابق خرید از فروشندگان",
+            "en": "Track Vendor Purchase History"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «پیگیری سوابق خرید از فروشندگان» در این بخش از نرم‌افزار.",
+            "en": "Access and manage track vendor purchase history in this module."
+          }
+        },
+        {
+          "id": "inventory-04-03",
+          "title": {
+            "fa": "لیست طرفهای تجاری",
+            "en": "Business Partners List"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «لیست طرفهای تجاری» در این بخش از نرم‌افزار.",
+            "en": "Access and manage business partners list in this module."
+          }
+        },
+        {
+          "id": "inventory-04-04",
+          "title": {
+            "fa": "لیست فروشندگان",
+            "en": "Vendors List"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «لیست فروشندگان» در این بخش از نرم‌افزار.",
+            "en": "Access and manage vendors list in this module."
+          }
+        },
+        {
+          "id": "inventory-04-05",
+          "title": {
+            "fa": "لیست اقلام تدارکات",
+            "en": "Procurement Items List"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «لیست اقلام تدارکات» در این بخش از نرم‌افزار.",
+            "en": "Access and manage procurement items list in this module."
+          }
+        }
+      ]
+    },
+    {
+      "id": "inventory-05",
+      "icon": "file-text",
+      "title": {
+        "fa": "پیگیری اسناد تدارکات",
+        "en": "Procurement Document Tracking"
+      },
+      "items": [
+        {
+          "id": "inventory-05-01",
+          "title": {
+            "fa": "رسید کالا به تفکیک فروشندگان",
+            "en": "Goods Receipts by Vendor"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «رسید کالا به تفکیک فروشندگان» در این بخش از نرم‌افزار.",
+            "en": "Access and manage goods receipts by vendor in this module."
+          }
+        },
+        {
+          "id": "inventory-05-02",
+          "title": {
+            "fa": "خرید ثبت کالا به تفکیک فروشندگان",
+            "en": "Goods Purchases by Vendor"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «خرید ثبت کالا به تفکیک فروشندگان» در این بخش از نرم‌افزار.",
+            "en": "Access and manage goods purchases by vendor in this module."
+          }
+        },
+        {
+          "id": "inventory-05-03",
+          "title": {
+            "fa": "تعداد خرید تدارکات به تفکیک ماه",
+            "en": "Monthly Procurement Purchase Quantities"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «تعداد خرید تدارکات به تفکیک ماه» در این بخش از نرم‌افزار.",
+            "en": "Access and manage monthly procurement purchase quantities in this module."
+          }
+        },
+        {
+          "id": "inventory-05-04",
+          "title": {
+            "fa": "مبلغ خرید تدارکات به تفکیک ماه",
+            "en": "Monthly Procurement Purchase Amounts"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «مبلغ خرید تدارکات به تفکیک ماه» در این بخش از نرم‌افزار.",
+            "en": "Access and manage monthly procurement purchase amounts in this module."
+          }
+        },
+        {
+          "id": "inventory-05-05",
+          "title": {
+            "fa": "تدارکات به تفکیک فروشنده (ریالی)",
+            "en": "Procurement by Vendor (Amount)"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «تدارکات به تفکیک فروشنده (ریالی)» در این بخش از نرم‌افزار.",
+            "en": "Access and manage procurement by vendor (amount) in this module."
+          }
+        },
+        {
+          "id": "inventory-05-06",
+          "title": {
+            "fa": "تدارکات به تفکیک فروشنده (تعدادی)",
+            "en": "Procurement by Vendor (Quantity)"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «تدارکات به تفکیک فروشنده (تعدادی)» در این بخش از نرم‌افزار.",
+            "en": "Access and manage procurement by vendor (quantity) in this module."
+          }
+        }
+      ]
+    },
+    {
+      "id": "inventory-06",
+      "icon": "chart",
+      "title": {
+        "fa": "گزارشات تعدادی و مبلغی",
+        "en": "Quantity and Value Reports"
+      },
+      "items": [
+        {
+          "id": "inventory-06-01",
+          "title": {
+            "fa": "پیگیری سوابق خرید کالا",
+            "en": "Item Purchase History"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «پیگیری سوابق خرید کالا» در این بخش از نرم‌افزار.",
+            "en": "Access and manage item purchase history in this module."
+          }
+        },
+        {
+          "id": "inventory-06-02",
+          "title": {
+            "fa": "درخواست کالا به تفکیک مراکز هزینه",
+            "en": "Item Requests by Cost Center"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «درخواست کالا به تفکیک مراکز هزینه» در این بخش از نرم‌افزار.",
+            "en": "Access and manage item requests by cost center in this module."
+          }
+        },
+        {
+          "id": "inventory-06-03",
+          "title": {
+            "fa": "حواله به تفکیک مراکز هزینه (تعداد)",
+            "en": "Issue Vouchers by Cost Center (Quantity)"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «حواله به تفکیک مراکز هزینه (تعداد)» در این بخش از نرم‌افزار.",
+            "en": "Access and manage issue vouchers by cost center (quantity) in this module."
+          }
+        },
+        {
+          "id": "inventory-06-04",
+          "title": {
+            "fa": "رسید کالا به تفکیک مراکز هزینه",
+            "en": "Goods Receipts by Cost Center"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «رسید کالا به تفکیک مراکز هزینه» در این بخش از نرم‌افزار.",
+            "en": "Access and manage goods receipts by cost center in this module."
+          }
+        },
+        {
+          "id": "inventory-06-05",
+          "title": {
+            "fa": "تعداد رسید به تفکیک مراکز هزینه",
+            "en": "Goods Receipt Counts by Cost Center"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «تعداد رسید به تفکیک مراکز هزینه» در این بخش از نرم‌افزار.",
+            "en": "Access and manage goods receipt counts by cost center in this module."
+          }
+        },
+        {
+          "id": "inventory-06-06",
+          "title": {
+            "fa": "مبلغ رسید به تفکیک مراکز هزینه",
+            "en": "Goods Receipt Amounts by Cost Center"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «مبلغ رسید به تفکیک مراکز هزینه» در این بخش از نرم‌افزار.",
+            "en": "Access and manage goods receipt amounts by cost center in this module."
+          }
+        },
+        {
+          "id": "inventory-06-07",
+          "title": {
+            "fa": "درخواست کالا به تفکیک مراکز هزینه (تعداد)",
+            "en": "Item Requests by Cost Center (Quantity)"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «درخواست کالا به تفکیک مراکز هزینه (تعداد)» در این بخش از نرم‌افزار.",
+            "en": "Access and manage item requests by cost center (quantity) in this module."
+          }
+        }
+      ]
+    },
+    {
+      "id": "inventory-07",
+      "icon": "settings",
+      "title": {
+        "fa": "تعاریف پایه و تنظیمات ساختاری",
+        "en": "Basic Definitions and Structural Settings"
+      },
+      "items": [
+        {
+          "id": "inventory-07-01",
+          "title": {
+            "fa": "تعریف کالا",
+            "en": "Define Items"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «تعریف کالا» در این بخش از نرم‌افزار.",
+            "en": "Access and manage define items in this module."
+          }
+        },
+        {
+          "id": "inventory-07-02",
+          "title": {
+            "fa": "گروه بندی کالا",
+            "en": "Item Grouping"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «گروه بندی کالا» در این بخش از نرم‌افزار.",
+            "en": "Access and manage item grouping in this module."
+          }
+        },
+        {
+          "id": "inventory-07-03",
+          "title": {
+            "fa": "تعریف مراکز هزینه",
+            "en": "Define Cost Centers"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «تعریف مراکز هزینه» در این بخش از نرم‌افزار.",
+            "en": "Access and manage define cost centers in this module."
+          }
+        },
+        {
+          "id": "inventory-07-04",
+          "title": {
+            "fa": "تعریف طرف های تجاری",
+            "en": "Define Business Partners"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «تعریف طرف های تجاری» در این بخش از نرم‌افزار.",
+            "en": "Access and manage define business partners in this module."
+          }
+        },
+        {
+          "id": "inventory-07-05",
+          "title": {
+            "fa": "تعریف پرسنل",
+            "en": "Define Personnel"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «تعریف پرسنل» در این بخش از نرم‌افزار.",
+            "en": "Access and manage define personnel in this module."
+          }
+        },
+        {
+          "id": "inventory-07-06",
+          "title": {
+            "fa": "تعریف انبار",
+            "en": "Define Warehouses"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «تعریف انبار» در این بخش از نرم‌افزار.",
+            "en": "Access and manage define warehouses in this module."
+          }
+        },
+        {
+          "id": "inventory-07-07",
+          "title": {
+            "fa": "تعریف واحد های اقلام",
+            "en": "Define Item Units"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «تعریف واحد های اقلام» در این بخش از نرم‌افزار.",
+            "en": "Access and manage define item units in this module."
+          }
+        },
+        {
+          "id": "inventory-07-08",
+          "title": {
+            "fa": "تعریف کشور سازنده",
+            "en": "Define Country of Manufacture"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «تعریف کشور سازنده» در این بخش از نرم‌افزار.",
+            "en": "Access and manage define country of manufacture in this module."
+          }
+        },
+        {
+          "id": "inventory-07-09",
+          "title": {
+            "fa": "تعریف شرکت سازنده",
+            "en": "Define Manufacturer"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «تعریف شرکت سازنده» در این بخش از نرم‌افزار.",
+            "en": "Access and manage define manufacturer in this module."
+          }
+        },
+        {
+          "id": "inventory-07-10",
+          "title": {
+            "fa": "تنظیمات ساختاری",
+            "en": "Structural Settings"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «تنظیمات ساختاری» در این بخش از نرم‌افزار.",
+            "en": "Access and manage structural settings in this module."
+          }
+        },
+        {
+          "id": "inventory-07-11",
+          "title": {
+            "fa": "سایر فرم های پایه",
+            "en": "Other Basic Forms"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «سایر فرم های پایه» در این بخش از نرم‌افزار.",
+            "en": "Access and manage other basic forms in this module."
+          }
+        }
+      ]
+    },
+    {
+      "id": "inventory-08",
+      "icon": "wrench",
+      "title": {
+        "fa": "ابزار ها و امکانات",
+        "en": "Tools and Utilities"
+      },
+      "items": [
+        {
+          "id": "inventory-08-01",
+          "title": {
+            "fa": "لیست کاربران",
+            "en": "User List"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «لیست کاربران» در این بخش از نرم‌افزار.",
+            "en": "Access and manage user list in this module."
+          }
+        },
+        {
+          "id": "inventory-08-02",
+          "title": {
+            "fa": "به روزرسانی برنامه",
+            "en": "Update Program"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «به روزرسانی برنامه» در این بخش از نرم‌افزار.",
+            "en": "Access and manage update program in this module."
+          }
+        },
+        {
+          "id": "inventory-08-03",
+          "title": {
+            "fa": "فایل پشتیبانی",
+            "en": "Support File"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «فایل پشتیبانی» در این بخش از نرم‌افزار.",
+            "en": "Access and manage support file in this module."
+          }
+        },
+        {
+          "id": "inventory-08-04",
+          "title": {
+            "fa": "ارسال و پیگیری خطاها و پیشنهادات",
+            "en": "Submit and Track Errors and Suggestions"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «ارسال و پیگیری خطاها و پیشنهادات» در این بخش از نرم‌افزار.",
+            "en": "Access and manage submit and track errors and suggestions in this module."
+          }
+        },
+        {
+          "id": "inventory-08-05",
+          "title": {
+            "fa": "سوالات متداول",
+            "en": "Frequently Asked Questions"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «سوالات متداول» در این بخش از نرم‌افزار.",
+            "en": "Access and manage frequently asked questions in this module."
+          }
+        },
+        {
+          "id": "inventory-08-06",
+          "title": {
+            "fa": "مستندات آموزشی",
+            "en": "Training Documents"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «مستندات آموزشی» در این بخش از نرم‌افزار.",
+            "en": "Access and manage training documents in this module."
+          }
+        },
+        {
+          "id": "inventory-08-07",
+          "title": {
+            "fa": "انتخاب پوسته",
+            "en": "Select Theme"
+          },
+          "description": {
+            "fa": "امکان مشاهده یا مدیریت «انتخاب پوسته» در این بخش از نرم‌افزار.",
+            "en": "Access and manage select theme in this module."
+          }
+        }
+      ]
+    }
+  ],
+  "ui": {
+    "overview": {
+      "fa": "کاتالوگ امکانات سیستم انبار و تدارکات",
+      "en": "Inventory and Procurement — Feature Catalog"
+    },
+    "intro": {
+      "en": "Browse main menus, discover available functions and read a short explanation of each.",
+      "de": "Wählen Sie ein Hauptmenü und lesen Sie die Beschreibungen.",
+      "fr": "Choisissez un menu pour découvrir ses fonctionnalités.",
+      "it": "Seleziona un menu per esplorare le funzioni.",
+      "es": "Seleccione un menú para conocer sus funciones.",
+      "ru": "Выберите раздел для просмотра функций.",
+      "pt": "Selecione um menu para conhecer os recursos.",
+      "tr": "İşlevleri görmek için bir menü seçin.",
+      "ar": "اختر قائمة لاستعراض الوظائف وشرحها.",
+      "fa": "برای مشاهده زیرمنوها و توضیحات، یک منو انتخاب کنید."
+    },
+    "search": {
+      "en": "Search menus and features...",
+      "de": "Menüs und Funktionen suchen...",
+      "fr": "Rechercher des menus et fonctions...",
+      "it": "Cerca menu e funzioni...",
+      "es": "Buscar menús y funciones...",
+      "ru": "Поиск меню и функций...",
+      "pt": "Buscar menus e recursos...",
+      "tr": "Menü ve özellik ara...",
+      "ar": "ابحث في القوائم والوظائف...",
+      "fa": "جست‌وجوی منوها و امکانات..."
+    },
+    "menu": {
+      "en": "Main menus",
+      "de": "Hauptmenüs",
+      "fr": "Menus principaux",
+      "it": "Menu principali",
+      "es": "Menús principales",
+      "ru": "Главные меню",
+      "pt": "Menus principais",
+      "tr": "Ana menüler",
+      "ar": "القوائم الرئيسية",
+      "fa": "منوهای اصلی"
+    },
+    "functions": {
+      "en": "Available functions",
+      "de": "Verfügbare Funktionen",
+      "fr": "Fonctions disponibles",
+      "it": "Funzioni disponibili",
+      "es": "Funciones disponibles",
+      "ru": "Доступные функции",
+      "pt": "Funções disponíveis",
+      "tr": "Mevcut işlevler",
+      "ar": "الوظائف المتاحة",
+      "fa": "زیرمنوهای موجود"
+    },
+    "preview": {
+      "en": "Feature overview",
+      "de": "Funktionsübersicht",
+      "fr": "Aperçu de la fonction",
+      "it": "Panoramica della funzione",
+      "es": "Descripción de la función",
+      "ru": "Обзор функции",
+      "pt": "Visão geral da função",
+      "tr": "Özellik açıklaması",
+      "ar": "نبذة عن الوظيفة",
+      "fa": "توضیح کاربرد"
+    },
+    "noitems": {
+      "en": "Submenus for this section are not visible in the supplied screenshots.",
+      "de": "Untermenüs dieses Bereichs sind in den Bildern nicht erkennbar.",
+      "fr": "Les sous-menus de cette section ne sont pas visibles sur les captures.",
+      "it": "I sottomenu di questa sezione non sono visibili nelle immagini.",
+      "es": "Los submenús de esta sección no aparecen en las capturas.",
+      "ru": "Подменю этого раздела не видны на скриншотах.",
+      "pt": "Os submenus desta seção não aparecem nas capturas.",
+      "tr": "Bu bölümün alt menüleri sağlanan görsellerde görünmüyor.",
+      "ar": "القوائم الفرعية لهذا القسم غير ظاهرة في الصور المرفقة.",
+      "fa": "زیرمنوهای این بخش در تصاویر ارسالی قابل مشاهده نیستند."
+    },
+    "noresults": {
+      "en": "No matching features found.",
+      "de": "Keine passenden Funktionen gefunden.",
+      "fr": "Aucune fonction correspondante.",
+      "it": "Nessuna funzione trovata.",
+      "es": "No se encontraron funciones.",
+      "ru": "Совпадений не найдено.",
+      "pt": "Nenhuma função encontrada.",
+      "tr": "Eşleşen özellik bulunamadı.",
+      "ar": "لا توجد نتائج مطابقة.",
+      "fa": "موردی پیدا نشد."
+    },
+    "items": {
+      "en": "features",
+      "de": "Funktionen",
+      "fr": "fonctions",
+      "it": "funzioni",
+      "es": "funciones",
+      "ru": "функций",
+      "pt": "funções",
+      "tr": "özellik",
+      "ar": "وظيفة",
+      "fa": "گزینه"
+    },
+    "language": {
+      "en": "Language",
+      "de": "Sprache",
+      "fr": "Langue",
+      "it": "Lingua",
+      "es": "Idioma",
+      "ru": "Язык",
+      "pt": "Idioma",
+      "tr": "Dil",
+      "ar": "اللغة",
+      "fa": "زبان"
+    },
+    "note": {
+      "fa": "منوها از تصاویر ارسالی استخراج شده‌اند؛ عبارات ریز و توضیحات نیازمند بازبینی قبل از انتشار رسمی هستند.",
+      "en": "Menu names were extracted from supplied screenshots. Small labels and feature descriptions require review before publication."
+    },
+    "count": {
+      "en": "Menu catalog",
+      "de": "Menükatalog",
+      "fr": "Catalogue des menus",
+      "it": "Catalogo dei menu",
+      "es": "Catálogo de menús",
+      "ru": "Каталог меню",
+      "pt": "Catálogo de menus",
+      "tr": "Menü kataloğu",
+      "ar": "دليل القوائم",
+      "fa": "کاتالوگ منوها"
+    }
+  }
+}

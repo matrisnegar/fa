@@ -1,0 +1,924 @@
+{
+  "schemaVersion": 1,
+  "software": {
+    "id": "financial management",
+    "name": {
+      "fa": "مدیریت مالی",
+      "en": "Financial Management",
+      "de": "Finanzverwaltung",
+      "fr": "Gestion financière",
+      "it": "Gestione finanziaria",
+      "es": "Gestión financiera",
+      "ru": "Финансовое управление",
+      "pt": "Gestão financeira",
+      "tr": "Mali yönetim",
+      "ar": "الإدارة المالية"
+    },
+    "vendor": "Matris Negar Data Co."
+  },
+  "languages": [
+    "en",
+    "de",
+    "fr",
+    "it",
+    "es",
+    "ru",
+    "pt",
+    "tr",
+    "ar",
+    "fa"
+  ],
+  "menus": [
+    {
+      "id": "budget",
+      "icon": "clipboard-list",
+      "title": {
+        "fa": "راهبرد بودجه و اعتبارات",
+        "en": "Budget and Appropriations",
+        "de": "Budget und Mittelbewilligungen",
+        "fr": "Budget et crédits",
+        "it": "Bilancio e stanziamenti",
+        "es": "Presupuesto y créditos",
+        "ru": "Бюджет и ассигнования",
+        "pt": "Orçamento e dotações",
+        "tr": "Bütçe ve ödenekler",
+        "ar": "الميزانية والاعتمادات"
+      },
+      "items": [
+        {
+          "id": "budget-01",
+          "title": {
+            "fa": "فرم حواله پرداخت",
+            "en": "Payment Order Form"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «فرم حواله پرداخت».",
+            "en": "Prepare a payment order form."
+          }
+        },
+        {
+          "id": "budget-02",
+          "title": {
+            "fa": "فرم پرداخت",
+            "en": "Payment Form"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: ثبت اطلاعات مرتبط با «فرم پرداخت».",
+            "en": "Record payment form details."
+          }
+        },
+        {
+          "id": "budget-03",
+          "title": {
+            "fa": "اعتبار مصوب",
+            "en": "Approved Appropriation"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: ثبت اطلاعات مرتبط با «اعتبار مصوب».",
+            "en": "Record or review approved budget appropriations."
+          }
+        },
+        {
+          "id": "budget-04",
+          "title": {
+            "fa": "تخصیص اعتبار",
+            "en": "Appropriation Allocation"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: مدیریت اطلاعات مرتبط با «تخصیص اعتبار».",
+            "en": "Manage allocation of approved appropriations."
+          }
+        },
+        {
+          "id": "budget-05",
+          "title": {
+            "fa": "تایید واریزی خزانه",
+            "en": "Treasury Deposit Confirmation"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «تایید واریزی خزانه».",
+            "en": "Confirm treasury deposits."
+          }
+        },
+        {
+          "id": "budget-06",
+          "title": {
+            "fa": "فرم کنترل بودجه ای پرداخت ها",
+            "en": "Payment Budget Control Form"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: بررسی اطلاعات مرتبط با «فرم کنترل بودجه ای پرداخت ها».",
+            "en": "Review budget controls for payments."
+          }
+        },
+        {
+          "id": "budget-07",
+          "title": {
+            "fa": "فرم کنترل بودجه ای به تفکیک مرکز هزینه",
+            "en": "Budget Control by Cost Center"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: بررسی اطلاعات مرتبط با «فرم کنترل بودجه ای به تفکیک مرکز هزینه».",
+            "en": "Review budget controls grouped by cost center."
+          }
+        },
+        {
+          "id": "budget-08",
+          "title": {
+            "fa": "کنترل اعتباری اسناد مالی",
+            "en": "Financial Document Appropriation Control"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «کنترل اعتباری اسناد مالی».",
+            "en": "Control financial documents against appropriations."
+          }
+        },
+        {
+          "id": "budget-09",
+          "title": {
+            "fa": "گزارش جامع اعتبارات",
+            "en": "Comprehensive Appropriations Report"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: بررسی اطلاعات مرتبط با «گزارش جامع اعتبارات».",
+            "en": "Review appropriations in a consolidated report."
+          }
+        }
+      ]
+    },
+    {
+      "id": "receipt",
+      "icon": "truck",
+      "title": {
+        "fa": "راهبرد دریافت اسناد ستاد ها",
+        "en": "Document Receipt Procedures",
+        "de": "Verfahren zum Dokumentenempfang",
+        "fr": "Procédures de réception de documents",
+        "it": "Procedure di ricezione documenti",
+        "es": "Procedimientos de recepción de documentos",
+        "ru": "Процедуры получения документов",
+        "pt": "Procedimentos de recepção de documentos",
+        "tr": "Belge kabul işlemleri",
+        "ar": "إجراءات استلام المستندات"
+      },
+      "items": [
+        {
+          "id": "receipt-01",
+          "title": {
+            "fa": "پروتکل ستاد",
+            "en": "Headquarters Protocol"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: بررسی اطلاعات مرتبط با «پروتکل ستاد».",
+            "en": "Review document protocol information."
+          }
+        },
+        {
+          "id": "receipt-02",
+          "title": {
+            "fa": "مطالبات بدهی دولت",
+            "en": "Government Debt Claims"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: بررسی اطلاعات مرتبط با «مطالبات بدهی دولت».",
+            "en": "Review registered government debt claims."
+          }
+        },
+        {
+          "id": "receipt-03",
+          "title": {
+            "fa": "صورت مطالبات فصلی",
+            "en": "Quarterly Claims Report"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «صورت مطالبات فصلی».",
+            "en": "Prepare or review periodic claims."
+          }
+        },
+        {
+          "id": "receipt-04",
+          "title": {
+            "fa": "تهیه فایل مالیات",
+            "en": "Tax File Preparation"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «تهیه فایل مالیات».",
+            "en": "Prepare a tax-related submission file."
+          }
+        },
+        {
+          "id": "receipt-05",
+          "title": {
+            "fa": "دریافت اسناد از عاملین مالی",
+            "en": "Receive Financial Agent Documents"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «دریافت اسناد از عاملین مالی».",
+            "en": "Receive accounting documents from financial agents."
+          }
+        },
+        {
+          "id": "receipt-06",
+          "title": {
+            "fa": "فرم صدور حواله دفتر برنامه",
+            "en": "Program Office Payment Order"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «فرم صدور حواله دفتر برنامه».",
+            "en": "Prepare a payment order for the program office."
+          }
+        },
+        {
+          "id": "receipt-07",
+          "title": {
+            "fa": "دریافت اسناد کالاهای وارده",
+            "en": "Receive Incoming Goods Documents"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «دریافت اسناد کالاهای وارده».",
+            "en": "Register incoming goods documents."
+          }
+        },
+        {
+          "id": "receipt-08",
+          "title": {
+            "fa": "دریافت اسناد کالاهای صادره",
+            "en": "Receive Outgoing Goods Documents"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «دریافت اسناد کالاهای صادره».",
+            "en": "Register outgoing goods documents."
+          }
+        },
+        {
+          "id": "receipt-09",
+          "title": {
+            "fa": "دریافت اسناد اموال انتقالی",
+            "en": "Receive Transferred Asset Documents"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «دریافت اسناد اموال انتقالی».",
+            "en": "Receive documents for transferred assets."
+          }
+        },
+        {
+          "id": "receipt-10",
+          "title": {
+            "fa": "ارسال پیامک",
+            "en": "Send SMS"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «ارسال پیامک».",
+            "en": "Send text messages."
+          }
+        }
+      ]
+    },
+    {
+      "id": "reports",
+      "icon": "file-text",
+      "title": {
+        "fa": "گزارشات حسابداری",
+        "en": "Accounting Reports",
+        "de": "Buchhaltungsberichte",
+        "fr": "Rapports comptables",
+        "it": "Report contabili",
+        "es": "Informes contables",
+        "ru": "Бухгалтерские отчёты",
+        "pt": "Relatórios contábeis",
+        "tr": "Muhasebe raporları",
+        "ar": "التقارير المحاسبية"
+      },
+      "items": [
+        {
+          "id": "reports-01",
+          "title": {
+            "fa": "دفتر کل",
+            "en": "General Ledger"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: بررسی اطلاعات مرتبط با «دفتر کل».",
+            "en": "Review general ledger entries."
+          }
+        },
+        {
+          "id": "reports-02",
+          "title": {
+            "fa": "دفتر معین",
+            "en": "Subsidiary Ledger"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: بررسی اطلاعات مرتبط با «دفتر معین».",
+            "en": "Review subsidiary account transactions."
+          }
+        },
+        {
+          "id": "reports-03",
+          "title": {
+            "fa": "دفتر روزنامه",
+            "en": "Journal"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: بررسی اطلاعات مرتبط با «دفتر روزنامه».",
+            "en": "Review journal entries."
+          }
+        },
+        {
+          "id": "reports-04",
+          "title": {
+            "fa": "تراز کل",
+            "en": "Trial Balance – General"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «تراز کل».",
+            "en": "Generate a general trial balance."
+          }
+        },
+        {
+          "id": "reports-05",
+          "title": {
+            "fa": "تراز معین",
+            "en": "Trial Balance – Subsidiary"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «تراز معین».",
+            "en": "Generate a subsidiary trial balance."
+          }
+        },
+        {
+          "id": "reports-06",
+          "title": {
+            "fa": "تراز تفصیلی",
+            "en": "Detailed Trial Balance"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «تراز تفصیلی».",
+            "en": "Generate a detailed account trial balance."
+          }
+        },
+        {
+          "id": "reports-07",
+          "title": {
+            "fa": "سند حسابداری",
+            "en": "Accounting Voucher"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «سند حسابداری».",
+            "en": "View or print an accounting voucher."
+          }
+        },
+        {
+          "id": "reports-08",
+          "title": {
+            "fa": "مرور مانده حساب ها",
+            "en": "Account Balance Review"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: بررسی اطلاعات مرتبط با «مرور مانده حساب ها».",
+            "en": "Review balances across accounts."
+          }
+        },
+        {
+          "id": "reports-09",
+          "title": {
+            "fa": "کنترل مانده حساب ها",
+            "en": "Account Balance Control"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «کنترل مانده حساب ها».",
+            "en": "Check and reconcile account balances."
+          }
+        },
+        {
+          "id": "reports-10",
+          "title": {
+            "fa": "گزارش عملکردی",
+            "en": "Performance Report"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «گزارش عملکردی».",
+            "en": "Analyze accounting performance information."
+          }
+        },
+        {
+          "id": "reports-11",
+          "title": {
+            "fa": "گزارشات پیشرفته و جامع حسابداری",
+            "en": "Advanced Accounting Reports"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: بررسی اطلاعات مرتبط با «گزارشات پیشرفته و جامع حسابداری».",
+            "en": "Review advanced consolidated accounting reports."
+          }
+        }
+      ]
+    },
+    {
+      "id": "statements",
+      "icon": "chart",
+      "title": {
+        "fa": "گزارشات صورت های مالی",
+        "en": "Financial Statements",
+        "de": "Jahresabschlussberichte",
+        "fr": "États financiers",
+        "it": "Prospetti finanziari",
+        "es": "Estados financieros",
+        "ru": "Финансовая отчётность",
+        "pt": "Demonstrações financeiras",
+        "tr": "Mali tablolar",
+        "ar": "القوائم المالية"
+      },
+      "items": [
+        {
+          "id": "statements-01",
+          "title": {
+            "fa": "صورت وضعیت مالی",
+            "en": "Statement of Financial Position"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: بررسی اطلاعات مرتبط با «صورت وضعیت مالی».",
+            "en": "Review assets, liabilities, and net assets."
+          }
+        },
+        {
+          "id": "statements-02",
+          "title": {
+            "fa": "صورت تغییرات وضعیت مالی",
+            "en": "Statement of Changes in Financial Position"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: بررسی اطلاعات مرتبط با «صورت تغییرات وضعیت مالی».",
+            "en": "Review changes in financial position for a period."
+          }
+        },
+        {
+          "id": "statements-03",
+          "title": {
+            "fa": "صورت مقایسه بودجه و عملکرد",
+            "en": "Budget-to-Actual Comparison Statement"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «صورت مقایسه بودجه و عملکرد».",
+            "en": "Compare budget allocations with actual performance."
+          }
+        }
+      ]
+    },
+    {
+      "id": "controls",
+      "icon": "layers",
+      "title": {
+        "fa": "گزارشات و کنترل های ویژه",
+        "en": "Special Reports and Controls",
+        "de": "Sonderberichte und Kontrollen",
+        "fr": "Rapports et contrôles spéciaux",
+        "it": "Report e controlli speciali",
+        "es": "Informes y controles especiales",
+        "ru": "Специальные отчёты и контроль",
+        "pt": "Relatórios e controles especiais",
+        "tr": "Özel raporlar ve kontroller",
+        "ar": "التقارير والرقابة الخاصة"
+      },
+      "items": [
+        {
+          "id": "controls-01",
+          "title": {
+            "fa": "گزارش چک های صادره",
+            "en": "Issued Checks Report"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: بررسی اطلاعات مرتبط با «گزارش چک های صادره».",
+            "en": "Review issued checks."
+          }
+        },
+        {
+          "id": "controls-02",
+          "title": {
+            "fa": "گزارش چک های باطله شده",
+            "en": "Canceled Checks Report"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: بررسی اطلاعات مرتبط با «گزارش چک های باطله شده».",
+            "en": "Review canceled checks."
+          }
+        },
+        {
+          "id": "controls-03",
+          "title": {
+            "fa": "گزارش وضعیت چک ها",
+            "en": "Check Status Report"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: بررسی اطلاعات مرتبط با «گزارش وضعیت چک ها».",
+            "en": "Review the status of checks."
+          }
+        },
+        {
+          "id": "controls-04",
+          "title": {
+            "fa": "فرم پرداخت الکترونیکی",
+            "en": "Electronic Payment Form"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «فرم پرداخت الکترونیکی».",
+            "en": "Prepare or review electronic payment forms."
+          }
+        },
+        {
+          "id": "controls-05",
+          "title": {
+            "fa": "پیگیری اسناد ارسالی",
+            "en": "Outgoing Document Tracking"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «پیگیری اسناد ارسالی».",
+            "en": "Track outgoing accounting documents."
+          }
+        },
+        {
+          "id": "controls-06",
+          "title": {
+            "fa": "عناوین حساب ها",
+            "en": "Account Titles"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: بررسی اطلاعات مرتبط با «عناوین حساب ها».",
+            "en": "Review chart-of-accounts labels."
+          }
+        },
+        {
+          "id": "controls-07",
+          "title": {
+            "fa": "حساب های فاقد ریز",
+            "en": "Accounts Without Detail"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «حساب های فاقد ریز».",
+            "en": "Identify accounts without detailed records."
+          }
+        },
+        {
+          "id": "controls-08",
+          "title": {
+            "fa": "کنترل تراز الگوها",
+            "en": "Template Balance Control"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: بررسی اطلاعات مرتبط با «کنترل تراز الگوها».",
+            "en": "Review configured balance templates."
+          }
+        },
+        {
+          "id": "controls-09",
+          "title": {
+            "fa": "کنترل اسناد مالی",
+            "en": "Financial Document Control"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «کنترل اسناد مالی».",
+            "en": "Check accounting document consistency."
+          }
+        },
+        {
+          "id": "controls-10",
+          "title": {
+            "fa": "ردیابی مغایرت های اسناد مالی",
+            "en": "Financial Document Discrepancy Tracking"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «ردیابی مغایرت های اسناد مالی».",
+            "en": "Trace differences between financial documents."
+          }
+        }
+      ]
+    },
+    {
+      "id": "setup",
+      "icon": "settings",
+      "title": {
+        "fa": "تعاریف و تنظیمات اولیه",
+        "en": "Definitions and Initial Settings",
+        "de": "Definitionen und Grundeinstellungen",
+        "fr": "Définitions et paramètres initiaux",
+        "it": "Definizioni e impostazioni iniziali",
+        "es": "Definiciones y ajustes iniciales",
+        "ru": "Определения и начальные настройки",
+        "pt": "Definições e configurações iniciais",
+        "tr": "Tanımlar ve başlangıç ayarları",
+        "ar": "التعريفات والإعدادات الأولية"
+      },
+      "items": [
+        {
+          "id": "setup-01",
+          "title": {
+            "fa": "تعریف و ارتباط حساب ها",
+            "en": "Define and Link Accounts"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: تعریف اطلاعات مرتبط با «تعریف و ارتباط حساب ها».",
+            "en": "Define relationships between accounting accounts."
+          }
+        },
+        {
+          "id": "setup-02",
+          "title": {
+            "fa": "تعریف حساب های تفصیلی",
+            "en": "Detailed Account Definitions"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: تعریف اطلاعات مرتبط با «تعریف حساب های تفصیلی».",
+            "en": "Define detailed-level accounts."
+          }
+        },
+        {
+          "id": "setup-03",
+          "title": {
+            "fa": "تعریف هزینه های تفصیلی",
+            "en": "Detailed Cost Definitions"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: تعریف اطلاعات مرتبط با «تعریف هزینه های تفصیلی».",
+            "en": "Define detailed cost types."
+          }
+        },
+        {
+          "id": "setup-04",
+          "title": {
+            "fa": "تعریف گروه کل ها",
+            "en": "General Ledger Group Definitions"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: تعریف اطلاعات مرتبط با «تعریف گروه کل ها».",
+            "en": "Define general ledger account groups."
+          }
+        },
+        {
+          "id": "setup-05",
+          "title": {
+            "fa": "تعریف شرح های استاندارد",
+            "en": "Standard Narrations"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: تعریف اطلاعات مرتبط با «تعریف شرح های استاندارد».",
+            "en": "Define reusable accounting document descriptions."
+          }
+        },
+        {
+          "id": "setup-06",
+          "title": {
+            "fa": "تنظیمات و کنترل های مدیریتی",
+            "en": "Administrative Settings and Controls"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: مدیریت اطلاعات مرتبط با «تنظیمات و کنترل های مدیریتی».",
+            "en": "Manage administrative configuration and controls."
+          }
+        }
+      ]
+    },
+    {
+      "id": "tools",
+      "icon": "sparkles",
+      "title": {
+        "fa": "ابزارها و امکانات",
+        "en": "Tools and Utilities",
+        "de": "Werkzeuge und Hilfsmittel",
+        "fr": "Outils et utilitaires",
+        "it": "Strumenti e utilità",
+        "es": "Herramientas y utilidades",
+        "ru": "Инструменты и утилиты",
+        "pt": "Ferramentas e utilitários",
+        "tr": "Araçlar ve olanaklar",
+        "ar": "الأدوات والإمكانات"
+      },
+      "items": [
+        {
+          "id": "tools-01",
+          "title": {
+            "fa": "لیست کاربران",
+            "en": "User List"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: بررسی اطلاعات مرتبط با «لیست کاربران».",
+            "en": "Review system users."
+          }
+        },
+        {
+          "id": "tools-02",
+          "title": {
+            "fa": "به روز رسانی برنامه",
+            "en": "Update Program"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «به روز رسانی برنامه».",
+            "en": "Update the application."
+          }
+        },
+        {
+          "id": "tools-03",
+          "title": {
+            "fa": "تعریف یادآوری مستندات",
+            "en": "Document Reminder Settings"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: تعریف اطلاعات مرتبط با «تعریف یادآوری مستندات».",
+            "en": "Define reminders for documents."
+          }
+        },
+        {
+          "id": "tools-04",
+          "title": {
+            "fa": "تهیه فایل پشتیبانی",
+            "en": "Support File"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «تهیه فایل پشتیبانی».",
+            "en": "Prepare a support file."
+          }
+        },
+        {
+          "id": "tools-05",
+          "title": {
+            "fa": "درج خطاها و پیشنهادات",
+            "en": "Errors and Suggestions"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «درج خطاها و پیشنهادات».",
+            "en": "Submit technical errors and suggestions."
+          }
+        },
+        {
+          "id": "tools-06",
+          "title": {
+            "fa": "نظر سنجی نرم افزار مالی",
+            "en": "Financial Software Survey"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «نظر سنجی نرم افزار مالی».",
+            "en": "Send feedback about the financial software."
+          }
+        },
+        {
+          "id": "tools-07",
+          "title": {
+            "fa": "فیلم های آموزشی",
+            "en": "Training Videos"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «فیلم های آموزشی».",
+            "en": "View training materials."
+          }
+        },
+        {
+          "id": "tools-08",
+          "title": {
+            "fa": "انتخاب پوسته",
+            "en": "Select Theme"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «انتخاب پوسته».",
+            "en": "Choose the application appearance."
+          }
+        }
+      ]
+    }
+  ],
+  "ui": {
+    "overview": {
+      "fa": "قابلیت‌های نرم‌افزار مدیریت مالی",
+      "en": "Explore Financial Management Features",
+      "de": "Finanzverwaltung",
+      "fr": "Gestion financière",
+      "it": "Gestione finanziaria",
+      "es": "Gestión financiera",
+      "ru": "Финансовое управление",
+      "pt": "Gestão financeira",
+      "tr": "Mali yönetim",
+      "ar": "الإدارة المالية"
+    },
+    "intro": {
+      "en": "Browse main menus, discover available functions and read a short explanation of each.",
+      "de": "Wählen Sie ein Hauptmenü und lesen Sie die Beschreibungen.",
+      "fr": "Choisissez un menu pour découvrir ses fonctionnalités.",
+      "it": "Seleziona un menu per esplorare le funzioni.",
+      "es": "Seleccione un menú para conocer sus funciones.",
+      "ru": "Выберите раздел для просмотра функций.",
+      "pt": "Selecione um menu para conhecer os recursos.",
+      "tr": "İşlevleri görmek için bir menü seçin.",
+      "ar": "اختر قائمة لاستعراض الوظائف وشرحها.",
+      "fa": "برای مشاهده زیرمنوها و توضیحات، یک منو انتخاب کنید."
+    },
+    "search": {
+      "en": "Search menus and features...",
+      "de": "Menüs und Funktionen suchen...",
+      "fr": "Rechercher des menus et fonctions...",
+      "it": "Cerca menu e funzioni...",
+      "es": "Buscar menús y funciones...",
+      "ru": "Поиск меню и функций...",
+      "pt": "Buscar menus e recursos...",
+      "tr": "Menü ve özellik ara...",
+      "ar": "ابحث في القوائم والوظائف...",
+      "fa": "جست‌وجوی منوها و امکانات..."
+    },
+    "menu": {
+      "en": "Main menus",
+      "de": "Hauptmenüs",
+      "fr": "Menus principaux",
+      "it": "Menu principali",
+      "es": "Menús principales",
+      "ru": "Главные меню",
+      "pt": "Menus principais",
+      "tr": "Ana menüler",
+      "ar": "القوائم الرئيسية",
+      "fa": "منوهای اصلی"
+    },
+    "functions": {
+      "en": "Available functions",
+      "de": "Verfügbare Funktionen",
+      "fr": "Fonctions disponibles",
+      "it": "Funzioni disponibili",
+      "es": "Funciones disponibles",
+      "ru": "Доступные функции",
+      "pt": "Funções disponíveis",
+      "tr": "Mevcut işlevler",
+      "ar": "الوظائف المتاحة",
+      "fa": "زیرمنوهای موجود"
+    },
+    "preview": {
+      "en": "Feature overview",
+      "de": "Funktionsübersicht",
+      "fr": "Aperçu de la fonction",
+      "it": "Panoramica della funzione",
+      "es": "Descripción de la función",
+      "ru": "Обзор функции",
+      "pt": "Visão geral da função",
+      "tr": "Özellik açıklaması",
+      "ar": "نبذة عن الوظيفة",
+      "fa": "توضیح کاربرد"
+    },
+    "noitems": {
+      "en": "Submenus for this section are not visible in the supplied screenshots.",
+      "de": "Untermenüs dieses Bereichs sind in den Bildern nicht erkennbar.",
+      "fr": "Les sous-menus de cette section ne sont pas visibles sur les captures.",
+      "it": "I sottomenu di questa sezione non sono visibili nelle immagini.",
+      "es": "Los submenús de esta sección no aparecen en las capturas.",
+      "ru": "Подменю этого раздела не видны на скриншотах.",
+      "pt": "Os submenus desta seção não aparecem nas capturas.",
+      "tr": "Bu bölümün alt menüleri sağlanan görsellerde görünmüyor.",
+      "ar": "القوائم الفرعية لهذا القسم غير ظاهرة في الصور المرفقة.",
+      "fa": "زیرمنوهای این بخش در تصاویر ارسالی قابل مشاهده نیستند."
+    },
+    "noresults": {
+      "en": "No matching features found.",
+      "de": "Keine passenden Funktionen gefunden.",
+      "fr": "Aucune fonction correspondante.",
+      "it": "Nessuna funzione trovata.",
+      "es": "No se encontraron funciones.",
+      "ru": "Совпадений не найдено.",
+      "pt": "Nenhuma função encontrada.",
+      "tr": "Eşleşen özellik bulunamadı.",
+      "ar": "لا توجد نتائج مطابقة.",
+      "fa": "موردی پیدا نشد."
+    },
+    "items": {
+      "en": "features",
+      "de": "Funktionen",
+      "fr": "fonctions",
+      "it": "funzioni",
+      "es": "funciones",
+      "ru": "функций",
+      "pt": "funções",
+      "tr": "özellik",
+      "ar": "وظيفة",
+      "fa": "گزینه"
+    },
+    "language": {
+      "en": "Language",
+      "de": "Sprache",
+      "fr": "Langue",
+      "it": "Lingua",
+      "es": "Idioma",
+      "ru": "Язык",
+      "pt": "Idioma",
+      "tr": "Dil",
+      "ar": "اللغة",
+      "fa": "زبان"
+    },
+    "note": {
+      "fa": "عنوان‌های فارسی از تصاویر استخراج شده‌اند؛ شرح کاربردها پیشنهادی است. موارد ترجمه‌نشده از انگلیسی نمایش داده می‌شوند.",
+      "en": "Persian labels were transcribed from screenshots. Descriptions are indicative; untranslated items fall back to English."
+    },
+    "count": {
+      "en": "Menu catalog",
+      "de": "Menükatalog",
+      "fr": "Catalogue des menus",
+      "it": "Catalogo dei menu",
+      "es": "Catálogo de menús",
+      "ru": "Каталог меню",
+      "pt": "Catálogo de menus",
+      "tr": "Menü kataloğu",
+      "ar": "دليل القوائم",
+      "fa": "کاتالوگ منوها"
+    }
+  }
+}

@@ -1,0 +1,847 @@
+{
+  "schemaVersion": 1,
+  "software": {
+    "id": "human resources",
+    "name": {
+      "fa": "منابع انسانی",
+      "en": "Human Resources",
+      "de": "Personalwesen",
+      "fr": "Ressources humaines",
+      "it": "Risorse umane",
+      "es": "Recursos humanos",
+      "ru": "Управление персоналом",
+      "pt": "Recursos humanos",
+      "tr": "İnsan kaynakları",
+      "ar": "الموارد البشرية"
+    },
+    "vendor": "Matris Negar Data Co."
+  },
+  "languages": [
+    "en",
+    "de",
+    "fr",
+    "it",
+    "es",
+    "ru",
+    "pt",
+    "tr",
+    "ar",
+    "fa"
+  ],
+  "menus": [
+    {
+      "id": "entry",
+      "icon": "clipboard-list",
+      "title": {
+        "fa": "فرم‌های ورود اطلاعات",
+        "en": "Personnel Data Entry Forms",
+        "de": "Personalstammdaten",
+        "fr": "Saisie des données du personnel",
+        "it": "Inserimento dati del personale",
+        "es": "Entrada de datos del personal",
+        "ru": "Ввод данных о персонале",
+        "pt": "Cadastro de pessoal",
+        "tr": "Personel bilgi giriş formları",
+        "ar": "نماذج إدخال بيانات الموظفين"
+      },
+      "items": [
+        {
+          "id": "entry-01",
+          "title": {
+            "fa": "ثبت اطلاعات اصلی پرسنلی",
+            "en": "Personnel Master Data"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: ثبت اطلاعات مرتبط با «ثبت اطلاعات اصلی پرسنلی».",
+            "en": "Record the core identification and employment data of an employee."
+          }
+        },
+        {
+          "id": "entry-02",
+          "title": {
+            "fa": "ثبت اطلاعات احکام پرسنلی",
+            "en": "Personnel Appointment Data"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «ثبت اطلاعات احکام پرسنلی».",
+            "en": "Register personnel appointment and employment-order details."
+          }
+        },
+        {
+          "id": "entry-03",
+          "title": {
+            "fa": "اطلاعات کارکردها",
+            "en": "Personnel Work Records"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «اطلاعات کارکردها».",
+            "en": "Maintain work and attendance records used in personnel processes."
+          }
+        },
+        {
+          "id": "entry-04",
+          "title": {
+            "fa": "تعریف فرم‌های پرسنلی",
+            "en": "Personnel Form Definitions"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: تعریف اطلاعات مرتبط با «تعریف فرم‌های پرسنلی».",
+            "en": "Define forms and information fields used for personnel records."
+          }
+        },
+        {
+          "id": "entry-05",
+          "title": {
+            "fa": "ثبت اطلاعات مأموریت پرسنل",
+            "en": "Personnel Assignment Records"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: ثبت اطلاعات مرتبط با «ثبت اطلاعات مأموریت پرسنل».",
+            "en": "Record employee missions or temporary assignments."
+          }
+        },
+        {
+          "id": "entry-06",
+          "title": {
+            "fa": "ثبت اطلاعات مرخصی پرسنل",
+            "en": "Personnel Leave Records"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «ثبت اطلاعات مرخصی پرسنل».",
+            "en": "Maintain personnel leave information."
+          }
+        },
+        {
+          "id": "entry-07",
+          "title": {
+            "fa": "ثبت اطلاعات بستگان پرسنل",
+            "en": "Personnel Dependents"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «ثبت اطلاعات بستگان پرسنل».",
+            "en": "Register information about employees’ dependents."
+          }
+        },
+        {
+          "id": "entry-08",
+          "title": {
+            "fa": "خلاصه پرونده پرسنل",
+            "en": "Personnel File Summary"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «خلاصه پرونده پرسنل».",
+            "en": "View a summarized employee record."
+          }
+        }
+      ]
+    },
+    {
+      "id": "operations",
+      "icon": "wrench",
+      "title": {
+        "fa": "عملیات کارگزینی",
+        "en": "Personnel Administration Operations",
+        "de": "Personalverwaltungsvorgänge",
+        "fr": "Opérations de gestion du personnel",
+        "it": "Operazioni del personale",
+        "es": "Operaciones de personal",
+        "ru": "Кадровые операции",
+        "pt": "Operações de pessoal",
+        "tr": "Personel işlemleri",
+        "ar": "عمليات شؤون الموظفين"
+      },
+      "items": [
+        {
+          "id": "operations-01",
+          "title": {
+            "fa": "اصلاحیه احکام پرسنلی",
+            "en": "Personnel Order Amendments"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «اصلاحیه احکام پرسنلی».",
+            "en": "Prepare corrections to personnel orders."
+          }
+        },
+        {
+          "id": "operations-02",
+          "title": {
+            "fa": "ارتباط با دستگاه کارت‌خوان",
+            "en": "Time Clock Device Connection"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «ارتباط با دستگاه کارت‌خوان».",
+            "en": "Exchange attendance data with a time clock device."
+          }
+        },
+        {
+          "id": "operations-03",
+          "title": {
+            "fa": "مدیریت ارسال پیامک",
+            "en": "SMS Sending Management"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: مدیریت اطلاعات مرتبط با «مدیریت ارسال پیامک».",
+            "en": "Manage outgoing text messages in personnel workflows."
+          }
+        },
+        {
+          "id": "operations-04",
+          "title": {
+            "fa": "مدیریت صدور احکام خودکار",
+            "en": "Automatic Order Issuance"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: مدیریت اطلاعات مرتبط با «مدیریت صدور احکام خودکار».",
+            "en": "Manage automated issuance of personnel orders."
+          }
+        },
+        {
+          "id": "operations-05",
+          "title": {
+            "fa": "باز کردن ماه جدید",
+            "en": "Open New Month"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «باز کردن ماه جدید».",
+            "en": "Open a new period for personnel processing."
+          }
+        }
+      ]
+    },
+    {
+      "id": "general",
+      "icon": "file-text",
+      "title": {
+        "fa": "گزارشات عمومی",
+        "en": "General Personnel Reports",
+        "de": "Allgemeine Personalberichte",
+        "fr": "Rapports généraux du personnel",
+        "it": "Report generali del personale",
+        "es": "Informes generales del personal",
+        "ru": "Общие кадровые отчёты",
+        "pt": "Relatórios gerais de pessoal",
+        "tr": "Genel personel raporları",
+        "ar": "التقارير العامة للموظفين"
+      },
+      "items": [
+        {
+          "id": "general-01",
+          "title": {
+            "fa": "مشخصات پرسنلی",
+            "en": "Personnel Details"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «مشخصات پرسنلی».",
+            "en": "List personal and employment information."
+          }
+        },
+        {
+          "id": "general-02",
+          "title": {
+            "fa": "استخدام پرسنل",
+            "en": "Personnel Employment"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: بررسی اطلاعات مرتبط با «استخدام پرسنل».",
+            "en": "Review personnel employment records."
+          }
+        },
+        {
+          "id": "general-03",
+          "title": {
+            "fa": "محل خدمت پرسنل",
+            "en": "Personnel Workplace"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: بررسی اطلاعات مرتبط با «محل خدمت پرسنل».",
+            "en": "Review employees by workplace."
+          }
+        },
+        {
+          "id": "general-04",
+          "title": {
+            "fa": "کارکرد پرسنل",
+            "en": "Personnel Work Records"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: بررسی اطلاعات مرتبط با «کارکرد پرسنل».",
+            "en": "Review recorded working time and activity."
+          }
+        },
+        {
+          "id": "general-05",
+          "title": {
+            "fa": "استخدامی کارکرد",
+            "en": "Employment and Work Report"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «استخدامی کارکرد».",
+            "en": "View work data grouped by employment status."
+          }
+        },
+        {
+          "id": "general-06",
+          "title": {
+            "fa": "لیست محل خدمت کارکرد",
+            "en": "Work Records by Workplace"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: بررسی اطلاعات مرتبط با «لیست محل خدمت کارکرد».",
+            "en": "Review working records by workplace."
+          }
+        },
+        {
+          "id": "general-07",
+          "title": {
+            "fa": "خلاصه لیست کارکرد",
+            "en": "Work Summary List"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: بررسی اطلاعات مرتبط با «خلاصه لیست کارکرد».",
+            "en": "Review a summarized list of work records."
+          }
+        },
+        {
+          "id": "general-08",
+          "title": {
+            "fa": "لیست مجزا",
+            "en": "Separate List"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «لیست مجزا».",
+            "en": "Display a separate personnel listing."
+          }
+        },
+        {
+          "id": "general-09",
+          "title": {
+            "fa": "لیست جامع تردد",
+            "en": "Comprehensive Attendance List"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: بررسی اطلاعات مرتبط با «لیست جامع تردد».",
+            "en": "Review detailed attendance and time-clock records."
+          }
+        }
+      ]
+    },
+    {
+      "id": "special",
+      "icon": "chart",
+      "title": {
+        "fa": "گزارشات ویژه",
+        "en": "Special Reports",
+        "de": "Sonderberichte",
+        "fr": "Rapports spéciaux",
+        "it": "Report speciali",
+        "es": "Informes especiales",
+        "ru": "Специальные отчёты",
+        "pt": "Relatórios especiais",
+        "tr": "Özel raporlar",
+        "ar": "تقارير خاصة"
+      },
+      "items": [
+        {
+          "id": "special-01",
+          "title": {
+            "fa": "لیست مرخصی ها",
+            "en": "Leave List"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: بررسی اطلاعات مرتبط با «لیست مرخصی ها».",
+            "en": "Review personnel leave records."
+          }
+        },
+        {
+          "id": "special-02",
+          "title": {
+            "fa": "لیست هزینه های درمانی",
+            "en": "Medical Expense List"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: بررسی اطلاعات مرتبط با «لیست هزینه های درمانی».",
+            "en": "Review recorded medical expense items."
+          }
+        },
+        {
+          "id": "special-03",
+          "title": {
+            "fa": "لیست کارکرد",
+            "en": "Work Record List"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: بررسی اطلاعات مرتبط با «لیست کارکرد».",
+            "en": "Review personnel work records."
+          }
+        },
+        {
+          "id": "special-04",
+          "title": {
+            "fa": "لیست مأموریت ها",
+            "en": "Assignment List"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: بررسی اطلاعات مرتبط با «لیست مأموریت ها».",
+            "en": "Review missions and assignments."
+          }
+        },
+        {
+          "id": "special-05",
+          "title": {
+            "fa": "گردش مرخصی و مأموریت",
+            "en": "Leave and Assignment History"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: بررسی اطلاعات مرتبط با «گردش مرخصی و مأموریت».",
+            "en": "Review the history of leave and assignments."
+          }
+        },
+        {
+          "id": "special-06",
+          "title": {
+            "fa": "حق اولاد بازنشستگان",
+            "en": "Retirees’ Child Allowance"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: بررسی اطلاعات مرتبط با «حق اولاد بازنشستگان».",
+            "en": "Review child allowance information for retirees."
+          }
+        },
+        {
+          "id": "special-07",
+          "title": {
+            "fa": "حق عائله مندی بازنشستگان",
+            "en": "Retirees’ Family Allowance"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: بررسی اطلاعات مرتبط با «حق عائله مندی بازنشستگان».",
+            "en": "Review family allowance information for retirees."
+          }
+        },
+        {
+          "id": "special-08",
+          "title": {
+            "fa": "عملکرد اداری پرسنل",
+            "en": "Personnel Administrative Performance"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: بررسی اطلاعات مرتبط با «عملکرد اداری پرسنل».",
+            "en": "Review administrative performance information."
+          }
+        },
+        {
+          "id": "special-09",
+          "title": {
+            "fa": "نظام پیمانه های دولت",
+            "en": "Government Pay Structure"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «نظام پیمانه های دولت».",
+            "en": "View government compensation structure information."
+          }
+        },
+        {
+          "id": "special-10",
+          "title": {
+            "fa": "گزارشات پویا",
+            "en": "Dynamic Reports"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «گزارشات پویا».",
+            "en": "Generate flexible reports based on available data."
+          }
+        }
+      ]
+    },
+    {
+      "id": "org",
+      "icon": "layers",
+      "title": {
+        "fa": "نگاره های سازمانی",
+        "en": "Organizational Views",
+        "de": "Organisationsansichten",
+        "fr": "Vues organisationnelles",
+        "it": "Viste organizzative",
+        "es": "Vistas organizativas",
+        "ru": "Организационные представления",
+        "pt": "Visões organizacionais",
+        "tr": "Kurumsal görünümler",
+        "ar": "العروض التنظيمية"
+      },
+      "items": [
+        {
+          "id": "org-01",
+          "title": {
+            "fa": "مدیریت نگاره سازمانی",
+            "en": "Organizational Chart Management"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: مدیریت اطلاعات مرتبط با «مدیریت نگاره سازمانی».",
+            "en": "Manage organizational chart information."
+          }
+        },
+        {
+          "id": "org-02",
+          "title": {
+            "fa": "مدیریت مراکز دبیرخانه",
+            "en": "Secretariat Centers Management"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: مدیریت اطلاعات مرتبط با «مدیریت مراکز دبیرخانه».",
+            "en": "Manage secretariat centers."
+          }
+        },
+        {
+          "id": "org-03",
+          "title": {
+            "fa": "مدیریت مراکز کارگزینی",
+            "en": "Personnel Centers Management"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: مدیریت اطلاعات مرتبط با «مدیریت مراکز کارگزینی».",
+            "en": "Manage personnel administration centers."
+          }
+        },
+        {
+          "id": "org-04",
+          "title": {
+            "fa": "دسترسی های ویژه",
+            "en": "Special Access Permissions"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «دسترسی های ویژه».",
+            "en": "Configure special access permissions."
+          }
+        },
+        {
+          "id": "org-05",
+          "title": {
+            "fa": "تعریف گردش احکام",
+            "en": "Personnel Order Workflow"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: تعریف اطلاعات مرتبط با «تعریف گردش احکام».",
+            "en": "Define the workflow for personnel orders."
+          }
+        },
+        {
+          "id": "org-06",
+          "title": {
+            "fa": "تنظیمات اطلاعات پایه کارتابل",
+            "en": "Inbox Base Data Settings"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «تنظیمات اطلاعات پایه کارتابل».",
+            "en": "Configure basic data for the personnel inbox."
+          }
+        },
+        {
+          "id": "org-07",
+          "title": {
+            "fa": "تنظیمات مدیریتی کارتابل",
+            "en": "Inbox Management Settings"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «تنظیمات مدیریتی کارتابل».",
+            "en": "Configure administrative settings for the inbox."
+          }
+        }
+      ]
+    },
+    {
+      "id": "settings",
+      "icon": "settings",
+      "title": {
+        "fa": "اطلاعات پایه و تنظیمات ساختاری",
+        "en": "Basic Data and Structural Settings",
+        "de": "Stammdaten und Struktureinstellungen",
+        "fr": "Données de base et paramètres structurels",
+        "it": "Dati di base e impostazioni strutturali",
+        "es": "Datos básicos y ajustes estructurales",
+        "ru": "Базовые данные и настройки структуры",
+        "pt": "Dados básicos e configurações estruturais",
+        "tr": "Temel bilgiler ve yapısal ayarlar",
+        "ar": "البيانات الأساسية والإعدادات الهيكلية"
+      },
+      "items": [
+        {
+          "id": "settings-01",
+          "title": {
+            "fa": "انواع استخدام ها",
+            "en": "Employment Types"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: تعریف اطلاعات مرتبط با «انواع استخدام ها».",
+            "en": "Define categories of personnel employment."
+          }
+        },
+        {
+          "id": "settings-02",
+          "title": {
+            "fa": "مشخصات استخدامی",
+            "en": "Employment Attributes"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «مشخصات استخدامی».",
+            "en": "Maintain employment-related attributes."
+          }
+        },
+        {
+          "id": "settings-03",
+          "title": {
+            "fa": "مشخصات نظام اداری",
+            "en": "Administrative System Attributes"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «مشخصات نظام اداری».",
+            "en": "Maintain administrative system classifications."
+          }
+        },
+        {
+          "id": "settings-04",
+          "title": {
+            "fa": "تعاریف و تنظیمات",
+            "en": "Definitions and Settings"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «تعاریف و تنظیمات».",
+            "en": "Configure basic personnel definitions and options."
+          }
+        }
+      ]
+    },
+    {
+      "id": "tools",
+      "icon": "sparkles",
+      "title": {
+        "fa": "امکانات و ابزار",
+        "en": "Tools and Utilities",
+        "de": "Werkzeuge und Hilfsmittel",
+        "fr": "Outils et utilitaires",
+        "it": "Strumenti e utilità",
+        "es": "Herramientas y utilidades",
+        "ru": "Инструменты и утилиты",
+        "pt": "Ferramentas e utilitários",
+        "tr": "Araçlar ve olanaklar",
+        "ar": "الأدوات والإمكانات"
+      },
+      "items": [
+        {
+          "id": "tools-01",
+          "title": {
+            "fa": "لیست کاربران",
+            "en": "User List"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: بررسی اطلاعات مرتبط با «لیست کاربران».",
+            "en": "Review registered system users."
+          }
+        },
+        {
+          "id": "tools-02",
+          "title": {
+            "fa": "تهیه فایل پشتیبانی",
+            "en": "Create Support File"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «تهیه فایل پشتیبانی».",
+            "en": "Generate a file to support technical troubleshooting."
+          }
+        },
+        {
+          "id": "tools-03",
+          "title": {
+            "fa": "به روز رسانی برنامه",
+            "en": "Update Program"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «به روز رسانی برنامه».",
+            "en": "Update the installed application."
+          }
+        },
+        {
+          "id": "tools-04",
+          "title": {
+            "fa": "ارسال و پیگیری خطاها و پیشنهادات",
+            "en": "Errors and Suggestions"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «ارسال و پیگیری خطاها و پیشنهادات».",
+            "en": "Submit and track technical issues and suggestions."
+          }
+        },
+        {
+          "id": "tools-05",
+          "title": {
+            "fa": "ارتباط با سایر سازمان ها",
+            "en": "Connect to Other Organizations"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «ارتباط با سایر سازمان ها».",
+            "en": "Access available organizational integrations."
+          }
+        },
+        {
+          "id": "tools-06",
+          "title": {
+            "fa": "سوالات متداول",
+            "en": "Frequently Asked Questions"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «سوالات متداول».",
+            "en": "Read answers to common questions."
+          }
+        },
+        {
+          "id": "tools-07",
+          "title": {
+            "fa": "وب سایت رسمی شرکت",
+            "en": "Company Website"
+          },
+          "description": {
+            "fa": "کاربرد احتمالی: نمایش و مدیریت اطلاعات مرتبط با «وب سایت رسمی شرکت».",
+            "en": "Open the company website."
+          }
+        }
+      ]
+    }
+  ],
+  "ui": {
+    "overview": {
+      "fa": "قابلیت‌های نرم‌افزار منابع انسانی",
+      "en": "Explore Human Resources Features",
+      "de": "Personalwesen",
+      "fr": "Ressources humaines",
+      "it": "Risorse umane",
+      "es": "Recursos humanos",
+      "ru": "Управление персоналом",
+      "pt": "Recursos humanos",
+      "tr": "İnsan kaynakları",
+      "ar": "الموارد البشرية"
+    },
+    "intro": {
+      "en": "Browse main menus, discover available functions and read a short explanation of each.",
+      "de": "Wählen Sie ein Hauptmenü und lesen Sie die Beschreibungen.",
+      "fr": "Choisissez un menu pour découvrir ses fonctionnalités.",
+      "it": "Seleziona un menu per esplorare le funzioni.",
+      "es": "Seleccione un menú para conocer sus funciones.",
+      "ru": "Выберите раздел для просмотра функций.",
+      "pt": "Selecione um menu para conhecer os recursos.",
+      "tr": "İşlevleri görmek için bir menü seçin.",
+      "ar": "اختر قائمة لاستعراض الوظائف وشرحها.",
+      "fa": "برای مشاهده زیرمنوها و توضیحات، یک منو انتخاب کنید."
+    },
+    "search": {
+      "en": "Search menus and features...",
+      "de": "Menüs und Funktionen suchen...",
+      "fr": "Rechercher des menus et fonctions...",
+      "it": "Cerca menu e funzioni...",
+      "es": "Buscar menús y funciones...",
+      "ru": "Поиск меню и функций...",
+      "pt": "Buscar menus e recursos...",
+      "tr": "Menü ve özellik ara...",
+      "ar": "ابحث في القوائم والوظائف...",
+      "fa": "جست‌وجوی منوها و امکانات..."
+    },
+    "menu": {
+      "en": "Main menus",
+      "de": "Hauptmenüs",
+      "fr": "Menus principaux",
+      "it": "Menu principali",
+      "es": "Menús principales",
+      "ru": "Главные меню",
+      "pt": "Menus principais",
+      "tr": "Ana menüler",
+      "ar": "القوائم الرئيسية",
+      "fa": "منوهای اصلی"
+    },
+    "functions": {
+      "en": "Available functions",
+      "de": "Verfügbare Funktionen",
+      "fr": "Fonctions disponibles",
+      "it": "Funzioni disponibili",
+      "es": "Funciones disponibles",
+      "ru": "Доступные функции",
+      "pt": "Funções disponíveis",
+      "tr": "Mevcut işlevler",
+      "ar": "الوظائف المتاحة",
+      "fa": "زیرمنوهای موجود"
+    },
+    "preview": {
+      "en": "Feature overview",
+      "de": "Funktionsübersicht",
+      "fr": "Aperçu de la fonction",
+      "it": "Panoramica della funzione",
+      "es": "Descripción de la función",
+      "ru": "Обзор функции",
+      "pt": "Visão geral da função",
+      "tr": "Özellik açıklaması",
+      "ar": "نبذة عن الوظيفة",
+      "fa": "توضیح کاربرد"
+    },
+    "noitems": {
+      "en": "Submenus for this section are not visible in the supplied screenshots.",
+      "de": "Untermenüs dieses Bereichs sind in den Bildern nicht erkennbar.",
+      "fr": "Les sous-menus de cette section ne sont pas visibles sur les captures.",
+      "it": "I sottomenu di questa sezione non sono visibili nelle immagini.",
+      "es": "Los submenús de esta sección no aparecen en las capturas.",
+      "ru": "Подменю этого раздела не видны на скриншотах.",
+      "pt": "Os submenus desta seção não aparecem nas capturas.",
+      "tr": "Bu bölümün alt menüleri sağlanan görsellerde görünmüyor.",
+      "ar": "القوائم الفرعية لهذا القسم غير ظاهرة في الصور المرفقة.",
+      "fa": "زیرمنوهای این بخش در تصاویر ارسالی قابل مشاهده نیستند."
+    },
+    "noresults": {
+      "en": "No matching features found.",
+      "de": "Keine passenden Funktionen gefunden.",
+      "fr": "Aucune fonction correspondante.",
+      "it": "Nessuna funzione trovata.",
+      "es": "No se encontraron funciones.",
+      "ru": "Совпадений не найдено.",
+      "pt": "Nenhuma função encontrada.",
+      "tr": "Eşleşen özellik bulunamadı.",
+      "ar": "لا توجد نتائج مطابقة.",
+      "fa": "موردی پیدا نشد."
+    },
+    "items": {
+      "en": "features",
+      "de": "Funktionen",
+      "fr": "fonctions",
+      "it": "funzioni",
+      "es": "funciones",
+      "ru": "функций",
+      "pt": "funções",
+      "tr": "özellik",
+      "ar": "وظيفة",
+      "fa": "گزینه"
+    },
+    "language": {
+      "en": "Language",
+      "de": "Sprache",
+      "fr": "Langue",
+      "it": "Lingua",
+      "es": "Idioma",
+      "ru": "Язык",
+      "pt": "Idioma",
+      "tr": "Dil",
+      "ar": "اللغة",
+      "fa": "زبان"
+    },
+    "note": {
+      "fa": "عنوان‌های فارسی از تصاویر استخراج شده‌اند؛ شرح کاربردها پیشنهادی است. موارد ترجمه‌نشده از انگلیسی نمایش داده می‌شوند.",
+      "en": "Persian labels were transcribed from screenshots. Descriptions are indicative; untranslated items fall back to English."
+    },
+    "count": {
+      "en": "Menu catalog",
+      "de": "Menükatalog",
+      "fr": "Catalogue des menus",
+      "it": "Catalogo dei menu",
+      "es": "Catálogo de menús",
+      "ru": "Каталог меню",
+      "pt": "Catálogo de menus",
+      "tr": "Menü kataloğu",
+      "ar": "دليل القوائم",
+      "fa": "کاتالوگ منوها"
+    }
+  }
+}
